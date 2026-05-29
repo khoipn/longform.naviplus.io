@@ -21,22 +21,22 @@ child_links:
     desc: "Menus that guide shoppers to checkout."
 ---
 
-Building a profitable store is less about luck and more about getting a handful of fundamentals right. This guide walks through the full journey of how to **sell online with Shopify** — and links out to focused deep-dives for each step.
+Building a profitable store is less about luck and more about getting a handful of fundamentals right. This guide is a map of how to **sell online with Shopify**: each section below gives you the essentials, then points you to a longer, focused deep-dive.
 
-## Start with the right foundation
+## Pick a theme that sells, not just looks good
 
-Before chasing traffic, make sure your **Shopify store setup** is solid: a clear catalog, trustworthy product pages, and frictionless checkout. A shaky foundation leaks revenue no matter how many visitors you bring in.
+Your theme sets the ceiling for speed, trust, and conversion. The trap most new stores fall into is choosing for looks — heavy sliders and autoplay video that tank mobile performance. Prioritise a fast, flexible **Shopify store setup** foundation, and leave room for the navigation you'll add next.
+
+<p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/choose-shopify-theme/">Read the full guide → Choosing the right Shopify theme</a></p>
 
 ## Make navigation do the selling
 
-Most stores lose buyers because they can't find what they want. A strong navigation — tab bars on mobile, mega menus on desktop — quietly lifts **Shopify conversion**. We cover this in depth in the linked topic below.
+Most stores lose buyers because they can't find what they want. A strong navigation — a tab bar on mobile, a mega menu on desktop — quietly lifts **Shopify conversion** without spending a cent more on ads. Get the structure right and shoppers reach checkout in fewer taps.
 
-## Drive the right traffic
+<p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/shopify-navigation/">Read the full guide → Set up a high-converting navigation</a></p>
 
-Not all traffic is equal. Focus on intent-rich channels first, then scale what works. Measure everything against revenue, not vanity metrics.
+## Drive the right traffic, then convert it
 
-## Turn visitors into buyers
-
-Speed, clarity, and trust are the three levers of conversion. Small improvements compound — a faster page and a clearer path to checkout often beat a bigger ad budget.
+Not all traffic is equal — focus on intent-rich channels first, then scale what works. But traffic only pays off if the store converts: speed, clarity, and trust are the three levers. Small improvements compound, and a faster path to checkout often beats a bigger ad budget.
 
 > The fastest way to grow is rarely more traffic — it's removing the friction between a visitor and the buy button.

@@ -170,6 +170,20 @@ img { max-width: 100%; }
 .lf-prose img { border-radius: 12px; }
 .lf-prose code { background: var(--bg-soft); padding: 2px 6px; border-radius: 6px; font-size: .9em; }
 
+/* Inline "read the full deep-dive" link at the end of each topic section */
+.lf-readmore {
+  margin: 18px auto 40px !important; padding: 14px 18px;
+  border: 1px solid var(--line); border-left: 4px solid var(--hero);
+  border-radius: 0 12px 12px 0; background: var(--bg-soft);
+  font-weight: 600;
+}
+.lf-readmore a { color: var(--brand); text-decoration: none; }
+.lf-readmore a:hover { text-decoration: underline; }
+.lf-readmore .lf-readmore-kicker {
+  display: block; font-size: 12px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-soft); margin-bottom: 2px;
+}
+
 /* Explore (child links) */
 .lf-explore { max-width: 920px; margin: 60px auto 0; }
 .lf-explore h2 { font-family: "Fraunces", serif; font-weight: 600; font-size: 27px; margin: 0 0 6px; }

@@ -1,0 +1,132 @@
+.templates .templates-card .inner{
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.templates .templates-card .inner img {
+    border-radius: 12px 12px 0px 0px;
+    border:solid 1px #eee;
+    padding-top: 8px;
+}
+
+.templates .templates-card .inner .see-all {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.templates .templates-card .inner .cta {
+    background: #f5f5f5;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.templates .templates-card .inner .cta .btn {
+    padding: 0px 28px;
+    height: initial;
+    border-radius: 8px;
+}
+
+.templates .templates-card .inner .cta .btn-outline-primary {
+    margin-right: 0px;
+}
+
+.templates .templates-card .inner {
+    box-shadow: initial;
+}
+
+.templates .templates-card .inner:hover {
+    box-shadow: 0px 15px 34px rgba(0, 0, 0, 0.1);
+}
+
+.img-welcome {
+    border-radius: 12px;
+}
+
+.img-welcome:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 34px rgba(0, 0, 0, 0.1);
+}
+
+.bg-green {
+    background: #D2E8DB;
+}
+
+.bg-red {
+    background: #F3D2DB;
+}
+
+h1, .h1 {
+    font-size: 2.6rem;
+}
+
+h2, .h2 {
+    font-size: 2.0rem;
+}
+
+.ul-pricing {
+    list-style: initial;
+    margin: 16px;
+}
+
+.ul-pricing a {
+    text-decoration: underline;
+}
+
+.faqs a {
+    color: darkblue;
+}
+
+@media only screen and (max-width: 600px) {
+    section.banner .cta {
+        position: relative;
+        display: flex;
+    }
+    section.banner .cta .btn {
+        width: 50%;
+        float: left;
+    }
+
+    .templates .templates-card .inner .cta {
+        display: none;
+    }
+
+    .templates .templates-card {
+        margin-bottom: 16px;
+    }
+
+    .templates .templates-card .inner .see-all {
+        padding-top: 0px;
+    }
+
+    .why-images {
+        display: none;
+    }
+
+    .section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+/* Dropdown Menu - Cursor pointer */
+.nav-dropdown .nav-link {
+  cursor: pointer;
+}
+
+/* Dropdown Menu - Tăng kích thước gấp đôi */
+.nav-dropdown-list {
+  min-width: 360px !important;  /* Gấp đôi từ 180px */
+}
+
+.nav-dropdown-link {
+  min-width: 300px !important;  /* Gấp đôi từ 150px */
+  padding-top: 0.75rem !important;      /* Tăng padding */
+  padding-bottom: 0.75rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  font-size: 1rem !important;           /* Tăng font size từ 0.875rem */
+  line-height: 1.5rem !important;
+}
+
+.nav-dropdown-item {
+  margin-bottom: 0.5rem !important;     /* Tăng spacing giữa items */
+}

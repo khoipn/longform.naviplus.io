@@ -1,9 +1,84 @@
-{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
-<footer class="lf-footer">
-  <div class="lf-footer-inner">
-    <a class="lf-logo" href="https://naviplus.io" target="_blank" rel="noopener">
-      <img src="/assets/images/logo.svg" alt="Navi+" />
-    </a>
-    <p class="lf-footer-note">{{ ui.by_navi }} · © {{ "now" | date: "%Y" }} Navi+</p>
+{% assign _lang = site.active_lang | default: "en" %}
+{% assign _t = site.data.i18n[_lang] %}
+{% unless _t %}{% assign _t = site.data.i18n.en %}{% endunless %}
+{% assign _f = _t.footer %}
+
+<footer class="footer bg-theme-light/50">
+  <div class="container">
+    <div class="row gx-5 pb-10 pt-[52px]">
+      
+      <!-- Company Info Section -->
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <a href="{{ '/' | relative_url }}">
+          <picture>
+            <source srcset="{{ site.data.navigation.company.logo_dark }}" media="(prefers-color-scheme: dark)">
+            <img src="{{ site.data.navigation.company.logo }}" alt="" />
+          </picture>
+        </a>
+        <p class="mt-6">
+          {{ _f.tagline | default: site.data.navigation.company.tagline }}
+        </p>
+      </div>
+      
+      <!-- Socials Section -->
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+        <h6>{{ _f.socials | default: 'Socials' }}</h6>
+        <p><a href="mailto:{{ site.data.navigation.contact_info.email }}">{{ site.data.navigation.contact_info.email }}</a></p>
+        <p>{{ site.data.navigation.contact_info.location }}</p>
+        <p>WhatsApp: {{ site.data.navigation.contact_info.whatsapp }}</p>
+        {% capture _contact_url %}{% if _lang == 'en' or _lang == nil or _lang == '' %}/contact/{% else %}/{{ _lang }}/contact/{% endif %}{% endcapture %}
+        <p style="margin-top:8px"><a href="{{ _contact_url | strip }}" style="color:inherit;font-weight:500;text-decoration:underline">{{ _f.contact_us | default: 'Contact us' }} →</a></p>
+        <ul class="social-icons mt-4 lg:mt-6">
+          {% for social in site.data.navigation.social_links %}
+            <li>
+              <a href="{{ social.url }}" target="_blank" title="{{ social.name }}">
+                {% if social.icon == "facebook" %}
+                  <svg width="19" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.1056 10.4495C19.1056 5.09642 15 0.759277 9.9327 0.759277C4.86539 0.759277 0.759766 5.09642 0.759766 10.4495C0.759766 15.2946 4.08865 19.3191 8.49018 20.0224V13.2627H6.15996V10.4495H8.49018V8.33951C8.49018 5.91696 9.85872 4.54939 11.93 4.54939C12.9657 4.54939 14.0013 4.74476 14.0013 4.74476V7.12823H12.8547C11.7081 7.12823 11.3382 7.87063 11.3382 8.65209V10.4495H13.8904L13.4835 13.2627H11.3382V20.0224C15.7398 19.3191 19.1056 15.2946 19.1056 10.4495Z" fill="#222222" />
+                  </svg>
+                {% elsif social.icon == "linkedin" %}
+                  <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.56609 15.2704V5.45315H0.948103V15.2704H4.56609ZM2.73764 4.1398C3.90474 4.1398 4.83841 3.31895 4.83841 2.33394C4.83841 1.38176 3.90474 0.59375 2.73764 0.59375C1.60945 0.59375 0.675781 1.38176 0.675781 2.33394C0.675781 3.31895 1.60945 4.1398 2.73764 4.1398ZM18.0654 15.2704H18.1044V9.8857C18.1044 7.259 17.4041 5.22331 13.7472 5.22331C11.9966 5.22331 10.8295 6.04415 10.3237 6.79933H10.2848V5.45315H6.82246V15.2704H10.4404V10.411C10.4404 9.13053 10.7128 7.91568 12.5801 7.91568C14.4475 7.91568 14.4864 9.36036 14.4864 10.5095V15.2704H18.0654Z" fill="#222222" />
+                  </svg>
+                {% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <!-- Footer Links Sections -->
+      {% assign _footer_sections = _f.sections | default: site.data.navigation.footer_sections %}
+      {% assign _help_base = "https://help.naviplus.io/" %}
+      {% for section in _footer_sections %}
+        <div class="col-12 mt-12 md:col-6 lg:col-3">
+          <h6>{{ section.title }}</h6>
+          <ul>
+            {% for link in section.links %}
+              {% assign _href = link.url %}
+              {% if _href contains "help.naviplus.io/" and _lang != "en" %}
+                {% assign _help_path = _href | remove: _help_base %}
+                {% assign _href = _help_base | append: _lang | append: "/" | append: _help_path %}
+              {% endif %}
+              <li>
+                <a href="{{ _href }}" {% if link.target %}target="{{ link.target }}"{% endif %}>
+                  {{ link.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+            
+    </div>
   </div>
 </footer>
+
+<!-- Swiper JS -->
+<script src="{{ '/plugins/swiper/swiper-bundle.js' | relative_url }}"></script>
+<script src="{{ '/plugins/shufflejs/shuffle.js' | relative_url }}"></script>
+
+<!-- Main Script -->
+<script src="{{ '/scripts/main.js' | relative_url }}"></script>
+
+{% include navi-embed.html %}

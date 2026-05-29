@@ -1,0 +1,176 @@
+# Navigation Configuration
+# Tất cả các links trong website được quản lý tại đây
+
+# Main Header Menu
+main_menu:
+  - title: "Home"
+    url: "https://naviplus.io/"
+    active_page: "index"
+    
+  - title: "Demo"
+    url: "https://showcase.naviplus.io/"
+    target: "_blank"
+        
+         
+    
+  - title: "Pricing"
+    url: "https://naviplus.io/pricing"
+    active_page: "pricing"
+
+  - title: "User Guide"
+    dropdown: true
+    children:
+      - title: "Home"
+        url: "https://help.naviplus.io/"
+
+      - divider: true
+
+      - title: "Getting Started"
+        url: "https://help.naviplus.io/docs/getting-started/"
+
+      - divider: true
+        
+      - title: "Explore common menus"
+        url: "https://help.naviplus.io/docs/usage/explore-common-menus/"
+
+      - title: "Tabbar"
+        url: "https://help.naviplus.io/docs/usage/tabbar-bottom-navigation/ideas-use/"
+
+      - title: "Mega Menu"
+        url: "https://help.naviplus.io/docs/usage/mega-menu-desktop/ideas-use/"
+
+      - title: "Slide (Hamburger) Menu"
+        url: "https://help.naviplus.io/docs/usage/slide-menu-hamburger-menu/ideas-use/"
+
+      - title: "FAB - Floating Menu (Quick Access)"
+        url: "https://help.naviplus.io/docs/usage/fab-floating-menu-quick-access/ideas-use/"
+
+      - title: "Grid Menu"
+        url: "https://help.naviplus.io/docs/usage/grid-menu/ideas-use/"                                                                
+
+     
+  - title: "Hướng dẫn"
+    url: "https://naviplus.io/ideas"
+    active_page: "how-to"
+
+  - title: "Tools"
+    url: "https://tools.naviplus.io/"
+    
+  - title: "Language"
+    dropdown: true
+    translate: true
+    children:
+      - title: "🇬🇧 English"
+        lang: "en"
+      
+      - divider: true
+      
+      - title: "🇫🇷 French"
+        lang: "fr"
+      
+      - title: "🇩🇪 German"
+        lang: "de"
+      
+      - title: "🇨🇳 Chinese (Simplified)"
+        lang: "zh-CN"
+      
+      - title: "🇯🇵 Japanese"
+        lang: "jp"
+      
+      - title: "🇮🇹 Italian"
+        lang: "it"
+      
+      - title: "🇧🇷 Portuguese (Brazil)"
+        lang: "pt"
+      
+      - title: "🇪🇸 Spanish"
+        lang: "es"
+      
+      - divider: true
+      
+      - title: "🌐 More languages..."
+        lang: "more"
+
+# CTA Button in Header
+header_cta:
+  text: "Get Started"
+  url: "https://naviplus.io/#get-started-for-free"
+  target: "_blank"
+  class: "btn btn-white btn-sm"
+
+# Footer Links - Organized by sections
+footer_sections:
+  - title: "Getting Started"
+    links:
+      - title: "Getting Started"
+        url: "https://help.naviplus.io/docs/getting-started/"
+        target: "_blank"
+
+      - title: "What is Navi+?"
+        url: "https://help.naviplus.io/docs/getting-started/what-is-navi/"
+        target: "_blank"
+
+      - title: "Your first menu (5-min quickstart)"
+        url: "https://help.naviplus.io/docs/getting-started/your-first-menu/"
+        target: "_blank"
+
+      - title: "Install Navi+"
+        url: "https://help.naviplus.io/docs/how-to-install-navi/"
+        target: "_blank"
+
+      - title: "Common first questions"
+        url: "https://help.naviplus.io/docs/common-first-questions/"
+        target: "_blank"
+  
+  - title: "Help & Guides"
+    links:
+      - title: "Mega Menu Guide"
+        url: "https://help.naviplus.io/docs/usage/mega-menu-desktop/ideas-use/"
+        target: "_blank"
+
+      - title: "Tab Bar Guide"
+        url: "https://help.naviplus.io/docs/usage/tabbar-bottom-navigation/ideas-use/"
+        target: "_blank"
+
+      - title: "Hamburger Menu Guide"
+        url: "https://help.naviplus.io/docs/usage/slide-menu-hamburger-menu/ideas-use/"
+        target: "_blank"
+
+      - title: "FAB Menu Guide"
+        url: "https://help.naviplus.io/docs/usage/fab-floating-menu-quick-access/ideas-use/"
+        target: "_blank"
+
+      - title: "Grid Menu Guide"
+        url: "https://help.naviplus.io/docs/usage/grid-menu/ideas-use/"
+        target: "_blank"
+
+# Social Media Links
+social_links:
+  - name: "Facebook"
+    url: "https://www.facebook.com/khoipng"
+    icon: "facebook"
+    
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/khoi-pham-443218aa/"
+    icon: "linkedin"
+
+# Contact Information
+contact_info:
+  email: "khoipn@naviplus.io"
+  location: "Ecopark, Hung Yen, 100000, VN"
+  whatsapp: "+84 981911011"
+
+# Company Information
+company:
+  name: "Navi+ AI Menu Builder Group"
+  copyright_year: "2025"
+  tagline: "Build for Shopiy | Review score: 4.7 (from many happy clients) rating for the Shopify App Store"
+  logo: "https://cdn.naviplus.app/static/logo/webp/logo-navi-light.webp"
+  logo_dark: "https://cdn.naviplus.app/static/logo/webp/logo-navi-dark.webp"
+
+# Navi+ AI Menu Builder Embed Configuration
+navi_embed:
+  script_url: "https://naviplus.b-cdn.net/naviplus/golive/uigen-v2.2.js"
+  shop: "amazingtest111.myshopify.com"
+  embed_id: "SF-6284677354"
+

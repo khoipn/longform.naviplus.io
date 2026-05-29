@@ -21,22 +21,22 @@ child_links:
     desc: "Menu dẫn khách tới trang thanh toán."
 ---
 
-Một cửa hàng có lãi ít phụ thuộc vào may mắn, nhiều hơn vào việc làm đúng vài nguyên tắc nền tảng. Bài này đi qua toàn bộ hành trình **bán hàng online với Shopify** — và dẫn tới các bài chuyên sâu cho từng bước.
+Một cửa hàng có lãi ít phụ thuộc vào may mắn, nhiều hơn vào việc làm đúng vài nguyên tắc nền tảng. Bài này là tấm bản đồ về cách **bán hàng online với Shopify**: mỗi phần bên dưới cho bạn phần cốt lõi, rồi dẫn tới một bài chuyên sâu, dài hơi hơn.
 
-## Bắt đầu từ nền tảng đúng
+## Chọn theme để bán được hàng, không chỉ để đẹp
 
-Trước khi chạy theo traffic, hãy chắc chắn việc **dựng cửa hàng Shopify** của bạn vững: danh mục rõ ràng, trang sản phẩm đáng tin, thanh toán mượt. Nền tảng lung lay sẽ rò rỉ doanh thu dù bạn kéo về bao nhiêu khách.
+Theme đặt giới hạn trần cho tốc độ, niềm tin và chuyển đổi. Cái bẫy phần lớn cửa hàng mới mắc phải là chọn theo vẻ ngoài — slider nặng, video tự phát làm tụt hiệu năng mobile. Hãy ưu tiên nền tảng **dựng cửa hàng Shopify** nhanh, linh hoạt, và chừa chỗ cho phần điều hướng bạn thêm ở bước sau.
+
+<p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/choose-shopify-theme/">Xem bài đầy đủ → Chọn theme Shopify phù hợp</a></p>
 
 ## Để điều hướng tự bán hàng
 
-Phần lớn cửa hàng mất khách vì họ không tìm được thứ cần mua. Một hệ điều hướng tốt — tab bar trên mobile, mega menu trên desktop — âm thầm nâng **tăng chuyển đổi Shopify**. Chúng tôi nói sâu trong bài liên quan bên dưới.
+Phần lớn cửa hàng mất khách vì họ không tìm được thứ cần mua. Một hệ điều hướng tốt — tab bar trên mobile, mega menu trên desktop — âm thầm nâng **tăng chuyển đổi Shopify** mà không tốn thêm đồng quảng cáo nào. Làm đúng cấu trúc thì khách tới thanh toán trong ít thao tác hơn.
 
-## Kéo đúng loại traffic
+<p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/shopify-navigation/">Xem bài đầy đủ → Thiết lập điều hướng chuyển đổi cao</a></p>
 
-Không phải traffic nào cũng như nhau. Ưu tiên kênh có ý định mua cao trước, rồi nhân rộng cái hiệu quả. Đo mọi thứ theo doanh thu, đừng theo chỉ số phù phiếm.
+## Kéo đúng traffic, rồi chuyển đổi nó
 
-## Biến khách ghé thành người mua
-
-Tốc độ, sự rõ ràng và niềm tin là ba đòn bẩy của chuyển đổi. Những cải thiện nhỏ cộng dồn — một trang nhanh hơn và đường tới thanh toán rõ hơn thường thắng cả ngân sách quảng cáo lớn.
+Không phải traffic nào cũng như nhau — ưu tiên kênh có ý định mua cao trước, rồi nhân rộng cái hiệu quả. Nhưng traffic chỉ sinh lời nếu cửa hàng chuyển đổi tốt: tốc độ, sự rõ ràng và niềm tin là ba đòn bẩy. Cải thiện nhỏ cộng dồn, và đường tới thanh toán nhanh hơn thường thắng cả ngân sách quảng cáo lớn.
 
 > Cách tăng trưởng nhanh nhất hiếm khi là thêm traffic — mà là gỡ bỏ ma sát giữa khách và nút mua hàng.

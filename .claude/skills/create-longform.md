@@ -50,7 +50,18 @@ child_links:
 ---
 ```
 
-Nhồi keyword TỰ NHIÊN (không nhồi nhồi gượng): keyword chính xuất hiện ở **title, mở bài (đoạn đầu), ít nhất 1 H2, meta description, alt ảnh**. Keyword phụ rải ở các H2/H3 + body. Mỗi bài longform là pillar — KHÔNG giải quyết hết, mà dẫn sang bài con qua `child_links`.
+Nhồi keyword TỰ NHIÊN (không gượng): keyword chính xuất hiện ở **title, mở bài (đoạn đầu), ít nhất 1 H2, meta description, alt ảnh**. Keyword phụ rải ở các H2/H3 + body.
+
+**CẤU TRÚC THÂN BÀI (quan trọng):** Bài mẹ gồm **nhiều chủ đề (mỗi chủ đề = 1 mục `## H2`)**. Mỗi chủ đề:
+1. Cho **một phần thông tin cốt lõi** (vài đoạn) — đủ giá trị nhưng KHÔNG giải quyết hết.
+2. **Kết thúc bằng 1 link inline "đọc sâu"** dẫn tới bài con dài hơi về đúng chủ đề đó:
+
+```html
+<p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/topic/<child-slug>/">Xem bài đầy đủ → <Tiêu đề bài con></a></p>
+```
+(VI: href `/vi/topic/<child-slug>/`. Anchor NÊN chứa tiêu đề/keyword bài con.)
+
+→ Mỗi `## H2` (chủ đề) thường có 1 bài con tương ứng. `child_links` ở front matter vẫn khai báo đủ các bài con (dùng cho grid "Khám phá chủ đề" cuối trang — recap + SEO). Tức là mỗi bài con xuất hiện 2 lần: link inline cuối chủ đề + card recap cuối bài.
 
 URL bài mẹ: `/<slug>/` (EN root) hoặc `/vi/<slug>/` (các lang khác — polyglot tự prefix).
 

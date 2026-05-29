@@ -1,25 +1,1069 @@
-{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
-{% if site.active_lang == site.default_lang %}{% assign home_url = "/" %}{% else %}{% assign home_url = "/" | append: site.active_lang | append: "/" %}{% endif %}
-<header class="lf-header">
-  <nav class="lf-nav">
-    <a class="lf-logo" href="{{ home_url }}">
-      <img src="/assets/images/logo.svg" alt="Navi+" />
-      <span class="lf-logo-tag">Longform</span>
+<style>
+  /* ── Header base ─────────────────────────────────────────── */
+  .np-header {
+    position: sticky; top: 0; z-index: 200;
+    background: rgba(255,255,255,.92);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid #e4e6ec;
+    height: 64px;
+  }
+  .np-nav {
+    max-width: calc(1200px + 10vw); margin: 0 auto;
+    padding: 0 5vw;
+    height: 100%;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  /* Logo */
+  .np-nav-logo {
+    display: flex; align-items: center;
+    text-decoration: none; margin-right: 8px; flex-shrink: 0;
+  }
+  .np-nav-logo img { height: 28px; width: auto; display: block; }
+
+  /* ── Desktop nav links ──────────────────────────────────── */
+  .np-nav-links {
+    display: flex; align-items: center; list-style: none;
+    margin: 0; padding: 0; gap: 2px; flex: 1;
+  }
+  .np-nav-item { position: relative; }
+
+  .np-nav-link {
+    display: flex; align-items: center; gap: 4px;
+    padding: 6px 12px; border-radius: 8px;
+    font-size: 14px; font-weight: 500; color: #3d4352;
+    text-decoration: none; cursor: pointer;
+    transition: background .15s, color .15s;
+    white-space: nowrap; border: none; background: none;
+    font-family: inherit;
+  }
+  .np-nav-link:hover { background: #f0f1f5; color: #0f1117; }
+  .np-nav-link.active { color: #377e62; }
+
+  .np-nav-chevron {
+    width: 14px; height: 14px; opacity: .5;
+    transition: transform .2s;
+    flex-shrink: 0;
+  }
+  .np-nav-item:hover .np-nav-chevron,
+  .np-nav-item:focus-within .np-nav-chevron { transform: rotate(180deg); opacity: 1; }
+
+  /* ── Simple dropdown ──────────────────────────────────────── */
+  .np-dropdown {
+    position: absolute; top: 100%; left: 0;
+    padding-top: 8px;
+    opacity: 0; visibility: hidden;
+    transition: opacity .18s ease, visibility .18s;
+    pointer-events: none;
+  }
+  .np-dropdown-inner {
+    background: white;
+    border: 1px solid #e4e6ec;
+    border-radius: 14px;
+    box-shadow: 0 16px 48px rgba(15,17,23,.12), 0 4px 12px rgba(15,17,23,.06);
+    padding: 8px;
+    min-width: 200px;
+    transform: translateY(-6px);
+    transition: transform .18s ease;
+  }
+  .np-nav-item:hover .np-dropdown,
+  .np-nav-item:focus-within .np-dropdown { opacity: 1; visibility: visible; pointer-events: auto; }
+  .np-nav-item:hover .np-dropdown-inner,
+  .np-nav-item:focus-within .np-dropdown-inner { transform: translateY(0); }
+
+  .np-dropdown-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 12px; border-radius: 8px;
+    text-decoration: none; color: #3d4352;
+    font-size: 13.5px; font-weight: 500;
+    transition: background .12s, color .12s;
+    white-space: nowrap;
+  }
+  .np-dropdown-item:hover { background: #f0f1f5; color: #0f1117; }
+  .np-dropdown-divider { height: 1px; background: #eceef2; margin: 6px 0; }
+  .np-dropdown-label { padding: 8px 12px 4px; font-size: 11px; font-weight: 700; letter-spacing: 1.1px; text-transform: uppercase; color: #9ba3b5; }
+  .np-dropdown-more { display: block; padding: 4px 12px 6px; font-size: 11.5px; color: #b0b8c9; font-style: italic; }
+
+  /* ── Mega dropdown (Features) ─────────────────────────────── */
+  .np-mega {
+    position: absolute; top: 100%; left: 50%;
+    transform: translateX(-50%);
+    padding-top: 8px;
+    width: 600px;
+    opacity: 0; visibility: hidden;
+    transition: opacity .18s ease, visibility .18s;
+    pointer-events: none;
+  }
+  .np-mega-inner {
+    background: white;
+    border: 1px solid #e4e6ec;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(15,17,23,.14), 0 4px 16px rgba(15,17,23,.07);
+    padding: 20px;
+    transform: translateY(-6px);
+    transition: transform .18s ease;
+  }
+  .np-nav-item:hover .np-mega,
+  .np-nav-item:focus-within .np-mega { opacity: 1; visibility: visible; pointer-events: auto; }
+  .np-nav-item:hover .np-mega-inner,
+  .np-nav-item:focus-within .np-mega-inner { transform: translateY(0); }
+
+  .np-mega-header {
+    font-size: 11px; font-weight: 700; letter-spacing: 1.2px;
+    text-transform: uppercase; color: #9ba3b5;
+    padding: 0 8px 10px; border-bottom: 1px solid #eceef2;
+    margin-bottom: 12px;
+  }
+  .np-mega-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .np-mega-item {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 10px 12px; border-radius: 10px;
+    text-decoration: none; transition: background .12s;
+  }
+  .np-mega-item:hover { background: #f7f8fa; }
+  .np-mega-icon {
+    width: 36px; height: 36px; border-radius: 9px;
+    background: #f0f1f5; color: #3d4352;
+    display: grid; place-items: center;
+    font-size: 18px; flex-shrink: 0;
+    transition: background .12s, color .12s;
+  }
+  .np-mega-item:hover .np-mega-icon { background: #377e62; color: white; }
+  .np-mega-title { font-size: 13.5px; font-weight: 600; color: #0f1117; margin-bottom: 2px; line-height: 1.2; }
+  .np-mega-desc { font-size: 12px; color: #6b7280; line-height: 1.4; }
+
+  /* ── CTA Buttons ──────────────────────────────────────────── */
+  .np-header-cta { display: flex; align-items: center; gap: 8px; margin-left: auto; flex-shrink: 0; }
+
+  .np-hbtn-secondary {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 16px; border-radius: 8px;
+    border: 1.5px solid #377e62; color: #377e62;
+    font-size: 13.5px; font-weight: 600;
+    text-decoration: none; transition: background .15s, color .15s;
+    white-space: nowrap;
+  }
+  .np-hbtn-secondary:hover { background: #377e62; color: white; }
+
+  .np-hbtn-primary {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 18px; border-radius: 8px;
+    background: #377e62; color: white;
+    font-size: 13.5px; font-weight: 600;
+    text-decoration: none; transition: background .15s, transform .1s;
+    white-space: nowrap;
+  }
+  .np-hbtn-primary:hover { background: #2a6250; color: white; transform: translateY(-1px); }
+
+  /* ── Lang switcher (desktop) ──────────────────────────────── */
+  .np-lang { position: relative; }
+  .np-lang-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 6px 10px; border-radius: 8px;
+    font-size: 13px; font-weight: 500; color: #3d4352;
+    background: none; border: none; cursor: pointer;
+    transition: background .15s, color .15s; white-space: nowrap;
+  }
+  .np-lang-btn:hover { background: #f0f1f5; color: #0f1117; }
+  .np-lang-flag { font-size: 15px; line-height: 1; }
+  .np-lang-dropdown {
+    position: absolute; top: 100%; right: 0; padding-top: 6px;
+    opacity: 0; visibility: hidden;
+    transition: opacity .18s, visibility .18s;
+    pointer-events: none; z-index: 300;
+  }
+  .np-lang-dropdown-inner {
+    background: white; border: 1px solid #e4e6ec;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(15,17,23,.12), 0 4px 12px rgba(15,17,23,.06);
+    padding: 6px; min-width: 180px;
+    transform: translateY(-6px); transition: transform .18s;
+  }
+  .np-lang:hover .np-lang-dropdown,
+  .np-lang:focus-within .np-lang-dropdown { opacity: 1; visibility: visible; pointer-events: auto; }
+  .np-lang:hover .np-lang-dropdown-inner,
+  .np-lang:focus-within .np-lang-dropdown-inner { transform: translateY(0); }
+  .np-lang-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 7px 10px; border-radius: 7px;
+    text-decoration: none; color: #3d4352; font-size: 13px; font-weight: 500;
+    transition: background .12s, color .12s; white-space: nowrap;
+  }
+  .np-lang-item:hover { background: #f0f1f5; color: #0f1117; }
+  .np-lang-item.active { color: #377e62; font-weight: 600; }
+
+  /* ── Hamburger button ─────────────────────────────────────── */
+  .np-hamburger {
+    display: none;
+    position: relative;
+    width: 40px; height: 40px;
+    flex-shrink: 0; margin-left: auto;
+    cursor: pointer; background: none; border: none; border-radius: 8px;
+    transition: background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-hamburger:hover { background: #f0f1f5; }
+  .np-hamburger-bar {
+    position: absolute; left: 50%; top: 50%;
+    width: 20px; height: 2px;
+    background: #0f1117; border-radius: 2px;
+    transform-origin: center;
+    transition: transform .28s cubic-bezier(.4,0,.2,1), opacity .2s ease;
+    margin-left: -10px;
+  }
+  .np-hamburger-bar:nth-child(1) { transform: translateY(-6px); }
+  .np-hamburger-bar:nth-child(2) { transform: translateY(0); }
+  .np-hamburger-bar:nth-child(3) { transform: translateY(6px); }
+
+  /* X state */
+  .np-hamburger.is-open .np-hamburger-bar:nth-child(1) { transform: translateY(0) rotate(45deg); }
+  .np-hamburger.is-open .np-hamburger-bar:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .np-hamburger.is-open .np-hamburger-bar:nth-child(3) { transform: translateY(0) rotate(-45deg); }
+
+  /* ── Mobile drawer ────────────────────────────────────────── */
+  .np-mobile-backdrop {
+    display: none;
+    position: fixed; inset: 0; z-index: 190;
+    background: rgba(15,17,23,.45);
+    opacity: 0; visibility: hidden;
+    transition: opacity .3s ease, visibility .3s ease;
+  }
+  .np-mobile-backdrop.is-open { opacity: 1; visibility: visible; }
+
+  .np-mobile-panel {
+    display: none;
+    position: fixed; top: 64px; left: 0; right: 0;
+    z-index: 195;
+    background: white;
+    border-bottom: 1px solid #e4e6ec;
+    box-shadow: 0 16px 40px rgba(15,17,23,.14);
+    max-height: calc(100dvh - 64px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translateY(-10px);
+    opacity: 0; visibility: hidden;
+    transition: transform .3s cubic-bezier(.4,0,.2,1), opacity .28s ease, visibility .3s ease;
+  }
+  .np-mobile-panel.is-open {
+    transform: translateY(0); opacity: 1; visibility: visible;
+  }
+
+  /* Mobile nav list */
+  .np-mob-nav { list-style: none; margin: 0; padding: 8px 0 0; }
+  .np-mob-link {
+    display: flex; align-items: center; justify-content: space-between;
+    width: 100%; padding: 13px 20px;
+    font-size: 15px; font-weight: 500; color: #0f1117;
+    text-decoration: none; background: none; border: none;
+    font-family: inherit; cursor: pointer; text-align: left;
+    transition: background .12s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-mob-link:hover, .np-mob-link:active { background: #f7f8fa; }
+  .np-mob-link.active { color: #377e62; }
+  .np-mob-chevron {
+    width: 16px; height: 16px; opacity: .4; flex-shrink: 0;
+    transition: transform .25s ease, opacity .2s ease;
+  }
+  .np-mob-link[aria-expanded="true"] .np-mob-chevron { transform: rotate(180deg); opacity: .8; }
+
+  /* Accordion sub-menu */
+  .np-mob-sub {
+    list-style: none; margin: 0; padding: 0 0 4px;
+    overflow: hidden;
+    max-height: 0; transition: max-height .3s cubic-bezier(.4,0,.2,1);
+  }
+  .np-mob-sub.is-open { max-height: 900px; }
+
+  .np-mob-sub-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; color: #3d4352;
+    font-size: 14px; transition: background .12s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-mob-sub-item:hover, .np-mob-sub-item:active { background: #f7f8fa; color: #0f1117; }
+  .np-mob-sub-icon {
+    width: 32px; height: 32px; border-radius: 8px;
+    background: #f0f1f5; color: #377e62;
+    display: grid; place-items: center;
+    font-size: 15px; flex-shrink: 0;
+  }
+  .np-mob-sub-title { font-size: 13.5px; font-weight: 600; color: #0f1117; line-height: 1.2; }
+  .np-mob-sub-desc { font-size: 12px; color: #9ba3b5; line-height: 1.3; margin-top: 1px; }
+
+  .np-mob-divider { height: 1px; background: #f0f1f5; margin: 4px 20px; }
+  .np-mob-sub-label { padding: 8px 20px 2px; font-size: 11px; font-weight: 700; letter-spacing: 1.1px; text-transform: uppercase; color: #9ba3b5; }
+  .np-mob-sub-plain { display: block; padding: 9px 20px; font-size: 14px; color: #3d4352; text-decoration: none; transition: background .12s; }
+  .np-mob-sub-plain:hover, .np-mob-sub-plain:active { background: #f7f8fa; color: #0f1117; }
+
+  /* Mobile CTA */
+  .np-mob-cta {
+    padding: 16px 20px 20px;
+    border-top: 1px solid #f0f1f5;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .np-mob-btn-primary {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 14px 20px; border-radius: 10px;
+    background: #377e62; color: white;
+    font-size: 15px; font-weight: 600;
+    text-decoration: none; transition: background .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-mob-btn-primary:active { background: #2a6250; color: white; }
+  .np-mob-btn-secondary {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 13px 20px; border-radius: 10px;
+    border: 1.5px solid #377e62; color: #377e62;
+    font-size: 15px; font-weight: 600;
+    text-decoration: none; transition: background .15s, color .15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-mob-btn-secondary:active { background: #377e62; color: white; }
+
+  /* Mobile lang strip */
+  .np-mob-lang {
+    padding: 4px 20px 16px;
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .np-mob-lang-item {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 6px 12px; border-radius: 20px;
+    text-decoration: none; color: #3d4352;
+    font-size: 13px; font-weight: 500;
+    border: 1px solid #e4e6ec;
+    transition: background .12s, color .12s, border-color .12s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .np-mob-lang-item:hover { background: #f0f1f5; }
+  .np-mob-lang-item.active { background: #377e62; color: white; border-color: #377e62; }
+
+  /* ── Responsive ───────────────────────────────────────────── */
+  @media (max-width: 960px) {
+    .np-nav-links { display: none; }
+    /* Show CTA in header but hide lang switcher — it's in the drawer */
+    .np-header-cta { display: flex; margin-left: auto; gap: 6px; }
+    .np-lang { display: none; }
+    /* Compact buttons on mobile */
+    .np-hbtn-secondary { padding: 7px 12px; font-size: 13px; }
+    .np-hbtn-primary   { padding: 7px 14px; font-size: 13px; }
+    /* Hamburger — no margin-left since CTA already pushes right */
+    .np-hamburger { display: flex; align-items: center; justify-content: center; margin-left: 4px; }
+    .np-mobile-backdrop { display: block; }
+    .np-mobile-panel { display: block; }
+  }
+
+  /* Very small screens: hide Demo text, keep icon only */
+  @media (max-width: 400px) {
+    .np-hbtn-secondary .np-hbtn-label { display: none; }
+    .np-hbtn-secondary { padding: 7px 10px; }
+  }
+
+  /* ── Multi-column mega layouts ── */
+  .np-mega-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .np-mega-3col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  .np-mega-col-sep { padding-left: 16px; border-left: 1px solid #eceef2; margin-left: 8px; }
+
+  /* Brand block */
+  .np-mega-brand { padding: 6px 10px 14px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .np-mega-brand-name { font-size: 13px; font-weight: 700; color: #0f1117; margin-bottom: 4px; }
+  .np-mega-brand-desc { font-size: 12px; color: #6b7280; line-height: 1.4; }
+
+  /* Ideas cards */
+  .np-mega-idea { display: flex; align-items: flex-start; gap: 10px; padding: 7px 10px; border-radius: 8px; text-decoration: none; transition: background .12s; }
+  .np-mega-idea:hover { background: #f7f8fa; }
+  .np-mega-idea-img { width: 64px; height: 40px; border-radius: 5px; object-fit: cover; flex-shrink: 0; background: #eceef2; }
+  .np-mega-idea-title { font-size: 12px; font-weight: 400; color: #6b7280; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* CTA install buttons */
+  .np-mega-cta-group { display: flex; flex-direction: column; gap: 5px; padding: 10px 4px 2px; border-top: 1px solid #eceef2; margin-top: 8px; }
+  .np-mega-cta-btn { display: flex; align-items: center; gap: 7px; padding: 7px 10px; border-radius: 7px; font-size: 12.5px; font-weight: 600; text-decoration: none; transition: background .12s; white-space: nowrap; }
+  .np-mega-cta-shopify { background: #eaf2ec; color: #1c5f3b; }
+  .np-mega-cta-shopify:hover { background: #d4e8da; }
+  .np-mega-cta-wp { background: #e8f0f7; color: #1a4f7a; }
+  .np-mega-cta-wp:hover { background: #d1e4f0; }
+  .np-mega-cta-web { background: #f5f6fa; color: #3d4352; }
+  .np-mega-cta-web:hover { background: #eceef2; }
+
+  /* Tools intro */
+  .np-tools-intro { padding: 8px 10px 14px; border-bottom: 1px solid #eceef2; margin-bottom: 8px; }
+  .np-tools-intro-head { font-size: 13px; font-weight: 700; color: #0f1117; margin-bottom: 5px; }
+  .np-tools-intro-desc { font-size: 12px; color: #6b7280; line-height: 1.5; }
+
+  /* Plain guide links (col 2 & 3, no icons) */
+  .np-guide-link {
+    display: block; padding: 5px 10px; border-radius: 6px;
+    font-size: 12.5px; font-weight: 400; color: #6b7280;
+    text-decoration: none; transition: background .12s, color .12s;
+    white-space: nowrap;
+  }
+  .np-guide-link:hover { background: #f7f8fa; color: #0f1117; }
+  .np-guide-link-footer {
+    display: block; padding: 5px 10px; margin-top: 6px;
+    border-top: 1px solid #eceef2; padding-top: 10px;
+    font-size: 12px; color: #9ba3b5; text-decoration: none;
+    transition: color .12s;
+  }
+  .np-guide-link-footer:hover { color: #377e62; }
+</style>
+
+{% assign _lang = site.active_lang | default: "en" %}
+{% assign _t = site.data.i18n[_lang] %}
+{% unless _t %}{% assign _t = site.data.i18n.en %}{% endunless %}
+{% comment %} longform override: nav links trỏ sang naviplus.io (absolute); logo trỏ longform home {% endcomment %}
+{% assign _site_home = "/" %}{% if _lang != "en" %}{% assign _site_home = "/" | append: _lang | append: "/" %}{% endif %}
+{% assign _fp = "https://naviplus.io" %}{% if _lang != "en" %}{% assign _fp = "https://naviplus.io/" | append: _lang %}{% endif %}
+{% assign _ext_lang = _lang | downcase %}
+{% assign _hb = "https://help.naviplus.io" %}{% if _lang != "en" %}{% assign _hb = _hb | append: "/" | append: _ext_lang %}{% endif %}
+{% assign _tb = "https://tools.naviplus.io" %}{% if _lang != "en" %}{% assign _tb = _tb | append: "/" | append: _ext_lang %}{% endif %}
+
+<header class="np-header" id="np-header">
+  <nav class="np-nav" aria-label="{{ _t.nav.aria_label | default: 'Main navigation' }}">
+
+    <!-- Logo -->
+    <a href="{{ _site_home }}" class="np-nav-logo" aria-label="Navi+ Longform – Home">
+      <picture>
+        <source srcset="{{ site.data.navigation.company.logo_dark }}" media="(prefers-color-scheme: dark)">
+        <img src="{{ site.data.navigation.company.logo }}" alt="Navi+ AI Menu Builder" height="28" width="auto" />
+      </picture>
     </a>
-    <a class="lf-nav-link" href="{{ home_url }}">{{ ui.all_guides }}</a>
-    <div class="lf-nav-spacer"></div>
-    <div class="lf-lang">
-      <button class="lf-lang-btn" aria-haspopup="true" aria-expanded="false">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
-        <span>{{ site.active_lang | upcase }}</span>
-      </button>
-      <div class="lf-lang-menu">
-        {% for lang in site.languages %}
-          {% if lang == site.default_lang %}{% assign lurl = "/" %}{% else %}{% assign lurl = "/" | append: lang | append: "/" %}{% endif %}
-          <a href="{{ lurl }}" class="lf-lang-item {% if lang == site.active_lang %}is-active{% endif %}">{{ lang | upcase }}</a>
-        {% endfor %}
+
+    <!-- Desktop nav links -->
+    <ul class="np-nav-links" role="list">
+
+      <!-- Services -->
+      <li class="np-nav-item">
+        <button class="np-nav-link" aria-haspopup="true">
+          {{ _t.nav.services | default: "Services" }}
+          <svg class="np-nav-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-mega" style="width:780px;left:0;transform:none;" role="region" aria-label="{{ _t.nav.services | default: 'Services' }}">
+          <div class="np-mega-inner">
+            <div class="np-mega-2col">
+
+              <!-- Col 1: Navi+ AI Menu Builder -->
+              <div>
+                <div class="np-mega-brand">
+                  <div class="np-mega-brand-name">Navi+ AI Menu Builder</div>
+                  <div class="np-mega-brand-desc">{{ _t.nav_services.brand_desc | default: "The navigation builder for ecommerce — no code, no conflicts." }}</div>
+                </div>
+
+                <a href="{{ _fp }}/why-navi/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-question-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_guide.what_is }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_guide.what_is_desc | default: "Why default menus fall short — and how Navi+ fixes that." }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/how-to-install-navi/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-download-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_guide.how_to }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_guide.how_to_desc | default: "Install in minutes on Shopify, WordPress, or any website." }}</div>
+                  </div>
+                </a>
+                <a href="{{ _fp }}/features/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-star-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_services.why_navi | default: "Why Navi+ is a great choice?" }}</div>
+                    <div class="np-mega-desc">Tab Bar · Mega Menu · Slide Menu · FAB · Grid Menu</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/common-first-questions/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-chat-check-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_guide.questions }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_guide.questions_desc | default: "The most common questions from new users, answered." }}</div>
+                  </div>
+                </a>
+                <a href="{{ _fp }}/case-studies/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-bookmark-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_services.case_studies | default: "Case studies" }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_services.case_studies_desc | default: "Real stores reorganizing navigation with Navi+." }}</div>
+                  </div>
+                </a>
+
+                <div class="np-mega-cta-group">
+                  <a href="https://apps.shopify.com/pronavi-navigation-design" class="np-mega-cta-btn np-mega-cta-shopify" target="_blank" rel="noopener">
+                    <i class="ri-store-2-line" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_shopify }}
+                  </a>
+                  <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="np-mega-cta-btn np-mega-cta-wp" target="_blank" rel="noopener">
+                    <i class="ri-wordpress-fill" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_wordpress }}
+                  </a>
+                  <a href="https://dash.naviplus.app" class="np-mega-cta-btn np-mega-cta-web" target="_blank" rel="noopener">
+                    <i class="ri-global-line" aria-hidden="true"></i>
+                    {{ _t.home.hero_cta_web }}
+                  </a>
+                </div>
+              </div>
+
+              <!-- Col 2: Ideas (6 items, 1 col) -->
+              <div class="np-mega-col-sep">
+                <div class="np-mega-header">{{ _t.nav_services.ideas_col | default: "Ideas" }}</div>
+
+                <a href="{{ _fp }}/ideas/flat-menu-too-basic" class="np-mega-idea">
+                  <img src="/images/ideas/flat-menu-too-basic.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea1 | default: "Default menu is too basic — customers can't find what they want" }}</span>
+                </a>
+                <a href="{{ _fp }}/ideas/improve-mobile-menu-ux" class="np-mega-idea">
+                  <img src="/images/ideas/improve-mobile-menu-ux.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea2 | default: "70% of visitors are on mobile — but your menu is driving them away" }}</span>
+                </a>
+                <a href="{{ _fp }}/ideas/fix-navigation-lower-bounce-rate" class="np-mega-idea">
+                  <img src="/images/ideas/fix-navigation-lower-bounce-rate.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea3 | default: "Spending on ads but visitors bounce — poor navigation kills your funnel" }}</span>
+                </a>
+                <a href="{{ _fp }}/ideas/customize-menu-without-coding" class="np-mega-idea">
+                  <img src="/images/ideas/customize-menu-without-coding.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea4 | default: "Making the menu look better means hiring a developer" }}</span>
+                </a>
+                <a href="{{ _fp }}/ideas/menu-independent-from-theme" class="np-mega-idea">
+                  <img src="/images/ideas/menu-independent-from-theme.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea5 | default: "Every theme switch wipes your menu config — start from scratch" }}</span>
+                </a>
+                <a href="{{ _fp }}/ideas/app-like-bottom-navigation" class="np-mega-idea">
+                  <img src="/images/ideas/app-like-bottom-navigation.jpg" alt="" class="np-mega-idea-img" width="64" height="40" loading="lazy">
+                  <span class="np-mega-idea-title">{{ _t.nav_services.idea6 | default: "No bottom navigation — mobile customers feel like using an old website" }}</span>
+                </a>
+
+                <div style="padding: 10px 10px 2px;">
+                  <a href="{{ _fp }}/ideas" style="font-size:13px;font-weight:600;color:#377e62;text-decoration:none;">{{ _t.nav_services.ideas_see_all | default: "See all ideas →" }}</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- User Guide -->
+      <li class="np-nav-item">
+        <button class="np-nav-link {% if page.active_page == 'user_guide' %}active{% endif %}" aria-haspopup="true">
+          {{ _t.nav.user_guide }}
+          <svg class="np-nav-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-mega" style="width:840px;" role="region" aria-label="{{ _t.nav.user_guide }}">
+          <div class="np-mega-inner">
+            <div class="np-mega-3col">
+
+              <!-- Col 1: Menu types (with icons + desc) -->
+              <div>
+                <div class="np-mega-header">{{ _t.nav_guide.menu_types | default: "Menu types & items" }}</div>
+                <a href="{{ _hb }}/docs/usage/tabbar-bottom-navigation/how-to-use/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-layout-bottom-2-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">Tab Bar</div>
+                    <div class="np-mega-desc">{{ _t.nav_features.tab_bar_desc }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/mega-menu-desktop/how-to-use/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-layout-masonry-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">Mega Menu</div>
+                    <div class="np-mega-desc">{{ _t.nav_features.mega_menu_desc }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-side-bar-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">Slide Menu</div>
+                    <div class="np-mega-desc">{{ _t.nav_features.slide_menu_desc }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-flashlight-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">FAB / Floating</div>
+                    <div class="np-mega-desc">{{ _t.nav_features.fab_menu_desc }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/grid-menu/how-to-use/" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-grid-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">Grid Menu</div>
+                    <div class="np-mega-desc">{{ _t.nav_features.grid_menu_desc }}</div>
+                  </div>
+                </a>
+                <a href="{{ _hb }}/docs/usage/explore-common-menus/" class="np-guide-link-footer">{{ _t.nav_guide.choose_right }} →</a>
+              </div>
+
+              <!-- Col 2: Design + Publish (plain links, real URLs only) -->
+              <div class="np-mega-col-sep">
+                <div class="np-mega-header">{{ _t.nav_guide.design | default: "Design" }}</div>
+                <a href="{{ _hb }}/docs/design/design-overview/" class="np-guide-link">{{ _t.nav_guide.design_overview | default: "Design overview" }}</a>
+                <a href="{{ _hb }}/docs/design/design-level1/" class="np-guide-link">{{ _t.nav_guide.design_level1 | default: "How to style main menu items" }}</a>
+                <a href="{{ _hb }}/docs/design/design-level2/" class="np-guide-link">{{ _t.nav_guide.design_level2 | default: "How to style submenu items" }}</a>
+                <a href="{{ _hb }}/docs/design/design-divider/" class="np-guide-link">{{ _t.nav_guide.design_divider | default: "How to add dividers" }}</a>
+
+                <div class="np-mega-header" style="margin-top:12px;">{{ _t.nav_guide.publish | default: "Publish" }}</div>
+                <a href="{{ _hb }}/docs/publish/publish-overview/" class="np-guide-link">{{ _t.nav_guide.publish_overview | default: "Publish overview" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-filter/" class="np-guide-link">{{ _t.nav_guide.publish_filter | default: "How to filter by device or URL" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-section/" class="np-guide-link">{{ _t.nav_guide.publish_section | default: "How to configure mega menu sections" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-slide/" class="np-guide-link">{{ _t.nav_guide.publish_slide | default: "How to set up slide menu" }}</a>
+                <a href="{{ _hb }}/docs/publish/publish-sticky/" class="np-guide-link">{{ _t.nav_guide.publish_sticky | default: "How to set up sticky & FAB" }}</a>
+              </div>
+
+              <!-- Col 3: Developer Docs + Partnership (plain links, real URLs only) -->
+              <div class="np-mega-col-sep">
+                <div class="np-mega-header">{{ _t.nav_guide.developers | default: "Developer docs" }}</div>
+                <a href="{{ _hb }}/docs/development/" class="np-guide-link">{{ _t.nav_guide.dev_custom_css | default: "Custom CSS & development" }}</a>
+                <a href="{{ _hb }}/docs/development/how-to-write-a-correct-css-code-in-navi/" class="np-guide-link">{{ _t.nav_guide.dev_write_css | default: "How to write correct CSS in Navi+" }}</a>
+                <a href="{{ _hb }}/docs/integrations/" class="np-guide-link">{{ _t.nav_guide.dev_integrations | default: "Integrations overview" }}</a>
+                <a href="{{ _hb }}/docs/integrations/wordpress-woocommerce/" class="np-guide-link">{{ _t.nav_guide.dev_woocommerce | default: "WordPress & WooCommerce" }}</a>
+                <a href="{{ _hb }}/docs/integrations/themes/" class="np-guide-link">{{ _t.nav_guide.dev_themes | default: "Theme integrations" }}</a>
+
+                <div class="np-mega-header" style="margin-top:12px;">{{ _t.nav_guide.partnership | default: "Partnership & resources" }}</div>
+                <a href="{{ _hb }}/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="np-guide-link">{{ _t.nav_guide.care }}</a>
+                <a href="{{ _hb }}/docs/partership/earn-up-to-225-revshare-with-navi/" class="np-guide-link">{{ _t.nav_guide.revshare | default: "Earn rev share" }}</a>
+                <a href="{{ _hb }}/docs/latest-update/" class="np-guide-link">{{ _t.nav_guide.changelog }}</a>
+
+                <a href="{{ _hb }}/home/" class="np-guide-link-footer" style="color:#377e62;border-color:#d4e8da;">{{ _t.nav_guide.all_help }}</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Pricing -->
+      <li class="np-nav-item">
+        <a href="{{ _fp }}/pricing" class="np-nav-link {% if page.active_page == 'pricing' %}active{% endif %}">{{ _t.nav.pricing }}</a>
+      </li>
+
+      <!-- Support Tools -->
+      <li class="np-nav-item">
+        <button class="np-nav-link" aria-haspopup="true">
+          {{ _t.nav.support_tools | default: "Support Tools" }}
+          <svg class="np-nav-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-mega" style="width:860px;" role="region" aria-label="{{ _t.nav.support_tools | default: 'Support Tools' }}">
+          <div class="np-mega-inner">
+            <div class="np-mega-3col">
+
+              <!-- Col 1: Intro -->
+              <div>
+                <div class="np-tools-intro">
+                  <div class="np-tools-intro-head">{{ _t.nav_toolbox.section_title | default: "Free support tools" }}</div>
+                  <div class="np-tools-intro-desc">{{ _t.nav_toolbox.section_desc | default: "Tools to help you build a better, faster website. 100% free — no data stored." }}</div>
+                </div>
+              </div>
+
+              <!-- Col 2: Design & Images -->
+              <div class="np-mega-col-sep">
+                <div class="np-mega-header">{{ _t.nav_toolbox.label_design }}</div>
+                <a href="{{ _tb }}/toolset/images/convert-to-webp.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-image-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.batch_converter }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.batch_converter_desc | default: "Convert PNG, JPG to WebP in bulk" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/image-resizer.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-scissors-cut-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.image_resizer }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.image_resizer_desc | default: "Resize to any dimension instantly" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/design/color-palette.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-palette-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.color_palette }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.color_palette_desc | default: "Generate brand color palettes" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/remove-background.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-scissors-2-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.bg_remover }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.bg_remover_desc | default: "AI-powered background removal" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/photo-collage.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-collage-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.photo_collage | default: "Photo Collage Maker" }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.photo_collage_desc | default: "Combine multiple photos into one" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/color-picker.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-contrast-drop-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.color_picker | default: "Color Picker" }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.color_picker_desc | default: "Pick exact colors from any image" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/watermark.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-quill-pen-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.watermark | default: "Watermark" }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.watermark_desc | default: "Add text or logo watermark to images" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/images/upload-image.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-upload-cloud-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.temp_upload | default: "Temp Image Upload" }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.temp_upload_desc | default: "Share images with a temporary link" }}</div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Col 3: Security -->
+              <div class="np-mega-col-sep">
+                <div class="np-mega-header">{{ _t.nav_toolbox.label_security }}</div>
+                <a href="{{ _tb }}/toolset/security/encrypt.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-lock-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.encryption }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.encryption_desc | default: "Encrypt & decrypt text with AES-GCM" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/generate-password.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-key-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.password_gen }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.password_gen_desc | default: "Generate strong, secure passwords" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/jwt-decoder.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-shield-check-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.jwt_decoder }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.jwt_decoder_desc | default: "Decode and inspect JWT tokens" }}</div>
+                  </div>
+                </a>
+                <a href="{{ _tb }}/toolset/security/hash-generator.html" class="np-mega-item">
+                  <div class="np-mega-icon" aria-hidden="true"><i class="ri-fingerprint-line"></i></div>
+                  <div class="np-mega-text">
+                    <div class="np-mega-title">{{ _t.nav_toolbox.hash_gen }}</div>
+                    <div class="np-mega-desc">{{ _t.nav_toolbox.hash_gen_desc | default: "Generate MD5, SHA-1, SHA-256 hashes" }}</div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <!-- Desktop CTA -->
+    <div class="np-header-cta" role="group" aria-label="Actions">
+      <!-- Language switcher -->
+      <div class="np-lang">
+        <button class="np-lang-btn" aria-label="{{ _t.lang_switcher | default: 'Change language' }}" aria-haspopup="listbox" aria-expanded="false">
+          <span class="np-lang-flag" aria-hidden="true">{{ _t.lang_flag }}</span>
+          <svg class="np-nav-chevron" viewBox="0 0 16 16" fill="none" style="width:12px;height:12px;opacity:.5;" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="np-lang-dropdown" role="listbox" aria-label="{{ _t.lang_switcher | default: 'Change language' }}">
+          <div class="np-lang-dropdown-inner">
+            {% assign _langs = "en,vi,fr,de,zh-CN,jp,it,pt,es" | split: "," %}
+            {% assign _base_url = page.url %}{% if _lang != "en" %}{% assign _lang_pfx = "/" | append: _lang %}{% assign _base_url = page.url | remove_first: _lang_pfx %}{% if _base_url == "" %}{% assign _base_url = "/" %}{% endif %}{% endif %}
+            {% for _l in _langs %}
+              {% assign _li = site.data.i18n[_l] %}
+              {% if _l == "en" %}
+              <a {% static_href %}href="{{ _base_url }}"{% endstatic_href %} class="np-lang-item{% if _l == _lang %} active{% endif %}" data-lang="{{ _l }}" role="option" {% if _l == _lang %}aria-selected="true"{% else %}aria-selected="false"{% endif %} hreflang="{{ _l }}">
+              {% else %}{% assign _lurl = "/" | append: _l | append: _base_url %}
+              <a href="{{ _lurl }}" class="np-lang-item{% if _l == _lang %} active{% endif %}" data-lang="{{ _l }}" role="option" {% if _l == _lang %}aria-selected="true"{% else %}aria-selected="false"{% endif %} hreflang="{{ _l }}">
+              {% endif %}
+                <span class="np-lang-flag" aria-hidden="true">{{ _li.lang_flag }}</span>
+                {{ _li.lang_name }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
       </div>
+
+      <a href="https://showcase.naviplus.io/" class="np-hbtn-secondary" rel="noopener">
+        <i class="ri-play-circle-line" aria-hidden="true"></i><span class="np-hbtn-label"> {{ _t.cta.see_demo }}</span>
+      </a>
+      <a href="#get-started-for-free" class="np-hbtn-primary" id="np-header-gs-btn" onclick="openGetStartedPopup(); return false;">
+        <i class="ri-rocket-line" aria-hidden="true"></i> {{ _t.cta.get_started }}
+      </a>
     </div>
-    <a class="lf-nav-cta" href="https://naviplus.io" target="_blank" rel="noopener">Navi+ →</a>
+
+    <!-- Hamburger (mobile) -->
+    <button
+      class="np-hamburger"
+      id="np-hamburger"
+      aria-label="{{ _t.nav.open_menu | default: 'Open menu' }}"
+      aria-expanded="false"
+      aria-controls="np-mobile-panel"
+    >
+      <span class="np-hamburger-bar"></span>
+      <span class="np-hamburger-bar"></span>
+      <span class="np-hamburger-bar"></span>
+    </button>
+
   </nav>
 </header>
+
+<!-- Mobile backdrop -->
+<div class="np-mobile-backdrop" id="np-mobile-backdrop" aria-hidden="true"></div>
+
+<!-- Mobile drawer panel -->
+<div class="np-mobile-panel" id="np-mobile-panel" role="dialog" aria-modal="true" aria-label="{{ _t.nav.aria_label | default: 'Main navigation' }}">
+  <nav aria-label="{{ _t.nav.aria_label | default: 'Main navigation' }}">
+    <ul class="np-mob-nav" role="list">
+
+      <!-- Services accordion -->
+      <li>
+        <button
+          class="np-mob-link"
+          aria-expanded="false"
+          aria-controls="np-mob-services"
+          id="np-mob-services-btn"
+        >
+          {{ _t.nav.services | default: "Services" }}
+          <svg class="np-mob-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="np-mob-sub" id="np-mob-services" role="list" aria-labelledby="np-mob-services-btn">
+          <li><a href="{{ _fp }}/why-navi/" class="np-mob-sub-plain">{{ _t.nav_guide.what_is }}</a></li>
+          <li><a href="{{ _hb }}/docs/how-to-install-navi/" class="np-mob-sub-plain">{{ _t.nav_guide.how_to }}</a></li>
+          <li><a href="{{ _fp }}/features/" class="np-mob-sub-plain">{{ _t.nav_services.why_navi | default: "Why Navi+ is a great choice?" }}</a></li>
+          <li><a href="{{ _hb }}/docs/common-first-questions/" class="np-mob-sub-plain">{{ _t.nav_guide.questions }}</a></li>
+          <li><a href="{{ _fp }}/case-studies/" class="np-mob-sub-plain">{{ _t.nav_services.case_studies | default: "Case studies" }}</a></li>
+          <li style="padding: 8px 20px 4px; border-top: 1px solid #f0f1f5; margin-top: 4px;">
+            <a href="https://apps.shopify.com/pronavi-navigation-design" class="np-mega-cta-btn np-mega-cta-shopify" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-store-2-line" aria-hidden="true"></i> {{ _t.home.hero_cta_shopify }}
+            </a>
+            <a href="https://wordpress.org/plugins/naviplus-menu-builder/" class="np-mega-cta-btn np-mega-cta-wp" style="margin-bottom:4px;" target="_blank" rel="noopener">
+              <i class="ri-wordpress-fill" aria-hidden="true"></i> {{ _t.home.hero_cta_wordpress }}
+            </a>
+            <a href="https://dash.naviplus.app" class="np-mega-cta-btn np-mega-cta-web" target="_blank" rel="noopener">
+              <i class="ri-global-line" aria-hidden="true"></i> {{ _t.home.hero_cta_web }}
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- User Guide accordion -->
+      <li>
+        <button
+          class="np-mob-link"
+          aria-expanded="false"
+          aria-controls="np-mob-guide"
+          id="np-mob-guide-btn"
+        >
+          {{ _t.nav.user_guide }}
+          <svg class="np-mob-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="np-mob-sub" id="np-mob-guide" role="list" aria-labelledby="np-mob-guide-btn">
+          <li class="np-mob-sub-label">{{ _t.nav_guide.menu_types | default: "Menu types &amp; items" }}</li>
+          <li><a href="{{ _hb }}/docs/usage/explore-common-menus/" class="np-mob-sub-plain">{{ _t.nav_guide.choose_right }}</a></li>
+          <li><a href="{{ _hb }}/docs/usage/tabbar-bottom-navigation/how-to-use/" class="np-mob-sub-plain">Tab Bar</a></li>
+          <li><a href="{{ _hb }}/docs/usage/mega-menu-desktop/how-to-use/" class="np-mob-sub-plain">Mega Menu</a></li>
+          <li><a href="{{ _hb }}/docs/usage/slide-menu-hamburger-menu/how-to-use/" class="np-mob-sub-plain">Slide Menu</a></li>
+          <li><a href="{{ _hb }}/docs/usage/fab-floating-menu-quick-access/how-to-use/" class="np-mob-sub-plain">FAB</a></li>
+          <li><a href="{{ _hb }}/docs/usage/grid-menu/how-to-use/" class="np-mob-sub-plain">Grid Menu</a></li>
+          <li class="np-mob-sub-label" style="border-top:1px solid #f0f1f5;margin-top:4px;padding-top:10px;">{{ _t.nav_guide.design | default: "Design" }}</li>
+          <li><a href="{{ _hb }}/docs/design/design-overview/" class="np-mob-sub-plain">Design overview</a></li>
+          <li><a href="{{ _hb }}/docs/design/design-level1/" class="np-mob-sub-plain">Style main menu items</a></li>
+          <li><a href="{{ _hb }}/docs/design/design-level2/" class="np-mob-sub-plain">Style submenu items</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-overview/" class="np-mob-sub-plain">Publish overview</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-filter/" class="np-mob-sub-plain">Filter by device or URL</a></li>
+          <li><a href="{{ _hb }}/docs/publish/publish-sticky/" class="np-mob-sub-plain">Sticky &amp; FAB setup</a></li>
+          <li class="np-mob-sub-label" style="border-top:1px solid #f0f1f5;margin-top:4px;padding-top:10px;">{{ _t.nav_guide.developers | default: "Developer docs" }}</li>
+          <li><a href="{{ _hb }}/docs/development/" class="np-mob-sub-plain">Custom CSS &amp; development</a></li>
+          <li><a href="{{ _hb }}/docs/development/how-to-write-a-correct-css-code-in-navi/" class="np-mob-sub-plain">How to write correct CSS</a></li>
+          <li><a href="{{ _hb }}/docs/integrations/" class="np-mob-sub-plain">Integrations overview</a></li>
+          <li><a href="{{ _hb }}/docs/integrations/wordpress-woocommerce/" class="np-mob-sub-plain">WordPress &amp; WooCommerce</a></li>
+          <li><a href="{{ _hb }}/docs/partership/navi-care-or-design-your-menus-like-an-expert/" class="np-mob-sub-plain">{{ _t.nav_guide.care }}</a></li>
+          <li><a href="{{ _hb }}/docs/partership/earn-up-to-225-revshare-with-navi/" class="np-mob-sub-plain">{{ _t.nav_guide.revshare | default: "Earn rev share" }}</a></li>
+          <li><a href="{{ _hb }}/docs/latest-update/" class="np-mob-sub-plain">{{ _t.nav_guide.changelog }}</a></li>
+          <li style="border-top:1px solid #f0f1f5;margin-top:4px;"><a href="{{ _hb }}/home/" class="np-mob-sub-plain" style="color:#377e62;font-weight:600;">{{ _t.nav_guide.all_help }}</a></li>
+        </ul>
+      </li>
+
+      <!-- Pricing -->
+      <li>
+        <a href="{{ _fp }}/pricing" class="np-mob-link {% if page.active_page == 'pricing' %}active{% endif %}">
+          {{ _t.nav.pricing }}
+        </a>
+      </li>
+
+      <!-- Support Tools accordion -->
+      <li>
+        <button
+          class="np-mob-link"
+          aria-expanded="false"
+          aria-controls="np-mob-toolbox"
+          id="np-mob-toolbox-btn"
+        >
+          {{ _t.nav.support_tools | default: "Support Tools" }}
+          <svg class="np-mob-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <ul class="np-mob-sub" id="np-mob-toolbox" role="list" aria-labelledby="np-mob-toolbox-btn">
+          <li class="np-mob-sub-label">{{ _t.nav_toolbox.label_design }}</li>
+          <li><a href="{{ _tb }}/toolset/images/convert-to-webp.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.batch_converter }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/image-resizer.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.image_resizer }}</a></li>
+          <li><a href="{{ _tb }}/toolset/design/color-palette.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.color_palette }}</a></li>
+          <li><a href="{{ _tb }}/toolset/images/remove-background.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.bg_remover }}</a></li>
+          <li class="np-mob-sub-label" style="border-top:1px solid #f0f1f5;margin-top:4px;padding-top:10px;">{{ _t.nav_toolbox.label_security }}</li>
+          <li><a href="{{ _tb }}/toolset/security/encrypt.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.encryption }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/generate-password.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.password_gen }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/jwt-decoder.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.jwt_decoder }}</a></li>
+          <li><a href="{{ _tb }}/toolset/security/hash-generator.html" class="np-mob-sub-plain">{{ _t.nav_toolbox.hash_gen }}</a></li>
+          <li style="border-top:1px solid #f0f1f5;margin-top:4px;"><a href="{{ _tb }}/" class="np-mob-sub-plain" style="color:#377e62;font-weight:600;">{{ _t.nav_toolbox.all_tools }}</a></li>
+        </ul>
+      </li>
+
+    </ul>
+
+    <!-- Language strip -->
+    <div class="np-mob-lang" role="group" aria-label="{{ _t.lang_switcher | default: 'Change language' }}">
+      {% for _l in _langs %}
+        {% assign _li = site.data.i18n[_l] %}
+        {% if _l == "en" %}
+        <a {% static_href %}href="{{ _base_url }}"{% endstatic_href %} class="np-mob-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}" data-lang="{{ _l }}">
+        {% else %}{% assign _lurl = "/" | append: _l | append: _base_url %}
+        <a href="{{ _lurl }}" class="np-mob-lang-item{% if _l == _lang %} active{% endif %}" hreflang="{{ _l }}" data-lang="{{ _l }}">
+        {% endif %}
+          <span aria-hidden="true">{{ _li.lang_flag }}</span>
+          {{ _li.lang_name }}
+        </a>
+      {% endfor %}
+    </div>
+
+    <!-- CTA buttons -->
+    <div class="np-mob-cta">
+      <a href="https://showcase.naviplus.io/" class="np-mob-btn-secondary" rel="noopener">
+        <i class="ri-play-circle-line" aria-hidden="true"></i> {{ _t.cta.see_demo }}
+      </a>
+      <a href="#get-started-for-free" class="np-mob-btn-primary" id="np-mob-gs-btn" onclick="openGetStartedPopup(); return false;">
+        <i class="ri-rocket-line" aria-hidden="true"></i> {{ _t.cta.get_started }}
+      </a>
+    </div>
+
+  </nav>
+</div>
+
+<script>
+(function () {
+  /* ── Helpers ── */
+  function npUpdateHeaderBtn() {
+    var btns = [document.getElementById('np-header-gs-btn'), document.getElementById('np-mob-gs-btn')];
+    btns.forEach(function(btn) {
+      if (!btn) return;
+      if (sessionStorage.getItem('navi_isGlobalLogging') === '1') {
+        btn.innerHTML = '<i class="ri-dashboard-line" aria-hidden="true"></i> {{ _t.cta.dashboard }}';
+        btn.href = 'https://dash.naviplus.app';
+        btn.removeAttribute('onclick');
+      }
+    });
+  }
+
+  /* Fix EN lang switcher link on polyglot non-EN pages */
+  function npFixLangSwitcher() {
+    document.querySelectorAll('.np-lang-item[data-lang="en"], .np-mob-lang-item[data-lang="en"]').forEach(function(el) {
+      var href = el.getAttribute('href');
+      if (href) el.setAttribute('href', href.replace(/^\/[a-z]{2}\//, '/'));
+    });
+  }
+
+  /* ── Mobile menu ── */
+  var hamburger  = document.getElementById('np-hamburger');
+  var panel      = document.getElementById('np-mobile-panel');
+  var backdrop   = document.getElementById('np-mobile-backdrop');
+  var isOpen     = false;
+
+  function openMenu() {
+    isOpen = true;
+    hamburger.classList.add('is-open');
+    hamburger.setAttribute('aria-expanded', 'true');
+    hamburger.setAttribute('aria-label', '{{ _t.nav.close_menu | default: "Close menu" }}');
+    panel.classList.add('is-open');
+    backdrop.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    isOpen = false;
+    hamburger.classList.remove('is-open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', '{{ _t.nav.open_menu | default: "Open menu" }}');
+    panel.classList.remove('is-open');
+    backdrop.classList.remove('is-open');
+    document.body.style.overflow = '';
+    /* Collapse all accordions */
+    document.querySelectorAll('.np-mob-sub.is-open').forEach(function(sub) {
+      sub.classList.remove('is-open');
+      var btn = document.getElementById(sub.getAttribute('aria-labelledby'));
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  if (hamburger) {
+    hamburger.addEventListener('click', function () {
+      isOpen ? closeMenu() : openMenu();
+    });
+  }
+  if (backdrop) {
+    backdrop.addEventListener('click', closeMenu);
+  }
+
+  /* Close on Escape */
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && isOpen) closeMenu();
+  });
+
+  /* Close when a link inside panel is tapped */
+  if (panel) {
+    panel.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        /* Small delay so the click registers before we close */
+        setTimeout(closeMenu, 80);
+      });
+    });
+  }
+
+  /* ── Accordion ── */
+  document.querySelectorAll('.np-mob-link[aria-controls]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = document.getElementById(btn.getAttribute('aria-controls'));
+      if (!target) return;
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      /* Close all others */
+      document.querySelectorAll('.np-mob-link[aria-controls]').forEach(function (b) {
+        if (b !== btn) {
+          b.setAttribute('aria-expanded', 'false');
+          var t = document.getElementById(b.getAttribute('aria-controls'));
+          if (t) t.classList.remove('is-open');
+        }
+      });
+      /* Toggle current */
+      btn.setAttribute('aria-expanded', String(!expanded));
+      target.classList.toggle('is-open', !expanded);
+    });
+  });
+
+  /* ── Init ── */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () { npUpdateHeaderBtn(); npFixLangSwitcher(); });
+  } else {
+    npUpdateHeaderBtn();
+    npFixLangSwitcher();
+  }
+})();
+</script>
