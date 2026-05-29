@@ -1,0 +1,25 @@
+{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+{% if site.active_lang == site.default_lang %}{% assign home_url = "/" %}{% else %}{% assign home_url = "/" | append: site.active_lang | append: "/" %}{% endif %}
+<header class="lf-header">
+  <nav class="lf-nav">
+    <a class="lf-logo" href="{{ home_url }}">
+      <img src="/assets/images/logo.svg" alt="Navi+" />
+      <span class="lf-logo-tag">Longform</span>
+    </a>
+    <a class="lf-nav-link" href="{{ home_url }}">{{ ui.all_guides }}</a>
+    <div class="lf-nav-spacer"></div>
+    <div class="lf-lang">
+      <button class="lf-lang-btn" aria-haspopup="true" aria-expanded="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+        <span>{{ site.active_lang | upcase }}</span>
+      </button>
+      <div class="lf-lang-menu">
+        {% for lang in site.languages %}
+          {% if lang == site.default_lang %}{% assign lurl = "/" %}{% else %}{% assign lurl = "/" | append: lang | append: "/" %}{% endif %}
+          <a href="{{ lurl }}" class="lf-lang-item {% if lang == site.active_lang %}is-active{% endif %}">{{ lang | upcase }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <a class="lf-nav-cta" href="https://naviplus.io" target="_blank" rel="noopener">Navi+ →</a>
+  </nav>
+</header>

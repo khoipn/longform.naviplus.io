@@ -1,0 +1,55 @@
+# Jekyll Configuration — longform.naviplus.io
+title: "Navi+ Longform"
+description: "In-depth guides on selling online, Shopify, and the best ecommerce tools."
+url: "https://longform.naviplus.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+# ── Polyglot i18n ──────────────────────────────────────────
+languages: ["en", "vi", "fr", "de", "zh-CN", "jp", "it", "pt", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets", "favicon", "CNAME", "robots.txt"]
+parallel_localization: false
+relativize_urls: false
+
+plugins:
+  - jekyll-polyglot
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ── Collections ────────────────────────────────────────────
+# longform = bài MẸ (pillar) liệt kê ở trang chủ
+# topics   = bài CON (cluster) — backlink keyword về bài mẹ
+collections:
+  longform:
+    output: true
+    permalink: /:name/
+  topics:
+    output: true
+    permalink: /topic/:name/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - .claude
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "longform"
+    values:
+      layout: "longform"
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic"

@@ -1,0 +1,32 @@
+---
+layout: default
+title: ""
+body_class: lf-home-body
+---
+{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+
+<section class="lf-hero">
+  <div class="lf-wrap">
+    <span class="lf-hero-badge">{{ ui.tagline }}</span>
+    <h1 class="lf-hero-title">{{ ui.hero_title }}</h1>
+    <p class="lf-hero-sub">{{ ui.hero_sub }}</p>
+  </div>
+</section>
+
+<section class="lf-wrap lf-guides">
+  <h2 class="lf-section-label">{{ ui.all_guides }}</h2>
+  <div class="lf-guide-grid">
+    {% assign guides = site.longform | where: "lang", site.active_lang | sort: "order" %}
+    {% for g in guides %}
+    <a class="lf-guide-card" href="{{ g.url }}" {% if g.hero_color %}style="--hero:{{ g.hero_color }}"{% endif %}>
+      <div class="lf-guide-card-top">
+        {% if g.topic_tag %}<span class="lf-tag">{{ g.topic_tag }}</span>{% endif %}
+        {% if g.read_time %}<span class="lf-guide-read">{{ g.read_time }} {{ ui.min_read }}</span>{% endif %}
+      </div>
+      <h3 class="lf-guide-title">{{ g.title }}</h3>
+      <p class="lf-guide-desc">{{ g.description }}</p>
+      <span class="lf-guide-link">{{ ui.read_guide }} →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

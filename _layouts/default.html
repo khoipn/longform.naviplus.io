@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang | default: 'en' }}">
+<head>
+  {% include head.html %}
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
+</head>
+<body class="{{ page.body_class }}">
+  {% include header.html %}
+  <main class="lf-main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,9 @@
+{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+<footer class="lf-footer">
+  <div class="lf-footer-inner">
+    <a class="lf-logo" href="https://naviplus.io" target="_blank" rel="noopener">
+      <img src="/assets/images/logo.svg" alt="Navi+" />
+    </a>
+    <p class="lf-footer-note">{{ ui.by_navi }} · © {{ "now" | date: "%Y" }} Navi+</p>
+  </div>
+</footer>

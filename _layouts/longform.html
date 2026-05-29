@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+{% if site.active_lang == site.default_lang %}{% assign home_url = "/" %}{% else %}{% assign home_url = "/" | append: site.active_lang | append: "/" %}{% endif %}
+
+<article class="lf-article">
+  <div class="lf-article-hero" {% if page.hero_color %}style="--hero:{{ page.hero_color }}"{% endif %}>
+    <div class="lf-wrap">
+      <a class="lf-crumb" href="{{ home_url }}">← {{ ui.back_home }}</a>
+      {% if page.topic_tag %}<span class="lf-tag">{{ page.topic_tag }}</span>{% endif %}
+      <h1 class="lf-article-title">{{ page.title }}</h1>
+      {% if page.description %}<p class="lf-article-lede">{{ page.description }}</p>{% endif %}
+      <div class="lf-article-meta">
+        {% if page.read_time %}<span>{{ page.read_time }} {{ ui.min_read }}</span>{% endif %}
+        {% if page.date %}<span>{{ page.date | date: "%b %Y" }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="lf-wrap lf-article-body">
+    <div class="lf-prose">
+      {{ content }}
+    </div>
+
+    {% if page.child_links %}
+    <section class="lf-explore">
+      <h2>{{ ui.explore_more }}</h2>
+      <p class="lf-explore-sub">{{ ui.explore_more_sub }}</p>
+      <div class="lf-explore-grid">
+        {% for c in page.child_links %}
+        <a class="lf-explore-card" href="{{ c.url }}">
+          <span class="lf-explore-arrow">→</span>
+          <span class="lf-explore-title">{{ c.title }}</span>
+          {% if c.desc %}<span class="lf-explore-desc">{{ c.desc }}</span>{% endif %}
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <div class="lf-share">
+      <span>{{ ui.share }}</span>
+      {% assign purl = site.url | append: page.url %}
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u={{ purl | url_encode }}">Facebook</a>
+      <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url={{ purl | url_encode }}&text={{ page.title | url_encode }}">X</a>
+      <a target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url={{ purl | url_encode }}">LinkedIn</a>
+      <button class="lf-copy" data-url="{{ purl }}">Copy link</button>
+    </div>
+  </div>
+
+  <section class="lf-cta">
+    <div class="lf-wrap">
+      <h2>{{ ui.cta_title }}</h2>
+      <p>{{ ui.cta_sub }}</p>
+      <a class="lf-cta-btn" href="https://naviplus.io" target="_blank" rel="noopener">{{ ui.cta_btn }}</a>
+    </div>
+  </section>
+</article>
+
+<script>
+  document.querySelectorAll('.lf-copy').forEach(function(b){
+    b.addEventListener('click', function(){
+      navigator.clipboard.writeText(b.dataset.url);
+      var t = b.textContent; b.textContent = '✓'; setTimeout(function(){ b.textContent = t; }, 1200);
+    });
+  });
+</script>
