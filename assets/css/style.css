@@ -155,19 +155,59 @@ img { max-width: 100%; }
 .lf-prose { max-width: 720px; margin: 0 auto; }
 .lf-prose > * { margin-left: auto; margin-right: auto; max-width: 720px; }
 .lf-prose h2 {
+  position: relative;
   font-family: "Fraunces", serif; font-weight: 600; font-size: 30px; line-height: 1.18;
-  letter-spacing: -.01em; margin: 48px 0 14px;
+  letter-spacing: -.01em; margin: 56px 0 14px; padding-top: 24px;
+}
+.lf-prose h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--hero) 44%, #fff), transparent);
+}
+.lf-prose h2::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--hero);
+  box-shadow: 18px 0 0 color-mix(in srgb, var(--hero) 22%, #fff);
 }
 .lf-prose h3 { font-weight: 700; font-size: 21px; margin: 32px 0 10px; }
 .lf-prose p { margin: 0 0 18px; }
 .lf-prose ul, .lf-prose ol { margin: 0 0 18px; padding-left: 22px; }
 .lf-prose li { margin: 6px 0; }
-.lf-prose a { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+.lf-prose strong {
+  color: var(--ink);
+  font-weight: 750;
+  background: linear-gradient(transparent 64%, color-mix(in srgb, var(--hero) 18%, #fff) 0);
+}
+.lf-prose a {
+  color: var(--brand);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: color-mix(in srgb, var(--brand) 42%, transparent);
+}
+.lf-prose a:hover { text-decoration-color: var(--brand); }
 .lf-prose blockquote {
   margin: 26px 0; padding: 14px 22px; border-left: 4px solid var(--hero);
   background: var(--bg-soft); border-radius: 0 12px 12px 0; color: var(--ink); font-size: 17px;
 }
 .lf-prose img { border-radius: 12px; }
+.lf-prose figure {
+  padding: 10px;
+  border: 1px solid color-mix(in srgb, var(--hero) 10%, var(--line));
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fff, color-mix(in srgb, var(--hero) 4%, #fff));
+}
 .lf-prose figure img {
   display: block;
   cursor: zoom-in;
@@ -230,10 +270,26 @@ img { max-width: 100%; }
 
 /* Inline "read the full deep-dive" link at the end of each topic section */
 .lf-readmore {
-  margin: 18px auto 40px !important; padding: 14px 18px;
+  position: relative;
+  margin: 18px auto 40px !important; padding: 14px 18px 14px 48px;
   border: 1px solid var(--line); border-left: 4px solid var(--hero);
   border-radius: 0 12px 12px 0; background: var(--bg-soft);
   font-weight: 600;
+}
+.lf-readmore::before {
+  content: "→";
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--hero) 12%, #fff);
+  color: var(--hero);
+  font-weight: 800;
+  line-height: 1;
 }
 .lf-readmore a { color: var(--brand); text-decoration: none; }
 .lf-readmore a:hover { text-decoration: underline; }
@@ -317,17 +373,62 @@ img { max-width: 100%; }
 
 /* Key takeaways / callout box */
 .lf-key {
-  margin: 30px auto; padding: 20px 22px 8px;
-  background: color-mix(in srgb, var(--hero) 6%, #fff);
+  margin: 30px auto; padding: 20px 22px 10px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--hero) 6%, #fff), #fff);
   border: 1px solid color-mix(in srgb, var(--hero) 22%, #fff);
   border-radius: 14px;
+  box-shadow: 0 14px 34px -28px color-mix(in srgb, var(--hero) 50%, #000);
 }
 .lf-key-title {
-  display: block; font-size: 12px; font-weight: 700; letter-spacing: .08em;
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; font-weight: 700; letter-spacing: .08em;
   text-transform: uppercase; color: var(--hero); margin-bottom: 8px;
+}
+.lf-key-title::before {
+  content: "✦";
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--hero) 12%, #fff);
+  color: var(--hero);
+  font-size: 13px;
+  letter-spacing: 0;
 }
 .lf-key ul { margin: 0 0 12px !important; padding-left: 20px; }
 .lf-key li { margin: 5px 0; }
+
+.lf-note {
+  position: relative;
+  margin: 28px auto;
+  padding: 18px 20px 18px 54px;
+  border: 1px solid color-mix(in srgb, var(--brand) 18%, var(--line));
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--brand) 5%, #fff);
+  color: var(--ink);
+}
+.lf-note::before {
+  content: "✓";
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: color-mix(in srgb, var(--brand) 14%, #fff);
+  color: var(--brand);
+  font-weight: 800;
+}
+.lf-note-title {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-weight: 800;
+}
 
 /* Pull-stat */
 .lf-stat { margin: 30px auto; text-align: center; }

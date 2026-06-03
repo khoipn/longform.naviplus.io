@@ -168,13 +168,27 @@ Các class dùng trong body bài viết (nằm trong `.lf-prose`):
 | Class | Dùng cho |
 |---|---|
 | `.lf-readmore` | Box "Deep-dive" cuối mỗi H2 (xem mẫu ở mục 3) |
-| `.lf-key` | Key takeaways callout (optional — bài VI không dùng theo yêu cầu) |
+| `.lf-key` | Key takeaways callout nhẹ, thường đặt sau intro hoặc ảnh đầu |
+| `.lf-note` | Box ghi chú/action nhẹ, dùng 1–2 lần/bài để tạo nhịp đọc |
 | `.lf-stat` + `.lf-stat-num` + `.lf-stat-cap` | Pull statistic nổi bật |
 | `.lf-faq` wrapper + `<details>/<summary>` | FAQ accordion |
 | `<figure>` + `<figcaption>` | Ảnh có caption |
 | Bảng Markdown `| col |` | Tự style qua `.lf-prose table` — responsive scroll trên mobile |
 
 Prose typography (H2, H3, p, ul, ol, blockquote, code) được style tự động trong `.lf-prose`.
+
+### Visual rhythm cho bài long-form
+
+Khi làm đẹp bài viết, dùng nhấn nhá vừa phải:
+
+- H2 đã có line/marker icon tự động bằng CSS — không thêm divider thủ công trước mỗi H2.
+- Link và `strong` đã có underline/highlight nhẹ — chỉ bold keyword thật sự quan trọng, tránh bold cả đoạn.
+- Mỗi bài nên có **tối thiểu 1 ảnh**, số ảnh phụ thuộc nội dung; bài dài/pillar thường nên có 4–6 ảnh.
+- Ảnh dùng `<figure>` với `alt`, `title`, `figcaption`; ảnh trong bài có lightbox click để xem full màn hình.
+- Dùng `.lf-key` cho quick takeaway sau intro hoặc sau ảnh đầu.
+- Dùng `.lf-note` cho action/checkpoint nhẹ gần cuối hoặc sau đoạn có quyết định quan trọng.
+- Không lạm dụng box: pillar dài thường 1 `.lf-key` + 1–2 `.lf-note` là đủ.
+- Icon ưu tiên qua CSS pseudo-element của component; không chèn emoji vào nội dung bài.
 
 ---
 

@@ -38,6 +38,15 @@ Questo articolo guarda quattro lati dello stesso problema: come si comportano da
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
+<div class="lf-key">
+  <span class="lf-key-title">Lettura rapida</span>
+  <ul>
+    <li>La navigazione è il primo passo per scoprire i prodotti.</li>
+    <li>La portata del pollice su mobile decide se lo shopper continua.</li>
+    <li>I menu giusti riducono i tap prima del carrello.</li>
+  </ul>
+</div>
+
 
 ## Come si comportano davvero i clienti in uno store ecommerce
 
@@ -130,6 +139,8 @@ Il punto chiave non è scegliere un solo tipo, ma che la **navigazione dello sto
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
+<p class="lf-note"><span class="lf-note-title">Audit semplice</span>Apri lo store sul telefono, scegli un prodotto e conta quanti tap servono per raggiungerlo.</p>
+
 
 ## Da dove iniziare
 

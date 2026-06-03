@@ -38,6 +38,15 @@ Bài này nhìn vào bốn góc của cùng một vấn đề: khách thực s�
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Điều hướng là bước đầu tiên để khách tìm thấy sản phẩm.</li>
+    <li>Vùng chạm trên mobile quyết định khách có tiếp tục hay không.</li>
+    <li>Menu đúng loại giúp giảm số lần chạm trước giỏ hàng.</li>
+  </ul>
+</div>
+
 
 ## Hành vi thực tế của khách trên một store thương mại điện tử
 
@@ -130,6 +139,8 @@ Tab Bar đáng chú ý riêng với mobile. Nó đặt các lối đi quan trọ
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
+<p class="lf-note"><span class="lf-note-title">Kiểm tra nhanh</span>Mở store trên điện thoại, chọn một sản phẩm cụ thể, rồi đếm số lần chạm để tới được sản phẩm đó.</p>
+
 
 ## Bắt đầu từ đâu
 

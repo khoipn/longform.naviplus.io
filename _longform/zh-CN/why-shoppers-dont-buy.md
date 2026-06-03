@@ -38,6 +38,15 @@ child_links:
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
+<div class="lf-key">
+  <span class="lf-key-title">快速要点</span>
+  <ul>
+    <li>导航是用户发现商品的第一步。</li>
+    <li>移动端拇指是否容易触达，会影响用户是否继续浏览。</li>
+    <li>合适的菜单类型可以减少进入购物车前的点击次数。</li>
+  </ul>
+</div>
+
 
 ## 顾客在电商店铺里的真实行为
 
@@ -130,6 +139,8 @@ Tab Bar 在移动端尤其值得一提。它把重要路径——首页、分类
   <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
+<p class="lf-note"><span class="lf-note-title">简单检查</span>用手机打开店铺，选择一个具体商品，然后数一数需要点击多少次才能到达。</p>
+
 
 ## 从哪里开始
 
