@@ -1,6 +1,10 @@
 lang_name: "中文"
 lang_flag: "🇨🇳"
 
+site_title: "Navi+ Blog — AI 菜单优化技巧助您提升销售额"
+site_description: "深度教程：AI 驱动的导航菜单如何将访客转化为买家 — Shopify、WordPress、Wix 的菜单设计、结构与策略。"
+
+
 nav:
   features: "功能"
   features_label: "导航类型"

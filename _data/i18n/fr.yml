@@ -1,6 +1,10 @@
 lang_name: "Français"
 lang_flag: "🇫🇷"
 
+site_title: "Navi+ Blog — Conseils pour des menus IA qui boostent vos ventes"
+site_description: "Guides approfondis sur les menus IA qui convertissent les visiteurs en acheteurs — design, structure et stratégie pour Shopify, WordPress, Wix."
+
+
 nav:
   features: "Fonctionnalités"
   features_label: "Types de navigation"

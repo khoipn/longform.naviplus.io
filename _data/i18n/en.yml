@@ -1,6 +1,10 @@
 lang_name: "English"
 lang_flag: "🇺🇸"
 
+site_title: "Navi+ Blog — Tips that help your menu convert more visitors"
+site_description: "In-depth tips on AI-powered navigation menus that convert visitors into buyers — design, structure and strategy for Shopify, WordPress, Wix and more."
+
+
 nav:
   features: "Features"
   features_label: "Navigation types"

@@ -2,7 +2,11 @@
 <html lang="{{ site.active_lang | default: 'en' }}">
 <head>
   {% include head.html %}
-  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
+  {% assign _lf_lang = site.active_lang | default: 'en' %}
+  {% assign _lf_i18n = site.data.i18n[_lf_lang] %}
+  {% assign _lf_site_title = _lf_i18n.site_title | default: site.title %}
+  {% assign _lf_site_desc  = _lf_i18n.site_description | default: site.description %}
+  <title>{% if page.title and page.title != "" %}{{ page.title }} — {{ _lf_site_title }}{% else %}{{ _lf_site_title }}{% endif %}</title>
 </head>
 <body class="{{ page.body_class }}">
   {% include header.html %}
