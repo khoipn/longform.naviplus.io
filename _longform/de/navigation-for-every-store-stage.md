@@ -33,6 +33,15 @@ Die meisten Shops richten ihr Menü einmal ein — gleich zu Beginn — und lass
 
 In diesem Artikel geht es um **Navigation nach Shop-Phase**: Derselbe Shop braucht in jedem Punkt seines Wachstums eine andere Art von Navigation. Mehr Menü ist nicht besser, und du brauchst nicht immer ein großes Mega Menu. Worauf es ankommt, ist zu erkennen, wo dein Shop gerade steht und ob deine aktuelle Menüstruktur noch dazu passt. Im Folgenden gehen wir drei Phasen durch — mit den Anzeichen, auf die du achten solltest, und dem, was in jeder Phase zu tun ist.
 
+<div class="lf-key">
+  <span class="lf-key-title">Kurz gelesen</span>
+  <ul>
+    <li>Navigation muss zur Shop-Phase passen, nicht zum Setup vom ersten Tag.</li>
+    <li>Kleine Kataloge brauchen Einfachheit; große brauchen Struktur und Geschwindigkeit.</li>
+    <li>Prüfe das Menü, wenn Katalog, Theme oder Markt sich ändern.</li>
+  </ul>
+</div>
+
 ## Warum sich die Navigation mit dem Wachstum deines Shops ändern muss
 
 Ein Menü ist keine Sache, die man einmal einrichtet und dann nie wieder anfasst. Es ist der Rahmen, der Käufer von der Startseite zu genau dem Produkt führt, das sie brauchen. Wenn ein Shop 10 Produkte hat, ist dieser Rahmen sehr einfach. Wenn ein Shop 10.000 Produkte und Dutzende Kategorien hat, lässt derselbe alte Rahmen die Käufer verloren zurück.
@@ -42,6 +51,11 @@ Bemerkenswert ist, dass die meisten Kaufentscheidungen auf dem Smartphone getrof
 Andererseits hat es auch seinen Preis, Navigation zu verstecken. Die Nielsen Norman Group kam zu dem Schluss, dass das Verstecken des Hauptmenüs (etwa hinter einem Hamburger) es für Nutzer schwerer macht, die Navigation zu finden, die Zeit bis zur Handlung verlängert und das Gefühl verstärkt, die Seite sei schwer zu bedienen. Das bedeutet nicht, dass ein Hamburger-Menü falsch ist — es bedeutet, dass jede Art, ein Menü anzuzeigen, ihren eigenen Preis hat, und dieser Preis ändert sich mit der Größe des Shops.
 
 Sobald du das verstanden hast, lässt sich die Aufteilung der Navigation nach Phasen viel leichter vorstellen.
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## Phase 1 — Neuer Shop, kleiner Katalog (unter 50 Produkte)
 
@@ -59,6 +73,10 @@ Ein paar Grundsätze, die in dieser Phase wichtig sind:
 Das Ziel ist, Käufer so schnell wie möglich zu einem Produkt zu führen und den Shop aufgeräumt und seiner tatsächlichen Größe entsprechend wirken zu lassen — statt mit einer Struktur zu prahlen, die der Inhalt noch nicht füllt.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-new-stores/">Den ganzen Leitfaden lesen → Phase 1 — Neuer Shop, kleiner Katalog (unter 50 Produkte)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## Phase 2 — Wachsender Shop (50–500 Produkte)
 
@@ -78,6 +96,10 @@ Ein paar Dinge, die sich lohnen, während der Katalog in dieser Phase wächst:
 Phase 2 ist der richtige Zeitpunkt, um in ein ernsthaftes Menü-Tool zu investieren, denn du wirst viel häufiger Änderungen vornehmen, während der Katalog weiter wächst.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-growing-stores/">Den ganzen Leitfaden lesen → Phase 2 — Wachsender Shop (50–500 Produkte)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## Phase 3 — Skalierter Shop (500+ Produkte, 15+ Kategorien)
 
@@ -98,6 +120,10 @@ Die folgende Tabelle fasst zusammen, wie sich die Navigationsanforderungen in je
 Eine Sache, die leicht übersehen wird: In dieser Größenordnung musst du auch sicherstellen, dass das Menü nicht kaputtgeht, wenn du das Theme wechselst oder wenn sich der Katalog ständig ändert. Genau hier spart dir ein spezialisiertes Tool — wie [Navi+](https://naviplus.io), mit dem du Mobile und Desktop getrennt konfigurieren kannst, das das Menü beim Theme-Wechsel intakt hält und so optimiert ist, dass es die Seite nicht verlangsamt — viel Zeit und Risiko.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-scaled-stores/">Den ganzen Leitfaden lesen → Phase 3 — Skalierter Shop (500+ Produkte, 15+ Kategorien)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## Wann du dein Menü überprüfen solltest — und warum ein App-Wechsel nach dem Skalieren teuer ist
 
@@ -115,8 +141,19 @@ Es gibt eine Falle, die eine eigene Erwähnung wert ist: Den Menü-App zu wechse
 Jede App, die du einem Shop hinzufügst, kann seine Geschwindigkeit beeinflussen. Deshalb lohnt es sich, schon früh ein Menü-Tool zu wählen, das du langfristig nutzen kannst, statt es auf halbem Weg austauschen zu müssen.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/when-to-review-your-menu/">Den ganzen Leitfaden lesen → Wann du dein Menü überprüfen solltest — und warum ein App-Wechsel nach dem Skalieren teuer ist</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## Wo du anfangen solltest
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Phase prüfen</span>Zähle zuerst Produkte und Kategorien und teste dann, wie viele Tipps bis zu einem Produkt nötig sind.</p>
 
 Wenn du dein Menü noch nie in Phasen gedacht hast, genügen diese beiden Schritte für den Anfang. Erstens: Finde heraus, in welcher Phase dein Shop steht — anhand der Zahl der Produkte und Kategorien, nicht nach Bauchgefühl. Zweitens: Öffne deinen Shop auf deinem Smartphone, versuche ein bestimmtes Produkt zu finden, als wärst du ein fremder Käufer, und sieh, wie viele Taps es braucht.
 

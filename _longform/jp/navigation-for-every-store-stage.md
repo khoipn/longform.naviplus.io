@@ -33,6 +33,15 @@ child_links:
 
 この記事のテーマは**ストアの段階別ナビゲーション**です。同じストアでも、成長の各時点で必要なナビゲーションの種類は異なります。メニューは多ければ良いというものではなく、いつでも立派なメガメニューが必要なわけでもありません。大切なのは、自分のストアが今どの段階にいるのかを見極め、今のメニュー構造がそれにまだ合っているかどうかを確認することです。以下では3つの段階を、各段階で注意すべきサインとやるべきこととともに見ていきます。
 
+<div class="lf-key">
+  <span class="lf-key-title">要点</span>
+  <ul>
+    <li>ナビゲーションは初期設定ではなくストアの段階に合わせます。</li>
+    <li>小さなカタログは簡潔さ、大きなカタログは構造と速度が必要です。</li>
+    <li>カタログ、テーマ、市場が変わるたびにメニューを見直します。</li>
+  </ul>
+</div>
+
 ## ストアが成長するにつれて、なぜナビゲーションも変える必要があるのか
 
 メニューは「一度設定すれば終わり」というものではありません。それは、買い手をホームページから本当に必要としている商品へと導く枠組みです。ストアに商品が10点しかないとき、その枠組みはとてもシンプルです。ところがストアに商品が10,000点、カテゴリが数十もあるとき、同じ古い枠組みでは買い手は道に迷ってしまいます。
@@ -42,6 +51,11 @@ child_links:
 一方で、ナビゲーションを隠すことにもコストがあります。Nielsen Norman Group は、メインメニューを隠すこと（ハンバーガーメニューのように）は、ユーザーがナビゲーションを見つけにくくし、行動までの時間を長くし、サイトが使いにくいという感覚を強める、と結論づけています。これはハンバーガーメニューが間違いだという意味ではありません。メニューの表示方法にはそれぞれコストがあり、そのコストはストアの規模によって変わる、ということです。
 
 これを理解すると、ナビゲーションを段階別に分けて考えることが、ずっとイメージしやすくなります。
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## 段階1 — 新規ストア、小規模カタログ（商品50点未満）
 
@@ -59,6 +73,10 @@ child_links:
 目標は、買い手をできるだけ速く商品にたどり着かせ、ストアを整然と、そして実際の規模に正直に見せることです — コンテンツがまだ埋めていない構造を見栄えのために並べることではありません。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/navigation-for-new-stores/">完全ガイドを読む → 段階1 — 新規ストア、小規模カタログ（商品50点未満）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## 段階2 — 成長中のストア（50〜500点）
 
@@ -78,6 +96,10 @@ child_links:
 段階2は、本格的なメニューツールに投資すべきときです。なぜなら、カタログが増え続けるにつれて、編集の回数はずっと多くなるからです。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/navigation-for-growing-stores/">完全ガイドを読む → 段階2 — 成長中のストア（50〜500点）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## 段階3 — スケールしたストア（500点以上、カテゴリ15以上）
 
@@ -98,6 +120,10 @@ child_links:
 見落とされやすい点が一つあります。この規模になると、テーマを切り替えたときやカタログが変わり続けるときに、メニューが壊れないようにすることも必要です。ここで力を発揮するのが専用ツールです — [Navi+](https://naviplus.io) のように、モバイルとデスクトップを別々に設定でき、テーマを切り替えてもメニューをそのまま保ち、ページを遅くしないよう最適化されたツールは、多くの時間とリスクを節約してくれます。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/navigation-for-scaled-stores/">完全ガイドを読む → 段階3 — スケールしたストア（500点以上、カテゴリ15以上）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## いつメニューを見直すべきか — そして、スケールした後にアプリを乗り換えるとなぜ高くつくのか
 
@@ -115,8 +141,19 @@ child_links:
 ストアに追加するアプリは、どれも速度に影響しうるものです。だからこそ、途中で入れ替えなければならないツールではなく、長く使い続けられるメニューツールを選ぶことを、早い段階で検討する価値があります。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/when-to-review-your-menu/">完全ガイドを読む → いつメニューを見直すべきか — そして、スケールした後にアプリを乗り換えるとなぜ高くつくのか</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## どこから始めるか
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">段階を確認</span>まず商品数とカテゴリ数を数え、商品まで何タップ必要かを確認します。</p>
 
 メニューを段階で考えたことがないなら、この2つのステップから始めれば十分です。一つ、自分のストアがどの段階にいるかを見極める — 勘ではなく、商品数とカテゴリ数にもとづいて。二つ、スマートフォンでストアを開き、初めて買い物をする見知らぬ客になったつもりで特定の商品を探してみて、何回タップが必要かを確かめる。
 

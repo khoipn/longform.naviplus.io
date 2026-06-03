@@ -33,6 +33,15 @@ La plupart des boutiques configurent leur menu une seule fois — à l'ouverture
 
 Cet article porte sur la **navigation selon l'étape de la boutique** : une même boutique a besoin d'un type de navigation différent à chaque point de sa croissance. Plus de menu n'est pas synonyme de meilleur menu, et vous n'avez pas toujours besoin d'un grand mega menu. Ce qui compte, c'est de reconnaître où en est votre boutique aujourd'hui, et de vérifier si la structure actuelle de votre menu lui convient encore. Ci-dessous, nous parcourons trois étapes, avec les signaux à surveiller et quoi faire à chacune.
 
+<div class="lf-key">
+  <span class="lf-key-title">Lecture rapide</span>
+  <ul>
+    <li>La navigation doit suivre le stade de la boutique, pas le réglage du premier jour.</li>
+    <li>Un petit catalogue demande de la simplicité; un grand demande structure et vitesse.</li>
+    <li>Revoyez le menu quand le catalogue, le thème ou le marché change.</li>
+  </ul>
+</div>
+
 ## Pourquoi la navigation doit évoluer avec votre boutique
 
 Un menu n'est pas quelque chose qu'on « configure une fois pour de bon ». C'est le cadre qui guide les acheteurs depuis la page d'accueil jusqu'au produit exact dont ils ont besoin. Quand une boutique compte 10 produits, ce cadre est très simple. Quand une boutique compte 10 000 produits et des dizaines de catégories, ce même vieux cadre laisse les acheteurs perdus.
@@ -42,6 +51,11 @@ Ce qui mérite d'être noté, c'est que la plupart des décisions d'achat se pre
 À l'inverse, masquer la navigation a aussi un coût. Le Nielsen Norman Group a conclu que masquer le menu principal (comme un hamburger) rend plus difficile pour les utilisateurs de trouver la navigation, rallonge le temps nécessaire pour agir et accroît le sentiment que le site est difficile à utiliser. Cela ne veut pas dire qu'un menu hamburger est une erreur — cela veut dire que chaque manière d'afficher un menu a son propre coût, et que ce coût varie selon la taille de la boutique.
 
 Une fois que l'on a compris cela, découper la navigation par étape devient beaucoup plus facile à se représenter.
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## Étape 1 — Nouvelle boutique, petit catalogue (moins de 50 produits)
 
@@ -59,6 +73,10 @@ Quelques principes à garder en tête à ce stade :
 L'objectif est d'amener les acheteurs jusqu'à un produit le plus vite possible, et de garder une boutique soignée et fidèle à sa taille réelle — sans exhiber une structure que le contenu n'a pas encore remplie.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/navigation-for-new-stores/">Lire le guide complet → Étape 1 — Nouvelle boutique, petit catalogue (moins de 50 produits)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## Étape 2 — Boutique en croissance (50 à 500 produits)
 
@@ -78,6 +96,10 @@ Quelques actions utiles à mener tandis que le catalogue s'étoffe à ce stade :
 L'étape 2 est le moment d'investir dans un véritable outil de menu, car vous allez faire bien plus de modifications à mesure que le catalogue continue de grandir.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/navigation-for-growing-stores/">Lire le guide complet → Étape 2 — Boutique en croissance (50 à 500 produits)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## Étape 3 — Boutique à grande échelle (500+ produits, 15+ catégories)
 
@@ -98,6 +120,10 @@ Le tableau ci-dessous résume comment les besoins de navigation évoluent à cha
 Une chose facile à négliger : à cette échelle, vous devez aussi vous assurer que le menu ne casse pas quand vous changez de thème ou quand le catalogue évolue sans cesse. C'est là qu'un outil dédié — comme [Navi+](https://naviplus.io), qui permet de configurer le mobile et l'ordinateur séparément, garde le menu intact lors d'un changement de thème, et est optimisé pour ne pas ralentir la page — vous fait gagner beaucoup de temps et vous évite bien des risques.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/navigation-for-scaled-stores/">Lire le guide complet → Étape 3 — Boutique à grande échelle (500+ produits, 15+ catégories)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## Quand revoir votre menu — et pourquoi changer d'application après avoir grandi coûte cher
 
@@ -115,8 +141,19 @@ Il y a un piège qui mérite d'être souligné à part : changer d'application d
 Chaque application ajoutée à une boutique peut affecter sa vitesse. C'est pourquoi choisir un outil de menu utilisable sur le long terme, plutôt qu'à remplacer en cours de route, mérite d'être envisagé dès le départ.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/when-to-review-your-menu/">Lire le guide complet → Quand revoir votre menu — et pourquoi changer d'application après avoir grandi coûte cher</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## Par où commencer
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Vérifier le stade</span>Comptez produits et catégories, puis testez le nombre de gestes nécessaires pour atteindre un produit.</p>
 
 Si vous n'avez jamais pensé votre menu par étapes, ces deux gestes suffisent pour démarrer. Un : déterminez à quelle étape se trouve votre boutique — d'après le nombre de produits et de catégories, pas au feeling. Deux : ouvrez votre boutique sur votre téléphone, essayez de trouver un produit précis comme si vous étiez un inconnu en train de faire ses achats, et comptez le nombre de touches nécessaires.
 

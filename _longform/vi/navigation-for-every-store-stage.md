@@ -33,6 +33,15 @@ Phần lớn store cấu hình menu đúng một lần — lúc mới mở bán 
 
 Bài này nói về **navigation theo giai đoạn store**: cùng một store, ở mỗi mốc phát triển lại cần một kiểu điều hướng khác. Không phải càng nhiều menu càng tốt, cũng không phải lúc nào cũng cần mega menu hoành tráng. Việc cần làm là nhận ra store của mình đang ở đâu, và cấu trúc menu hiện tại còn vừa với nó hay không. Phần dưới đi qua ba giai đoạn, kèm dấu hiệu nhận biết và việc nên làm ở mỗi giai đoạn.
 
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Điều hướng phải khớp với giai đoạn store, không phải setup ngày đầu.</li>
+    <li>Catalog nhỏ cần đơn giản; catalog lớn cần cấu trúc và tốc độ.</li>
+    <li>Hãy xem lại menu khi catalog, theme hoặc thị trường thay đổi.</li>
+  </ul>
+</div>
+
 ## Vì sao navigation phải đổi khi store lớn lên
 
 Menu không phải thứ "set một lần là xong". Nó là cái khung dẫn người mua đi từ trang chủ đến đúng sản phẩm họ cần. Khi store còn 10 sản phẩm, cái khung đó rất đơn giản. Khi store có 10.000 sản phẩm và vài chục danh mục, vẫn cái khung cũ thì người mua bị lạc.
@@ -42,6 +51,11 @@ Menu không phải thứ "set một lần là xong". Nó là cái khung dẫn ng
 Ở chiều ngược lại, giấu navigation đi cũng có cái giá. Nielsen Norman Group kết luận rằng ẩn menu chính (như kiểu hamburger) làm người dùng khó tìm thấy điều hướng hơn, kéo dài thời gian thao tác và tăng cảm giác khó dùng. Không có nghĩa hamburger menu là sai — mà là mỗi cách hiển thị có chi phí riêng, và chi phí đó thay đổi theo quy mô store.
 
 Hiểu điều này thì việc chia navigation theo giai đoạn trở nên dễ hình dung hơn nhiều.
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## Giai đoạn 1 — Store mới, catalog nhỏ (dưới 50 sản phẩm)
 
@@ -59,6 +73,10 @@ Vài nguyên tắc đáng giữ ở giai đoạn này:
 Mục tiêu là để người mua chạm vào sản phẩm càng nhanh càng tốt, và để store trông gọn gàng đúng với quy mô thật — không phô trương một cấu trúc mà nội dung chưa lấp đầy.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-new-stores/">Xem bài đầy đủ → Giai đoạn 1 — Store mới, catalog nhỏ (dưới 50 sản phẩm)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## Giai đoạn 2 — Store đang tăng trưởng (50–500 sản phẩm)
 
@@ -78,6 +96,10 @@ Vài việc đáng làm khi catalog mở rộng ở giai đoạn này:
 Giai đoạn 2 là lúc đáng đầu tư công cụ làm menu nghiêm túc, vì bạn sẽ còn chỉnh sửa nhiều lần nữa khi catalog tiếp tục lớn.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-growing-stores/">Xem bài đầy đủ → Giai đoạn 2 — Store đang tăng trưởng (50–500 sản phẩm)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## Giai đoạn 3 — Store đã scale (500+ sản phẩm, 15+ danh mục)
 
@@ -98,6 +120,10 @@ Bảng dưới tóm tắt cách nhu cầu navigation đổi qua từng giai đo�
 Một điểm dễ bị bỏ qua: ở quy mô này, bạn còn phải lo menu không vỡ khi đổi theme hay khi catalog tiếp tục thay đổi. Đây là lúc một công cụ chuyên dụng — như [Navi+](https://naviplus.io), vốn cho phép cấu hình mobile và desktop riêng, giữ nguyên menu khi đổi theme và tối ưu để không làm chậm trang — tiết kiệm cho bạn nhiều thời gian và rủi ro.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-scaled-stores/">Xem bài đầy đủ → Giai đoạn 3 — Store đã scale (500+ sản phẩm, 15+ danh mục)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## Khi nào cần xem lại menu — và vì sao đổi app lúc đã scale lại tốn kém
 
@@ -115,8 +141,19 @@ Có một cái bẫy đáng nói riêng: đổi app làm menu khi store đã sca
 Mỗi app cài thêm vào store đều có thể ảnh hưởng tốc độ. Vì thế, chọn một công cụ menu dùng được lâu dài, thay vì phải thay giữa chừng, đáng cân nhắc ngay từ sớm.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/when-to-review-your-menu/">Xem bài đầy đủ → Khi nào cần xem lại menu — và vì sao đổi app lúc đã scale lại tốn kém</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## Bắt đầu từ đâu
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Kiểm tra giai đoạn</span>Đếm sản phẩm và danh mục trước, rồi thử xem cần bao nhiêu lần chạm để tới một sản phẩm.</p>
 
 Nếu bạn chưa từng nghĩ về menu theo từng giai đoạn, hai bước này là đủ để bắt đầu. Một, xác định store của bạn đang ở giai đoạn nào — dựa vào số sản phẩm và số danh mục, không phải cảm tính. Hai, mở store lên bằng điện thoại, thử tìm một sản phẩm cụ thể như một người mua lạ, và xem mất bao nhiêu lần chạm.
 

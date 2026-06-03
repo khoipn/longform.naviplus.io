@@ -33,6 +33,15 @@ child_links:
 
 这篇文章讲的是**按店铺阶段设计导航**：同一家店铺在成长的不同节点，需要的导航类型也不同。菜单不是越多越好，你也未必总需要一个气派的 mega menu。真正重要的是认清你的店铺现在处于哪个阶段，以及当前的菜单结构是否还适合它。下面我们会走过三个阶段，分别讲清每个阶段该留意的信号和该做的事。
 
+<div class="lf-key">
+  <span class="lf-key-title">快速要点</span>
+  <ul>
+    <li>导航应匹配店铺阶段，而不是沿用开店第一天的设置。</li>
+    <li>小目录需要简单，大目录需要结构和速度。</li>
+    <li>当目录、主题或市场变化时，要重新检查菜单。</li>
+  </ul>
+</div>
+
 ## 为什么导航必须随店铺成长而改变
 
 菜单不是一件"设置一次就完事"的事。它是引导买家从首页走到他们真正需要的那件商品的框架。当一家店铺只有 10 个商品时，这个框架非常简单。当一家店铺有 10,000 个商品、几十个分类时，同样的旧框架会让买家迷失方向。
@@ -42,6 +51,11 @@ child_links:
 另一方面，把导航藏起来同样是有代价的。Nielsen Norman Group 的结论是：把主菜单藏起来（比如汉堡菜单）会让用户更难找到导航，拉长操作所需的时间，也增加了用户觉得网站难用的感受。这并不意味着汉堡菜单是错的——而是说，每一种展示菜单的方式都有它自己的代价，而这个代价会随着店铺规模的变化而变化。
 
 理解了这一点，按阶段划分导航就变得容易想象多了。
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## 阶段一——新店铺、小目录（少于 50 个商品）
 
@@ -59,6 +73,10 @@ child_links:
 目标是让买家尽快到达商品，同时让店铺看上去整洁、与它真实的规模相符——而不是炫耀一个内容还没填满的结构。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/navigation-for-new-stores/">阅读完整指南 → 阶段一——新店铺、小目录（少于 50 个商品）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## 阶段二——成长中的店铺（50–500 个商品）
 
@@ -78,6 +96,10 @@ child_links:
 阶段二是投入一款认真的菜单工具的时候，因为随着目录不断增长，你将做出多得多的编辑。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/navigation-for-growing-stores/">阅读完整指南 → 阶段二——成长中的店铺（50–500 个商品）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## 阶段三——已扩张的店铺（500+ 个商品、15+ 个分类）
 
@@ -98,6 +120,10 @@ child_links:
 有一件容易被忽视的事：在这个规模下，你还得确保菜单在你切换主题、或目录不断变化时不会崩掉。这正是一款专门的工具——比如 [Navi+](https://naviplus.io)，它让你能分别配置移动端和桌面端，在切换主题时保持菜单完好，并经过优化以避免拖慢页面——能为你省下大量时间和风险的地方。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/navigation-for-scaled-stores/">阅读完整指南 → 阶段三——已扩张的店铺（500+ 个商品、15+ 个分类）</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## 什么时候该重新审视菜单——以及为什么扩张之后再换 app 代价高昂
 
@@ -115,8 +141,19 @@ child_links:
 你往店铺里加的每一款 app 都可能影响它的速度。这也是为什么，尽早考虑选择一款能长期使用、而不必中途更换的菜单工具，是值得的。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/when-to-review-your-menu/">阅读完整指南 → 什么时候该重新审视菜单——以及为什么扩张之后再换 app 代价高昂</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## 从哪里开始
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">检查阶段</span>先数产品和分类，再测试到达一个产品需要多少次点击。</p>
 
 如果你从来没有按阶段去思考过自己的菜单，这两步就足够作为开端。第一，弄清你的店铺处在哪个阶段——依据商品和分类的数量，而不是凭感觉。第二，在手机上打开你的店铺，像一个陌生的顾客那样，试着去找一件具体的商品，看看要点几下才能找到。
 

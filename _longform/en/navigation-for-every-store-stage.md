@@ -33,6 +33,15 @@ Most stores set up their menu once — when they first open — and then leave i
 
 This article is about **navigation by store stage**: the same store needs a different kind of navigation at each point in its growth. More menu is not better, and you don't always need a grand mega menu. What matters is recognizing where your store is right now, and whether your current menu structure still fits it. Below, we walk through three stages, with the signs to watch for and what to do at each one.
 
+<div class="lf-key">
+  <span class="lf-key-title">Quick read</span>
+  <ul>
+    <li>Navigation should match the store stage, not the day-one setup.</li>
+    <li>Small catalogs need simplicity; scaled catalogs need structure and speed.</li>
+    <li>Revisit the menu whenever the catalog, theme, or market changes.</li>
+  </ul>
+</div>
+
 ## Why navigation has to change as your store grows
 
 A menu is not a "set it once and you're done" thing. It's the frame that guides buyers from the homepage to the exact product they need. When a store has 10 products, that frame is very simple. When a store has 10,000 products and dozens of categories, the same old frame leaves buyers lost.
@@ -42,6 +51,11 @@ What's worth noting is that most purchase decisions happen on a phone, where scr
 On the other hand, hiding navigation has a cost too. The Nielsen Norman Group concluded that hiding the main menu (like a hamburger) makes it harder for users to find navigation, lengthens the time it takes to act, and increases the feeling that the site is hard to use. That doesn't mean a hamburger menu is wrong — it means every way of displaying a menu has its own cost, and that cost changes with the size of the store.
 
 Once you understand this, dividing navigation by stage becomes much easier to picture.
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## Stage 1 — New store, small catalog (under 50 products)
 
@@ -59,6 +73,10 @@ A few principles worth keeping at this stage:
 The goal is to get buyers to a product as quickly as possible, and to keep the store looking tidy and true to its real size — not showing off a structure the content hasn't yet filled.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-for-new-stores/">Read the full guide → Stage 1 — New store, small catalog (under 50 products)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## Stage 2 — Growing store (50–500 products)
 
@@ -78,6 +96,10 @@ A few things worth doing as the catalog expands at this stage:
 Stage 2 is the time to invest in a serious menu tool, because you'll be making many more edits as the catalog keeps growing.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-for-growing-stores/">Read the full guide → Stage 2 — Growing store (50–500 products)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## Stage 3 — Scaled store (500+ products, 15+ categories)
 
@@ -98,6 +120,10 @@ The table below sums up how navigation needs change at each stage:
 One thing easily overlooked: at this scale, you also have to make sure the menu doesn't break when you switch themes or when the catalog keeps changing. This is where a dedicated tool — like [Navi+](https://naviplus.io), which lets you configure mobile and desktop separately, keeps the menu intact when you switch themes, and is optimized not to slow the page down — saves you a lot of time and risk.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-for-scaled-stores/">Read the full guide → Stage 3 — Scaled store (500+ products, 15+ categories)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## When to revisit your menu — and why switching apps after you've scaled is costly
 
@@ -115,8 +141,19 @@ There's one trap worth calling out on its own: switching menu apps after the sto
 Every app you add to a store can affect its speed. That's why choosing a menu tool you can use for the long haul, instead of having to swap it out midway, is worth considering early on.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/when-to-review-your-menu/">Read the full guide → When to revisit your menu — and why switching apps after you've scaled is costly</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## Where to start
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Stage check</span>Count products and categories first, then test how many taps it takes to reach one product.</p>
 
 If you've never thought about your menu in stages, these two steps are enough to begin. One, figure out which stage your store is in — based on the number of products and categories, not on gut feeling. Two, open your store on your phone, try to find a specific product as if you were a stranger shopping, and see how many taps it takes.
 

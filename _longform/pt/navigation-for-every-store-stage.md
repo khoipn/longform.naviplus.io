@@ -33,6 +33,15 @@ A maioria das lojas configura o menu uma única vez — quando abre as portas �
 
 Este artigo é sobre **navegação por fase da loja**: a mesma loja precisa de um tipo diferente de navegação em cada ponto do seu crescimento. Mais menu não é melhor, e nem sempre você precisa de um mega menu grandioso. O que importa é reconhecer em que ponto a sua loja está agora e se a estrutura atual do seu menu ainda faz sentido para ela. Abaixo, percorremos três fases, com os sinais para ficar de olho e o que fazer em cada uma.
 
+<div class="lf-key">
+  <span class="lf-key-title">Leitura rápida</span>
+  <ul>
+    <li>A navegação deve acompanhar o estágio da loja, não a configuração inicial.</li>
+    <li>Catálogos pequenos precisam de simplicidade; grandes precisam de estrutura e velocidade.</li>
+    <li>Revise o menu quando catálogo, tema ou mercado mudarem.</li>
+  </ul>
+</div>
+
 ## Por que a navegação precisa mudar à medida que a loja cresce
 
 Um menu não é algo do tipo "configure uma vez e pronto". Ele é a estrutura que conduz o comprador da página inicial até o produto exato de que ele precisa. Quando uma loja tem 10 produtos, essa estrutura é bem simples. Quando uma loja tem 10.000 produtos e dezenas de categorias, a mesma estrutura antiga deixa o comprador perdido.
@@ -42,6 +51,11 @@ Vale destacar que a maioria das decisões de compra acontece no celular, onde o 
 Por outro lado, esconder a navegação também tem um custo. O Nielsen Norman Group concluiu que esconder o menu principal (como um hambúrguer) torna mais difícil para o usuário encontrar a navegação, aumenta o tempo até a ação e reforça a sensação de que o site é difícil de usar. Isso não quer dizer que o menu hambúrguer esteja errado — quer dizer que toda forma de exibir um menu tem o seu próprio custo, e esse custo muda conforme o tamanho da loja.
 
 Uma vez que você entende isso, dividir a navegação por fase fica muito mais fácil de visualizar.
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
+</figure>
 
 ## Fase 1 — Loja nova, catálogo pequeno (menos de 50 produtos)
 
@@ -59,6 +73,10 @@ Alguns princípios que vale manter nesta fase:
 O objetivo é levar o comprador até um produto o mais rápido possível, e manter a loja com cara organizada e fiel ao seu tamanho real — sem ostentar uma estrutura que o conteúdo ainda não preencheu.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/navigation-for-new-stores/">Leia o guia completo → Fase 1 — Loja nova, catálogo pequeno (menos de 50 produtos)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
+</figure>
 
 ## Fase 2 — Loja em crescimento (50 a 500 produtos)
 
@@ -78,6 +96,10 @@ Algumas coisas que vale fazer à medida que o catálogo se expande nesta fase:
 A Fase 2 é a hora de investir numa ferramenta de menu séria, porque você fará muito mais edições à medida que o catálogo continuar crescendo.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/navigation-for-growing-stores/">Leia o guia completo → Fase 2 — Loja em crescimento (50 a 500 produtos)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
+</figure>
 
 ## Fase 3 — Loja escalada (mais de 500 produtos, mais de 15 categorias)
 
@@ -98,6 +120,10 @@ A tabela abaixo resume como as necessidades de navegação mudam em cada fase:
 Algo que passa fácil despercebido: nessa escala, você também tem que garantir que o menu não quebre quando você troca de tema ou quando o catálogo continua mudando. É aqui que uma ferramenta dedicada — como o [Navi+](https://naviplus.io), que permite configurar mobile e desktop separadamente, mantém o menu intacto quando você troca de tema e é otimizado para não deixar a página lenta — poupa muito tempo e risco.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/navigation-for-scaled-stores/">Leia o guia completo → Fase 3 — Loja escalada (mais de 500 produtos, mais de 15 categorias)</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
+</figure>
 
 ## Quando revisar o seu menu — e por que trocar de app depois de escalar sai caro
 
@@ -115,8 +141,19 @@ Há uma armadilha que vale destacar à parte: trocar de app de menu depois que a
 Todo app que você adiciona a uma loja pode afetar a velocidade dela. Por isso, escolher uma ferramenta de menu que você possa usar a longo prazo, em vez de ter que trocar no meio do caminho, é algo que vale considerar desde cedo.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/when-to-review-your-menu/">Leia o guia completo → Quando revisar o seu menu — e por que trocar de app depois de escalar sai caro</a></p>
+<figure>
+  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
+</figure>
 
 ## Por onde começar
+
+<figure>
+  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Cheque o estágio</span>Conte produtos e categorias primeiro, depois teste quantos toques levam até um produto.</p>
 
 Se você nunca pensou no seu menu por fases, estes dois passos já bastam para começar. Um: descubra em que fase a sua loja está — com base no número de produtos e categorias, não no feeling. Dois: abra a sua loja no celular, tente encontrar um produto específico como se fosse um estranho fazendo compras, e veja quantos toques são necessários.
 
