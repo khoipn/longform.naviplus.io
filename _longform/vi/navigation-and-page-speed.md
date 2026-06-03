@@ -32,6 +32,15 @@ Mỗi app bạn cài thêm vào store đều chèn một ít code vào trang. Ap
 
 Điều dễ bị bỏ qua: một menu đẹp nhưng load chậm đôi khi còn hại hơn không có gì. Khách không thấy code; họ chỉ thấy trang giật, nội dung nhảy chỗ, hoặc bấm vào menu mà không có phản hồi. Bài này gom lại những gì tôi rút ra sau khi tự vận hành store và đo đạc nhiều lần — không phải để dọa bạn về tốc độ, mà để bạn có đủ căn cứ chọn một app menu mà không phải đánh đổi trải nghiệm.
 
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Menu app ảnh hưởng tới thứ đầu tiên khách chạm vào: điều hướng.</li>
+    <li>Core Web Vitals cho thấy tải chậm, tap lag và layout shift.</li>
+    <li>Hãy đo trước và sau khi cài thay vì tin vào quảng cáo.</li>
+  </ul>
+</div>
+
 ## Core Web Vitals là gì và vì sao bạn cần quan tâm
 
 Core Web Vitals là bộ ba chỉ số Google dùng để đo trải nghiệm tải trang thực tế. Không phải điểm phòng thí nghiệm, mà là dữ liệu thu từ chính khách của bạn.
@@ -49,6 +58,10 @@ Vì sao một merchant nên quan tâm? Hai lý do. Thứ nhất, đây là một
 Tin tốt là bạn không cần biết code để đọc ba con số này. Chúng có sẵn, miễn phí, và giải thích khá rõ ràng.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/core-web-vitals-explained/">Xem bài đầy đủ → Core Web Vitals là gì và vì sao bạn cần quan tâm</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
+</figure>
 
 ## App menu ảnh hưởng tới tốc độ ra sao — và dấu hiệu nhận biết
 
@@ -72,6 +85,10 @@ Dấu hiệu nhận biết bằng mắt thường, không cần công cụ:
 Thấy những dấu hiệu này không có nghĩa app menu là thủ phạm duy nhất — nhưng nó đáng để bạn đo trước và sau khi gỡ.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/how-menu-apps-affect-page-speed/">Xem bài đầy đủ → App menu ảnh hưởng tới tốc độ ra sao — và dấu hiệu nhận biết</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
+</figure>
 
 ## Tiêu chí đánh giá một app menu tốt về tốc độ
 
@@ -99,6 +116,10 @@ Khi đã hiểu app menu tác động ra sao, việc chọn app trở nên dễ 
 Navi+ được xây theo hướng này: dựng menu không cần code, có cấu hình mobile và desktop riêng, menu giữ nguyên khi đổi theme, và app đạt badge Built for Shopify. Bạn có thể tham khảo tại [naviplus.io](https://naviplus.io). Dù vậy, tôi vẫn khuyên bạn tự đo trên store của mình thay vì tin lời quảng cáo — kể cả của chúng tôi.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/fast-menu-app-criteria/">Xem bài đầy đủ → Tiêu chí đánh giá một app menu tốt về tốc độ</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
+</figure>
 
 ## Checklist trước khi cài bất kỳ app menu nào
 
@@ -114,6 +135,10 @@ Phần này là những bước thực tế, làm được trong khoảng mườ
 Một lưu ý về thói quen: đừng cài nhiều app menu cùng lúc để so sánh. Code của chúng có thể chồng lên nhau và làm sai lệch số đo. Thử lần lượt, gỡ sạch trước khi thử cái tiếp theo.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-app-installation-checklist/">Xem bài đầy đủ → Checklist trước khi cài bất kỳ app menu nào</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
+</figure>
 
 ## Một góc nhìn về điều hướng, không chỉ tốc độ
 
@@ -123,7 +148,18 @@ Nghiên cứu của Nielsen Norman Group trên 179 người dùng cho thấy vi�
 
 Đây là lý do trên mobile, tab bar dưới đáy thường hiệu quả hơn menu hamburger thuần túy — các mục chính luôn nằm trong tầm với, không phải mở ra mới thấy. Tốc độ và điều hướng tốt đi cùng nhau; chọn app menu là chọn cả hai cùng lúc.
 
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
+</figure>
 ## Bắt đầu từ đâu
+
+<figure>
+  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Đo baseline trước</span>Lưu điểm PageSpeed trước khi cài menu app, rồi so lại cùng các trang sau khi setup.</p>
 
 Tốc độ không phải vấn đề chỉ của lập trình viên. Là merchant, bạn hoàn toàn có thể tự kiểm tra và ra quyết định có căn cứ. Bạn không cần đọc một dòng code nào để biết một app menu có làm chậm store hay không — chỉ cần biết nhìn vào đâu.
 

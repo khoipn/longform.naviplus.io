@@ -32,6 +32,15 @@ child_links:
 
 有一点很容易被忽略：一个加载缓慢的漂亮菜单，有时甚至比没有还要糟。顾客看不到代码；他们只看到一个卡顿的页面、跳来跳去的内容，或者点了却没反应的菜单。这篇文章汇集的是我自己经营店铺、反复测量之后学到的东西——不是要吓唬你「速度有多可怕」，而是让你在选菜单应用时有足够的依据，同时不必拿体验去交换。
 
+<div class="lf-key">
+  <span class="lf-key-title">快速要点</span>
+  <ul>
+    <li>菜单应用会影响用户最先接触的导航。</li>
+    <li>Core Web Vitals 能显示加载慢、点击延迟和布局偏移。</li>
+    <li>不要只相信宣传，要在安装前后测量。</li>
+  </ul>
+</div>
+
 ## Core Web Vitals 是什么，为什么和你有关
 
 Core Web Vitals 是 Google 用来衡量页面加载真实体验的三个指标。它们不是实验室里跑出来的分数，而是从你真实顾客那里采集来的数据。
@@ -49,6 +58,10 @@ Core Web Vitals 是 Google 用来衡量页面加载真实体验的三个指标�
 好消息是，你不需要懂任何代码就能读懂这三个数字。它们是公开的、免费的，而且解释得相当清楚。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/core-web-vitals-explained/">阅读完整指南 → Core Web Vitals 是什么，为什么和你有关</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
+</figure>
 
 ## 菜单应用如何影响速度，以及怎么发现它
 
@@ -72,6 +85,10 @@ Shopify 上的大多数应用，都是通过向店铺前端注入 JavaScript 来
 看到这些迹象，并不意味着菜单应用就是唯一的元凶——但值得在移除它之前和之后各测一遍。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/how-menu-apps-affect-page-speed/">阅读完整指南 → 菜单应用如何影响速度，以及怎么发现它</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
+</figure>
 
 ## 一个好的菜单应用在速度上应该具备什么
 
@@ -99,6 +116,10 @@ Shopify 上的大多数应用，都是通过向店铺前端注入 JavaScript 来
 Navi+ 正是按这些思路打造的：无需代码就能搭建菜单，移动端与桌面端分开配置，更换主题时菜单原地不动，而且这款应用持有 Built for Shopify 徽章。你可以去 [naviplus.io](https://naviplus.io) 看看。即便如此，我仍然鼓励你在自己的店铺上亲自测量，而不是轻信营销话术——包括我们的。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/fast-menu-app-criteria/">阅读完整指南 → 一个好的菜单应用在速度上应该具备什么</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
+</figure>
 
 ## 安装任何菜单应用之前的一份清单
 
@@ -114,6 +135,10 @@ Navi+ 正是按这些思路打造的：无需代码就能搭建菜单，移动�
 一个习惯上的提醒：不要为了对比而同时装好几个菜单应用。它们的代码可能互相重叠，扭曲你的测量结果。一个一个地试，测下一个之前先把上一个干净地卸掉。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/menu-app-installation-checklist/">阅读完整指南 → 安装任何菜单应用之前的一份清单</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
+</figure>
 
 ## 关于导航，而不只是速度
 
@@ -123,7 +148,18 @@ Nielsen Norman Group 针对 179 名用户做的一项研究发现，把导航藏
 
 这就是为什么在手机上，底部标签栏往往比单纯的汉堡菜单更好用——主要项目始终触手可及，不用打开什么就能看到。速度和好导航是相辅相成的；选一个菜单应用，意味着两者一起选。
 
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
+</figure>
 ## 从哪里开始
+
+<figure>
+  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">先测基准</span>安装菜单应用前保存 PageSpeed 分数，设置后再对比同样页面。</p>
 
 速度并不只是开发者才需要操心的问题。作为商家，你完全有能力自己去检查，并做出有依据的判断。你不需要读一行代码，就能知道一个菜单应用是不是在拖慢你的店铺——你只需要知道该看哪里。
 

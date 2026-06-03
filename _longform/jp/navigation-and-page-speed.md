@@ -32,6 +32,15 @@ child_links:
 
 見落とされがちなのはこの点です。美しいけれど読み込みの遅いメニューは、ときに何もないより悪いことさえあります。お客さまにコードは見えません。見えるのは、もたつくページ、あちこち動くコンテンツ、タップしても反応しないメニューだけです。この記事は、自分のストアを運営し、何度も測定を重ねてきた経験からまとめたものです。速度であなたを脅すためではなく、体験を犠牲にせずにメニューアプリを選ぶための手がかりを十分にお渡しするためです。
 
+<div class="lf-key">
+  <span class="lf-key-title">要点</span>
+  <ul>
+    <li>メニューアプリは顧客が最初に触れるナビゲーションに影響します。</li>
+    <li>Core Web Vitals は読み込み遅延、タップ遅延、レイアウトずれを示します。</li>
+    <li>宣伝を信じるより、導入前後で測定します。</li>
+  </ul>
+</div>
+
 ## Core Web Vitals とは何か、そしてなぜあなたに関係するのか
 
 Core Web Vitals は、ページ読み込みの実際の体験を測るために Google が使う3つの指標です。ラボでのスコアではなく、実際のお客さまから集めたデータです。
@@ -49,6 +58,10 @@ Core Web Vitals は、ページ読み込みの実際の体験を測るために 
 良い知らせは、この3つの数値を読むのにコードの知識はいらないことです。これらは無料で入手でき、かなり分かりやすく説明されています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/core-web-vitals-explained/">完全ガイドを読む → Core Web Vitals とは何か、そしてなぜあなたに関係するのか</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
+</figure>
 
 ## メニューアプリは速度にどう影響するか — そして見抜き方
 
@@ -72,6 +85,10 @@ Shopify の多くのアプリは、ストアフロントに JavaScript を差し
 これらのサインが見えたからといって、メニューアプリだけが原因とは限りません。ですが、外す前と後で測定してみる価値はあります。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/how-menu-apps-affect-page-speed/">完全ガイドを読む → メニューアプリは速度にどう影響するか — そして見抜き方</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
+</figure>
 
 ## 速度の面で良いメニューアプリの条件
 
@@ -99,6 +116,10 @@ Shopify の多くのアプリは、ストアフロントに JavaScript を差し
 Navi+ はこうした方針に沿って作られています。コードなしでメニューを作れること、モバイルとデスクトップを別々に設定できること、テーマを変えてもメニューがそのまま残ること、そして Built for Shopify バッジを保有していること。[naviplus.io](https://naviplus.io) をご覧ください。とはいえ、マーケティングを — 私たちのものも含め — 鵜呑みにせず、ご自身のストアで測定されることを、なおおすすめします。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/fast-menu-app-criteria/">完全ガイドを読む → 速度の面で良いメニューアプリの条件</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
+</figure>
 
 ## メニューアプリをインストールする前のチェックリスト
 
@@ -114,6 +135,10 @@ Navi+ はこうした方針に沿って作られています。コードなし�
 習慣についての一言。比較のために複数のメニューアプリを同時にインストールしないでください。コードが重なり合い、測定結果を狂わせることがあります。1つずつ試し、次をテストする前にそれぞれをきれいに削除しましょう。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/menu-app-installation-checklist/">完全ガイドを読む → メニューアプリをインストールする前のチェックリスト</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
+</figure>
 
 ## 速度だけでなく、ナビゲーションについての一言
 
@@ -123,7 +148,18 @@ Nielsen Norman Group が179人のユーザーを対象に行った調査では�
 
 だからこそ、モバイルでは、ただのハンバーガーメニューよりも下部のタブバーのほうがうまく機能する傾向があります — 主要な項目が常に手の届くところにあり、見るために何かを開く必要がないからです。速度と良いナビゲーションは両立します。メニューアプリを選ぶことは、その両方を同時に選ぶことなのです。
 
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
+</figure>
 ## どこから始めるか
+
+<figure>
+  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">まず基準値</span>導入前にPageSpeedの数値を保存し、設定後に同じページで比較します。</p>
 
 速度は開発者だけの問題ではありません。マーチャントであるあなたも、自分で確認し、根拠のある判断を下すことが十分にできます。メニューアプリがストアを遅くしているかどうかを知るのに、コードを1行も読む必要はありません。どこを見ればいいかを知っていればよいのです。
 

@@ -32,6 +32,15 @@ Ogni app che aggiungi al tuo negozio inietta un po' di codice nelle tue pagine. 
 
 Ecco ciò che è facile trascurare: un menu bello che si carica lentamente a volte può essere peggio di niente. I clienti non vedono il codice; vedono solo una pagina che balbetta, contenuti che saltano qua e là, o un menu che toccano e che non risponde. Questo articolo raccoglie ciò che ho imparato dopo aver gestito il mio negozio e misurato le cose molte volte — non per spaventarti sul tema della velocità, ma per darti elementi sufficienti su cui basarti quando scegli un'app menu, senza sacrificare l'esperienza.
 
+<div class="lf-key">
+  <span class="lf-key-title">Lettura rapida</span>
+  <ul>
+    <li>Una menu app influenza la prima cosa che il cliente usa: la navigazione.</li>
+    <li>Core Web Vitals mostra caricamento lento, tap lag e layout shift.</li>
+    <li>Misura prima e dopo invece di fidarti delle promesse.</li>
+  </ul>
+</div>
+
 ## Cosa sono i Core Web Vitals e perché contano per te
 
 I Core Web Vitals sono le tre metriche che Google usa per misurare l'esperienza reale di caricamento di una pagina. Non sono punteggi di laboratorio — sono dati raccolti dai tuoi clienti reali.
@@ -49,6 +58,10 @@ Perché un commerciante dovrebbe preoccuparsene? Per due ragioni. La prima: è u
 La buona notizia è che non ti serve conoscere alcun codice per leggere questi tre numeri. Sono disponibili, gratuiti e spiegati in modo abbastanza chiaro.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Approfondimento</span><a href="/it/topic/core-web-vitals-explained/">Leggi la guida completa → Cosa sono i Core Web Vitals e perché contano per te</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
+</figure>
 
 ## Come un'app menu influisce sulla velocità — e come accorgersene
 
@@ -72,6 +85,10 @@ Segnali che puoi cogliere a occhio nudo, senza alcuno strumento:
 Vedere questi segnali non significa che l'app menu sia l'unica responsabile — ma vale la pena misurare prima e dopo averla rimossa.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Approfondimento</span><a href="/it/topic/how-menu-apps-affect-page-speed/">Leggi la guida completa → Come un'app menu influisce sulla velocità — e come accorgersene</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
+</figure>
 
 ## Cosa rende buona un'app menu sul fronte velocità
 
@@ -99,6 +116,10 @@ Un rapido confronto tra una tipica app menu "pesante" e una ottimizzata:
 Navi+ è costruito proprio secondo queste linee: creare menu senza codice, configurazione separata per mobile e desktop, menu che restano al loro posto quando cambi tema, e l'app possiede un badge Built for Shopify. Puoi dare un'occhiata a [naviplus.io](https://naviplus.io). Anche così, ti incoraggio comunque a misurare sul tuo negozio invece di fidarti del marketing — incluso il nostro.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Approfondimento</span><a href="/it/topic/fast-menu-app-criteria/">Leggi la guida completa → Cosa rende buona un'app menu sul fronte velocità</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
+</figure>
 
 ## Una checklist prima di installare qualsiasi app menu
 
@@ -114,6 +135,10 @@ Questa parte è un insieme di passi pratici che puoi compiere in circa quindici 
 Una nota sulle abitudini: non installare più app menu insieme per confrontarle. Il loro codice può sovrapporsi e falsare le tue misurazioni. Provale una alla volta, rimuovendo ciascuna in modo pulito prima di testare la successiva.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Approfondimento</span><a href="/it/topic/menu-app-installation-checklist/">Leggi la guida completa → Una checklist prima di installare qualsiasi app menu</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
+</figure>
 
 ## Una parola sulla navigazione, non solo sulla velocità
 
@@ -123,7 +148,18 @@ Uno studio del Nielsen Norman Group con 179 utenti ha rilevato che nascondere la
 
 È per questo che, su mobile, una tab bar in basso tende a funzionare meglio di un semplice menu hamburger — le voci principali sono sempre a portata di mano, senza dover aprire nulla per vederle. Velocità e buona navigazione vanno insieme; scegliere un'app menu significa scegliere entrambe nello stesso momento.
 
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
+</figure>
 ## Da dove cominciare
+
+<figure>
+  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Prima baseline</span>Salva i punteggi PageSpeed prima dell’app e confronta le stesse pagine dopo.</p>
 
 La velocità non è un problema solo per gli sviluppatori. Come commerciante, sei perfettamente in grado di verificarla da solo e prendere una decisione ben fondata. Non hai bisogno di leggere una sola riga di codice per sapere se un'app menu sta rallentando il tuo negozio — devi solo sapere dove guardare.
 

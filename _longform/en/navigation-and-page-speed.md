@@ -32,6 +32,15 @@ Every app you add to your store injects a little code into your pages. A menu ap
 
 Here's what's easy to overlook: a beautiful menu that loads slowly can sometimes be worse than nothing at all. Customers don't see the code; they only see a page that stutters, content that jumps around, or a menu they tap that doesn't respond. This article gathers what I've learned after running my own store and measuring things many times over — not to scare you about speed, but to give you enough to go on when choosing a menu app without trading away the experience.
 
+<div class="lf-key">
+  <span class="lf-key-title">Quick read</span>
+  <ul>
+    <li>A menu app affects the first thing shoppers touch: navigation.</li>
+    <li>Core Web Vitals reveal slow loading, tap lag, and layout shift.</li>
+    <li>Measure before and after install instead of trusting claims.</li>
+  </ul>
+</div>
+
 ## What Core Web Vitals Are and Why They Matter to You
 
 Core Web Vitals are the three metrics Google uses to measure the real-world experience of loading a page. They aren't lab scores — they're data collected from your actual customers.
@@ -49,6 +58,10 @@ Why should a merchant care? Two reasons. First, this is one of Google's ranking 
 The good news is you don't need to know any code to read these three numbers. They're available, free, and explained fairly clearly.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/core-web-vitals-explained/">Read the full guide → What Core Web Vitals Are and Why They Matter to You</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
+</figure>
 
 ## How a Menu App Affects Speed — and How to Spot It
 
@@ -72,6 +85,10 @@ Signs you can spot with the naked eye, no tools required:
 Seeing these signs doesn't mean the menu app is the only culprit — but it's worth measuring before and after you remove it.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/how-menu-apps-affect-page-speed/">Read the full guide → How a Menu App Affects Speed — and How to Spot It</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
+</figure>
 
 ## What Makes a Menu App Good on Speed
 
@@ -99,6 +116,10 @@ A quick comparison between a typical "heavy" menu app and one that's optimized:
 Navi+ is built along these lines: build menus without code, separate mobile and desktop configuration, menus that stay put when you change themes, and the app holds a Built for Shopify badge. You can take a look at [naviplus.io](https://naviplus.io). Even so, I'd still encourage you to measure on your own store rather than trust the marketing — including ours.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/fast-menu-app-criteria/">Read the full guide → What Makes a Menu App Good on Speed</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
+</figure>
 
 ## A Checklist Before Installing Any Menu App
 
@@ -114,6 +135,10 @@ This part is a set of practical steps you can do in about fifteen minutes, with 
 A note on habits: don't install several menu apps at once to compare them. Their code can overlap and skew your measurements. Try them one at a time, removing each cleanly before testing the next.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/menu-app-installation-checklist/">Read the full guide → A Checklist Before Installing Any Menu App</a></p>
+<figure>
+  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
+</figure>
 
 ## A Word on Navigation, Not Just Speed
 
@@ -123,7 +148,18 @@ A study by Nielsen Norman Group with 179 users found that hiding navigation cut 
 
 This is why, on mobile, a bottom tab bar tends to work better than a plain hamburger menu — the main items are always within reach, without having to open anything to see them. Speed and good navigation go together; choosing a menu app means choosing both at once.
 
+<figure>
+  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
+</figure>
 ## Where to Start
+
+<figure>
+  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Baseline first</span>Save PageSpeed scores before installing a menu app, then compare the same pages after setup.</p>
 
 Speed isn't a problem only for developers. As a merchant, you're perfectly able to check it yourself and make a well-grounded decision. You don't need to read a single line of code to know whether a menu app is slowing down your store — you just need to know where to look.
 
