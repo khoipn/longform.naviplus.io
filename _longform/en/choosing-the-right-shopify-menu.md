@@ -33,6 +33,15 @@ A store owner sees a big brand using a Mega Menu that looks polished, so they co
 
 Both make the same mistake: they choose a menu based on what they like to look at, not on what the store truly needs. There is no single best menu type for every store. **Choosing the right Shopify menu type** depends on how many products you have, how customers shop, and how many of them are on a phone. This article pulls together what I have learned after running and observing many stores — not to tell you which type is best, but to help you see for yourself which one fits.
 
+<div class="lf-key">
+  <span class="lf-key-title">Quick read</span>
+  <ul>
+    <li>Menu choice starts with store context, not taste.</li>
+    <li>Mobile and desktop often need different patterns.</li>
+    <li>The best menu solves one clear shopping bottleneck.</li>
+  </ul>
+</div>
+
 ## Why menus matter more than you think
 
 The menu is what customers touch before they even look at a product. If they can't find their way, they don't buy. It sounds obvious, but it ties directly to a number few people pay attention to.
@@ -40,6 +49,11 @@ The menu is what customers touch before they even look at a product. If they can
 According to the Baymard Institute, the average cart abandonment rate in e-commerce is around 70%, drawn from dozens of studies and holding steady around that level for years. The menu is of course not the only cause, but some customers leave simply because they couldn't find what they needed fast enough. Good navigation doesn't create revenue, but bad navigation leaks it bit by bit.
 
 There's one more point: most store traffic now comes from phones. The way customers use a menu on a small screen is very different from on a computer, so a menu that works on desktop won't necessarily work on mobile. This is why tools like Navi+ let you configure mobile and desktop separately instead of forcing one menu to serve both.
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
+</figure>
 
 ## Four factors that decide which menu type you need
 
@@ -53,6 +67,10 @@ Before looking at each menu type, answer four questions about your own store. Th
 The second factor deserves a bit more. Steven Hoober's research on more than 1,300 users found that most people operate their phone with their thumb, and the area the thumb reaches most comfortably is the lower half of the screen. That's why a button or navigation bar placed at the bottom usually gets tapped more than something tucked into the top corner.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/four-factors-for-choosing-menu-type/">Read the full guide → Four factors that decide which menu type you need</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
+</figure>
 
 ## Each menu type solves one problem
 
@@ -74,6 +92,10 @@ Each menu type was born to solve a specific problem. Understand that problem and
 | FAB | One clear priority action | Placing several floating buttons at once |
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/shopify-menu-types-compared/">Read the full guide → A look at each menu type: when to use it, when not to</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
+</figure>
 
 ## Combining menus for each kind of store
 
@@ -88,6 +110,10 @@ A mid-size store, a few dozen to a few hundred products, usually lands in betwee
 What makes this combination feasible without touching code is that you configure each menu for each screen independently. With Navi+, you build a Tab Bar for mobile and a Mega Menu for desktop in the same place, drag-and-drop, no theme edits.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/combining-menu-types-for-your-store/">Read the full guide → Combining menu types for each kind of store</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
+</figure>
 
 ## A process for deciding on the right menu
 
@@ -102,8 +128,19 @@ Instead of choosing on gut feel, there's a simple sequence that takes you from d
 The last step is important but often skipped: speed. Adding a menu that slows the page down does more harm than good. Google recommends the Core Web Vitals thresholds: LCP under 2.5 seconds, INP under 200 milliseconds, CLS under 0.1. A heavy menu that makes the page stutter, with the layout jumping as it loads, is enough to push you out of the good zone. When choosing a menu-building tool, pay attention to whether it's optimized not to slow the page down — this is why Navi+ focuses on keeping menus light and earning the Built for Shopify badge.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/menu-selection-process/">Read the full guide → A practical process for deciding on the right menu</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
+</figure>
 
 ## Where to start
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Start here</span>Check mobile share first, then list the three paths customers need most often.</p>
 
 If you're not sure how to begin, do the smallest thing first: open Analytics to check your mobile share, then write down the three things your customers most need to reach. Those two pieces of information alone rule out most of the wrong choices. The rest is trial and adjustment.
 

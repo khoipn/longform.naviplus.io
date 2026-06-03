@@ -33,6 +33,15 @@ Một chủ store thấy thương hiệu lớn dùng Mega Menu trông sang trọ
 
 Cả hai mắc cùng một lỗi: chọn menu theo cái mình thích nhìn, chứ không theo cái store thật sự cần. Không có loại menu nào tốt nhất cho mọi store. Việc **chọn loại menu Shopify** đúng phụ thuộc vào số lượng sản phẩm, cách khách tìm hàng, và tỷ lệ khách dùng điện thoại. Bài này gom lại những gì tôi đúc rút sau khi vận hành và quan sát nhiều store — không phải để bảo bạn loại nào hay nhất, mà để giúp bạn tự nhìn ra loại nào hợp với mình.
 
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Chọn menu phải bắt đầu từ bối cảnh store, không phải gu thẩm mỹ.</li>
+    <li>Mobile và desktop thường cần hai kiểu điều hướng khác nhau.</li>
+    <li>Menu tốt nhất là menu giải đúng một điểm nghẽn mua sắm.</li>
+  </ul>
+</div>
+
 ## Vì sao menu đáng quan tâm hơn bạn nghĩ
 
 Menu là thứ khách chạm vào trước cả khi xem sản phẩm. Nếu không tìm được đường đi, họ không mua. Nghe hiển nhiên, nhưng nó liên quan trực tiếp tới một con số ít ai để ý.
@@ -40,6 +49,11 @@ Menu là thứ khách chạm vào trước cả khi xem sản phẩm. Nếu khô
 Theo Baymard Institute, tỷ lệ bỏ giỏ hàng trung bình trong thương mại điện tử vào khoảng 70%, tổng hợp từ hàng chục nghiên cứu và giữ ổn định quanh mức này nhiều năm. Tất nhiên menu không phải nguyên nhân duy nhất, nhưng một phần khách rời đi đơn giản vì không tìm thấy thứ cần đủ nhanh. Điều hướng tốt không tạo ra doanh thu, nhưng điều hướng tệ thì làm rò rỉ nó từng chút một.
 
 Còn một điểm nữa: phần lớn lưu lượng store giờ đến từ điện thoại. Cách khách dùng menu trên màn hình nhỏ rất khác trên máy tính, nên menu hợp cho desktop chưa chắc hợp cho mobile. Đây là lý do các công cụ như Navi+ cho phép cấu hình mobile và desktop riêng biệt thay vì ép một menu chạy chung cả hai.
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
+</figure>
 
 ## Bốn yếu tố quyết định bạn cần loại menu nào
 
@@ -53,6 +67,10 @@ Trước khi nhìn vào từng loại menu, hãy trả lời bốn câu hỏi v�
 Yếu tố thứ hai đáng nói thêm. Nghiên cứu của Steven Hoober trên hơn 1.300 người dùng cho thấy phần lớn thao tác điện thoại bằng ngón cái, và vùng ngón cái với tới thoải mái nhất là nửa dưới màn hình. Đó là lý do một nút hay thanh điều hướng đặt ở đáy thường được chạm nhiều hơn thứ nằm tận góc trên.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/four-factors-for-choosing-menu-type/">Xem bài đầy đủ → Bốn yếu tố quyết định bạn cần loại menu nào</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
+</figure>
 
 ## Từng loại menu giải một bài toán
 
@@ -74,6 +92,10 @@ Mỗi loại menu sinh ra để giải một vấn đề cụ thể. Hiểu vấ
 | FAB | Có một hành động ưu tiên rõ | Đặt nhiều nút nổi cùng lúc |
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/shopify-menu-types-compared/">Xem bài đầy đủ → Phân tích từng loại menu: khi nào nên dùng, khi nào không</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
+</figure>
 
 ## Kết hợp menu cho từng loại store
 
@@ -88,6 +110,10 @@ Store tầm trung, vài chục đến vài trăm sản phẩm, thường rơi v�
 Điều khiến việc kết hợp này khả thi mà không cần đụng tới code là bạn cấu hình từng menu cho từng màn hình một cách độc lập. Với Navi+, bạn dựng Tab Bar cho mobile và Mega Menu cho desktop trong cùng một chỗ, kéo thả, không phải sửa theme.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/combining-menu-types-for-your-store/">Xem bài đầy đủ → Kết hợp các loại menu cho từng loại store</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
+</figure>
 
 ## Quy trình quyết định menu phù hợp
 
@@ -102,8 +128,19 @@ Thay vì chọn theo cảm tính, có một trình tự đơn giản giúp bạn
 Bước cuối quan trọng nhưng hay bị bỏ qua: tốc độ. Thêm menu mà làm trang chậm đi thì lợi bất cập hại. Google khuyến nghị các ngưỡng Core Web Vitals: LCP dưới 2,5 giây, INP dưới 200 mili-giây, CLS dưới 0,1. Một menu nặng làm trang giật, layout nhảy khi tải, là đủ để đẩy bạn ra khỏi vùng tốt. Khi chọn công cụ dựng menu, hãy để ý nó có được tối ưu để không làm chậm trang hay không — đây là lý do Navi+ chú trọng giữ menu nhẹ và đạt badge Built for Shopify.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-selection-process/">Xem bài đầy đủ → Quy trình thực tế để quyết định menu phù hợp</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
+</figure>
 
 ## Bắt đầu từ đâu
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Bắt đầu ở đây</span>Kiểm tra tỷ lệ mobile trước, rồi liệt kê ba đường đi khách cần dùng thường xuyên nhất.</p>
 
 Nếu chưa biết bắt đầu thế nào, hãy làm việc nhỏ nhất trước: mở Analytics xem tỷ lệ mobile, rồi viết ra ba thứ khách của bạn cần chạm tới nhiều nhất. Hai thông tin đó thôi đã loại bỏ phần lớn lựa chọn sai. Phần còn lại là thử và điều chỉnh.
 

@@ -33,6 +33,15 @@ child_links:
 
 どちらも同じ間違いを犯しています。ストアが本当に必要としているものではなく、自分が見て気に入ったものを基準にメニューを選んでいるのです。すべてのストアにとって唯一最高のメニュータイプというものは存在しません。**最適なShopifyメニュータイプの選び方**は、商品が何点あるか、顧客がどう買い物をするか、そしてそのうち何割がスマートフォンを使っているかによって変わります。この記事は、私が数多くのストアを運営し、観察してきたなかで学んだことをまとめたものです。どのタイプが一番優れているかを伝えるためではなく、どれが自分のストアに合うのかを自分自身で見極められるようにするためのものです。
 
+<div class="lf-key">
+  <span class="lf-key-title">要点</span>
+  <ul>
+    <li>メニュー選びは好みではなくストアの状況から始めます。</li>
+    <li>モバイルとデスクトップでは異なる導線が必要なことが多いです。</li>
+    <li>良いメニューは明確な買い物の詰まりを1つ解決します。</li>
+  </ul>
+</div>
+
 ## メニューが思っている以上に重要な理由
 
 メニューは、顧客が商品を見るよりも前に最初に触れる場所です。行き先が分からなければ、買ってもらえません。当たり前のことのように聞こえますが、これは多くの人が気にとめていないある数字と直結しています。
@@ -40,6 +49,11 @@ child_links:
 Baymard Instituteによれば、eコマースのカート放棄率は平均でおよそ70%。これは数十件もの調査から導かれた数値で、何年もその水準で安定しています。もちろんメニューだけが原因ではありませんが、一部の顧客は単に必要なものを十分な速さで見つけられなかったというだけで離れていきます。良いナビゲーションは売上を生み出しはしませんが、悪いナビゲーションは少しずつ売上を漏らしていきます。
 
 もう一つ重要な点があります。今や多くのストアのトラフィックはスマートフォンからのものです。小さな画面でメニューを使うときの顧客のふるまいは、パソコンの場合とはまったく異なります。だからこそ、デスクトップでうまく機能するメニューがモバイルでも同じように機能するとは限りません。Navi+のようなツールがモバイルとデスクトップを別々に設定できるようにしているのは、1つのメニューに両方を兼ねさせるのではなく、このためなのです。
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
+</figure>
 
 ## メニュータイプを決める4つの要素
 
@@ -53,6 +67,10 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 2つ目の要素については、もう少し補足する価値があります。Steven Hooberが1,300人以上のユーザーを対象に行った調査では、ほとんどの人が親指でスマートフォンを操作しており、親指が最も快適に届くのは画面の下半分であることが分かりました。だからこそ、画面下部に置かれたボタンやナビゲーションバーは、上の隅に押し込まれたものよりも多くタップされる傾向があります。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/four-factors-for-choosing-menu-type/">完全ガイドを読む → メニュータイプを決める4つの要素</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
+</figure>
 
 ## 各メニュータイプは、それぞれ1つの問題を解決する
 
@@ -74,6 +92,10 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 | FAB | 優先すべきアクションが1つ明確 | 浮かぶボタンを複数同時に置くとき |
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/shopify-menu-types-compared/">完全ガイドを読む → 各メニュータイプを徹底解説：いつ使い、いつ使わないか</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
+</figure>
 
 ## ストアの種類ごとにメニューを組み合わせる
 
@@ -88,6 +110,10 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 この組み合わせがコードに触れずに実現できるのは、各メニューを各画面ごとに独立して設定できるからです。Navi+なら、モバイル用のTab Barとデスクトップ用のMega Menuを同じ場所で、ドラッグ&ドロップで作れます。テーマの編集は不要です。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/combining-menu-types-for-your-store/">完全ガイドを読む → ストアの種類ごとにメニューを組み合わせる</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
+</figure>
 
 ## 最適なメニューを決めるためのプロセス
 
@@ -102,8 +128,19 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 最後のステップは重要ですが、よく見落とされます。それは速度です。ページを遅くするメニューを追加すれば、得られるものよりも失うもののほうが大きくなります。GoogleはCore Web Vitalsの基準を推奨しています。LCPは2.5秒未満、INPは200ミリ秒未満、CLSは0.1未満です。読み込み時にレイアウトが飛び跳ね、ページをカクつかせる重いメニューは、それだけで良好なゾーンから外れる原因になります。メニュー作成ツールを選ぶときは、ページを遅くしないよう最適化されているかに注目してください。Navi+がメニューを軽く保つことに注力し、Built for Shopifyバッジを取得しているのは、まさにこのためです。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/menu-selection-process/">完全ガイドを読む → 最適なメニューを決めるための実践プロセス</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
+</figure>
 
 ## どこから始めるか
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">ここから開始</span>まずモバイル比率を確認し、顧客が最もよく使う3つの導線を書き出します。</p>
 
 何から手をつければいいか分からないなら、まず一番小さなことから始めましょう。Analyticsを開いてモバイルの比率を確認し、それから顧客が最も届く必要のある3つのことを書き出します。この2つの情報だけで、間違った選択肢のほとんどは除外できます。あとは試して調整していくだけです。
 

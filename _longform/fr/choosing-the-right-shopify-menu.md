@@ -33,6 +33,15 @@ Un commerçant voit une grande marque utiliser un Mega Menu au rendu très soign
 
 Les deux commettent la même erreur : ils choisissent un menu en fonction de ce qu'ils aiment regarder, et non de ce dont la boutique a réellement besoin. Il n'existe pas un seul type de menu idéal pour toutes les boutiques. **Choisir le bon type de menu Shopify** dépend du nombre de produits que vous avez, de la façon dont les clients achètent et de la part d'entre eux qui sont sur un téléphone. Cet article rassemble ce que j'ai appris après avoir géré et observé de nombreuses boutiques — non pas pour vous dire quel type est le meilleur, mais pour vous aider à voir par vous-même lequel vous convient.
 
+<div class="lf-key">
+  <span class="lf-key-title">Lecture rapide</span>
+  <ul>
+    <li>Le choix du menu part du contexte de la boutique, pas du goût visuel.</li>
+    <li>Mobile et desktop demandent souvent des schémas différents.</li>
+    <li>Le meilleur menu résout un goulot d’étranglement précis.</li>
+  </ul>
+</div>
+
 ## Pourquoi les menus comptent plus que vous ne le pensez
 
 Le menu, c'est ce que les clients touchent avant même de regarder un produit. S'ils ne trouvent pas leur chemin, ils n'achètent pas. Cela paraît évident, mais c'est directement lié à un chiffre auquel peu de gens prêtent attention.
@@ -40,6 +49,11 @@ Le menu, c'est ce que les clients touchent avant même de regarder un produit. S
 Selon le Baymard Institute, le taux moyen d'abandon de panier dans le e-commerce avoisine les 70 %, un chiffre issu de dizaines d'études et stable autour de ce niveau depuis des années. Le menu n'en est bien sûr pas la seule cause, mais certains clients partent simplement parce qu'ils n'ont pas trouvé assez vite ce dont ils avaient besoin. Une bonne navigation ne crée pas de chiffre d'affaires, mais une mauvaise navigation en fait fuir petit à petit.
 
 Il y a encore un point : aujourd'hui, l'essentiel du trafic des boutiques provient des téléphones. La manière dont les clients utilisent un menu sur un petit écran est très différente de celle sur ordinateur, si bien qu'un menu efficace sur desktop ne le sera pas forcément sur mobile. C'est pourquoi des outils comme Navi+ vous permettent de configurer le mobile et le desktop séparément, plutôt que de forcer un seul menu à servir les deux.
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
+</figure>
 
 ## Quatre facteurs qui déterminent le type de menu dont vous avez besoin
 
@@ -53,6 +67,10 @@ Avant d'examiner chaque type de menu, répondez à quatre questions sur votre pr
 Le deuxième facteur mérite qu'on s'y attarde un peu. Les recherches de Steven Hoober portant sur plus de 1 300 utilisateurs ont montré que la plupart des gens manipulent leur téléphone avec le pouce, et que la zone que le pouce atteint le plus confortablement est la moitié inférieure de l'écran. C'est pourquoi un bouton ou une barre de navigation placés en bas reçoivent généralement plus de taps que quelque chose niché dans le coin supérieur.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/four-factors-for-choosing-menu-type/">Lire le guide complet → Quatre facteurs qui déterminent le type de menu dont vous avez besoin</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
+</figure>
 
 ## Chaque type de menu résout un problème
 
@@ -74,6 +92,10 @@ Chaque type de menu est né pour résoudre un problème précis. Comprenez ce pr
 | FAB | Une seule action prioritaire claire | On place plusieurs boutons flottants à la fois |
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/shopify-menu-types-compared/">Lire le guide complet → Un tour d'horizon de chaque type de menu : quand l'utiliser, quand l'éviter</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
+</figure>
 
 ## Combiner les menus selon chaque type de boutique
 
@@ -88,6 +110,10 @@ Une boutique de taille moyenne, de quelques dizaines à quelques centaines de pr
 Ce qui rend cette combinaison réalisable sans toucher au code, c'est que vous configurez chaque menu pour chaque écran de façon indépendante. Avec Navi+, vous construisez un Tab Bar pour le mobile et un Mega Menu pour le desktop au même endroit, par glisser-déposer, sans modifier le thème.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/combining-menu-types-for-your-store/">Lire le guide complet → Combiner les types de menu selon chaque type de boutique</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
+</figure>
 
 ## Une méthode pour choisir le bon menu
 
@@ -102,8 +128,19 @@ Plutôt que de choisir à l'intuition, il existe une suite d'étapes simple qui 
 La dernière étape est importante mais souvent négligée : la vitesse. Ajouter un menu qui ralentit la page fait plus de mal que de bien. Google recommande les seuils des Core Web Vitals : LCP en dessous de 2,5 secondes, INP en dessous de 200 millisecondes, CLS en dessous de 0,1. Un menu lourd qui fait saccader la page, avec la mise en page qui sursaute pendant le chargement, suffit à vous faire sortir de la zone « bonne ». Lorsque vous choisissez un outil de création de menu, vérifiez s'il est optimisé pour ne pas ralentir la page — c'est pourquoi Navi+ met l'accent sur la légèreté des menus et l'obtention du badge Built for Shopify.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/menu-selection-process/">Lire le guide complet → Une méthode concrète pour choisir le bon menu</a></p>
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
+</figure>
 
 ## Par où commencer
+
+<figure>
+  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Commencez ici</span>Vérifiez d’abord la part mobile, puis listez les trois chemins que les clients utilisent le plus souvent.</p>
 
 Si vous ne savez pas comment vous y prendre, faites d'abord la plus petite chose : ouvrez Analytics pour vérifier votre part de mobile, puis notez les trois choses que vos clients ont le plus besoin d'atteindre. Ces deux informations à elles seules écartent la plupart des mauvais choix. Le reste, c'est de l'essai et de l'ajustement.
 
