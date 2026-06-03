@@ -37,6 +37,15 @@ child_links:
 
 この記事では、それぞれの指標について、それが何なのか、なぜ大切なのか、そしてメニューがお客様を助けているのか、それとも邪魔をしているのかを見極めるための読み方を、ひとつずつ解説していきます。
 
+<div class="lf-key">
+  <span class="lf-key-title">要点</span>
+  <ul>
+    <li>メニューの効果は複雑な分析なしでも測定できます。</li>
+    <li>5つの指標で、顧客がクリック、離脱、検索する場所が見えます。</li>
+    <li>まず明確な問題を1つ直し、新しいデータを待ちます。</li>
+  </ul>
+</div>
+
 ## 指標1 — 各メニュー項目のクリック率
 
 メニュー項目のクリック率(CTR)とは、その項目を見た人のうち、実際にクリックした人の割合のことです。もっともシンプルな指標でありながら、いちばん多くを物語ります。なぜなら、それぞれの項目がどれだけ注目を集めているかを教えてくれるからです。
@@ -54,6 +63,10 @@ GA4では、各メニューリンクに紐づけたクリックイベントで�
 CTRは実験を回すのにも向いています。項目の名前を変える、並び順を変える、2つの項目を統合する — そして1〜2週間後に数字がどう動いたかを見るのです。具体的な状況に応じたCTRの読み方・解釈の仕方については、別の記事でさらに詳しく扱っています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/menu-click-through-rate/">詳しいガイドを読む → 指標1 — 各メニュー項目のクリック率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
+</figure>
 
 ## 指標2 — ナビゲーションの深さ
 
@@ -66,6 +79,10 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 実用的なコツがあります。売上にいちばん効く5つのページを書き出し、それぞれにトップページからクリックでたどり着いてみて、ステップ数を数えるのです。もし3回を超えるなら、隠しすぎているかもしれません。デスクトップのMega Menuや、モバイル画面下部のTab Barといったメニュータイプは、まさにこの道のりを短くするために存在します — 大切な項目をお客様の手の届くところに引き寄せるのです。深さの測り方と、それを無理なく減らす方法については、別の記事で扱っています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/navigation-depth-metric/">詳しいガイドを読む → 指標2 — ナビゲーションの深さ</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
+</figure>
 
 ## 指標3 — カテゴリーページの離脱率
 
@@ -83,6 +100,10 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 これを読むときの注意点がひとつ。離脱率が高いことが、いつも悪いとは限りません。中には自然な終着点となるページもあります。けれど、お客様が商品へと進んでいくべきカテゴリーページにおいては、高い数字はたいてい見直す価値があります。「正常な」離脱率と「警戒すべき」離脱率をどう見分けるかについては、別の記事で詳しく掘り下げています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/collection-page-exit-rate/">詳しいガイドを読む → 指標3 — カテゴリーページの離脱率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
+</figure>
 
 ## 指標4 — モバイルとデスクトップでのナビゲーション行動
 
@@ -101,6 +122,10 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 モバイルがはっきり遅れをとっているなら、ボタンが小さすぎる、親指の届く範囲の外にある、あるいは大切な項目がスライド式メニューの奥深くに埋もれている、といった可能性が高いです。だからこそ、多くのストアはモバイルには画面下部に固定したTab Barを、デスクトップにはMega Menuを使います — 2つの異なる使われ方には、2つの異なるレイアウトを、というわけです。[Navi+](https://naviplus.io)のようなツールを使えば、モバイルとデスクトップをコードなしで別々に設定できるので、1つのデザインを両方に無理やり合わせる必要はありません。2つのプラットフォームの差をどう比較し、どう対処するかについては、別の記事を用意しています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/mobile-vs-desktop-navigation-behavior/">詳しいガイドを読む → 指標4 — モバイルとデスクトップでのナビゲーション行動</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
+</figure>
 
 ## 指標5 — サイト内検索の利用率
 
@@ -115,6 +140,10 @@ GA4でサイト内検索のトラッキングを有効にすれば、お客様�
 サイト内検索は、お客様からの丁寧な苦情として読みましょう。「これがメニューから見つけられませんでした」と。検索キーワードを使ってメニューの穴をどう埋めるかについては、別の記事で詳しく解説しています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/internal-search-usage-rate/">詳しいガイドを読む → 指標5 — サイト内検索の利用率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
+</figure>
 
 ## どこから始めるか
 
@@ -124,12 +153,23 @@ GA4でサイト内検索のトラッキングを有効にすれば、お客様�
 2. ヒートマップのためにMicrosoft Clarityを導入する。これは指標1を支え、モバイルの行動をざっと把握するのにも役立ちます。
 3. 2週間後、腰を据えて数字をひと通り見返し、おかしいと感じる点を2つか3つ書き留めます。
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">小さく始める</span>GA4のサイト内検索を有効にし、ヒートマップを追加して、2週間後に数値を確認します。</p>
+
 すべてを一度に最適化しようとしないこと。いちばんはっきりした指標を1つ選び、1つだけ直して、新しいデータが溜まるのを待ちます。メニューは一度設定したら終わりではなく、少しずつ調整していくものです。
 
 変更を加えるときに心に留めておきたいことがひとつ。メニューを変えるたびに、ページを遅くしないことです。Googleによれば、Core Web Vitalsの「良好」とされる基準は、LCPが2.5秒未満、INPが200ミリ秒未満、CLSが0.1未満です。読み込み中にページがカクついたり、レイアウトがずれたりするような美しいメニューは、得るものより失うもののほうが大きいのです。
 
 ## おわりに
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
+</figure>
 数字は、あなたを採点したり評価したりするためにあるのではありません。お客様がどこでつまずいているのか — 肉眼や勘ではなかなか捉えきれないものを — ただ見えるようにしてくれるだけです。良いメニューは、初日から完璧である必要はありません。お客様が実際にどう動くかをもとに、少しずつ良くしていけばいいのです。
 
 ささやかな提案として、3か月ごと、あるいは新しいカテゴリーを追加するたびに、メニューを見直してみてください。いちばん気負わずに始められるのは、今日GA4を有効にするかMicrosoft Clarityを導入して、2週間そのままにし、それからデータの目を通してメニューを眺めてみることです。お客様がずっと静かに伝えていたのに、これまで聞き取れていなかったことに、きっと驚くはずです。

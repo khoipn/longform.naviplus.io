@@ -37,6 +37,15 @@ Para saber se o seu menu está mesmo cumprindo o papel dele, intuição não bas
 
 Este artigo passa por cada métrica: o que é, por que importa e como lê-la para você descobrir se o seu menu está ajudando o cliente ou atrapalhando o caminho dele.
 
+<div class="lf-key">
+  <span class="lf-key-title">Leitura rápida</span>
+  <ul>
+    <li>O desempenho do menu pode ser medido sem analytics complexos.</li>
+    <li>As cinco métricas mostram onde clientes clicam, param ou pesquisam.</li>
+    <li>Corrija um problema claro e espere novos dados.</li>
+  </ul>
+</div>
+
 ## Métrica 1 — Taxa de cliques de cada item do menu
 
 A taxa de cliques (CTR) de um item do menu é a parcela das pessoas que veem aquele item e de fato clicam nele. É a métrica mais simples e, ainda assim, a que revela mais coisa, porque mostra quanta atenção cada item está atraindo.
@@ -54,6 +63,10 @@ No GA4, você acompanha isso com eventos de clique vinculados a cada link do men
 O CTR também é uma ótima forma de fazer experimentos. Renomeie um item, mude a ordem ou junte dois itens — e acompanhe como os números mudam depois de uma ou duas semanas. Mostramos como ler e interpretar o CTR para situações específicas com mais detalhes em um artigo à parte.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/menu-click-through-rate/">Leia o guia completo → Métrica 1 — Taxa de cliques de cada item do menu</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
+</figure>
 
 ## Métrica 2 — Profundidade de navegação
 
@@ -66,6 +79,10 @@ Nos relatórios de jornada do GA4, você consegue ver os caminhos mais comuns qu
 Uma dica prática: liste as cinco páginas mais importantes para o faturamento e, partindo da página inicial, clique até chegar a cada uma delas, contando os passos. Se levar mais de três, talvez você esteja escondendo essas páginas bem demais. Tipos de menu como o Mega Menu no desktop ou a Tab Bar na parte de baixo da tela do celular existem justamente para encurtar esse caminho — trazendo os itens importantes para perto do alcance do cliente. Falamos sobre como medir a profundidade e reduzi-la com bom senso em um artigo à parte.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/navigation-depth-metric/">Leia o guia completo → Métrica 2 — Profundidade de navegação</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
+</figure>
 
 ## Métrica 3 — Taxa de saída nas páginas de categoria
 
@@ -83,6 +100,10 @@ Alguns motivos comuns para uma taxa de saída alta em páginas de categoria:
 Uma observação ao ler esse número: uma taxa de saída alta nem sempre é ruim. Algumas páginas são pontos de parada naturais. Mas, para uma página de categoria — onde o cliente deveria estar avançando rumo aos produtos —, um número alto costuma merecer um segundo olhar. Nos aprofundamos em como distinguir uma taxa de saída "normal" de uma "preocupante" em um artigo à parte.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/collection-page-exit-rate/">Leia o guia completo → Métrica 3 — Taxa de saída nas páginas de categoria</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
+</figure>
 
 ## Métrica 4 — Comportamento de navegação no mobile vs. desktop
 
@@ -101,6 +122,10 @@ A forma mais fácil de ler isso é separar seus números por dispositivo. No GA4
 Se o mobile claramente fica para trás, é bem provável que os botões estejam pequenos demais, fiquem fora do alcance do polegar ou que itens importantes estejam enterrados fundo atrás de um menu deslizante. É por isso que muitas lojas usam uma Tab Bar fixa na parte de baixo da tela no mobile e um Mega Menu no desktop — dois layouts diferentes para duas formas diferentes de usar o site. Uma ferramenta como o [Navi+](https://naviplus.io) permite configurar mobile e desktop separadamente sem código, então você não precisa forçar um único design a servir para os dois. Escrevemos um artigo à parte sobre como comparar e lidar com a diferença entre as duas plataformas.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/mobile-vs-desktop-navigation-behavior/">Leia o guia completo → Métrica 4 — Comportamento de navegação no mobile vs. desktop</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
+</figure>
 
 ## Métrica 5 — Taxa de uso da busca interna
 
@@ -115,6 +140,10 @@ No GA4, se você ativar o rastreamento de busca no site, consegue ver quais pala
 Leia a busca interna como uma reclamação educada dos seus clientes: "Não consegui achar isto no seu menu." Detalhamos em um artigo à parte como usar os termos de busca para remendar o seu menu.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/internal-search-usage-rate/">Leia o guia completo → Métrica 5 — Taxa de uso da busca interna</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
+</figure>
 
 ## Por onde começar
 
@@ -124,12 +153,23 @@ Cinco métricas podem parecer muita coisa, mas você não precisa fazer todas de
 2. Instale o Microsoft Clarity para os mapas de calor, que apoiam a métrica 1 e dão uma olhada rápida no comportamento no mobile.
 3. Depois de duas semanas, sente-se e revise os números de uma só vez, anotando duas ou três coisas que parecem estranhas.
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Comece pequeno</span>Ative a busca interna no GA4, adicione heatmaps e revise os números depois de duas semanas.</p>
+
 Não tente otimizar tudo de uma vez. Escolha a única métrica mais clara, conserte uma coisa e depois espere por dados novos. Um menu é algo que você ajusta aos poucos, não algo que você configura uma vez e esquece.
 
 Uma coisa para ter em mente enquanto faz as mudanças: cada vez que você mexer no menu, não deixe a página mais lenta. Segundo o Google, os limites "bons" do Core Web Vitals são LCP abaixo de 2,5 segundos, INP abaixo de 200 milissegundos e CLS abaixo de 0,1. Um menu bonito que faz a página engasgar ou deslocar o layout durante o carregamento causa mais mal do que bem.
 
 ## Considerações finais
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
+</figure>
 Os números não estão aí para te dar nota nem te julgar. Eles só ajudam você a ver onde o cliente trava — algo que o olho nu e a intuição têm dificuldade de captar. Um bom menu não precisa ser perfeito desde o primeiro dia; ele precisa ser melhorado aos poucos, com base no que o cliente realmente faz.
 
 Uma sugestão tranquila: revise o seu menu a cada três meses, ou sempre que adicionar uma nova categoria. A forma menos estressante de começar é ativar o GA4 ou instalar o Microsoft Clarity hoje, deixar rodando por duas semanas e depois voltar para olhar o seu menu pelos olhos dos dados. Você vai se surpreender com o que o cliente vinha te dizendo em silêncio e você nunca tinha ouvido.

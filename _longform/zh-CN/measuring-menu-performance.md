@@ -37,6 +37,15 @@ child_links:
 
 这篇文章会逐一讲解每个指标：它是什么，为什么重要，以及如何解读它，让你能判断出菜单到底是在帮顾客，还是在挡他们的路。
 
+<div class="lf-key">
+  <span class="lf-key-title">快速要点</span>
+  <ul>
+    <li>菜单效果不需要复杂分析也可以衡量。</li>
+    <li>五个指标能显示用户在哪里点击、停下或搜索。</li>
+    <li>先修复一个最明确的问题，再等待新数据。</li>
+  </ul>
+</div>
+
 ## 指标 1——每个菜单项的点击率
 
 一个菜单项的点击率（CTR）是指看到该菜单项并真正点击它的人所占的比例。它是最简单的指标，却往往最能说明问题，因为它告诉你每个菜单项吸引了多少注意力。
@@ -54,6 +63,10 @@ child_links:
 点击率也很适合用来做实验。把某项改个名、调一下顺序，或者把两项合并——然后看一两周后数字怎么变化。我们在另一篇文章里更详细地讲了如何针对具体情境去读懂和解读点击率。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/menu-click-through-rate/">阅读完整指南 → 指标 1——每个菜单项的点击率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
+</figure>
 
 ## 指标 2——导航深度
 
@@ -66,6 +79,10 @@ child_links:
 一个实用的小技巧：列出对营收最关键的五个页面，然后从首页一路点过去，数一数步数。如果超过三步，你可能把它们藏得太好了。像桌面端的 Mega Menu，或者手机屏幕底部的 Tab Bar 这类菜单形式，存在的意义正是缩短这条路径——把重要的菜单项直接送到顾客触手可及的地方。我们在另一篇文章里讨论了如何衡量深度，以及如何合理地把它降下来。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/navigation-depth-metric/">阅读完整指南 → 指标 2——导航深度</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
+</figure>
 
 ## 指标 3——分类页的退出率
 
@@ -83,6 +100,10 @@ child_links:
 读这个指标时有一点要注意：退出率高不一定是坏事。有些页面本来就是自然的终点。但对一个分类页来说——顾客本该从这里继续进入商品——一个偏高的数字通常值得再看一眼。我们在另一篇文章里更深入地讲了如何区分"正常"的退出率和"令人警惕"的退出率。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/collection-page-exit-rate/">阅读完整指南 → 指标 3——分类页的退出率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
+</figure>
 
 ## 指标 4——移动端与桌面端的导航行为
 
@@ -101,6 +122,10 @@ child_links:
 如果移动端明显落后，很可能是按钮太小、超出了拇指能够到的范围，或者重要的菜单项被深埋在一个侧滑菜单后面。这就是为什么很多店铺在移动端使用固定在屏幕底部的 Tab Bar，在桌面端使用 Mega Menu——两种不同的布局，对应两种不同的使用方式。像 [Navi+](https://naviplus.io) 这样的工具让你无需写代码就能分别配置移动端和桌面端，这样你就不必硬把一套设计套到两边。我们专门写了一篇文章，讲如何对比并处理两个平台之间的差距。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/mobile-vs-desktop-navigation-behavior/">阅读完整指南 → 指标 4——移动端与桌面端的导航行为</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
+</figure>
 
 ## 指标 5——站内搜索使用率
 
@@ -115,6 +140,10 @@ child_links:
 把站内搜索当作顾客一句客气的抱怨来读："我在你的菜单里找不到这个。"我们在另一篇文章里详细讲了如何利用搜索词来修补你的菜单。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/internal-search-usage-rate/">阅读完整指南 → 指标 5——站内搜索使用率</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
+</figure>
 
 ## 从哪里开始
 
@@ -124,12 +153,23 @@ child_links:
 2. 安装 Microsoft Clarity 来获取热力图，它支撑指标 1，还能让你快速看一眼移动端的行为。
 3. 两周之后，坐下来一口气把数据过一遍，写下两三个看起来不对劲的地方。
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">从小处开始</span>开启 GA4 站内搜索，加入热图，然后两周后复盘数据。</p>
+
 别想着一次把所有东西都优化好。挑出最清楚的那个指标，改一件事，然后等新数据出来。菜单是要逐步调整的东西，而不是设置一次就丢在一边的。
 
 在做改动时，有一点要记住：每次改菜单，都别让页面变得更慢。据 Google 所说，"良好"的 Core Web Vitals 门槛是 LCP 在 2.5 秒以内、INP 在 200 毫秒以内、CLS 在 0.1 以内。一个漂亮但会让页面卡顿、或在加载时让布局抖动的菜单，弊大于利。
 
 ## 结语
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
+</figure>
 数字不是用来给你打分或评判你的。它们只是帮你看清顾客在哪里卡住了——这是肉眼和直觉很难捕捉到的。一个好菜单不需要从第一天起就完美；它需要根据顾客实际的行为逐步改进。
 
 一个温和的建议：每三个月检查一次你的菜单，或者每当你新增一个分类时就检查一次。最省心的起步方式，就是今天就打开 GA4 或安装 Microsoft Clarity，放上两周，然后回来用数据的眼光重新审视你的菜单。你会惊讶于顾客一直在默默告诉你、而你却从未听见的那些事。

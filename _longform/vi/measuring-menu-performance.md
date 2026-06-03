@@ -37,6 +37,15 @@ Muốn biết menu có thật sự làm tốt việc của nó hay không, cảm
 
 Bài này đi qua từng chỉ số: nó là gì, vì sao đáng quan tâm, và đọc nó thế nào để biết menu đang giúp hay đang cản khách.
 
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Hiệu quả menu có thể đo được mà không cần analytics phức tạp.</li>
+    <li>Năm chỉ số cho biết khách click, dừng lại hoặc tìm kiếm ở đâu.</li>
+    <li>Sửa một vấn đề rõ nhất trước, rồi chờ dữ liệu mới.</li>
+  </ul>
+</div>
+
 ## Chỉ số 1 — Click-through rate của từng menu item
 
 Click-through rate (CTR) của một mục menu là tỷ lệ người nhìn thấy mục đó và thực sự bấm vào. Đây là chỉ số đơn giản nhất nhưng hé lộ nhiều nhất, vì nó cho biết từng mục đang "kéo" được bao nhiêu sự chú ý.
@@ -54,6 +63,10 @@ Trong GA4, bạn theo dõi việc này bằng sự kiện click gắn vào từn
 CTR còn là cách tốt để thử nghiệm. Đổi tên một mục, đổi thứ tự, hoặc gộp hai mục lại — rồi xem con số nhúc nhích thế nào sau một hai tuần. Cách đọc và diễn giải CTR cho từng tình huống cụ thể, chúng tôi nói kỹ hơn trong bài riêng.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-click-through-rate/">Xem bài đầy đủ → Chỉ số 1 — Click-through rate của từng menu item</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
+</figure>
 
 ## Chỉ số 2 — Navigation depth (độ sâu điều hướng)
 
@@ -66,6 +79,10 @@ Trong báo cáo hành trình của GA4, bạn nhìn được các đường đi 
 Một mẹo thực tế: liệt kê năm trang quan trọng nhất với doanh thu, rồi tự bấm từ trang chủ xem mất mấy lần. Nếu quá ba lần, có thể bạn đang giấu chúng quá kỹ. Những loại menu như Mega Menu trên desktop hay Tab Bar dưới đáy màn hình mobile tồn tại chính là để rút ngắn quãng đường này — đưa các mục quan trọng lên ngay tầm tay khách. Cách đo và kéo độ sâu xuống một cách hợp lý, chúng tôi bàn tiếp trong bài riêng.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-depth-metric/">Xem bài đầy đủ → Chỉ số 2 — Navigation depth (độ sâu điều hướng)</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
+</figure>
 
 ## Chỉ số 3 — Exit rate tại trang danh mục
 
@@ -83,6 +100,10 @@ Vài lý do thường gặp khiến exit rate trang danh mục cao:
 Một lưu ý khi đọc: exit rate cao không phải lúc nào cũng xấu. Có những trang vốn là điểm dừng tự nhiên. Nhưng với trang danh mục — nơi lẽ ra khách phải đi tiếp vào sản phẩm — con số cao thường đáng xem lại. Cách phân biệt exit rate "bình thường" và exit rate "báo động", chúng tôi đào sâu trong bài riêng.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/collection-page-exit-rate/">Xem bài đầy đủ → Chỉ số 3 — Exit rate tại trang danh mục</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
+</figure>
 
 ## Chỉ số 4 — Hành vi điều hướng mobile so với desktop
 
@@ -101,6 +122,10 @@ Cách đọc dễ nhất là tách số liệu theo thiết bị. Trong GA4 bạ
 Nếu mobile tụt lại rõ rệt, rất có thể nút bấm quá nhỏ, nằm ngoài vùng ngón cái với tới, hoặc các mục quan trọng bị chôn sâu sau menu trượt. Đây là lý do nhiều store dùng Tab Bar cố định dưới đáy màn hình cho mobile và Mega Menu cho desktop — hai bố cục khác nhau cho hai cách dùng khác nhau. Công cụ như [Navi+](https://naviplus.io) cho phép cấu hình mobile và desktop riêng biệt mà không cần code, nên bạn không phải ép một thiết kế vừa cả hai. Cách so sánh và xử lý chênh lệch giữa hai nền tảng, chúng tôi viết riêng một bài.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/mobile-vs-desktop-navigation-behavior/">Xem bài đầy đủ → Chỉ số 4 — Hành vi điều hướng mobile so với desktop</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
+</figure>
 
 ## Chỉ số 5 — Tỷ lệ dùng tìm kiếm nội bộ
 
@@ -115,6 +140,10 @@ Trong GA4, nếu bật theo dõi site search, bạn xem được khách tìm nh�
 Hãy đọc tìm kiếm nội bộ như lời than phiền lịch sự của khách: "Tôi không tìm thấy thứ này trong menu của anh." Cách khai thác từ khóa tìm kiếm để vá lại menu, chúng tôi nói kỹ trong bài riêng.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/internal-search-usage-rate/">Xem bài đầy đủ → Chỉ số 5 — Tỷ lệ dùng tìm kiếm nội bộ</a></p>
+<figure>
+  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
+</figure>
 
 ## Bắt đầu từ đâu
 
@@ -124,12 +153,23 @@ Năm chỉ số nghe có vẻ nhiều, nhưng bạn không cần làm tất cả
 2. Cài Microsoft Clarity để có heatmap, phục vụ chỉ số 1 và nhìn nhanh hành vi mobile.
 3. Sau hai tuần, ngồi lại nhìn số liệu một lượt, ghi ra hai ba điều bất thường.
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Bắt đầu nhỏ</span>Bật GA4 site search, thêm heatmap, rồi xem lại số liệu sau hai tuần.</p>
+
 Đừng cố tối ưu mọi thứ trong một lần. Chọn một chỉ số rõ ràng nhất, sửa một thứ, rồi đợi dữ liệu mới. Menu là thứ điều chỉnh dần, không phải làm một lần xong là quên.
 
 Một điểm cần nhớ khi chỉnh sửa: mỗi lần đổi menu, đừng làm trang chậm đi. Theo Google, các ngưỡng Core Web Vitals "tốt" gồm LCP dưới 2,5 giây, INP dưới 200 mili giây và CLS dưới 0,1. Một menu đẹp nhưng làm trang giật, nhảy layout khi tải thì lợi bất cập hại.
 
 ## Khép lại
 
+<figure>
+  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
+</figure>
 Số liệu không phải để chấm điểm hay phán xét bạn. Nó chỉ giúp bạn thấy khách đang vướng ở đâu — điều mà mắt thường và cảm giác khó nhận ra. Một menu tốt không cần hoàn hảo ngay từ đầu; nó cần được sửa dần dựa trên những gì khách thật sự làm.
 
 Một gợi ý nhẹ nhàng: xem lại menu mỗi ba tháng, hoặc mỗi khi bạn thêm một danh mục mới. Cách khởi động đỡ áp lực nhất là bật GA4 hoặc cài Microsoft Clarity ngay hôm nay, để đó hai tuần, rồi quay lại nhìn menu của mình bằng con mắt của dữ liệu. Bạn sẽ ngạc nhiên với những gì khách đã âm thầm nói mà bạn chưa từng nghe.
