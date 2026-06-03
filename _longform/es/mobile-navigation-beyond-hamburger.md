@@ -32,6 +32,15 @@ El menú hamburguesa — tres líneas apiladas en una esquina de la pantalla —
 
 Si gestionas una tienda con más de diez categorías, la **navegación móvil** suele ser una fuente silenciosa de ingresos perdidos que pocos notan. Los clientes llegan desde el teléfono, quieren explorar, pero el camino a tus categorías está escondido detrás de un icono que tienen que tocar para abrir. Este artículo analiza por qué el menú hamburguesa se queda sin fuerza en el móvil de ecommerce, y propone alternativas más prácticas: la Tab Bar, la zona del pulgar y cómo combinar varios tipos de menú para adaptarte a la forma en que la gente realmente sostiene el teléfono.
 
+<div class="lf-key">
+  <span class="lf-key-title">Lectura rápida</span>
+  <ul>
+    <li>El menú hamburguesa oculta las rutas más importantes.</li>
+    <li>La zona del pulgar mueve la navegación clave hacia abajo.</li>
+    <li>Tab Bar más Slide Menu suele ser la configuración móvil práctica.</li>
+  </ul>
+</div>
+
 ## El verdadero problema del menú hamburguesa en el móvil de ecommerce
 
 El mayor problema no es que el menú hamburguesa se vea mal — es que esconde tu navegación. Los clientes tienen que tocar antes de saber qué hay dentro. Suena como una acción pequeña, pero multiplicada por miles de visitas crea una brecha real entre "ver tus categorías" y "no verlas".
@@ -45,6 +54,10 @@ En ecommerce, el coste de un paso adicional es mayor de lo que se suele suponer.
 Esto no significa que la hamburguesa sea siempre mala. Para un blog sencillo o una landing page con apenas unos enlaces, sigue funcionando bien. El problema es que una tienda de ecommerce rara vez es tan simple.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/problems-with-hamburger-menu/">Lee la guía completa → El verdadero problema del menú hamburguesa en el móvil de ecommerce</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
+</figure>
 
 ## Zona del pulgar — entender cómo sostiene la gente el teléfono
 
@@ -63,6 +76,10 @@ Ahora mira de nuevo el menú hamburguesa: está justo en la esquina superior —
 Esta es la razón de fondo para mover el menú a la parte inferior. No porque la parte de abajo sea "más bonita", sino porque cae dentro del alcance natural del pulgar. Una vez entendido este punto, las decisiones de diseño que vienen después son mucho más fáciles de explicar.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/thumb-zone-mobile-design/">Lee la guía completa → Zona del pulgar — entender cómo sostiene la gente el teléfono</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
+</figure>
 
 ## Tab Bar — la alternativa principal
 
@@ -86,6 +103,10 @@ Algo a vigilar al cambiar a una Tab Bar: que no ralentice la página ni desplace
 Aquí es también donde ayuda [Navi+](https://naviplus.io): construye una Tab Bar arrastrando y soltando, sin código, configurada por separado para el móvil, y diseñada para que no perjudique tus puntuaciones de Core Web Vitals.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/tab-bar-mobile-navigation/">Lee la guía completa → Tab Bar — la alternativa principal</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
+</figure>
 
 ## Combinar Tab Bar + Slide Menu
 
@@ -104,6 +125,10 @@ La parte complicada de esta combinación es tener que configurar el móvil y el 
 [Navi+](https://naviplus.io) puede hacer todos estos tipos de menú en un solo lugar — Tab Bar, Slide Menu, Mega Menu, FAB, Grid Menu — y te permite configurar el móvil y el escritorio por separado. Los menús también se mantienen en su sitio cuando cambias de tema, así que no tienes que reconstruir desde cero cada vez que cambias tu interfaz.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/combining-tab-bar-and-slide-menu/">Lee la guía completa → Combinar Tab Bar + Slide Menu (y el papel del FAB)</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
+</figure>
 
 ## Por dónde empezar
 
@@ -115,6 +140,13 @@ Algunas preguntas para evaluarte:
 - ¿Cuántos toques necesita un cliente para llegar a la categoría que quiere?
 - ¿Están los botones más usados dentro del alcance cómodo del pulgar?
 - ¿El menú ralentiza la página o desplaza el diseño mientras se carga?
+
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Prueba con una mano</span>Abre la tienda en el teléfono y recorre una compra sin cambiar de mano.</p>
 
 No necesitas rehacerlo todo de golpe. Normalmente, basta con bajar los 3–5 caminos principales a una Tab Bar y reunir el resto en un Slide Menu para notar la diferencia. Es el tipo de cambio que cuesta poco esfuerzo pero toca directamente la experiencia diaria de tus clientes móviles.
 

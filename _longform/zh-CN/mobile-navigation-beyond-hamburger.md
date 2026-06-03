@@ -32,6 +32,15 @@ child_links:
 
 如果你经营的店铺有超过十个分类，**移动端导航**往往是一处悄悄流失营收、却很少有人注意到的地方。顾客用手机进店，他们想随便逛逛，但通往你各个分类的入口却藏在一个图标后面，得点开才看得到。这篇文章会聊聊为什么汉堡菜单在电商移动端力不从心，以及一些更实用的替代方案：Tab Bar、拇指可达区，还有如何把几种菜单搭配起来，去贴合人们实际握手机的方式。
 
+<div class="lf-key">
+  <span class="lf-key-title">快速要点</span>
+  <ul>
+    <li>汉堡菜单会隐藏用户最需要的路径。</li>
+    <li>拇指热区会把重要导航推向屏幕底部。</li>
+    <li>Tab Bar 加 Slide Menu 通常是实用的移动端组合。</li>
+  </ul>
+</div>
+
 ## 汉堡菜单在电商移动端真正的问题
 
 最大的问题不是汉堡菜单不好看——而是它把你的导航藏了起来。顾客得先点一下，才知道里面有什么。这听起来是个微不足道的动作，但乘以成千上万次访问之后，就在"看见你的分类"和"看不见你的分类"之间拉开了一道真实的差距。
@@ -45,6 +54,10 @@ Nielsen Norman Group 测量过这件事。在一项覆盖六个网站、179 名�
 这并不意味着汉堡菜单总是坏的。对于一个简单的博客，或者只有几个链接的落地页，它依然没问题。麻烦在于，电商店铺很少会那么简单。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/problems-with-hamburger-menu/">阅读完整指南 → 汉堡菜单在电商移动端真正的问题</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
+</figure>
 
 ## 拇指可达区——理解人们是怎么握手机的
 
@@ -63,6 +76,10 @@ Nielsen Norman Group 测量过这件事。在一项覆盖六个网站、179 名�
 这正是把菜单移到底部的根本原因。不是因为底部"更好看"，而是因为底部落在了拇指自然可达的范围之内。一旦理解了这一点，接下来的种种设计选择就容易解释多了。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/thumb-zone-mobile-design/">阅读完整指南 → 拇指可达区——理解人们是怎么握手机的</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
+</figure>
 
 ## Tab Bar——最主要的替代方案
 
@@ -86,6 +103,10 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 这也正是 [Navi+](https://naviplus.io) 能帮上忙的地方：它用拖拽就能搭出一个 Tab Bar，无需写代码，可以为移动端单独配置，而且做了优化，不会拖累你的 Core Web Vitals 分数。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/tab-bar-mobile-navigation/">阅读完整指南 → Tab Bar——最主要的替代方案</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
+</figure>
 
 ## 组合使用 Tab Bar + Slide Menu
 
@@ -104,6 +125,10 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 [Navi+](https://naviplus.io) 能在一个地方搞定所有这些菜单类型——Tab Bar、Slide Menu、Mega Menu、FAB、Grid Menu——并且让你为移动端和桌面端分别配置。菜单还会在你更换主题时保持原样，这样每次切换界面时你都不用从头重做。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/combining-tab-bar-and-slide-menu/">阅读完整指南 → 组合使用 Tab Bar + Slide Menu（以及 FAB 的角色）</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
+</figure>
 
 ## 从哪里开始
 
@@ -115,6 +140,13 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 - 顾客要点几下才能进到他想要的分类？
 - 最常用的那些按钮，是不是都在拇指舒服可达的范围内？
 - 菜单加载时会不会拖慢页面或者让布局发生位移？
+
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">单手测试</span>用手机打开店铺，不换手走一遍购买路径。</p>
 
 你不必一次性把所有东西都重做。通常，只要把那 3–5 个主要路径下移到 Tab Bar，再把其余的归拢进 Slide Menu，就足以感受到区别了。这是那种花费很小、却直接触及移动端顾客日常体验的改动。
 

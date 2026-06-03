@@ -32,6 +32,15 @@ Hamburger menu — ba gạch ngang ở góc màn hình — có từ những ngà
 
 Nếu bạn vận hành một store có hơn mười danh mục, **mobile navigation** thường là chỗ rò rỉ doanh thu mà ít người để ý. Khách vào bằng điện thoại, muốn xem hàng, nhưng đường tới danh mục lại nằm sau một biểu tượng phải bấm mới mở. Bài này nói về lý do hamburger menu đuối sức trên ecommerce mobile, và những hướng thay thế thực dụng hơn: Tab Bar, thumb zone, và cách phối nhiều kiểu menu cho hợp với cách người ta thật sự cầm điện thoại.
 
+<div class="lf-key">
+  <span class="lf-key-title">Đọc nhanh</span>
+  <ul>
+    <li>Hamburger menu che mất những đường đi khách cần nhất.</li>
+    <li>Thumb zone đẩy điều hướng quan trọng xuống gần đáy màn hình.</li>
+    <li>Tab Bar kết hợp Slide Menu thường là cấu hình mobile thực tế nhất.</li>
+  </ul>
+</div>
+
 ## Vấn đề thực sự của hamburger menu trên ecommerce mobile
 
 Vấn đề lớn nhất không phải hamburger menu xấu, mà là nó giấu điều hướng đi. Khách phải bấm mới biết bên trong có gì. Một thao tác nghe nhỏ, nhưng nhân với hàng nghìn lượt truy cập, nó tạo ra khoảng cách thật giữa "thấy danh mục" và "không thấy".
@@ -45,6 +54,10 @@ Trên ecommerce, cái giá của một thao tác thừa cao hơn người ta tư
 Điều này không có nghĩa hamburger luôn tệ. Với một blog đơn giản hay landing page chỉ vài liên kết, nó vẫn ổn. Vấn đề là store ecommerce hiếm khi đơn giản như vậy.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/problems-with-hamburger-menu/">Xem bài đầy đủ → Vấn đề thực sự của hamburger menu trên ecommerce mobile</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
+</figure>
 
 ## Thumb zone — hiểu cách người dùng cầm điện thoại
 
@@ -63,6 +76,10 @@ Giờ nhìn lại hamburger menu: nó nằm đúng góc trên cùng — vùng kh
 Đây là lý do nền tảng cho việc chuyển menu xuống đáy. Không phải vì đáy "đẹp hơn", mà vì đáy nằm trong tầm với tự nhiên của ngón cái. Hiểu điểm này rồi thì những lựa chọn thiết kế phía sau dễ giải thích hơn nhiều.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/thumb-zone-mobile-design/">Xem bài đầy đủ → Thumb zone — hiểu cách người dùng cầm điện thoại</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
+</figure>
 
 ## Tab Bar — giải pháp thay thế chính
 
@@ -86,6 +103,10 @@ Một lưu ý khi đổi sang Tab Bar: đừng để nó làm chậm trang hay n
 Đây cũng là chỗ [Navi+](https://naviplus.io) hữu ích: nó dựng Tab Bar bằng kéo-thả, không cần code, cấu hình riêng cho mobile, và được làm để không kéo điểm Core Web Vitals xuống.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/tab-bar-mobile-navigation/">Xem bài đầy đủ → Tab Bar — giải pháp thay thế chính</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
+</figure>
 
 ## Kết hợp Tab Bar + Slide Menu
 
@@ -104,6 +125,10 @@ Cái khó của cách phối này là phải cấu hình mobile và desktop riê
 [Navi+](https://naviplus.io) làm được mấy kiểu menu này trong cùng một chỗ — Tab Bar, Slide Menu, Mega Menu, FAB, Grid Menu — và cho cấu hình mobile, desktop tách biệt. Menu cũng giữ nguyên khi bạn đổi theme, nên không phải dựng lại từ đầu mỗi lần thay giao diện.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/combining-tab-bar-and-slide-menu/">Xem bài đầy đủ → Kết hợp Tab Bar + Slide Menu (và vai trò của FAB)</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
+</figure>
 
 ## Bắt đầu từ đâu
 
@@ -115,6 +140,13 @@ Vài câu hỏi để tự kiểm:
 - Khách cần mấy lần chạm để tới danh mục họ muốn?
 - Những nút hay dùng nhất có nằm trong vùng ngón cái với thoải mái không?
 - Menu có làm trang chậm đi hay nhảy layout khi tải không?
+
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Test một tay</span>Mở store trên điện thoại và đi thử một lượt mua hàng mà không đổi tay.</p>
 
 Không cần làm lại hết một lượt. Thường chỉ cần đưa 3–5 lối đi chính xuống một Tab Bar và dồn phần còn lại vào Slide Menu là đã thấy khác. Đây là kiểu thay đổi nhỏ về công sức nhưng chạm thẳng vào trải nghiệm hằng ngày của khách mobile.
 

@@ -32,6 +32,15 @@ Le menu hamburger — trois traits empilés dans le coin de l'écran — remonte
 
 Si vous gérez une boutique avec plus de dix catégories, la **navigation mobile** est souvent une source discrète de revenus perdus que peu de gens remarquent. Les clients arrivent sur leur téléphone, ils veulent parcourir le site, mais le chemin vers vos catégories se cache derrière une icône qu'ils doivent toucher pour l'ouvrir. Cet article examine pourquoi le menu hamburger s'essouffle sur le mobile en e-commerce, et présente des alternatives plus concrètes : la Tab Bar, la zone du pouce, et comment mélanger plusieurs types de menus pour coller à la façon dont les gens tiennent réellement leur téléphone.
 
+<div class="lf-key">
+  <span class="lf-key-title">Lecture rapide</span>
+  <ul>
+    <li>Le hamburger cache les chemins dont les clients ont le plus besoin.</li>
+    <li>La thumb zone pousse la navigation importante vers le bas.</li>
+    <li>Tab Bar plus Slide Menu est souvent la configuration mobile pratique.</li>
+  </ul>
+</div>
+
 ## Le vrai problème du menu hamburger sur le mobile en e-commerce
 
 Le plus gros problème n'est pas que le menu hamburger soit laid — c'est qu'il cache votre navigation. Les clients doivent toucher l'icône avant de savoir ce qu'il y a à l'intérieur. Cela paraît anodin, mais multiplié par des milliers de visites, cela creuse un véritable écart entre « voir vos catégories » et « ne pas les voir ».
@@ -45,6 +54,10 @@ En e-commerce, le coût d'une étape supplémentaire est plus élevé qu'on ne l
 Cela ne veut pas dire que le hamburger est toujours mauvais. Pour un simple blog ou une landing page avec quelques liens, il reste tout à fait adapté. Le souci, c'est qu'une boutique e-commerce est rarement aussi simple.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/problems-with-hamburger-menu/">Lire le guide complet → Le vrai problème du menu hamburger sur le mobile en e-commerce</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
+</figure>
 
 ## La zone du pouce — comprendre comment les gens tiennent leur téléphone
 
@@ -63,6 +76,10 @@ Reregardez maintenant le menu hamburger : il se place pile dans le coin supérie
 C'est la raison de fond qui justifie de déplacer le menu vers le bas. Non pas parce que le bas est « plus joli », mais parce que le bas se trouve dans la portée naturelle du pouce. Une fois ce point compris, les choix de design qui en découlent sont bien plus faciles à expliquer.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/thumb-zone-mobile-design/">Lire le guide complet → La zone du pouce — comprendre comment les gens tiennent leur téléphone</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
+</figure>
 
 ## La Tab Bar — la principale alternative
 
@@ -86,6 +103,10 @@ Un point à surveiller lors du passage à une Tab Bar : ne la laissez pas ralent
 C'est aussi là que [Navi+](https://naviplus.io) intervient : il construit une Tab Bar par glisser-déposer, sans code, configurée séparément pour le mobile, et conçue pour ne pas plomber vos scores Core Web Vitals.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/tab-bar-mobile-navigation/">Lire le guide complet → La Tab Bar — la principale alternative</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
+</figure>
 
 ## Combiner Tab Bar + Slide Menu
 
@@ -104,6 +125,10 @@ La partie délicate de cette combinaison, c'est de devoir configurer le mobile e
 [Navi+](https://naviplus.io) peut gérer tous ces types de menus au même endroit — Tab Bar, Slide Menu, Mega Menu, FAB, Grid Menu — et vous permet de configurer le mobile et le desktop séparément. Les menus restent aussi en place quand vous changez de thème, ce qui vous évite de tout reconstruire à chaque fois que vous changez d'interface.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">À approfondir</span><a href="/fr/topic/combining-tab-bar-and-slide-menu/">Lire le guide complet → Combiner Tab Bar + Slide Menu (et le rôle du FAB)</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
+</figure>
 
 ## Par où commencer
 
@@ -115,6 +140,13 @@ Quelques questions pour vous tester :
 - Combien d'appuis un client doit-il faire pour atteindre la catégorie qu'il vise ?
 - Les boutons les plus utilisés sont-ils à portée confortable du pouce ?
 - Le menu ralentit-il la page ou en décale-t-il la mise en page pendant son chargement ?
+
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">Test à une main</span>Ouvrez la boutique sur votre téléphone et parcourez un achat sans changer de main.</p>
 
 Vous n'avez pas besoin de tout refaire d'un coup. En général, il suffit de descendre les 3 à 5 chemins principaux dans une Tab Bar et de regrouper le reste dans un Slide Menu pour sentir la différence. C'est le genre de changement qui demande peu d'efforts mais qui touche directement l'expérience quotidienne de vos clients mobiles.
 

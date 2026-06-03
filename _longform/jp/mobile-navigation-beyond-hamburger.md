@@ -32,6 +32,15 @@ child_links:
 
 カテゴリーが 10 を超えるストアを運営しているなら、**モバイルナビゲーション**はほとんど誰も気づかないまま売上を静かに失わせている原因になっていることが多いものです。お客様はスマホでやってきて、商品を見て回りたいと思っています。ところがカテゴリーへの道は、タップして開かなければならないアイコンの後ろに隠れています。この記事では、EC モバイルでハンバーガーメニューが力尽きてしまう理由と、より実用的な代替手段 — Tab Bar、サムゾーン、そして人が実際にスマホを持つやり方に合わせて複数の種類のメニューを組み合わせる方法 — を見ていきます。
 
+<div class="lf-key">
+  <span class="lf-key-title">要点</span>
+  <ul>
+    <li>ハンバーガーメニューは重要な導線を隠します。</li>
+    <li>親指ゾーンは重要なナビゲーションを下部へ動かします。</li>
+    <li>Tab Bar と Slide Menu の組み合わせが実用的です。</li>
+  </ul>
+</div>
+
 ## EC モバイルにおけるハンバーガーメニューの本当の問題
 
 いちばんの問題は、ハンバーガーメニューの見た目が悪いことではありません — ナビゲーションを隠してしまうことです。お客様は中身を知る前に、まずタップしなければなりません。一見すると小さな動作に思えますが、何千もの訪問にわたって積み重なると、「カテゴリーが見えている」状態と「見えていない」状態のあいだに、無視できない差が生まれます。
@@ -45,6 +54,10 @@ EC では、たった一手間の余分なステップが、思っている以�
 これは、ハンバーガーが常に悪いという意味ではありません。リンクが数本しかないシンプルなブログやランディングページなら、今でも問題ありません。やっかいなのは、EC ストアがそこまでシンプルであることはめったにない、という点です。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/problems-with-hamburger-menu/">詳しいガイドを読む → EC モバイルにおけるハンバーガーメニューの本当の問題</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
+</figure>
 
 ## サムゾーン — 人がスマホをどう持つかを理解する
 
@@ -63,6 +76,10 @@ EC では、たった一手間の余分なステップが、思っている以�
 これこそが、メニューを下部へ移す根本的な理由です。下部が「見た目にきれい」だからではなく、下部が親指の自然な届く範囲に入っているからです。この点を理解すれば、その後に続くデザインの選択は、ずっと説明しやすくなります。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/thumb-zone-mobile-design/">詳しいガイドを読む → サムゾーン — 人がスマホをどう持つかを理解する</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
+</figure>
 
 ## Tab Bar — 主要な代替手段
 
@@ -86,6 +103,10 @@ Tab Bar に切り替えるときに気をつけたいことが 1 つあります
 ここで [Navi+](https://naviplus.io) が役に立ちます。ドラッグ＆ドロップでコード不要で Tab Bar を作り、モバイル向けに個別に設定でき、Core Web Vitals のスコアを下げないように作られています。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/tab-bar-mobile-navigation/">詳しいガイドを読む → Tab Bar — 主要な代替手段</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
+</figure>
 
 ## Tab Bar と Slide Menu の組み合わせ
 
@@ -104,6 +125,10 @@ Tab Bar に切り替えるときに気をつけたいことが 1 つあります
 [Navi+](https://naviplus.io) は、これらすべての種類のメニュー — Tab Bar、Slide Menu、Mega Menu、FAB、Grid Menu — を 1 か所で扱え、モバイルとデスクトップを別々に設定できます。メニューはテーマを変えてもそのまま残るので、インターフェースを切り替えるたびにゼロから作り直す必要もありません。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/combining-tab-bar-and-slide-menu/">詳しいガイドを読む → Tab Bar と Slide Menu の組み合わせ（そして FAB の役割）</a></p>
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
+</figure>
 
 ## どこから始めるか
 
@@ -115,6 +140,13 @@ Tab Bar に切り替えるときに気をつけたいことが 1 つあります
 - お客様が目当てのカテゴリーにたどり着くのに、何回タップが必要ですか。
 - もっともよく使うボタンは、親指が無理なく届く範囲にありますか。
 - メニューは読み込み時にページを遅くしたり、レイアウトをずらしたりしていませんか。
+
+<figure>
+  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
+</figure>
+
+<p class="lf-note"><span class="lf-note-title">片手テスト</span>スマートフォンでストアを開き、手を持ち替えずに購入導線を試します。</p>
 
 すべてを一度にやり直す必要はありません。たいていは、3〜5 の主要経路を下の Tab Bar へ移し、残りを Slide Menu にまとめるだけで、違いを実感できます。これは、わずかな手間でできるのに、モバイルのお客様の日々の体験に直接触れる、そういう種類の変更です。
 
