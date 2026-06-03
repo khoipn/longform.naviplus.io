@@ -1,7 +1,7 @@
 ---
 lang: en
 ref: sell-online-with-shopify
-order: 1
+order: 10
 title: "How to sell online effectively with Shopify"
 description: "A complete, no-fluff playbook for launching and growing a profitable Shopify store — from store setup to navigation, traffic, and conversion."
 topic_tag: "Shopify"

@@ -1,7 +1,7 @@
 ---
 lang: vi
 ref: sell-online-with-shopify
-order: 1
+order: 10
 title: "Làm sao bán hàng online hiệu quả với Shopify"
 description: "Cẩm nang đầy đủ, không lan man để khởi động và tăng trưởng một cửa hàng Shopify có lãi — từ dựng store, điều hướng, traffic đến chuyển đổi."
 topic_tag: "Shopify"
