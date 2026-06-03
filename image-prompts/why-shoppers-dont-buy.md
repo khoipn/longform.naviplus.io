@@ -114,6 +114,20 @@ Image 3:
 - Key visual: Large ecommerce UI showing Tab Bar, Mega Menu, Slide Menu, FAB, and Grid Menu as organized solution patterns.
 - Callouts: "Tab Bar", "Mega Menu", "Slide Menu"
 
+Image 4:
+- Topic: Common Shopify navigation mistakes block product discovery.
+- Headline: "Hidden Menus Hurt"
+- Subtitle: "Shoppers cannot buy what they cannot discover."
+- Key visual: Storefront UI with hidden hamburger navigation, deep category tree, slow app warning, and a confused shopper.
+- Callouts: "Hidden menu", "Deep tree", "Slow apps"
+
+Image 5:
+- Topic: Store owners should audit navigation on mobile like first-time shoppers.
+- Headline: "Start With Mobile"
+- Subtitle: "Count the taps before a shopper reaches the product."
+- Key visual: Mobile ecommerce journey with numbered taps from Home to Category to Product and a quick mobile check card.
+- Callouts: "Pick product", "Count taps", "Check speed"
+
 ## Image 1 Generation Prompt
 
 Create one standalone 1280x720 horizontal blog illustration.
@@ -173,6 +187,72 @@ A large simplified ecommerce conversion flow, not a dense dashboard. Show a brow
 
 Style:
 Clean modern vector illustration, warm off-white background, deep navy typography and outlines, coral red friction markers, bright blue ecommerce UI accents, teal/green success zones, pale blue-gray UI cards and placeholder lines, rounded corners, soft shadows, subtle gradients, spacious SaaS/ecommerce editorial layout. Professional, modern, editorial, educational, calm, product-led, premium, slightly infographic-like but not dense.
+
+Watermark:
+Add a tiny faint bottom-right watermark inside a small translucent white rounded rectangle. Exact text: "@Navi+ AI Menu Builder | naviplus.io". Left-align the text. Place it about 24-32px from the right edge and 18-28px from the bottom edge. Do not create a footer.
+
+Negative constraints:
+Do not create a multi-panel image. Do not create a collage. Do not create a dashboard collage. Do not create a website screenshot. Do not use photorealism, 3D render, isometric 3D, dark theme, stock photo style, comic style, sketch style, overly cute cartoon style, dense UI, complex charts, tiny text, random logos, non-English text, footer bar, or a combined preview.
+
+## Image 4 Generation Prompt
+
+Create one standalone 1280x720 horizontal blog illustration.
+
+Use the style reference URL only as visual style inspiration: https://cdn.naviplus.app/AI/templates/chatGPT/ChatGPT-generate-images.webp
+
+Topic: Common Shopify navigation mistakes quietly block shoppers from finding products.
+
+Headline text, large on the left:
+"Hidden Menus Hurt"
+
+Make the word "Hidden" coral red and the rest deep navy.
+
+Subtitle below headline:
+"Shoppers cannot buy what they cannot discover."
+
+Insight cards on lower-left:
+- "Hidden menu"
+- "Deep tree"
+- "Slow apps"
+
+Main visual on center/right:
+A large ecommerce storefront UI with a desktop browser and mobile phone overlap. Show a top navigation hidden behind a coral warning hamburger icon, a category tree that is either too flat or too deep, and a small speed warning chip. Use coral red callouts for mistakes and teal green highlights for visible navigation fixes. Include simple product cards and a confused shopper character pointing at the screen. Main objects should be large, readable, and zoomed-in, using the full 720px canvas height.
+
+Style:
+Clean modern vector illustration, warm off-white background, deep navy typography and outlines, coral red friction markers, bright blue ecommerce UI accents, teal/green solution zones, pale blue-gray UI cards and placeholder lines, rounded corners, soft shadows, subtle gradients, spacious SaaS/ecommerce editorial layout. Professional, modern, educational, calm, product-led, premium, slightly infographic-like but not dense.
+
+Watermark:
+Add a tiny faint bottom-right watermark inside a small translucent white rounded rectangle. Exact text: "@Navi+ AI Menu Builder | naviplus.io". Left-align the text. Place it about 24-32px from the right edge and 18-28px from the bottom edge. Do not create a footer.
+
+Negative constraints:
+Do not create a multi-panel image. Do not create a collage. Do not create a dashboard collage. Do not create a website screenshot. Do not use photorealism, 3D render, isometric 3D, dark theme, stock photo style, comic style, sketch style, overly cute cartoon style, dense UI, complex charts, tiny text, random logos, non-English text, footer bar, or a combined preview.
+
+## Image 5 Generation Prompt
+
+Create one standalone 1280x720 horizontal blog illustration.
+
+Use the style reference URL only as visual style inspiration: https://cdn.naviplus.app/AI/templates/chatGPT/ChatGPT-generate-images.webp
+
+Topic: Store owners should start by testing navigation on their own phone like a first-time shopper.
+
+Headline text, large on the left:
+"Start With Mobile"
+
+Make the word "Mobile" coral red and the rest deep navy.
+
+Subtitle below headline:
+"Count the taps before a shopper reaches the product."
+
+Insight cards on lower-left:
+- "Pick product"
+- "Count taps"
+- "Check speed"
+
+Main visual on center/right:
+A large mobile ecommerce screen held in a simple hand, showing a shopper journey from Home to Category to Product with numbered tap markers. Add a clean checklist card floating nearby with three checked items: product path, thumb reach, page speed. Use a green success path when the route is short, and a small coral warning marker for too many taps. Include simple product cards, bottom navigation, and a clear product page destination. Main objects should be large, readable, and zoomed-in, using full canvas height.
+
+Style:
+Clean modern vector illustration, warm off-white background, deep navy typography and device frame, coral red friction marker, bright blue ecommerce UI accents, teal/green success path and checkmarks, pale blue-gray UI cards and placeholder lines, rounded corners, soft shadows, subtle gradients, spacious SaaS/ecommerce editorial layout. Professional, modern, educational, calm, product-led, premium, slightly infographic-like but not dense.
 
 Watermark:
 Add a tiny faint bottom-right watermark inside a small translucent white rounded rectangle. Exact text: "@Navi+ AI Menu Builder | naviplus.io". Left-align the text. Place it about 24-32px from the right edge and 18-28px from the bottom edge. Do not create a footer.

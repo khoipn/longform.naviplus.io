@@ -94,6 +94,11 @@ child_links:
 これらの失敗に共通すること。どれも「エラー」としては表に出てきません。ストアはちゃんと動き、注文も入ります。ただ、一定数の訪問者を静かにせき止めているだけなのです。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/common-shopify-navigation-mistakes/">完全ガイドを読む → Shopifyストアでよくあるナビゲーションの失敗</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
+</figure>
+
 
 ## メニュータイプはナビゲーションのボトルネックをどう解消するか
 
@@ -119,6 +124,12 @@ child_links:
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
+
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
 
 ## どこから始めるか
 

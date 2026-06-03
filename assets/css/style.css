@@ -168,7 +168,65 @@ img { max-width: 100%; }
   background: var(--bg-soft); border-radius: 0 12px 12px 0; color: var(--ink); font-size: 17px;
 }
 .lf-prose img { border-radius: 12px; }
+.lf-prose figure img {
+  display: block;
+  cursor: zoom-in;
+  box-shadow: 0 10px 30px -18px rgba(15, 17, 23, .35);
+}
+.lf-prose figure img:hover { filter: saturate(1.02) contrast(1.02); }
 .lf-prose code { background: var(--bg-soft); padding: 2px 6px; border-radius: 6px; font-size: .9em; }
+
+.lf-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  background: rgba(12, 14, 20, .86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.lf-lightbox.is-open { display: flex; }
+.lf-lightbox[aria-hidden="true"] { pointer-events: none; }
+.lf-lightbox__button {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 999px;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+  font: inherit;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+}
+.lf-lightbox__button:hover { background: rgba(255,255,255,.2); }
+.lf-lightbox__figure {
+  margin: 0;
+  max-width: min(96vw, 1440px);
+  max-height: 92vh;
+}
+.lf-lightbox__image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: calc(92vh - 48px);
+  margin: 0 auto;
+  border-radius: 14px;
+  box-shadow: 0 28px 90px rgba(0,0,0,.36);
+}
+.lf-lightbox__caption {
+  margin-top: 12px;
+  color: rgba(255,255,255,.78);
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
 
 /* Inline "read the full deep-dive" link at the end of each topic section */
 .lf-readmore {

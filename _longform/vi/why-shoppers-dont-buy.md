@@ -94,6 +94,11 @@ Phần lớn store Shopify dùng menu mặc định theo theme. Theme lo phần 
 Điểm chung của các lỗi trên: không cái nào hiện ra như "lỗi". Store vẫn chạy, vẫn có đơn. Chúng chỉ âm thầm chặn bớt một phần khách.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/common-shopify-navigation-mistakes/">Xem bài đầy đủ → Những lỗi navigation phổ biến nhất trên Shopify store</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
+</figure>
+
 
 ## Các loại menu giải quyết điểm nghẽn điều hướng ra sao
 
@@ -119,6 +124,12 @@ Tab Bar đáng chú ý riêng với mobile. Nó đặt các lối đi quan trọ
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
+
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
 
 ## Bắt đầu từ đâu
 

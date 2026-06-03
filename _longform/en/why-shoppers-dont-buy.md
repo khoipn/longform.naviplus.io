@@ -94,6 +94,11 @@ Most Shopify stores use the default menu that comes with the theme. The theme ha
 What these mistakes have in common: none of them shows up as an "error." The store still runs, still gets orders. They just quietly block a portion of shoppers.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/common-shopify-navigation-mistakes/">Read the full guide → The most common navigation mistakes on Shopify stores</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
+</figure>
+
 
 ## How menu types solve navigation bottlenecks
 
@@ -119,6 +124,12 @@ The key point isn't to pick one type, but that mobile and desktop **store naviga
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
+
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
 
 ## Where to start
 

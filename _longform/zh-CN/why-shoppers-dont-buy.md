@@ -94,6 +94,11 @@ child_links:
 这些错误的共同点是：没有一个会以"报错"的形式出现。店铺照样运转，照样有订单。它们只是悄悄挡住了一部分顾客。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/common-shopify-navigation-mistakes/">阅读完整指南 → Shopify 店铺最常见的导航错误</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
+</figure>
+
 
 ## 菜单类型如何解决导航瓶颈
 
@@ -119,6 +124,12 @@ Tab Bar 在移动端尤其值得一提。它把重要路径——首页、分类
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
+
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
 
 ## 从哪里开始
 

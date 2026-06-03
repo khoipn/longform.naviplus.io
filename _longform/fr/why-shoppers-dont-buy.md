@@ -94,6 +94,11 @@ La plupart des boutiques Shopify utilisent le menu par défaut fourni avec le th
 Le point commun de ces erreurs : aucune ne se manifeste comme une « panne ». La boutique tourne toujours, reçoit toujours des commandes. Elles bloquent simplement, en silence, une partie des visiteurs.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Analyse approfondie</span><a href="/fr/topic/common-shopify-navigation-mistakes/">Lire le guide complet → Les erreurs de navigation les plus courantes sur les boutiques Shopify</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
+</figure>
+
 
 ## Comment les types de menu résolvent les goulots d'étranglement de navigation
 
@@ -119,6 +124,12 @@ L'essentiel n'est pas de choisir un seul type, mais que la **navigation de bouti
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
+
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
 
 ## Par où commencer
 
