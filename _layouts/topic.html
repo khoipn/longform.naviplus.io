@@ -8,7 +8,7 @@ layout: default
   <div class="lf-wrap lf-topic-head">
     <a class="lf-crumb" href="{{ home_url }}">← {{ ui.back_home }}</a>
     {% if page.parent_title and page.parent_url %}
-    <p class="lf-topic-parent">{{ page.parent_url | prepend: '' }}<a href="{{ page.parent_url }}">{{ page.parent_title }}</a></p>
+    <p class="lf-topic-parent"><a href="{{ page.parent_url }}">{{ page.parent_title }}</a></p>
     {% endif %}
     <h1 class="lf-article-title">{{ page.title }}</h1>
     {% if page.description %}<p class="lf-article-lede">{{ page.description }}</p>{% endif %}
