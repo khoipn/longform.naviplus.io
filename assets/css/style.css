@@ -238,18 +238,24 @@ img { max-width: 100%; }
 .lf-topic-head { padding-top: 40px; }
 
 /* ── Rich article components ──────────────────────────── */
-/* Tables */
+/* Tables — display:block enables overflow-x scroll + border-radius on mobile */
 .lf-prose table {
-  width: 100%; border-collapse: collapse; margin: 24px auto 26px;
-  font-size: 15.5px; border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  width: 100%; border-collapse: separate; border-spacing: 0; margin: 24px auto 26px;
+  font-size: 15.5px; border: 1px solid var(--line); border-radius: 12px;
 }
 .lf-prose thead th {
   background: var(--bg-soft); text-align: left; font-weight: 700;
   font-size: 13px; letter-spacing: .03em; text-transform: uppercase; color: var(--ink-soft);
 }
-.lf-prose th, .lf-prose td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.lf-prose th, .lf-prose td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; white-space: nowrap; }
 .lf-prose tbody tr:last-child td { border-bottom: 0; }
 .lf-prose tbody tr:hover { background: color-mix(in srgb, var(--hero) 4%, #fff); }
+/* Round corners on first/last cells */
+.lf-prose thead tr:first-child th:first-child { border-radius: 12px 0 0 0; }
+.lf-prose thead tr:first-child th:last-child  { border-radius: 0 12px 0 0; }
+.lf-prose tbody tr:last-child td:first-child   { border-radius: 0 0 0 12px; }
+.lf-prose tbody tr:last-child td:last-child    { border-radius: 0 0 12px 0; }
 
 /* Key takeaways / callout box */
 .lf-key {
@@ -293,10 +299,23 @@ img { max-width: 100%; }
 .lf-faq details[open] summary { border-bottom: 1px solid var(--line); }
 .lf-faq details > p { margin: 14px 0; color: var(--muted); }
 
+/* ── Language pill grid — override ported header's flex-wrap to keep pills even */
+.np-mob-lang {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 6px !important;
+}
+.np-mob-lang-item {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .lf-nav { gap: 12px; }
   .lf-nav-link { display: none; }
   .lf-article-body { padding-top: 32px; }
   .lf-prose h2 { font-size: 25px; }
+  /* Tables: allow shorter cell text to wrap on very narrow screens */
+  .lf-prose th, .lf-prose td { white-space: normal; min-width: 90px; }
 }
