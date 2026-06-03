@@ -34,6 +34,11 @@ Bạn đổ tiền vào ads, traffic về đều, nhưng đơn hàng vẫn lèo 
 
 Bài này nhìn vào bốn góc của cùng một vấn đề: khách thực sự hành xử ra sao trên store, điều hướng kéo doanh thu theo hướng nào, những lỗi hay gặp nhất trên Shopify, và kiểu menu nào tháo được điểm nghẽn. Mỗi phần là một mảnh độc lập, bạn đọc phần nào trước cũng được.
 
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
+
 ## Hành vi thực tế của khách trên một store thương mại điện tử
 
 Khách vào store của bạn không đi giống cách bạn — chủ store — đi trong store của chính mình. Bạn biết mọi danh mục nằm ở đâu. Khách thì không. Họ vào, liếc qua vài giây, rồi quyết định ở lại hay đi dựa trên một câu hỏi đơn giản: "Thứ mình cần có gần đây không?"
@@ -66,6 +71,11 @@ Có vài cách điều hướng âm thầm bào mòn doanh thu:
 Tin tốt là **tỷ lệ chuyển đổi** ở khâu này thường co giãn mạnh hơn ta tưởng. Rút ngắn đường đi tới sản phẩm, hay đưa menu vào tầm ngón cái, không cần đổi giá hay đổi sản phẩm mà vẫn có thể nhích số đơn lên.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/how-navigation-affects-revenue/">Xem bài đầy đủ → Navigation ảnh hưởng tới doanh thu như thế nào</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
+</figure>
+
 
 ## Những lỗi navigation phổ biến nhất trên Shopify store
 
@@ -104,6 +114,11 @@ Tab Bar đáng chú ý riêng với mobile. Nó đặt các lối đi quan trọ
 Điểm mấu chốt không phải chọn một kiểu, mà là **điều hướng store** mobile và desktop nên được cấu hình riêng. Đây cũng là chỗ một công cụ chuyên dựng menu giúp được. [Navi+](https://naviplus.io) cho dựng cả năm kiểu trên — Tab Bar, Mega Menu, Slide Menu, FAB, Grid Menu — bằng kéo thả, không cần code, và cho cấu hình mobile tách khỏi desktop. Menu giữ nguyên khi bạn đổi theme, nên không phải làm lại từ đầu, và nó được tối ưu để không kéo lùi tốc độ tải. Đây là loại **menu Shopify** mà bạn chỉnh được theo đúng cấu trúc catalog của mình thay vì chịu khuôn của theme.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-types-that-clear-bottlenecks/">Xem bài đầy đủ → Các loại menu giải quyết điểm nghẽn điều hướng ra sao</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
+</figure>
+
 
 ## Bắt đầu từ đâu
 

@@ -34,6 +34,11 @@ This is where **ecommerce store navigation** plays a far bigger role than it app
 
 This article looks at four sides of the same problem: how shoppers really behave on a store, which way navigation pulls revenue, the mistakes that show up most often on Shopify, and which menu types clear the bottleneck. Each part stands on its own, so you can read them in any order.
 
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
+
 ## How shoppers really behave on an ecommerce store
 
 A shopper coming into your store doesn't move the way you — the store owner — move through your own store. You know where every category sits. The shopper doesn't. They arrive, glance around for a few seconds, then decide whether to stay or leave based on one simple question: "Is what I need close by?"
@@ -66,6 +71,11 @@ The last point deserves a note of its own. Google sets fairly clear thresholds f
 The good news is that the **conversion rate** at this stage is often more elastic than people assume. Shortening the path to a product, or bringing the menu into thumb reach, doesn't require changing the price or the product, yet it can still nudge orders up.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/how-navigation-affects-revenue/">Read the full guide → How navigation affects revenue</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
+</figure>
+
 
 ## The most common navigation mistakes on Shopify stores
 
@@ -104,6 +114,11 @@ The Tab Bar deserves a special mention for mobile. It places the important paths
 The key point isn't to pick one type, but that mobile and desktop **store navigation** should be configured separately. This is also where a tool built specifically for menus helps. [Navi+](https://naviplus.io) lets you build all five types above — Tab Bar, Mega Menu, Slide Menu, FAB, Grid Menu — by drag and drop, with no code, and lets you configure mobile separately from desktop. The menu stays intact when you change theme, so there's no rebuilding from scratch, and it's optimized so it won't drag load speed backward. This is the kind of **Shopify menu** you can shape to fit your own catalog structure instead of being stuck with the theme's mold.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/menu-types-that-clear-bottlenecks/">Read the full guide → How menu types solve navigation bottlenecks</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
+</figure>
+
 
 ## Where to start
 

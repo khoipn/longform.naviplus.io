@@ -34,6 +34,11 @@ child_links:
 
 この記事では、同じ問題を4つの側面から見ていきます。訪問者がストアで実際にどう振る舞うか、ナビゲーションが売上をどちらの方向に引っ張るか、Shopifyで最も頻繁に現れる失敗、そしてボトルネックを解消するメニュータイプ。それぞれが独立しているので、どの順番から読んでも構いません。
 
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
+
 ## ECストアで訪問者が実際にとる行動
 
 あなたのストアにやってくる訪問者は、ストアオーナーであるあなたが自分のストアを動き回るようには動きません。あなたはどのカテゴリーがどこにあるか把握しています。訪問者は知りません。彼らはやってきて、数秒だけあたりを見回し、そして残るか去るかを、たった一つのシンプルな問いで判断します。「私が必要なものは、すぐ近くにあるか？」
@@ -66,6 +71,11 @@ child_links:
 良い知らせは、この段階での**コンバージョン率**は、多くの人が思っているよりも弾力的であることが多いという点です。商品までの道のりを短くしたり、メニューを親指の届く範囲に持ってきたりするのに、価格や商品を変える必要はありません。それでも注文を後押しできるのです。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/how-navigation-affects-revenue/">完全ガイドを読む → ナビゲーションが売上に与える影響</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
+</figure>
+
 
 ## Shopifyストアでよくあるナビゲーションの失敗
 
@@ -104,6 +114,11 @@ child_links:
 肝心なのは、一つのタイプを選ぶことではなく、モバイルとデスクトップの**ストアナビゲーション**を別々に設定すべきだということです。ここで、メニュー専用に作られたツールが役立ちます。[Navi+](https://naviplus.io) なら、上記の5タイプ — Tab Bar、Mega Menu、Slide Menu、FAB、Grid Menu — をすべて、ドラッグ&ドロップで、コードなしに作ることができ、モバイルをデスクトップとは別に設定できます。テーマを変えてもメニューはそのまま残るので、ゼロから作り直す必要がありません。また、読み込み速度を後ろへ引きずらないよう最適化されています。これこそ、テーマの型にはめ込まれる代わりに、自分のカタログ構造に合わせて形づくれる**Shopifyメニュー**です。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/menu-types-that-clear-bottlenecks/">完全ガイドを読む → メニュータイプはナビゲーションのボトルネックをどう解消するか</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
+</figure>
+
 
 ## どこから始めるか
 

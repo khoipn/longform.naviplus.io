@@ -34,6 +34,11 @@ Aquí es donde la **navegación de una tienda ecommerce** juega un papel mucho m
 
 Este artículo aborda cuatro caras del mismo problema: cómo se comportan de verdad los compradores en una tienda, en qué dirección tira la navegación de los ingresos, los errores que aparecen con más frecuencia en Shopify y qué tipos de menú despejan el cuello de botella. Cada parte se sostiene por sí sola, así que puedes leerlas en el orden que quieras.
 
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
+
 ## Cómo se comportan de verdad los compradores en una tienda ecommerce
 
 Un comprador que entra en tu tienda no se mueve como te mueves tú — el dueño de la tienda — por tu propia tienda. Tú sabes dónde está cada categoría. El comprador no. Llega, echa un vistazo durante unos segundos y luego decide si quedarse o irse basándose en una pregunta sencilla: "¿Está cerca lo que necesito?".
@@ -66,6 +71,11 @@ El último punto merece una nota aparte. Google establece umbrales bastante clar
 La buena noticia es que la **tasa de conversión** en esta etapa suele ser más elástica de lo que la gente supone. Acortar el camino hasta un producto, o acercar el menú al alcance del pulgar, no requiere cambiar el precio ni el producto, y aun así puede empujar los pedidos al alza.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/how-navigation-affects-revenue/">Lee la guía completa → Cómo afecta la navegación a los ingresos</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
+</figure>
+
 
 ## Los errores de navegación más comunes en las tiendas Shopify
 
@@ -104,6 +114,11 @@ El Tab Bar merece una mención especial para móvil. Coloca los caminos importan
 El punto clave no es elegir un tipo, sino que la **navegación de la tienda** en móvil y en escritorio debe configurarse por separado. Aquí también es donde ayuda una herramienta creada específicamente para menús. [Navi+](https://naviplus.io) te permite construir los cinco tipos anteriores — Tab Bar, Mega Menu, Slide Menu, FAB, Grid Menu — arrastrando y soltando, sin código, y te deja configurar el móvil por separado del escritorio. El menú se mantiene intacto cuando cambias de tema, así que no hay que reconstruir desde cero, y está optimizado para no arrastrar hacia atrás la velocidad de carga. Este es el tipo de **menú de Shopify** que puedes moldear para que encaje con la estructura de tu propio catálogo, en lugar de quedarte atrapado en el molde del tema.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/menu-types-that-clear-bottlenecks/">Lee la guía completa → Cómo los tipos de menú resuelven los cuellos de botella de navegación</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
+</figure>
+
 
 ## Por dónde empezar
 

@@ -34,6 +34,11 @@ child_links:
 
 这篇文章会从同一个问题的四个侧面切入：顾客在店铺里的真实行为、导航把营收往哪个方向拉、Shopify 上最常出现的错误，以及哪些菜单类型能打通瓶颈。每一部分都自成一体，你可以按任意顺序阅读。
 
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
+
 ## 顾客在电商店铺里的真实行为
 
 进店的顾客，移动方式和你——店主——在自己店里走动的方式并不一样。你知道每个分类摆在哪里。顾客不知道。他们到达后，环视几秒，然后基于一个简单的问题决定留下还是离开："我需要的东西就在附近吗？"
@@ -66,6 +71,11 @@ child_links:
 好消息是，这个阶段的 **转化率** 往往比人们以为的更有弹性。缩短抵达商品的路径，或把菜单移进拇指可及的范围，并不需要改价格、改产品，却仍然能把订单往上推一推。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/how-navigation-affects-revenue/">阅读完整指南 → 导航如何影响营收</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
+</figure>
+
 
 ## Shopify 店铺最常见的导航错误
 
@@ -104,6 +114,11 @@ Tab Bar 在移动端尤其值得一提。它把重要路径——首页、分类
 关键不在于挑选某一种类型，而在于移动端和桌面端的 **店铺导航** 应当分开配置。这也正是一个专为菜单打造的工具能帮上忙的地方。[Navi+](https://naviplus.io) 让你通过拖拽、无需写代码就能搭建上述全部五种类型——Tab Bar、Mega Menu、Slide Menu、FAB、Grid Menu——并能把移动端和桌面端分开配置。换主题时菜单保持完好，无需从头重建，而且它经过优化，不会拖慢加载速度。这正是一种你可以按自己的商品目录结构来塑造的 **Shopify 菜单**，而不必被主题的模子困住。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/menu-types-that-clear-bottlenecks/">阅读完整指南 → 菜单类型如何解决导航瓶颈</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
+</figure>
+
 
 ## 从哪里开始
 
