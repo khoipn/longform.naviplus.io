@@ -33,11 +33,6 @@ Bạn đổ tiền vào ads, traffic về đều, nhưng đơn hàng vẫn lèo 
 Đây là chỗ mà **navigation store thương mại điện tử** đóng vai trò lớn hơn nhiều so với vẻ ngoài của nó. Điều hướng không phải lớp trang trí dán lên đầu trang. Nó là con đường dẫn khách từ chỗ tò mò sang chỗ bấm "Thêm vào giỏ". Khi con đường đó gập ghềnh, khách không phàn nàn — họ chỉ lặng lẽ thoát. Và bạn không thấy lý do trong báo cáo, vì người rời đi không để lại ghi chú.
 
 Bài này nhìn vào bốn góc của cùng một vấn đề: khách thực sự hành xử ra sao trên store, điều hướng kéo doanh thu theo hướng nào, những lỗi hay gặp nhất trên Shopify, và kiểu menu nào tháo được điểm nghẽn. Mỗi phần là một mảnh độc lập, bạn đọc phần nào trước cũng được.
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
-  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
-</figure>
 <div class="lf-key">
   <span class="lf-key-title">Đọc nhanh</span>
   <ul>
@@ -46,7 +41,6 @@ Bài này nhìn vào bốn góc của cùng một vấn đề: khách thực s�
     <li>Menu đúng loại giúp giảm số lần chạm trước giỏ hàng.</li>
   </ul>
 </div>
-
 
 ## Hành vi thực tế của khách trên một store thương mại điện tử
 
@@ -61,6 +55,10 @@ Một điểm hay bị hiểu nhầm: nhiều người tin khách sẽ tự tìm
 Khi bạn hiểu khách đi bằng ngón cái, quyết định trong vài giây, và dựa vào menu để định hướng, nhiều lựa chọn thiết kế bỗng rõ ràng hơn.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/how-shoppers-behave-on-ecommerce/">Xem bài đầy đủ → Hành vi thực tế của khách trên một store thương mại điện tử</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
 
 ## Navigation ảnh hưởng tới doanh thu như thế nào
 
@@ -85,7 +83,6 @@ Tin tốt là **tỷ lệ chuyển đổi** ở khâu này thường co giãn m�
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
-
 ## Những lỗi navigation phổ biến nhất trên Shopify store
 
 Phần lớn store Shopify dùng menu mặc định theo theme. Theme lo phần đẹp, nhưng không lo phần dẫn đường cho đúng catalog của bạn. Vì thế một số lỗi lặp đi lặp lại từ store này sang store khác.
@@ -107,7 +104,6 @@ Phần lớn store Shopify dùng menu mặc định theo theme. Theme lo phần 
   <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
-
 
 ## Các loại menu giải quyết điểm nghẽn điều hướng ra sao
 
@@ -133,15 +129,6 @@ Tab Bar đáng chú ý riêng với mobile. Nó đặt các lối đi quan trọ
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
-
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
-  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
-</figure>
-<p class="lf-note"><span class="lf-note-title">Kiểm tra nhanh</span>Mở store trên điện thoại, chọn một sản phẩm cụ thể, rồi đếm số lần chạm để tới được sản phẩm đó.</p>
-
-
 ## Bắt đầu từ đâu
 
 Bạn không cần làm lại toàn bộ store ngay. Vài việc nhỏ đã đủ để thấy vấn đề:
@@ -151,6 +138,12 @@ Bạn không cần làm lại toàn bộ store ngay. Vài việc nhỏ đã đ�
 - Đếm số lần chạm để tới được trang sản phẩm đó.
 - Để ý menu chính nằm trong hay ngoài tầm ngón cái.
 - Chạy store qua công cụ đo Core Web Vitals của Google xem có điểm nào đỏ.
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
+<p class="lf-note"><span class="lf-note-title">Kiểm tra nhanh</span>Mở store trên điện thoại, chọn một sản phẩm cụ thể, rồi đếm số lần chạm để tới được sản phẩm đó.</p>
 
 Nếu việc tìm một sản phẩm mất quá nhiều bước, hoặc menu nằm chỗ khó chạm, bạn đã có thứ cụ thể để sửa — và nó thường rẻ hơn nhiều so với việc đổ thêm tiền vào ads.
 

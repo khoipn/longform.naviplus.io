@@ -33,11 +33,6 @@ Vous investissez dans la publicité, le trafic arrive régulièrement, mais les 
 C'est là que la **navigation d'une boutique e-commerce** joue un rôle bien plus important qu'il n'y paraît. La navigation n'est pas une couche décorative posée par-dessus la page. C'est le chemin qui mène un visiteur de la curiosité au clic sur « Ajouter au panier ». Quand ce chemin est semé d'embûches, les visiteurs ne se plaignent pas — ils partent discrètement. Et vous ne verrez pas la raison dans vos rapports, car ceux qui partent ne laissent aucun mot.
 
 Cet article examine quatre faces d'un même problème : comment les visiteurs se comportent réellement sur une boutique, dans quel sens la navigation tire le chiffre d'affaires, les erreurs qui reviennent le plus souvent sur Shopify, et quels types de menu débloquent le goulot d'étranglement. Chaque partie se suffit à elle-même, vous pouvez donc les lire dans l'ordre que vous voulez.
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
-  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
-</figure>
 <div class="lf-key">
   <span class="lf-key-title">Lecture rapide</span>
   <ul>
@@ -46,7 +41,6 @@ Cet article examine quatre faces d'un même problème : comment les visiteurs se
     <li>Les bons types de menu réduisent les clics avant le panier.</li>
   </ul>
 </div>
-
 
 ## Comment les visiteurs se comportent vraiment sur une boutique e-commerce
 
@@ -61,6 +55,10 @@ Un point est souvent mal compris : beaucoup pensent que les visiteurs perdus iro
 Une fois qu'on a compris que les visiteurs se déplacent avec le pouce, décident en quelques secondes et s'appuient sur le menu pour s'orienter, beaucoup de choix de conception deviennent soudain plus clairs.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Analyse approfondie</span><a href="/fr/topic/how-shoppers-behave-on-ecommerce/">Lire le guide complet → Comment les visiteurs se comportent vraiment sur une boutique e-commerce</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
 
 ## Comment la navigation influence le chiffre d'affaires
 
@@ -85,7 +83,6 @@ La bonne nouvelle, c'est que le **taux de conversion** à cette étape est souve
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
-
 ## Les erreurs de navigation les plus courantes sur les boutiques Shopify
 
 La plupart des boutiques Shopify utilisent le menu par défaut fourni avec le thème. Le thème s'occupe de l'apparence, mais il ne s'occupe pas de guider les visiteurs à travers votre catalogue particulier. C'est pourquoi une poignée d'erreurs reviennent d'une boutique à l'autre.
@@ -107,7 +104,6 @@ Le point commun de ces erreurs : aucune ne se manifeste comme une « panne ». L
   <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
-
 
 ## Comment les types de menu résolvent les goulots d'étranglement de navigation
 
@@ -133,15 +129,6 @@ L'essentiel n'est pas de choisir un seul type, mais que la **navigation de bouti
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
-
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
-  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
-</figure>
-<p class="lf-note"><span class="lf-note-title">Audit simple</span>Ouvrez la boutique sur votre téléphone, choisissez un produit, puis comptez les gestes nécessaires pour l’atteindre.</p>
-
-
 ## Par où commencer
 
 Vous n'avez pas besoin de reconstruire toute votre boutique tout de suite. Quelques petits gestes suffisent pour repérer le problème :
@@ -151,6 +138,12 @@ Vous n'avez pas besoin de reconstruire toute votre boutique tout de suite. Quelq
 - Comptez le nombre de taps nécessaires pour atteindre la page de ce produit.
 - Observez si le menu principal se trouve à portée de pouce ou non.
 - Faites passer votre boutique dans l'outil Core Web Vitals de Google pour voir si quelque chose ressort en rouge.
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
+<p class="lf-note"><span class="lf-note-title">Audit simple</span>Ouvrez la boutique sur votre téléphone, choisissez un produit, puis comptez les gestes nécessaires pour l’atteindre.</p>
 
 Si trouver un seul produit demande trop d'étapes, ou si le menu se trouve à un endroit difficile à atteindre, vous avez quelque chose de concret à corriger — et c'est généralement bien moins coûteux que d'injecter encore plus d'argent dans la publicité.
 

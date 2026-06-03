@@ -33,11 +33,6 @@ You pour money into ads, traffic comes in steadily, but orders stay thin. The fi
 This is where **ecommerce store navigation** plays a far bigger role than it appears to. Navigation isn't a decorative layer pasted on top of the page. It's the path that carries a shopper from curiosity to clicking "Add to Cart." When that path is bumpy, shoppers don't complain — they just quietly leave. And you won't see the reason in your reports, because the people who leave don't leave a note.
 
 This article looks at four sides of the same problem: how shoppers really behave on a store, which way navigation pulls revenue, the mistakes that show up most often on Shopify, and which menu types clear the bottleneck. Each part stands on its own, so you can read them in any order.
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
-  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
-</figure>
 <div class="lf-key">
   <span class="lf-key-title">Quick read</span>
   <ul>
@@ -46,7 +41,6 @@ This article looks at four sides of the same problem: how shoppers really behave
     <li>Better menu types reduce taps before the cart.</li>
   </ul>
 </div>
-
 
 ## How shoppers really behave on an ecommerce store
 
@@ -61,6 +55,10 @@ One thing often gets misunderstood: many people believe shoppers will go find th
 Once you understand that shoppers move with their thumb, decide within seconds, and rely on the menu to find their way, many design choices suddenly become clearer.
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/how-shoppers-behave-on-ecommerce/">Read the full guide → How shoppers really behave on an ecommerce store</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
 
 ## How navigation affects revenue
 
@@ -85,7 +83,6 @@ The good news is that the **conversion rate** at this stage is often more elasti
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
-
 ## The most common navigation mistakes on Shopify stores
 
 Most Shopify stores use the default menu that comes with the theme. The theme handles the looks, but it doesn't handle guiding shoppers through your particular catalog. That's why a handful of mistakes keep repeating from one store to the next.
@@ -107,7 +104,6 @@ What these mistakes have in common: none of them shows up as an "error." The sto
   <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
-
 
 ## How menu types solve navigation bottlenecks
 
@@ -133,15 +129,6 @@ The key point isn't to pick one type, but that mobile and desktop **store naviga
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
-
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
-  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
-</figure>
-<p class="lf-note"><span class="lf-note-title">Simple audit</span>Open the store on your phone, pick one product, and count how many taps it takes to reach it.</p>
-
-
 ## Where to start
 
 You don't need to rebuild your whole store right away. A few small steps are enough to spot the problem:
@@ -151,6 +138,12 @@ You don't need to rebuild your whole store right away. A few small steps are eno
 - Count how many taps it takes to reach that product page.
 - Notice whether the main menu sits inside or outside thumb reach.
 - Run your store through Google's Core Web Vitals tool to see if anything comes up red.
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
+<p class="lf-note"><span class="lf-note-title">Simple audit</span>Open the store on your phone, pick one product, and count how many taps it takes to reach it.</p>
 
 If finding a single product takes too many steps, or the menu sits somewhere hard to reach, you've got something concrete to fix — and it's usually far cheaper than pouring more money into ads.
 

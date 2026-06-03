@@ -33,11 +33,6 @@ child_links:
 ここで、**ECストアのナビゲーション**は、見た目以上にはるかに大きな役割を果たしています。ナビゲーションは、ページの上に貼り付けた飾りのレイヤーではありません。訪問者を「興味」から「カートに追加」のクリックまで運ぶ、その道筋そのものです。この道がでこぼこしていると、訪問者は文句を言いません。ただ静かに去っていくだけです。そして、その理由はレポートには表れません。去っていった人は、メモを残してくれないからです。
 
 この記事では、同じ問題を4つの側面から見ていきます。訪問者がストアで実際にどう振る舞うか、ナビゲーションが売上をどちらの方向に引っ張るか、Shopifyで最も頻繁に現れる失敗、そしてボトルネックを解消するメニュータイプ。それぞれが独立しているので、どの順番から読んでも構いません。
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
-  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
-</figure>
 <div class="lf-key">
   <span class="lf-key-title">要点</span>
   <ul>
@@ -46,7 +41,6 @@ child_links:
     <li>適切なメニュータイプはカート前のタップ数を減らします。</li>
   </ul>
 </div>
-
 
 ## ECストアで訪問者が実際にとる行動
 
@@ -61,6 +55,10 @@ child_links:
 訪問者は親指で動き、数秒で判断し、道を見つけるためにメニューに頼る — これを理解すると、多くのデザイン上の選択が一気に腑に落ちてきます。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/how-shoppers-behave-on-ecommerce/">完全ガイドを読む → ECストアで訪問者が実際にとる行動</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
 
 ## ナビゲーションが売上に与える影響
 
@@ -85,7 +83,6 @@ child_links:
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
-
 ## Shopifyストアでよくあるナビゲーションの失敗
 
 ほとんどの Shopify ストアは、テーマに付属するデフォルトのメニューを使っています。テーマは見た目を整えてくれますが、あなた固有のカタログを訪問者に案内することまではしてくれません。だからこそ、いくつかの失敗が、ストアからストアへと繰り返し現れるのです。
@@ -107,7 +104,6 @@ child_links:
   <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
-
 
 ## メニュータイプはナビゲーションのボトルネックをどう解消するか
 
@@ -133,15 +129,6 @@ child_links:
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
-
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
-  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
-</figure>
-<p class="lf-note"><span class="lf-note-title">簡単な確認</span>スマートフォンでストアを開き、1つの商品を選び、そこに到達するまでのタップ数を数えます。</p>
-
-
 ## どこから始めるか
 
 ストア全体をいますぐ作り直す必要はありません。ほんの小さなステップだけで、問題を見つけることができます。
@@ -151,6 +138,12 @@ child_links:
 - その商品ページにたどり着くまでに何回タップしたか数える。
 - メインメニューが親指の届く範囲の内側にあるか、外側にあるかを確かめる。
 - Google の Core Web Vitals ツールにストアをかけ、赤が出るものがないか見てみる。
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
+<p class="lf-note"><span class="lf-note-title">簡単な確認</span>スマートフォンでストアを開き、1つの商品を選び、そこに到達するまでのタップ数を数えます。</p>
 
 一つの商品を見つけるのに手数がかかりすぎたり、メニューが手の届きにくいところにあったりするなら、修正すべき具体的なものが見つかったということです。そしてそれはたいてい、広告にさらにお金を注ぎ込むよりもずっと安く済みます。
 

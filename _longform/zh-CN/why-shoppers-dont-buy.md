@@ -33,11 +33,6 @@ child_links:
 这正是 **电商店铺导航** 发挥的作用——它比表面看上去重要得多。导航不是贴在页面之上的一层装饰。它是把顾客从好奇带到点击"加入购物车"的那条路径。当这条路坑坑洼洼时，顾客不会抱怨——他们只会默默离开。而你在报表里看不到原因，因为离开的人不会留下只言片语。
 
 这篇文章会从同一个问题的四个侧面切入：顾客在店铺里的真实行为、导航把营收往哪个方向拉、Shopify 上最常出现的错误，以及哪些菜单类型能打通瓶颈。每一部分都自成一体，你可以按任意顺序阅读。
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
-  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
-</figure>
 <div class="lf-key">
   <span class="lf-key-title">快速要点</span>
   <ul>
@@ -46,7 +41,6 @@ child_links:
     <li>合适的菜单类型可以减少进入购物车前的点击次数。</li>
   </ul>
 </div>
-
 
 ## 顾客在电商店铺里的真实行为
 
@@ -61,6 +55,10 @@ child_links:
 一旦你明白了顾客用拇指移动、在几秒内做决定、并依赖菜单来找路，很多设计上的选择就突然变得清晰起来。
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/how-shoppers-behave-on-ecommerce/">阅读完整指南 → 顾客在电商店铺里的真实行为</a></p>
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
+</figure>
 
 ## 导航如何影响营收
 
@@ -85,7 +83,6 @@ child_links:
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
-
 ## Shopify 店铺最常见的导航错误
 
 大多数 Shopify 店铺用的是主题自带的默认菜单。主题负责外观，但它不负责引导顾客穿过你这家店特定的商品目录。这就是为什么少数几个错误会在一家又一家店铺里反复出现。
@@ -107,7 +104,6 @@ child_links:
   <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
-
 
 ## 菜单类型如何解决导航瓶颈
 
@@ -133,15 +129,6 @@ Tab Bar 在移动端尤其值得一提。它把重要路径——首页、分类
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
-
-
-<figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
-  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
-</figure>
-<p class="lf-note"><span class="lf-note-title">简单检查</span>用手机打开店铺，选择一个具体商品，然后数一数需要点击多少次才能到达。</p>
-
-
 ## 从哪里开始
 
 你不必立刻把整个店铺重做一遍。几个小步骤就足以发现问题：
@@ -151,6 +138,12 @@ Tab Bar 在移动端尤其值得一提。它把重要路径——首页、分类
 - 数一数抵达那个商品页要点几次。
 - 留意一下主菜单是在拇指可及的范围之内还是之外。
 - 用 Google 的 Core Web Vitals 工具跑一遍你的店铺，看看有没有什么飘红。
+
+<figure>
+  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
+</figure>
+<p class="lf-note"><span class="lf-note-title">简单检查</span>用手机打开店铺，选择一个具体商品，然后数一数需要点击多少次才能到达。</p>
 
 如果找到一件商品要花太多步骤，或者菜单摆在某个难以触及的地方，你就有了一个具体可改的东西——而且这通常比往广告里砸更多钱便宜得多。
 

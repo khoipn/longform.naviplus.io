@@ -184,7 +184,9 @@ Khi làm đẹp bài viết, dùng nhấn nhá vừa phải:
 - H2 đã có line/marker icon tự động bằng CSS — không thêm divider thủ công trước mỗi H2.
 - Link và `strong` đã có underline/highlight nhẹ — chỉ bold keyword thật sự quan trọng, tránh bold cả đoạn.
 - Mỗi bài nên có **tối thiểu 1 ảnh**, số ảnh phụ thuộc nội dung; bài dài/pillar thường nên có 4–6 ảnh.
+- Với pillar, ưu tiên **1 ảnh cho mỗi H2 chính**. Không dồn 2 ảnh liên tiếp vào cùng một chủ đề nếu H2 khác chưa có ảnh.
 - Ảnh dùng `<figure>` với `alt`, `title`, `figcaption`; ảnh trong bài có lightbox click để xem full màn hình.
+- Lightbox phải là popup overlay giữa màn hình, không scroll người đọc xuống cuối trang. Ảnh có hover tools như Zoom/Pin để lưu Pinterest.
 - Dùng `.lf-key` cho quick takeaway sau intro hoặc sau ảnh đầu.
 - Dùng `.lf-note` cho action/checkpoint nhẹ gần cuối hoặc sau đoạn có quyết định quan trọng.
 - Không lạm dụng box: pillar dài thường 1 `.lf-key` + 1–2 `.lf-note` là đủ.
