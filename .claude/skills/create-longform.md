@@ -13,6 +13,9 @@ Site **longform.naviplus.io** = Jekyll + jekyll-polyglot. Mỗi bài MẸ (pilla
 `_longform/{lang}/`, link tới nhiều bài CON (cluster) ở `_topics/{lang}/`. Bài con backlink về bài mẹ
 bằng **anchor = SEO keyword**.
 
+Ngoài chuẩn SEO/content trong file này, **bắt buộc đọc và áp dụng** `ARTICLE_PRESENTATION_GUIDE.md`
+cho phần trình bày bài viết: ảnh, visual rhythm, box nhẹ, lightbox, hover tools, alt/title/caption.
+
 ## ⛔ Bước 0 — LUÔN hỏi SEO keyword trước khi viết
 
 Khi user yêu cầu tạo bài longform, **BẮT BUỘC hỏi trước**:
@@ -64,6 +67,20 @@ Nhồi keyword TỰ NHIÊN (không gượng): keyword chính xuất hiện ở *
 → Mỗi `## H2` (chủ đề) thường có 1 bài con tương ứng. `child_links` ở front matter vẫn khai báo đủ các bài con (dùng cho grid "Khám phá chủ đề" cuối trang — recap + SEO). Tức là mỗi bài con xuất hiện 2 lần: link inline cuối chủ đề + card recap cuối bài.
 
 URL bài mẹ: `/<slug>/` (EN root) hoặc `/vi/<slug>/` (các lang khác — polyglot tự prefix).
+
+**TRÌNH BÀY BÀI MẸ (bắt buộc):**
+
+- Pillar phải có ít nhất 1 ảnh; bài dài thường 4–6 ảnh.
+- Ưu tiên 1 ảnh cho mỗi H2 chính. Không dồn 2 ảnh vào cùng một H2 nếu H2 khác chưa có ảnh.
+- Ảnh đặt bằng `<figure><img ... alt ... title ...><figcaption>...</figcaption></figure>`.
+- Ảnh cuối phải là `.webp`, kích thước `1280x720`, nén nhẹ bằng `cwebp -q 82 -m 6` nếu có thể.
+- Lưu ảnh trong `images/<parent-slug>/`, tên English kebab-case.
+- Alt text chứa mô tả ảnh + keyword tự nhiên; title ngắn và cụ thể.
+- Dùng `.lf-key` cho quick takeaway sau intro hoặc ảnh đầu.
+- Dùng `.lf-note` cho checkpoint/action nhẹ, thường gần cuối hoặc trong section checklist.
+- Không lạm dụng box: 1 `.lf-key` + 1–2 `.lf-note` là đủ cho pillar dài.
+- Không chèn emoji/icon inline; icon đến từ CSS component.
+- Lightbox/hover tools đã có trong `assets/js/lightbox.js`, không thay bằng link ảnh trực tiếp.
 
 ### 2. Bài CON — `_topics/{lang}/<child-slug>.md`
 
@@ -118,6 +135,11 @@ Kiểm tra: bài mẹ hiện trên trang chủ (đúng lang), `child_links` khô
 - [ ] Bài mẹ link tới ≥2 bài con qua `child_links`
 - [ ] Mỗi bài con backlink bài mẹ qua anchor = keyword (box + inline)
 - [ ] `ref` chung cho các bản dịch; URL có prefix lang đúng
+- [ ] Đã áp dụng `ARTICLE_PRESENTATION_GUIDE.md`
+- [ ] Bài có ảnh WebP nhẹ (`1280x720`, alt, title, figcaption)
+- [ ] Pillar có ảnh map theo H2, không dồn lệch section
+- [ ] Có `.lf-key` / `.lf-note` nếu bài đủ dài hoặc có checklist/action
+- [ ] Lightbox ảnh + hover Zoom/Pin vẫn hoạt động
 - [ ] Build sạch, không 404, preview :9999 OK
 
 ## Git / Deploy

@@ -33,9 +33,12 @@ _includes/
   footer.html
 assets/css/
   style.css         # CSS riêng của longform (lf-* classes) — load sau, ưu tiên cao hơn
+assets/js/
+  lightbox.js       # Lightbox ảnh bài viết + hover tools Zoom/Pin
 styles/
   main.css          # CSS ported từ naviplus.io (np-* classes)
   customize.css
+ARTICLE_PRESENTATION_GUIDE.md # Chuẩn trình bày bài viết: ảnh, box, visual rhythm, lightbox
 .claude/skills/
   create-longform.md  # Skill hướng dẫn tạo bài mới
 .claude/
@@ -163,6 +166,9 @@ bundle exec jekyll serve --port 9999 --host 0.0.0.0
 
 ## 6. CSS components trong `assets/css/style.css`
 
+> **Quan trọng:** Khi làm đẹp bài viết hoặc tạo bài mới, đọc thêm `ARTICLE_PRESENTATION_GUIDE.md`.
+> File đó là source of truth chi tiết cho visual rhythm, ảnh, box, lightbox và hover tools.
+
 Các class dùng trong body bài viết (nằm trong `.lf-prose`):
 
 | Class | Dùng cho |
@@ -191,6 +197,8 @@ Khi làm đẹp bài viết, dùng nhấn nhá vừa phải:
 - Dùng `.lf-note` cho action/checkpoint nhẹ gần cuối hoặc sau đoạn có quyết định quan trọng.
 - Không lạm dụng box: pillar dài thường 1 `.lf-key` + 1–2 `.lf-note` là đủ.
 - Icon ưu tiên qua CSS pseudo-element của component; không chèn emoji vào nội dung bài.
+
+Bài reference đã áp dụng chuẩn này: `_longform/en/why-shoppers-dont-buy.md` và các bản dịch cùng slug.
 
 ---
 
@@ -240,24 +248,17 @@ Các file này dùng khi tạo/dịch bài hàng loạt qua Claude Code Workflow
 
 ---
 
-## 10. Thêm ảnh vào bài viết (task tiếp theo)
+## 10. Thêm ảnh vào bài viết
 
-### Ảnh hiện tại
-Thư mục `images/` chứa ảnh tĩnh. Hiện tại các bài viết **chưa có ảnh** — đây là điểm cần cải thiện.
+Thư mục `images/` chứa ảnh tĩnh. Ảnh bài viết phải theo chuẩn trong `ARTICLE_PRESENTATION_GUIDE.md`.
 
 ### Cách chèn ảnh trong bài
 
-**Trong Markdown (bài mẹ hoặc bài con):**
-
-```markdown
-![Alt text mô tả ảnh](/images/ten-anh.webp)
-```
-
-Hoặc dùng `<figure>` để có caption:
+**Luôn dùng `<figure>` để có caption + SEO metadata:**
 
 ```html
 <figure>
-  <img src="/images/ten-anh.webp" alt="Mô tả ảnh rõ ràng">
+  <img src="/images/ten-anh.webp" alt="Mô tả ảnh rõ ràng" title="SEO title ngắn">
   <figcaption>Caption giải thích ảnh</figcaption>
 </figure>
 ```
@@ -273,10 +274,13 @@ Hoặc dùng `<figure>` để có caption:
 ### Quy tắc ảnh nên theo
 
 - **Format:** `.webp` (nhỏ nhất, chất lượng tốt); fallback `.jpg` nếu cần
-- **Width:** tối đa 1200px; bài viết prose rộng 720px → ảnh lớn hơn bị scale xuống bởi CSS (`max-width: 100%`)
+- **Size:** tạo/chốt ở `1280x720` horizontal; bài viết prose scale xuống bằng CSS
+- **Compression:** ưu tiên `cwebp -q 82 -m 6`; mục tiêu dưới 250KB, thường 50–100KB nếu là vector illustration
 - **Alt text:** bắt buộc, mô tả nội dung ảnh (SEO + accessibility)
+- **Title:** bắt buộc, ngắn và cụ thể
 - **Đặt tên:** kebab-case, mô tả nội dung, ví dụ: `shopify-tab-bar-mobile-navigation.webp`
-- **Lưu vào:** `images/{chủ-đề}/` hoặc `images/` thẳng nếu số lượng ít
+- **Lưu vào:** `images/{article-slug}/`
+- **Placement:** pillar ưu tiên 1 ảnh cho mỗi H2 chính; không dồn 2 ảnh vào một H2 nếu H2 khác chưa có ảnh
 
 ### Loại ảnh phù hợp cho từng chủ đề
 
@@ -291,7 +295,7 @@ Hoặc dùng `<figure>` để có caption:
 
 ### Vị trí chèn ảnh trong bài MẸ
 
-Chèn ảnh sau đoạn mở bài (trước H2 đầu tiên) và/hoặc sau mỗi H2 để minh họa. Không chèn ảnh bên trong box `lf-readmore`.
+Ưu tiên map ảnh theo từng H2 chính. Ảnh minh họa section có thể đặt sau nội dung section hoặc sau `.lf-readmore`, nhưng không chèn trong `.lf-readmore`. Với section checklist/action, ảnh đặt trong chính section đó, sau bullet list và trước `.lf-note`.
 
 ### CDN (tùy chọn)
 
