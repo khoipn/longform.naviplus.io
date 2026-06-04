@@ -94,34 +94,132 @@ img { max-width: 100%; }
 
 /* ── Guide grid (home) ────────────────────────────────── */
 .lf-guides { padding: 30px 0 80px; }
+
+/* ── Category Sections ──────────────────────────────────── */
+.lf-category-section {
+  background: var(--bg); border-radius: 16px;
+  padding: 32px 32px 28px;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid color-mix(in srgb, var(--cat-color) 12%, var(--line));
+}
+.lf-category-section:last-of-type { margin-bottom: 80px; }
+
+.lf-category-header {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  margin-bottom: 20px; gap: 24px;
+}
+
+.lf-category-name {
+  font-family: "Fraunces", serif; font-weight: 600;
+  font-size: 28px; line-height: 1.2; letter-spacing: -.01em;
+  color: var(--ink); margin: 0;
+}
+
+.lf-category-desc {
+  font-size: 15.5px; color: var(--muted);
+  margin: 6px 0 0; max-width: 52ch;
+}
+
+.lf-view-more {
+  display: inline-block; font-weight: 600; font-size: 14.5px;
+  color: var(--brand); white-space: nowrap; text-decoration: none;
+  padding: 8px 16px; border-radius: var(--radius);
+  border: 1px solid var(--line);
+  transition: all .18s ease;
+}
+.lf-view-more:hover {
+  background: var(--brand);
+  color: white;
+  border-color: var(--brand);
+}
+
+@media (max-width: 640px) {
+  .lf-category-header { flex-direction: column; gap: 12px; }
+  .lf-view-more { align-self: flex-start; }
+}
+
+/* ── Category Page ──────────────────────────────────────── */
+.lf-category-page { padding: 40px 0 80px; }
+.lf-category-title {
+  font-family: "Fraunces", serif; font-weight: 600;
+  font-size: 42px; line-height: 1.1; margin: 12px 0 10px;
+}
+.lf-category-lead {
+  font-size: 19px; color: var(--muted);
+  margin: 0 0 40px; max-width: 64ch;
+}
+
 .lf-section-label {
   font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  color: var(--ink-soft); margin: 0 0 20px;
+  color: var(--ink-soft); margin: 0 0 4px;
 }
 .lf-guide-grid {
-  display: grid; gap: 22px;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  display: grid; gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 24px;
+  border-top: 1px solid color-mix(in srgb, var(--cat-color) 15%, var(--line));
 }
 .lf-guide-card {
   position: relative; display: flex; flex-direction: column;
-  background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 24px; min-height: 230px; overflow: hidden;
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  border-radius: var(--radius);
+  padding: 20px 20px 18px; overflow: hidden;
+  transition: background .18s ease;
   color: var(--ink);
 }
-.lf-guide-card::before {
-  content: ""; position: absolute; inset: 0 0 auto 0; height: 5px;
-  background: linear-gradient(90deg, var(--hero), color-mix(in srgb, var(--hero) 40%, #fff));
+.lf-guide-card:hover { background: color-mix(in srgb, var(--cat-color) 5%, transparent); }
+.lf-guide-arrow {
+  position: absolute; top: 14px; right: 14px;
+  font-size: 16px; font-weight: 700; color: var(--cat-color, var(--brand));
+  opacity: 0; transform: translate(-4px, 4px);
+  transition: opacity .18s ease, transform .18s ease;
 }
-.lf-guide-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: transparent; }
-.lf-guide-card-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
-.lf-guide-read { font-size: 13px; color: var(--ink-soft); font-weight: 500; }
+.lf-guide-card:hover .lf-guide-arrow { opacity: 1; transform: translate(0, 0); }
+.lf-guide-read { font-size: 12.5px; color: var(--ink-soft); font-weight: 500; margin-bottom: 10px; }
 .lf-guide-title {
-  font-family: "Fraunces", serif; font-weight: 600; font-size: 24px; line-height: 1.2;
-  letter-spacing: -.01em; margin: 0 0 10px;
+  font-family: "Fraunces", serif; font-weight: 600; font-size: 21px; line-height: 1.25;
+  letter-spacing: -.01em; margin: 0 0 8px;
 }
-.lf-guide-desc { color: var(--muted); font-size: 15.5px; margin: 0 0 18px; flex: 1; }
-.lf-guide-link { font-weight: 600; font-size: 14.5px; color: var(--brand); }
+.lf-guide-desc { color: var(--muted); font-size: 14.5px; line-height: 1.45; margin: 0; flex: 1; }
+
+/* ── Featured Card (first article per category) ─────────── */
+.lf-featured-card {
+  position: relative; display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: var(--radius);
+  overflow: hidden; color: var(--ink); margin-bottom: 18px;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.lf-featured-card:hover { background: color-mix(in srgb, var(--cat-color) 4%, transparent); }
+.lf-featured-card:hover .lf-guide-arrow { opacity: 1; transform: translate(0, 0); }
+
+.lf-featured-image {
+  background: color-mix(in srgb, var(--cat-color) 8%, var(--bg-soft));
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.lf-featured-image img {
+  width: 100%; height: 100%; object-fit: cover;
+  display: block;
+}
+
+.lf-featured-content {
+  position: relative; display: flex; flex-direction: column;
+  padding: 28px 28px 24px;
+}
+.lf-featured-title {
+  font-family: "Fraunces", serif; font-weight: 600; font-size: 28px; line-height: 1.2;
+  letter-spacing: -.01em; margin: 0 0 12px;
+}
+.lf-featured-desc { color: var(--muted); font-size: 16px; line-height: 1.5; margin: 0; flex: 1; }
+
+@media (max-width: 720px) {
+  .lf-featured-card { grid-template-columns: 1fr; min-height: auto; }
+  .lf-featured-image { min-height: 220px; }
+  .lf-featured-content { padding: 22px 20px 18px; }
+  .lf-featured-title { font-size: 23px; }
+  .lf-featured-desc { font-size: 15px; }
+}
 
 .lf-tag {
   display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .04em;

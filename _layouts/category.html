@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+{% assign lang_prefix = "" %}
+{% unless site.active_lang == "en" %}{% assign lang_prefix = "/" | append: site.active_lang %}{% endunless %}
+{% assign cat_en = site.data.categories.en | where: "id", page.category_id | first %}
+{% assign cat_color = cat_en.color | default: "#6d5cf0" %}
+{% assign cat_guides = site.longform | where: "lang", site.active_lang | where: "category", page.category_id | sort: "order" %}
+
+<section class="lf-category-page" style="--cat-color:{{ cat_color }}">
+  <div class="lf-wrap">
+    <a class="lf-crumb" href="{{ lang_prefix }}/">← {{ ui.back_home }}</a>
+    <h1 class="lf-category-title">{{ page.category_name }}</h1>
+    <p class="lf-category-lead">{{ page.category_desc }}</p>
+
+    <div class="lf-guide-grid">
+      {% for g in cat_guides %}
+      <a class="lf-guide-card" href="{{ g.url }}">
+        <span class="lf-guide-arrow">→</span>
+        {% if g.read_time %}<span class="lf-guide-read">{{ g.read_time }} {{ ui.min_read }}</span>{% endif %}
+        <h3 class="lf-guide-title">{{ g.title }}</h3>
+        <p class="lf-guide-desc">{{ g.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

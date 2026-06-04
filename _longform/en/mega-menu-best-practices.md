@@ -5,6 +5,7 @@ order: 22
 title: "Mega menu best practices: layout, images, and how much is too much"
 description: "Mega menu structure, when to use images, how to group categories, and the line between helpful overview and overwhelming dropdown for Shopify stores."
 topic_tag: "Mega menu"
+category: "choosing-menu"
 hero_color: "#4a7c5e"
 read_time: 7
 seo_keywords:

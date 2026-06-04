@@ -5,6 +5,7 @@ order: 17
 title: "Mobile checkout: why navigation matters more on small screens"
 description: "Mobile checkout barriers, single-thumb checkout flows, and how persistent cart access and simplified navigation reduce the 80% mobile cart abandonment rate."
 topic_tag: "Mobile checkout"
+category: "mobile-first"
 hero_color: "#c94f4f"
 read_time: 6
 seo_keywords:

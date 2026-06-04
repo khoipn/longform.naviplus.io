@@ -5,6 +5,7 @@ order: 13
 title: "When shoppers search vs browse: designing for both behaviors"
 description: "Why some shoppers use the search bar and others browse the menu — how to design ecommerce navigation that serves both intent-driven and exploration-driven visitors."
 topic_tag: "Search & browse"
+category: "increase-conversions"
 hero_color: "#5c4db1"
 read_time: 7
 seo_keywords:

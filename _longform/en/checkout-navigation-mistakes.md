@@ -5,6 +5,7 @@ order: 12
 title: "Why shoppers abandon cart at checkout (and how navigation plays a role)"
 description: "The checkout navigation patterns that interrupt purchases — header menus during checkout, mobile checkout UX, cart persistence, and when less navigation is more."
 topic_tag: "Checkout flow"
+category: "checkout"
 hero_color: "#d64545"
 read_time: 6
 seo_keywords:

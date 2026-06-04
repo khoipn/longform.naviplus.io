@@ -5,6 +5,7 @@ order: 3
 title: "How to Know If Your Menu Is Working — 5 Metrics Worth Tracking"
 description: "Measure menu performance with 5 practical metrics: CTR, navigation depth, exit rate, mobile behavior, and internal search — all measurable for free with GA4 and Clarity."
 topic_tag: "Measurement"
+category: "scaling-store"
 hero_color: "#1c7ed6"
 read_time: 7
 seo_keywords:

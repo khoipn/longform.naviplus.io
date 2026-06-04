@@ -5,6 +5,7 @@ order: 1
 title: "Why Shoppers Visit Your Store But Don't Buy — and How Navigation Plays a Part"
 description: "Why do shoppers visit your store but never buy? How ecommerce store navigation affects revenue, common Shopify menu mistakes, and the menu types that clear the bottleneck."
 topic_tag: "Navigation"
+category: "increase-conversions"
 hero_color: "#6d5cf0"
 read_time: 7
 seo_keywords:

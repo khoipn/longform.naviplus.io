@@ -5,6 +5,7 @@ order: 19
 title: "Mobile menu performance: why every millisecond matters"
 description: "How menu JavaScript and CSS affect mobile page speed — LCP, render blocking, tap delay, and building menus that don't slow down the store."
 topic_tag: "Performance"
+category: "speed-performance"
 hero_color: "#d4863a"
 read_time: 6
 seo_keywords:

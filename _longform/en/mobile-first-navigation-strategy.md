@@ -5,6 +5,7 @@ order: 16
 title: "Building a mobile-first navigation strategy (not mobile-friendly)"
 description: "Why mobile-first navigation is different from responsive design — thumb-reach zones, mobile-specific patterns, and building navigation around how people actually hold their phones."
 topic_tag: "Mobile first"
+category: "mobile-first"
 hero_color: "#e07c3e"
 read_time: 7
 seo_keywords:

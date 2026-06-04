@@ -4,6 +4,10 @@ title: ""
 body_class: lf-home-body
 ---
 {% assign ui = site.data.ui[site.active_lang] | default: site.data.ui.en %}
+{% assign categories = site.data.categories[site.active_lang] | default: site.data.categories.en %}
+{% assign categories_en = site.data.categories.en %}
+{% assign lang_prefix = "" %}
+{% unless site.active_lang == "en" %}{% assign lang_prefix = "/" | append: site.active_lang %}{% endunless %}
 
 <section class="lf-hero">
   <div class="lf-wrap">
@@ -13,20 +17,52 @@ body_class: lf-home-body
   </div>
 </section>
 
-<section class="lf-wrap lf-guides">
-  <h2 class="lf-section-label">{{ ui.all_guides }}</h2>
+{% for cat in categories %}
+{% assign cat_en = categories_en | where: "id", cat.id | first %}
+{% assign cat_color = cat_en.color | default: cat.color | default: "#6d5cf0" %}
+{% assign cat_guides = site.longform | where: "lang", site.active_lang | where: "category", cat.id | sort: "order" %}
+{% if cat_guides.size > 0 %}
+<section class="lf-wrap lf-category-section" style="--cat-color:{{ cat_color }}">
+  <div class="lf-category-header">
+    <div>
+      <h2 class="lf-category-name">{{ cat.name }}</h2>
+      <p class="lf-category-desc">{{ cat.desc }}</p>
+    </div>
+    {% if cat_guides.size > 4 %}
+    <a href="{{ lang_prefix }}/category/{{ cat.id }}/" class="lf-view-more">{{ ui.view_more }} →</a>
+    {% endif %}
+  </div>
+
+  {% assign first_img_parts = cat_guides.first.content | split: '<img src="' %}
+  {% assign first_img = "" %}
+  {% if first_img_parts.size > 1 %}
+    {% assign first_img = first_img_parts[1] | split: '"' | first %}
+  {% endif %}
+
+  <a class="lf-featured-card" href="{{ cat_guides.first.url }}">
+    <div class="lf-featured-image">
+      <img src="{{ first_img }}" alt="{{ cat_guides.first.title }}">
+    </div>
+    <div class="lf-featured-content">
+      <span class="lf-guide-arrow">→</span>
+      {% if cat_guides.first.read_time %}<span class="lf-guide-read">{{ cat_guides.first.read_time }} {{ ui.min_read }}</span>{% endif %}
+      <h3 class="lf-featured-title">{{ cat_guides.first.title }}</h3>
+      <p class="lf-featured-desc">{{ cat_guides.first.description }}</p>
+    </div>
+  </a>
+
+  {% if cat_guides.size > 1 %}
   <div class="lf-guide-grid">
-    {% assign guides = site.longform | where: "lang", site.active_lang | sort: "order" %}
-    {% for g in guides %}
-    <a class="lf-guide-card" href="{{ g.url }}" {% if g.hero_color %}style="--hero:{{ g.hero_color }}"{% endif %}>
-      <div class="lf-guide-card-top">
-        {% if g.topic_tag %}<span class="lf-tag">{{ g.topic_tag }}</span>{% endif %}
-        {% if g.read_time %}<span class="lf-guide-read">{{ g.read_time }} {{ ui.min_read }}</span>{% endif %}
-      </div>
+    {% for g in cat_guides limit:3 offset:1 %}
+    <a class="lf-guide-card" href="{{ g.url }}">
+      <span class="lf-guide-arrow">→</span>
+      {% if g.read_time %}<span class="lf-guide-read">{{ g.read_time }} {{ ui.min_read }}</span>{% endif %}
       <h3 class="lf-guide-title">{{ g.title }}</h3>
       <p class="lf-guide-desc">{{ g.description }}</p>
-      <span class="lf-guide-link">{{ ui.read_guide }} →</span>
     </a>
     {% endfor %}
   </div>
+  {% endif %}
 </section>
+{% endif %}
+{% endfor %}

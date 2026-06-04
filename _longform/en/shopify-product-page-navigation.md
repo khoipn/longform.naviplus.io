@@ -5,6 +5,7 @@ order: 11
 title: "Product page navigation: how shoppers move between products"
 description: "How breadcrumbs, related products, back-to-collection links, and mobile product navigation shape whether shoppers keep browsing or leave your Shopify store."
 topic_tag: "Product page"
+category: "increase-conversions"
 hero_color: "#3a7ca5"
 read_time: 7
 seo_keywords:

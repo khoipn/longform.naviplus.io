@@ -1,0 +1,387 @@
+en:
+  - id: increase-conversions
+    name: "Increase Conversions"
+    desc: "Why are visitors leaving without buying? How can navigation turn browsers into buyers?"
+    color: "#2f7d5b"
+    order: 1
+  - id: mobile-first
+    name: "Mobile-First Navigation"
+    desc: "80% of traffic is mobile — how do I build navigation that works with one thumb?"
+    color: "#e07c3e"
+    order: 2
+  - id: choosing-menu
+    name: "Choosing the Right Menu"
+    desc: "Tab bar, mega menu, or slide menu — which one fits my store?"
+    color: "#3a7ca5"
+    order: 3
+  - id: speed-performance
+    name: "Speed & Performance"
+    desc: "Is my menu slowing down my store? Will it hurt my Google rankings?"
+    color: "#d4863a"
+    order: 4
+  - id: scaling-store
+    name: "Scaling Your Store"
+    desc: "My catalog grew from 50 to 500 products — how should navigation change?"
+    color: "#4a8c6f"
+    order: 5
+  - id: design-branding
+    name: "Design & Branding"
+    desc: "How do I make my menu look professional and match my brand?"
+    color: "#8b6f47"
+    order: 6
+  - id: international
+    name: "International Selling"
+    desc: "Multiple countries, languages, currencies — how do I handle navigation?"
+    color: "#3a6b8c"
+    order: 7
+  - id: accessibility-seo
+    name: "Accessibility & SEO"
+    desc: "Can everyone use my navigation? Does it help or hurt my SEO?"
+    color: "#6b5a8e"
+    order: 8
+  - id: checkout
+    name: "Checkout Experience"
+    desc: "Why do shoppers abandon at checkout? How does navigation affect the final step?"
+    color: "#d64545"
+    order: 9
+  - id: getting-started
+    name: "Getting Started"
+    desc: "I'm new to custom navigation — where do I start?"
+    color: "#5c4db1"
+    order: 10
+
+vi:
+  - id: increase-conversions
+    name: "Tăng Tỉ Lệ Chuyển Đổi"
+    desc: "Tại sao khách vào mà không mua? Làm sao navigation biến người xem thành người mua?"
+    order: 1
+  - id: mobile-first
+    name: "Tối Ưu Mobile"
+    desc: "80% traffic từ điện thoại — menu phải hoạt động tốt chỉ với ngón cái?"
+    order: 2
+  - id: choosing-menu
+    name: "Chọn Loại Menu"
+    desc: "Tab bar, mega menu hay slide menu — loại nào phù hợp store của bạn?"
+    order: 3
+  - id: speed-performance
+    name: "Tốc Độ & Hiệu Suất"
+    desc: "Menu có làm chậm store không? Google có phạt không?"
+    order: 4
+  - id: scaling-store
+    name: "Store Lớn Dần"
+    desc: "Từ 50 lên 500 sản phẩm — navigation phải thay đổi gì?"
+    order: 5
+  - id: design-branding
+    name: "Thiết Kế & Thương Hiệu"
+    desc: "Làm sao menu nhìn pro và khớp brand identity?"
+    order: 6
+  - id: international
+    name: "Bán Đa Quốc Gia"
+    desc: "Nhiều quốc gia, ngôn ngữ, tiền tệ — xử lý navigation thế nào?"
+    order: 7
+  - id: accessibility-seo
+    name: "Accessibility & SEO"
+    desc: "Mọi người dùng được menu không? SEO có tốt không?"
+    order: 8
+  - id: checkout
+    name: "Trải Nghiệm Checkout"
+    desc: "Tại sao khách bỏ giỏ ở checkout? Navigation ảnh hưởng bước cuối thế nào?"
+    order: 9
+  - id: getting-started
+    name: "Bắt Đầu"
+    desc: "Lần đầu setup navigation — bắt đầu từ đâu?"
+    order: 10
+
+fr:
+  - id: increase-conversions
+    name: "Augmenter les Conversions"
+    desc: "Pourquoi les visiteurs quittent sans acheter ? Comment la navigation transforme les visiteurs en acheteurs ?"
+    order: 1
+  - id: mobile-first
+    name: "Navigation Mobile-First"
+    desc: "80% du trafic est mobile — comment construire une navigation qui fonctionne au pouce ?"
+    order: 2
+  - id: choosing-menu
+    name: "Choisir le Bon Menu"
+    desc: "Tab bar, méga menu ou menu coulissant — lequel convient à votre boutique ?"
+    order: 3
+  - id: speed-performance
+    name: "Vitesse & Performance"
+    desc: "Mon menu ralentit-il ma boutique ? Cela affecte-t-il mon classement Google ?"
+    order: 4
+  - id: scaling-store
+    name: "Faire Évoluer Votre Boutique"
+    desc: "Mon catalogue est passé de 50 à 500 produits — comment la navigation doit-elle changer ?"
+    order: 5
+  - id: design-branding
+    name: "Design & Marque"
+    desc: "Comment rendre mon menu professionnel et cohérent avec ma marque ?"
+    order: 6
+  - id: international
+    name: "Vente Internationale"
+    desc: "Plusieurs pays, langues, devises — comment gérer la navigation ?"
+    order: 7
+  - id: accessibility-seo
+    name: "Accessibilité & SEO"
+    desc: "Tout le monde peut-il utiliser ma navigation ? Aide-t-elle ou nuit-elle au SEO ?"
+    order: 8
+  - id: checkout
+    name: "Expérience de Paiement"
+    desc: "Pourquoi les acheteurs abandonnent au paiement ? Comment la navigation affecte cette étape ?"
+    order: 9
+  - id: getting-started
+    name: "Pour Commencer"
+    desc: "Nouveau dans la navigation personnalisée — par où commencer ?"
+    order: 10
+
+de:
+  - id: increase-conversions
+    name: "Conversions Steigern"
+    desc: "Warum verlassen Besucher den Shop ohne zu kaufen? Wie kann Navigation aus Besuchern Käufer machen?"
+    order: 1
+  - id: mobile-first
+    name: "Mobile-First Navigation"
+    desc: "80% des Traffics ist mobil — wie baue ich Navigation, die mit dem Daumen funktioniert?"
+    order: 2
+  - id: choosing-menu
+    name: "Das Richtige Menü Wählen"
+    desc: "Tab Bar, Mega-Menü oder Slide-Menü — welches passt zu meinem Shop?"
+    order: 3
+  - id: speed-performance
+    name: "Geschwindigkeit & Performance"
+    desc: "Verlangsamt mein Menü den Shop? Schadet es meinem Google-Ranking?"
+    order: 4
+  - id: scaling-store
+    name: "Shop Skalieren"
+    desc: "Mein Katalog wuchs von 50 auf 500 Produkte — wie sollte sich die Navigation ändern?"
+    order: 5
+  - id: design-branding
+    name: "Design & Branding"
+    desc: "Wie mache ich mein Menü professionell und passend zur Marke?"
+    order: 6
+  - id: international
+    name: "Internationaler Verkauf"
+    desc: "Mehrere Länder, Sprachen, Währungen — wie handhabe ich die Navigation?"
+    order: 7
+  - id: accessibility-seo
+    name: "Barrierefreiheit & SEO"
+    desc: "Kann jeder meine Navigation nutzen? Hilft oder schadet sie dem SEO?"
+    order: 8
+  - id: checkout
+    name: "Checkout-Erfahrung"
+    desc: "Warum brechen Käufer beim Checkout ab? Wie beeinflusst Navigation den letzten Schritt?"
+    order: 9
+  - id: getting-started
+    name: "Erste Schritte"
+    desc: "Neu bei individueller Navigation — wo fange ich an?"
+    order: 10
+
+zh-CN:
+  - id: increase-conversions
+    name: "提高转化率"
+    desc: "为什么访客不购买就离开？导航如何将浏览者转化为买家？"
+    order: 1
+  - id: mobile-first
+    name: "移动优先导航"
+    desc: "80%的流量来自手机——如何构建用拇指就能操作的导航？"
+    order: 2
+  - id: choosing-menu
+    name: "选择正确的菜单"
+    desc: "标签栏、超级菜单还是滑动菜单——哪个适合您的商店？"
+    order: 3
+  - id: speed-performance
+    name: "速度与性能"
+    desc: "菜单是否拖慢了商店？会影响Google排名吗？"
+    order: 4
+  - id: scaling-store
+    name: "扩展您的商店"
+    desc: "产品目录从50增长到500——导航应该如何变化？"
+    order: 5
+  - id: design-branding
+    name: "设计与品牌"
+    desc: "如何让菜单看起来专业且符合品牌形象？"
+    order: 6
+  - id: international
+    name: "国际销售"
+    desc: "多个国家、语言、货币——如何处理导航？"
+    order: 7
+  - id: accessibility-seo
+    name: "无障碍与SEO"
+    desc: "所有人都能使用导航吗？对SEO有帮助还是伤害？"
+    order: 8
+  - id: checkout
+    name: "结账体验"
+    desc: "为什么购物者在结账时放弃？导航如何影响最后一步？"
+    order: 9
+  - id: getting-started
+    name: "入门指南"
+    desc: "初次接触自定义导航——从哪里开始？"
+    order: 10
+
+jp:
+  - id: increase-conversions
+    name: "コンバージョン向上"
+    desc: "なぜ訪問者は購入せずに離脱するのか？ナビゲーションで閲覧者を購入者に変えるには？"
+    order: 1
+  - id: mobile-first
+    name: "モバイルファーストナビ"
+    desc: "トラフィックの80%がモバイル — 親指だけで操作できるナビゲーションの構築方法は？"
+    order: 2
+  - id: choosing-menu
+    name: "メニュータイプの選び方"
+    desc: "タブバー、メガメニュー、スライドメニュー — どれがあなたのストアに合う？"
+    order: 3
+  - id: speed-performance
+    name: "速度とパフォーマンス"
+    desc: "メニューがストアを遅くしている？Google ランキングに影響する？"
+    order: 4
+  - id: scaling-store
+    name: "ストアの拡大"
+    desc: "商品が50から500に増えた — ナビゲーションはどう変えるべき？"
+    order: 5
+  - id: design-branding
+    name: "デザインとブランド"
+    desc: "メニューをプロフェッショナルに見せ、ブランドに合わせるには？"
+    order: 6
+  - id: international
+    name: "海外販売"
+    desc: "複数の国、言語、通貨 — ナビゲーションをどう対応させる？"
+    order: 7
+  - id: accessibility-seo
+    name: "アクセシビリティとSEO"
+    desc: "すべての人がナビゲーションを使えるか？SEOに役立つか？"
+    order: 8
+  - id: checkout
+    name: "チェックアウト体験"
+    desc: "なぜ購入者はチェックアウトで離脱する？ナビゲーションが最後のステップにどう影響？"
+    order: 9
+  - id: getting-started
+    name: "はじめに"
+    desc: "カスタムナビゲーションは初めて — どこから始める？"
+    order: 10
+
+it:
+  - id: increase-conversions
+    name: "Aumentare le Conversioni"
+    desc: "Perché i visitatori se ne vanno senza comprare? Come la navigazione trasforma i visitatori in acquirenti?"
+    order: 1
+  - id: mobile-first
+    name: "Navigazione Mobile-First"
+    desc: "L'80% del traffico è mobile — come costruire una navigazione che funzioni col pollice?"
+    order: 2
+  - id: choosing-menu
+    name: "Scegliere il Menu Giusto"
+    desc: "Tab bar, mega menu o menu scorrevole — quale si adatta al tuo negozio?"
+    order: 3
+  - id: speed-performance
+    name: "Velocità e Prestazioni"
+    desc: "Il mio menu rallenta il negozio? Danneggia il posizionamento su Google?"
+    order: 4
+  - id: scaling-store
+    name: "Far Crescere il Negozio"
+    desc: "Il catalogo è cresciuto da 50 a 500 prodotti — come deve cambiare la navigazione?"
+    order: 5
+  - id: design-branding
+    name: "Design e Brand"
+    desc: "Come rendere il menu professionale e coerente con il brand?"
+    order: 6
+  - id: international
+    name: "Vendita Internazionale"
+    desc: "Più paesi, lingue, valute — come gestire la navigazione?"
+    order: 7
+  - id: accessibility-seo
+    name: "Accessibilità e SEO"
+    desc: "Tutti possono usare la navigazione? Aiuta o danneggia il SEO?"
+    order: 8
+  - id: checkout
+    name: "Esperienza di Checkout"
+    desc: "Perché gli acquirenti abbandonano al checkout? Come la navigazione influenza l'ultimo passaggio?"
+    order: 9
+  - id: getting-started
+    name: "Per Iniziare"
+    desc: "Nuovo nella navigazione personalizzata — da dove cominciare?"
+    order: 10
+
+pt:
+  - id: increase-conversions
+    name: "Aumentar Conversões"
+    desc: "Por que os visitantes saem sem comprar? Como a navegação transforma visitantes em compradores?"
+    order: 1
+  - id: mobile-first
+    name: "Navegação Mobile-First"
+    desc: "80% do tráfego é mobile — como construir navegação que funcione com o polegar?"
+    order: 2
+  - id: choosing-menu
+    name: "Escolher o Menu Certo"
+    desc: "Tab bar, mega menu ou menu deslizante — qual se encaixa na sua loja?"
+    order: 3
+  - id: speed-performance
+    name: "Velocidade e Desempenho"
+    desc: "Meu menu está deixando a loja lenta? Vai prejudicar o Google?"
+    order: 4
+  - id: scaling-store
+    name: "Escalar Sua Loja"
+    desc: "O catálogo cresceu de 50 para 500 produtos — como a navegação deve mudar?"
+    order: 5
+  - id: design-branding
+    name: "Design e Marca"
+    desc: "Como fazer o menu parecer profissional e combinar com a marca?"
+    order: 6
+  - id: international
+    name: "Venda Internacional"
+    desc: "Vários países, idiomas, moedas — como lidar com a navegação?"
+    order: 7
+  - id: accessibility-seo
+    name: "Acessibilidade e SEO"
+    desc: "Todos conseguem usar a navegação? Ajuda ou prejudica o SEO?"
+    order: 8
+  - id: checkout
+    name: "Experiência de Checkout"
+    desc: "Por que compradores abandonam no checkout? Como a navegação afeta a etapa final?"
+    order: 9
+  - id: getting-started
+    name: "Começando"
+    desc: "Novo em navegação personalizada — por onde começar?"
+    order: 10
+
+es:
+  - id: increase-conversions
+    name: "Aumentar Conversiones"
+    desc: "¿Por qué los visitantes se van sin comprar? ¿Cómo la navegación convierte visitantes en compradores?"
+    order: 1
+  - id: mobile-first
+    name: "Navegación Mobile-First"
+    desc: "El 80% del tráfico es móvil — ¿cómo construir navegación que funcione con el pulgar?"
+    order: 2
+  - id: choosing-menu
+    name: "Elegir el Menú Correcto"
+    desc: "¿Tab bar, mega menú o menú deslizante — cuál se adapta a tu tienda?"
+    order: 3
+  - id: speed-performance
+    name: "Velocidad y Rendimiento"
+    desc: "¿Mi menú ralentiza la tienda? ¿Afectará mi ranking en Google?"
+    order: 4
+  - id: scaling-store
+    name: "Escalar Tu Tienda"
+    desc: "El catálogo creció de 50 a 500 productos — ¿cómo debe cambiar la navegación?"
+    order: 5
+  - id: design-branding
+    name: "Diseño y Marca"
+    desc: "¿Cómo hacer que mi menú se vea profesional y coincida con mi marca?"
+    order: 6
+  - id: international
+    name: "Venta Internacional"
+    desc: "Varios países, idiomas, monedas — ¿cómo manejar la navegación?"
+    order: 7
+  - id: accessibility-seo
+    name: "Accesibilidad y SEO"
+    desc: "¿Todos pueden usar mi navegación? ¿Ayuda o perjudica al SEO?"
+    order: 8
+  - id: checkout
+    name: "Experiencia de Checkout"
+    desc: "¿Por qué los compradores abandonan en el checkout? ¿Cómo afecta la navegación al paso final?"
+    order: 9
+  - id: getting-started
+    name: "Primeros Pasos"
+    desc: "Nuevo en navegación personalizada — ¿por dónde empezar?"
+    order: 10

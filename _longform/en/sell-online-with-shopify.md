@@ -5,6 +5,7 @@ order: 10
 title: "How to sell online effectively with Shopify"
 description: "A complete, no-fluff playbook for launching and growing a profitable Shopify store — from store setup to navigation, traffic, and conversion."
 topic_tag: "Shopify"
+category: "getting-started"
 hero_color: "#6d5cf0"
 read_time: 14
 seo_keywords:

@@ -5,6 +5,7 @@ order: 21
 title: "Navigation for international stores: language, currency, and regional catalogs"
 description: "Multi-language navigation, currency switchers in the menu, regional catalog differences, and designing navigation that works across markets and languages."
 topic_tag: "International"
+category: "international"
 hero_color: "#3a6b8c"
 read_time: 6
 seo_keywords:

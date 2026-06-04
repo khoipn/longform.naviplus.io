@@ -5,6 +5,7 @@ order: 15
 title: "Too many choices: how navigation can reduce decision fatigue"
 description: "The paradox of choice in ecommerce navigation — why overwhelming menus reduce conversions, and how curated navigation and progressive disclosure help shoppers decide faster."
 topic_tag: "Decision fatigue"
+category: "increase-conversions"
 hero_color: "#8b6f47"
 read_time: 6
 seo_keywords:

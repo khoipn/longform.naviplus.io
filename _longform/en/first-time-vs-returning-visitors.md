@@ -5,6 +5,7 @@ order: 14
 title: "Navigation for first-time vs returning visitors: what changes"
 description: "How navigation needs differ between new visitors who are discovering your store and returning customers who already know what they want — and how to serve both."
 topic_tag: "Visitor types"
+category: "increase-conversions"
 hero_color: "#2d8f6f"
 read_time: 6
 seo_keywords:

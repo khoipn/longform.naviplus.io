@@ -5,6 +5,7 @@ order: 18
 title: "Accessible navigation: building for screen readers and keyboard users"
 description: "ARIA labels, keyboard navigation, focus management, and accessible menu patterns — making ecommerce navigation work for assistive technology users."
 topic_tag: "Accessibility"
+category: "accessibility-seo"
 hero_color: "#6b5a8e"
 read_time: 7
 seo_keywords:

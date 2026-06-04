@@ -5,6 +5,7 @@ order: 2
 title: "How to choose the right menu type for your Shopify store"
 description: "A guide to choosing the right Shopify menu type based on product count, mobile share, and how customers shop: comparing Mega Menu, Tab Bar, Slide Menu, FAB, and a decision process."
 topic_tag: "Choosing a menu"
+category: "choosing-menu"
 hero_color: "#2f7d5b"
 read_time: 6
 seo_keywords:

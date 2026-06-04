@@ -5,6 +5,7 @@ order: 6
 title: "Navigation for every stage of your store's growth — from 10 to 10,000 products"
 description: "Navigation by store stage: the same store needs a different kind of menu as it grows from 10 to 10,000 products. The signs to watch for and what to do at each stage."
 topic_tag: "Growth"
+category: "scaling-store"
 hero_color: "#f08c00"
 read_time: 7
 seo_keywords:

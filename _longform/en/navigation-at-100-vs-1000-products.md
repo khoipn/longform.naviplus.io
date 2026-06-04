@@ -5,6 +5,7 @@ order: 20
 title: "How navigation needs change as your catalog grows from 100 to 1000+ products"
 description: "Scaling navigation from a small catalog to a large one — when to add mega menus, how category strategy changes, and why the menu that works at 50 products breaks at 500."
 topic_tag: "Catalog scale"
+category: "scaling-store"
 hero_color: "#4a8c6f"
 read_time: 6
 seo_keywords:

@@ -5,6 +5,7 @@ order: 5
 title: "Navigation and Page Speed — Choosing a Menu App That Won't Hurt Core Web Vitals"
 description: "How to pick a Core Web Vitals friendly menu app that won't slow down your Shopify store: understand LCP, INP, CLS, what makes an app fast, and a checklist to measure for yourself before installing — no code needed."
 topic_tag: "Speed"
+category: "speed-performance"
 hero_color: "#9c36b5"
 read_time: 6
 seo_keywords:

@@ -5,6 +5,7 @@ order: 4
 title: "Mobile navigation — why the hamburger menu is falling behind and what to use instead"
 description: "Why the hamburger menu is falling behind on ecommerce, and which mobile navigation to use instead: Tab Bar, the thumb zone, and how to pair in a Slide Menu for your store."
 topic_tag: "Mobile"
+category: "mobile-first"
 hero_color: "#e8590c"
 read_time: 7
 seo_keywords:
