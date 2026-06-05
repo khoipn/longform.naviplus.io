@@ -17,6 +17,11 @@ The header on a checkout page has a different job from the header on a collectio
 
 Most stores use the same header everywhere, including on checkout. That means the shopper who is filling in their credit card details can see links to the blog, the sale section, the about page, and the full category menu. Each of those links is a potential exit from the purchase flow.
 
+<figure>
+  <img src="/images/checkout-navigation-mistakes/minimal-checkout-header.webp" alt="Simplified checkout header with logo progress indicator and support link while category navigation is removed" title="Minimal checkout header pattern">
+  <figcaption>A checkout header should keep only identity, progress, and support. Category navigation, search, and promotional links become exit points once the shopper is ready to pay.</figcaption>
+</figure>
+
 ## The case for minimal headers
 
 Baymard Institute's checkout usability research found that simplifying the header during checkout reduces unintentional exits. The top-performing stores typically use a checkout header that includes just two or three elements: the store logo (sometimes linked to the cart rather than the homepage), a progress indicator showing which step the shopper is on, and a support link (phone number, chat, or email) in case something goes wrong.

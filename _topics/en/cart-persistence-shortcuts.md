@@ -15,6 +15,11 @@ date: 2026-04-22
 
 The cart is the bridge between browsing and buying. If shoppers can't easily find it, they lose track of what they've added. If it's too prominent, it distracts from browsing. The balance is subtle but important — the cart should always be accessible but never in the way.
 
+<figure>
+  <img src="/images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp" alt="Persistent cart icon with item count balanced against the primary checkout call to action" title="Persistent cart access without checkout distraction">
+  <figcaption>A persistent cart shortcut keeps items visible and recoverable, but it should stay secondary to the main checkout action when the shopper is ready to complete the order.</figcaption>
+</figure>
+
 ## The persistent cart icon
 
 The simplest form of cart access is a cart icon in the header, visible on every page. Most Shopify themes include this by default. It shows a small shopping bag or cart icon with a badge indicating the number of items inside.

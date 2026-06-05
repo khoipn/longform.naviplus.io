@@ -17,6 +17,11 @@ Even with a clean checkout flow and minimal navigation distractions, some shoppe
 
 Exit-intent detection and navigation-based recovery are two patterns that address this. They work at different points in the abandonment sequence: exit-intent tries to prevent the exit, while email or notification recovery tries to bring the shopper back after they've left.
 
+<figure>
+  <img src="/images/checkout-navigation-mistakes/exit-intent-recovery.webp" alt="Checkout exit-intent recovery overlay reminding shopper about items still in cart before they leave" title="Checkout exit-intent recovery">
+  <figcaption>Exit-intent recovery gives shoppers one gentle reminder before they leave checkout, while cart and email recovery provide a path back later.</figcaption>
+</figure>
+
 ## How exit-intent works
 
 Exit-intent detection monitors the shopper's behavior for signals that they are about to leave. On desktop, the most common signal is cursor movement toward the browser's address bar, back button, or tab close area. When the system detects this movement, it triggers a lightweight overlay — a small popup that appears before the shopper clicks away.

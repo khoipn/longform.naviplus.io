@@ -17,6 +17,11 @@ Mobile accounts for roughly 75% of ecommerce traffic now, but mobile checkout co
 
 Navigation plays a bigger role in mobile checkout friction than most store owners realize. The header takes up space, the form fields are hard to tap, and the shopper's thumb can barely reach the top of the screen. Getting mobile checkout navigation right means acknowledging these physical constraints and designing around them.
 
+<figure>
+  <img src="/images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp" alt="Mobile checkout screen with primary payment action placed in the thumb-friendly lower screen zone" title="Mobile checkout thumb-zone navigation">
+  <figcaption>Mobile checkout works best when the header is minimal and the important actions stay in the thumb-friendly zone instead of forcing shoppers to stretch to the top of the screen.</figcaption>
+</figure>
+
 ## The thumb zone during checkout
 
 Steven Hoober's research on mobile device usage showed that most people hold their phone with one hand and operate it with their thumb. The comfortable reach zone is the lower third of the screen. The upper corners are the hardest to reach.
