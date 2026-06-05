@@ -3,6 +3,8 @@ lang: en
 ref: mobile-product-page-navigation
 title: "Mobile product page navigation: back buttons, swipe, and sticky bars"
 description: "Navigation patterns for mobile product pages where breadcrumbs don't fit — back buttons, bottom bars, swipe gestures, and how to keep shoppers browsing on small screens."
+image: "/images/shopify-product-page-navigation/mobile-product-nav-thumb-zone.webp"
+image_alt: "Mobile product page navigation: back buttons, swipe, and sticky bars"
 parent_title: "Product page navigation: how shoppers move between products"
 parent_url: "/shopify-product-page-navigation/"
 seo_keywords:

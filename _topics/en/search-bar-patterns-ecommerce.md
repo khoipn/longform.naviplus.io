@@ -3,6 +3,8 @@ lang: en
 ref: search-bar-patterns-ecommerce
 title: "Search bar patterns: placement, full-screen mobile, and instant results"
 description: "Where to put the search bar on your ecommerce store, what happens when shoppers tap it, and how autocomplete and instant results change the search experience."
+image: "/images/search-vs-navigation/search-bar-placement-patterns.webp"
+image_alt: "Search bar patterns: placement, full-screen mobile, and instant results"
 parent_title: "When shoppers search vs browse: designing for both behaviors"
 parent_url: "/search-vs-navigation/"
 seo_keywords:

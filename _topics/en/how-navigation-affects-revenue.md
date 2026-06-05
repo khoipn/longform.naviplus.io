@@ -3,6 +3,8 @@ lang: en
 ref: how-navigation-affects-revenue
 title: "How Navigation Affects Your Revenue"
 description: "Navigation shapes revenue through bounce rate, pages per session, add to cart, and return visits. How to arrange a clear, fast store menu so you sell more."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "How Navigation Affects Your Revenue"
 parent_title: "Why Visitors Come to Your Store but Don't Buy — and How Navigation Fits In"
 parent_url: "/why-shoppers-dont-buy/"
 seo_keywords:

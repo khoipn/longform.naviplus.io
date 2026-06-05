@@ -3,6 +3,8 @@ lang: zh-CN
 ref: navigation-for-scaled-stores
 title: "阶段三 —— 已经完成规模化的店铺（500+ 商品，15+ 分类）"
 description: "为拥有 500+ 商品和 15+ 分类的规模化店铺做导航：多列巨型菜单、移动端 Tab Bar、搜索、A/B 测试，以及如何用 Navi+ 合理地把它们搭建起来。"
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "阶段三 —— 已经完成规模化的店铺（500+ 商品，15+ 分类）"
 parent_title: "店铺成长每个阶段的导航方案 —— 从 10 件商品到 10,000 件商品"
 parent_url: "/zh-CN/navigation-for-every-store-stage/"
 seo_keywords:

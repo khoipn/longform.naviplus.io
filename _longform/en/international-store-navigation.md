@@ -56,7 +56,7 @@ With Navi+, a language switcher can be added as a menu item in the tabbar or sli
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/language-switcher-navigation/">Read the full guide → Language switcher patterns in navigation</a></p>
 <figure>
-  <img src="/images/international-store-navigation/language-switcher-placement.webp" alt="Language switcher placement options in header slide menu and tabbar for international ecommerce" title="Language switcher navigation placement">
+  <img src="https://cdn.naviplus.app/longform/images/international-store-navigation/language-switcher-placement.webp" alt="Language switcher placement options in header slide menu and tabbar for international ecommerce" title="Language switcher navigation placement">
   <figcaption>The language switcher should be findable but not dominant — in the header on desktop, in the menu on mobile.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ A currency indicator — a small "EUR €" or "USD $" in the header or footer �
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/currency-navigation-patterns/">Read the full guide → Currency in navigation: showing the right prices</a></p>
 <figure>
-  <img src="/images/international-store-navigation/currency-switcher-patterns.webp" alt="Currency display and switcher patterns showing auto-detected currency with manual override option" title="Currency navigation patterns">
+  <img src="https://cdn.naviplus.app/longform/images/international-store-navigation/currency-switcher-patterns.webp" alt="Currency display and switcher patterns showing auto-detected currency with manual override option" title="Currency navigation patterns">
   <figcaption>Auto-detected currency with a visible indicator and manual override covers most international shopping scenarios.</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Shopify Markets supports market-specific catalogs, and Navi+ can be configured w
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/regional-catalog-navigation/">Read the full guide → Regional catalogs and market-specific navigation</a></p>
 <figure>
-  <img src="/images/international-store-navigation/regional-catalog-navigation.webp" alt="Two market views of the same store showing different featured products and promotional banners" title="Regional catalog navigation">
+  <img src="https://cdn.naviplus.app/longform/images/international-store-navigation/regional-catalog-navigation.webp" alt="Two market views of the same store showing different featured products and promotional banners" title="Regional catalog navigation">
   <figcaption>Different markets may need different featured collections and promotional navigation — even when the core catalog is the same.</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ When auto-detection fails — the customer is traveling, using a VPN, or their I
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/multi-market-navigation-ux/">Read the full guide → Multi-market UX: one store serving many countries</a></p>
 <figure>
-  <img src="/images/international-store-navigation/multi-market-ux.webp" alt="Store auto-detecting visitor location showing confirmation banner with language and currency options" title="Multi-market navigation UX">
+  <img src="https://cdn.naviplus.app/longform/images/international-store-navigation/multi-market-ux.webp" alt="Store auto-detecting visitor location showing confirmation banner with language and currency options" title="Multi-market navigation UX">
   <figcaption>Auto-detection with a confirmation prompt handles most international visitors — the fallback catches the rest.</figcaption>
 </figure>
 

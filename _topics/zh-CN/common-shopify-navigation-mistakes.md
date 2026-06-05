@@ -3,6 +3,8 @@ lang: zh-CN
 ref: common-shopify-navigation-mistakes
 title: "Shopify 店铺最常见的导航错误"
 description: "五个常见的 Shopify 导航错误会把顾客赶走：菜单堆得太满、缺少 mega menu、过度依赖汉堡菜单、没有面包屑、分类方式错误。教你如何发现并干净利落地修复每一个问题。"
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Shopify 店铺最常见的导航错误"
 parent_title: "为什么顾客来了店铺却不下单——导航在其中扮演了什么角色"
 parent_url: "/zh-CN/why-shoppers-dont-buy/"
 seo_keywords:

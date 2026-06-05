@@ -3,6 +3,8 @@ lang: en
 ref: mega-menu-category-grouping
 title: "Category grouping in mega menus: logical structure"
 description: "How to group subcategories within mega menu panels — by product type, audience, use case, or brand — so the menu makes sense at a glance."
+image: "/images/mega-menu-best-practices/mega-menu-grouping.webp"
+image_alt: "Category grouping in mega menus: logical structure"
 parent_title: "Mega menu best practices: layout, images, and how much is too much"
 parent_url: "/mega-menu-best-practices/"
 seo_keywords:

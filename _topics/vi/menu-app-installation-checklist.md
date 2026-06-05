@@ -3,6 +3,8 @@ lang: vi
 ref: menu-app-installation-checklist
 title: "Checklist trước khi cài bất kỳ app menu nào"
 description: "Checklist cài app menu cho store Shopify: bốn bước đo PageSpeed và Core Web Vitals trước và sau khi cài, để chọn app không làm chậm trang trên mobile lẫn desktop."
+image: "/images/navigation-and-page-speed/menu-app-installation-checklist.webp"
+image_alt: "Checklist trước khi cài bất kỳ app menu nào"
 parent_title: "Navigation và tốc độ tải trang — chọn app menu không ảnh hưởng Core Web Vitals"
 parent_url: "/vi/navigation-and-page-speed/"
 seo_keywords:

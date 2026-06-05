@@ -54,7 +54,7 @@ The fix is async loading. Menu scripts should load with `async` or `defer` attri
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-lcp-menu-impact/">Read the full guide → Mobile LCP and menus: how navigation affects loading speed</a></p>
 <figure>
-  <img src="/images/mobile-menu-performance/menu-lcp-impact.webp" alt="Waterfall chart showing menu script blocking render and delaying LCP versus async loading" title="Menu impact on LCP">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-menu-performance/menu-lcp-impact.webp" alt="Waterfall chart showing menu script blocking render and delaying LCP versus async loading" title="Menu impact on LCP">
   <figcaption>A synchronous menu script blocks rendering and delays LCP — async loading lets the page appear first.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ The principle is straightforward: less JavaScript, fewer DOM nodes, simpler CSS 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/menu-render-cost/">Read the full guide → Menu render cost: JavaScript, CSS, and DOM weight</a></p>
 <figure>
-  <img src="/images/mobile-menu-performance/menu-render-cost.webp" alt="Comparison of lightweight menu with 30 DOM nodes versus heavy menu with 300 DOM nodes and their render times" title="Menu render cost comparison">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-menu-performance/menu-render-cost.webp" alt="Comparison of lightweight menu with 30 DOM nodes versus heavy menu with 300 DOM nodes and their render times" title="Menu render cost comparison">
   <figcaption>A lightweight menu renders instantly on mobile — a heavy menu with hundreds of DOM nodes stutters and delays.</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ The fix: keep the main thread clear, use CSS transitions instead of JavaScript a
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/tap-delay-menu-responsiveness/">Read the full guide → Tap delay and interaction responsiveness</a></p>
 <figure>
-  <img src="/images/mobile-menu-performance/tap-delay-responsiveness.webp" alt="Timeline showing tap event to visual response with good INP under 200ms versus poor over 500ms" title="Menu tap delay and INP">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-menu-performance/tap-delay-responsiveness.webp" alt="Timeline showing tap event to visual response with good INP under 200ms versus poor over 500ms" title="Menu tap delay and INP">
   <figcaption>Good INP means the menu responds within 200 milliseconds of a tap — anything longer feels sluggish to the shopper.</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ Navi+ is built to stay within these thresholds. The menu script is lightweight, 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-performance-budget-navigation/">Read the full guide → Mobile performance budget for navigation</a></p>
 <figure>
-  <img src="/images/mobile-menu-performance/performance-budget-navigation.webp" alt="Performance budget checklist showing JavaScript CSS DOM and render time thresholds for mobile menu" title="Navigation performance budget">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-menu-performance/performance-budget-navigation.webp" alt="Performance budget checklist showing JavaScript CSS DOM and render time thresholds for mobile menu" title="Navigation performance budget">
   <figcaption>A performance budget for navigation — JS under 50KB, DOM under 100 nodes, render under 100ms — keeps menus fast on real phones.</figcaption>
 </figure>
 

@@ -3,6 +3,8 @@ lang: de
 ref: how-shoppers-behave-on-ecommerce
 title: "Wie sich Käufer in einem Onlineshop tatsächlich verhalten"
 description: "Nutzerverhalten im Shop: Käufer überfliegen Seiten, statt sie zu lesen, ihre Augen folgen dem F-Muster und dem Z-Muster, und auf dem Smartphone verhalten sie sich anders als am Desktop. Wer das versteht, kann Navigation und Menüs richtig anordnen."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Wie sich Käufer in einem Onlineshop tatsächlich verhalten"
 parent_title: "Warum Käufer Ihren Shop besuchen, aber nicht kaufen — und welche Rolle die Navigation dabei spielt"
 parent_url: "/de/why-shoppers-dont-buy/"
 seo_keywords:

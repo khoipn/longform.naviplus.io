@@ -3,6 +3,8 @@ lang: zh-CN
 ref: collection-page-exit-rate
 title: "指标三 —— 分类页的退出率"
 description: "分类页退出率偏高，往往源于菜单标签与页面实际展示的内容不符。如何用 GA4 探索功能来衡量它，以及如何检查并优化你的菜单来留住顾客。"
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "指标三 —— 分类页的退出率"
 parent_title: "如何判断你的菜单是否有效 —— 值得追踪的 5 个指标"
 parent_url: "/zh-CN/measuring-menu-performance/"
 seo_keywords:

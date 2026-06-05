@@ -3,6 +3,8 @@ lang: zh-CN
 ref: internal-search-usage-rate
 title: "指标五 —— 站内搜索使用率"
 description: "什么是搜索使用率、如何用 GA4 衡量它，以及如何解读你的热门搜索词——这样你就能用顾客自己的语言来命名菜单项，减少顾客不得不自己在店内搜索的次数。"
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "指标五 —— 站内搜索使用率"
 parent_title: "如何判断你的菜单是否有效 —— 5 个值得追踪的指标"
 parent_url: "/zh-CN/measuring-menu-performance/"
 seo_keywords:

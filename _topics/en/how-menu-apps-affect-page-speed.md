@@ -3,6 +3,8 @@ lang: en
 ref: how-menu-apps-affect-page-speed
 title: "How a Menu App Affects Page Speed — and the Warning Signs"
 description: "Learn how a menu app affects page load speed, why a navigation app can slow your store down, and how to use PageSpeed Insights and DevTools to spot the problem."
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "How a Menu App Affects Page Speed — and the Warning Signs"
 parent_title: "Navigation and Page Load Speed — Choosing a Menu App That Doesn't Hurt Core Web Vitals"
 parent_url: "/navigation-and-page-speed/"
 seo_keywords:

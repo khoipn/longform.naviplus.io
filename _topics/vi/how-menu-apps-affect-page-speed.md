@@ -3,6 +3,8 @@ lang: vi
 ref: how-menu-apps-affect-page-speed
 title: "App menu ảnh hưởng tới tốc độ ra sao — và dấu hiệu nhận biết"
 description: "Tìm hiểu app menu ảnh hưởng tốc độ tải trang ra sao, vì sao app điều hướng làm chậm store, và cách dùng PageSpeed Insights cùng DevTools để nhận biết."
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "App menu ảnh hưởng tới tốc độ ra sao — và dấu hiệu nhận biết"
 parent_title: "Navigation và tốc độ tải trang — chọn app menu không ảnh hưởng Core Web Vitals"
 parent_url: "/vi/navigation-and-page-speed/"
 seo_keywords:

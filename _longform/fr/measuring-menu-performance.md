@@ -64,7 +64,7 @@ Le CTR est aussi un bon moyen de mener des expériences. Renommez un élément, 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/menu-click-through-rate/">Lire le guide complet → Indicateur 1 — Taux de clic de chaque élément du menu</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Un conseil pratique : listez les cinq pages les plus importantes pour le chiffre
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/navigation-depth-metric/">Lire le guide complet → Indicateur 2 — Profondeur de navigation</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Une remarque en lisant cet indicateur : un taux de sortie élevé n'est pas touj
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/collection-page-exit-rate/">Lire le guide complet → Indicateur 3 — Taux de sortie sur les pages de catégorie</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ Si le mobile est clairement à la traîne, il est très probable que les boutons
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/mobile-vs-desktop-navigation-behavior/">Lire le guide complet → Indicateur 4 — Comportement de navigation mobile vs. ordinateur</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ Lisez la recherche interne comme une plainte polie de vos clients : « Je n'ai p
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Pour aller plus loin</span><a href="/fr/topic/internal-search-usage-rate/">Lire le guide complet → Indicateur 5 — Taux d'utilisation de la recherche interne</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Cinq indicateurs, cela peut sembler beaucoup, mais vous n'avez pas besoin de tou
 3. Après deux semaines, prenez le temps de passer en revue les chiffres d'un seul coup, et notez deux ou trois choses qui semblent clocher.
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ Une chose à garder en tête en apportant des changements : à chaque modificati
 ## En conclusion
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 Les chiffres ne sont pas là pour vous noter ou vous juger. Ils vous aident simplement à voir où les clients se bloquent — quelque chose que l'œil nu et l'intuition peinent à percevoir. Un bon menu n'a pas besoin d'être parfait dès le premier jour ; il a besoin d'être amélioré progressivement, à partir de ce que les clients font réellement.

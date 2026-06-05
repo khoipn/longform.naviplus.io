@@ -3,6 +3,8 @@ lang: pt
 ref: tab-bar-mobile-navigation
 title: "Tab Bar — a principal alternativa"
 description: "A tab bar no celular é uma faixa de navegação na parte de baixo da tela que facilita a compra: fica na zona do polegar, permanece visível sem precisar abrir nada e se limita a 4-5 destinos principais."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "Tab Bar — a principal alternativa"
 parent_title: "Navegação no celular — por que o menu hambúrguer está perdendo força e o que usar no lugar"
 parent_url: "/pt/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: vi
 ref: core-web-vitals-explained
 title: "Core Web Vitals là gì và vì sao bạn cần quan tâm"
 description: "Core Web Vitals là gì? Giải thích LCP, CLS, INP bằng ngôn ngữ đời thường, kèm ngưỡng tốt của Google và lý do ba chỉ số này ảnh hưởng tới SEO, doanh thu store."
+image: "/images/navigation-and-page-speed/core-web-vitals-menu-app.webp"
+image_alt: "Core Web Vitals là gì và vì sao bạn cần quan tâm"
 parent_title: "Navigation và tốc độ tải trang — chọn app menu không ảnh hưởng Core Web Vitals"
 parent_url: "/vi/navigation-and-page-speed/"
 seo_keywords:

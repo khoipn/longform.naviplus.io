@@ -3,6 +3,8 @@ lang: en
 ref: mobile-cart-shortcuts
 title: "Cart shortcuts on mobile: one-tap access patterns"
 description: "Persistent cart icon in the tabbar, mini cart drawer, quick-add from collection pages, and mobile-specific patterns for keeping the cart accessible."
+image: "/images/mobile-checkout-flow/persistent-cart-mobile.webp"
+image_alt: "Cart shortcuts on mobile: one-tap access patterns"
 parent_title: "Mobile checkout: why navigation matters more on small screens"
 parent_url: "/mobile-checkout-flow/"
 seo_keywords:

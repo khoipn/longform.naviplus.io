@@ -3,6 +3,8 @@ lang: en
 ref: checkout-header-patterns
 title: "Checkout header patterns: when to hide the menu"
 description: "Why most high-converting checkout flows simplify the header — removing category menus, search bars, and secondary links to keep shoppers focused on completing the purchase."
+image: "/images/checkout-navigation-mistakes/minimal-checkout-header.webp"
+image_alt: "Checkout header patterns: when to hide the menu"
 parent_title: "Why shoppers abandon cart at checkout (and how navigation plays a role)"
 parent_url: "/checkout-navigation-mistakes/"
 seo_keywords:
@@ -16,11 +18,6 @@ date: 2026-04-22
 The header on a checkout page has a different job from the header on a collection page. On a collection page, the header invites exploration — categories, search, promotions. On a checkout page, the header's only job is to keep the shopper moving toward "Complete order."
 
 Most stores use the same header everywhere, including on checkout. That means the shopper who is filling in their credit card details can see links to the blog, the sale section, the about page, and the full category menu. Each of those links is a potential exit from the purchase flow.
-
-<figure>
-  <img src="/images/checkout-navigation-mistakes/minimal-checkout-header.webp" alt="Simplified checkout header with logo progress indicator and support link while category navigation is removed" title="Minimal checkout header pattern">
-  <figcaption>A checkout header should keep only identity, progress, and support. Category navigation, search, and promotional links become exit points once the shopper is ready to pay.</figcaption>
-</figure>
 
 ## The case for minimal headers
 

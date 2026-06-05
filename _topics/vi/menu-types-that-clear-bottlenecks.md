@@ -3,6 +3,8 @@ lang: vi
 ref: menu-types-that-clear-bottlenecks
 title: "Các loại menu giải quyết điểm nghẽn điều hướng ra sao"
 description: "Tìm hiểu các loại menu Shopify (Mega Menu, Tab Bar, Slide Menu, FAB) và cách mỗi loại gỡ đúng điểm nghẽn điều hướng giúp khách dễ tìm hàng và mua hơn."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Các loại menu giải quyết điểm nghẽn điều hướng ra sao"
 parent_title: "Tại sao khách vào store nhưng không mua — và navigation liên quan thế nào"
 parent_url: "/vi/why-shoppers-dont-buy/"
 seo_keywords:

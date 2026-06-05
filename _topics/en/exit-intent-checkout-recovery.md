@@ -3,6 +3,8 @@ lang: en
 ref: exit-intent-checkout-recovery
 title: "Exit-intent and navigation-based recovery"
 description: "How to catch shoppers who navigate away from checkout — exit-intent overlays, back-button interception, and email recovery triggered by navigation signals."
+image: "/images/checkout-navigation-mistakes/exit-intent-recovery.webp"
+image_alt: "Exit-intent and navigation-based recovery"
 parent_title: "Why shoppers abandon cart at checkout (and how navigation plays a role)"
 parent_url: "/checkout-navigation-mistakes/"
 seo_keywords:
@@ -16,11 +18,6 @@ date: 2026-04-22
 Even with a clean checkout flow and minimal navigation distractions, some shoppers will leave before completing their purchase. The question is whether the store has any mechanism to catch them at the exit and give them a reason to stay — or, failing that, a path back later.
 
 Exit-intent detection and navigation-based recovery are two patterns that address this. They work at different points in the abandonment sequence: exit-intent tries to prevent the exit, while email or notification recovery tries to bring the shopper back after they've left.
-
-<figure>
-  <img src="/images/checkout-navigation-mistakes/exit-intent-recovery.webp" alt="Checkout exit-intent recovery overlay reminding shopper about items still in cart before they leave" title="Checkout exit-intent recovery">
-  <figcaption>Exit-intent recovery gives shoppers one gentle reminder before they leave checkout, while cart and email recovery provide a path back later.</figcaption>
-</figure>
 
 ## How exit-intent works
 

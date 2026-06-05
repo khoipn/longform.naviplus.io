@@ -3,6 +3,8 @@ lang: pt
 ref: navigation-for-scaled-stores
 title: "Estágio 3 — Uma Loja que Já Escalou (500+ Produtos, 15+ Categorias)"
 description: "Navegação para uma loja escalada com mais de 500 produtos e 15 categorias: mega menus de múltiplas colunas, uma Tab Bar mobile, busca, testes A/B e como configurar tudo com bom senso usando o Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Estágio 3 — Uma Loja que Já Escalou (500+ Produtos, 15+ Categorias)"
 parent_title: "Navegação para Cada Estágio do Crescimento da Sua Loja — de 10 a 10.000 Produtos"
 parent_url: "/pt/navigation-for-every-store-stage/"
 seo_keywords:

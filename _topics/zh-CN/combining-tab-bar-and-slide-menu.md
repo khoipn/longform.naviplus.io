@@ -3,6 +3,8 @@ lang: zh-CN
 ref: combining-tab-bar-and-slide-menu
 title: "组合使用 Tab Bar + Slide Menu（以及 FAB 的角色）"
 description: "如何在 Shopify 手机端组合使用底部导航栏和侧滑菜单：Tab Bar 负责快速直达，Slide Menu 负责深度浏览，FAB 负责一个动作。角色清晰，顾客才容易找到方向。"
+image: "/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp"
+image_alt: "组合使用 Tab Bar + Slide Menu（以及 FAB 的角色）"
 parent_title: "移动端导航——为什么汉堡菜单正在过时，以及该用什么来替代"
 parent_url: "/zh-CN/mobile-navigation-beyond-hamburger/"
 seo_keywords:

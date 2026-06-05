@@ -3,6 +3,8 @@ lang: de
 ref: navigation-for-growing-stores
 title: "Phase 2 — Ein wachsender Shop (50–500 Produkte)"
 description: "Navigation für einen wachsenden Shop (50–500 Produkte): wann Sie Ihr Menü erweitern sollten, der Einsatz eines Desktop-Mega-Menüs, Tab Bar und Slide Menu auf dem Smartphone, und wie Sie Menü-Analysen lesen, um zu optimieren."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Phase 2 — Ein wachsender Shop (50–500 Produkte)"
 parent_title: "Navigation für jede Wachstumsphase eines Shops — von 10 bis 10.000 Produkten"
 parent_url: "/de/navigation-for-every-store-stage/"
 seo_keywords:

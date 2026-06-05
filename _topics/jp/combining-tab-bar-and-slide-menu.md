@@ -3,6 +3,8 @@ lang: jp
 ref: combining-tab-bar-and-slide-menu
 title: "Tab Bar と Slide Menu を組み合わせる（そして FAB の役割）"
 description: "Shopify のモバイルで Tab Bar と Slide Menu を組み合わせる方法。Tab Bar は素早い移動を、Slide Menu はじっくり探す回遊を、FAB はひとつのアクションを担当する。役割を明確に分ければ、買い物客は迷わずたどり着ける。"
+image: "/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp"
+image_alt: "Tab Bar と Slide Menu を組み合わせる（そして FAB の役割）"
 parent_title: "モバイルナビゲーション — ハンバーガーメニューが時代遅れになりつつある理由と、代わりに使うべきもの"
 parent_url: "/jp/mobile-navigation-beyond-hamburger/"
 seo_keywords:

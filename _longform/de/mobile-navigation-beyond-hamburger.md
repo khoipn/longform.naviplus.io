@@ -55,7 +55,7 @@ Das heißt nicht, dass der Hamburger immer schlecht ist. Für ein einfaches Blog
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/problems-with-hamburger-menu/">Vollständigen Leitfaden lesen → Das eigentliche Problem mit dem Hamburger-Menü im mobilen E-Commerce</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
   <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Das ist der eigentliche Grund, das Menü nach unten zu verlagern. Nicht, weil un
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/thumb-zone-mobile-design/">Vollständigen Leitfaden lesen → Daumenzone — verstehen, wie Menschen ihr Handy halten</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
   <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ Genau hier hilft auch [Navi+](https://naviplus.io): Es baut eine Tab Bar per Dra
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/tab-bar-mobile-navigation/">Vollständigen Leitfaden lesen → Tab Bar — die wichtigste Alternative</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
   <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Der knifflige Teil dieser Kombination ist, dass du Mobil- und Desktopansicht get
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/combining-tab-bar-and-slide-menu/">Vollständigen Leitfaden lesen → Tab Bar + Slide Menu kombinieren (und die Rolle des FAB)</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
   <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ Ein paar Fragen, um dich selbst zu prüfen:
 - Verlangsamt das Menü die Seite oder verschiebt es beim Laden das Layout?
 
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
   <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
 </figure>
 

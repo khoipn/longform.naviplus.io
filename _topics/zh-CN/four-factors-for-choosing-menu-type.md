@@ -3,6 +3,8 @@ lang: zh-CN
 ref: four-factors-for-choosing-menu-type
 title: "决定你需要哪种菜单类型的四个因素"
 description: "为你的 Shopify 商店选择菜单的四个因素：目录规模、顾客使用的设备、你所处的行业，以及目标是浏览还是搜索。每个因素都会指向一种合适的菜单类型。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "决定你需要哪种菜单类型的四个因素"
 parent_title: "如何为你的 Shopify 商店选择合适的菜单类型"
 parent_url: "/zh-CN/choosing-the-right-shopify-menu/"
 seo_keywords:

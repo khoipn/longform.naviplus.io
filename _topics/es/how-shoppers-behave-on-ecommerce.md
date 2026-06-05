@@ -3,6 +3,8 @@ lang: es
 ref: how-shoppers-behave-on-ecommerce
 title: "Cómo se comportan realmente los compradores en una tienda online"
 description: "Comportamiento del usuario en una tienda: los compradores escanean en lugar de leer, sus ojos siguen el patrón en F y el patrón en Z, y el móvil difiere del escritorio. Entiéndelo para organizar la navegación y los menús correctamente."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Cómo se comportan realmente los compradores en una tienda online"
 parent_title: "Por qué los compradores visitan tu tienda pero no compran — y qué papel juega la navegación"
 parent_url: "/es/why-shoppers-dont-buy/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: category-browse-flow
 title: "Category browse flow: how shoppers navigate without searching"
 description: "Menu depth, progressive disclosure, and why some shoppers never use search — designing the browse path through categories for ecommerce visitors who prefer exploring."
+image: "/images/search-vs-navigation/search-vs-browse-intent.webp"
+image_alt: "Category browse flow: how shoppers navigate without searching"
 parent_title: "When shoppers search vs browse: designing for both behaviors"
 parent_url: "/search-vs-navigation/"
 seo_keywords:

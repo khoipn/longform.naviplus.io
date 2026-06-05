@@ -3,6 +3,8 @@ lang: de
 ref: common-shopify-navigation-mistakes
 title: "Die häufigsten Navigationsfehler in einem Shopify-Store"
 description: "Fünf häufige Navigationsfehler in Shopify, die Kunden vertreiben: überladene Menüs, kein Mega-Menü, zu starke Abhängigkeit vom Hamburger-Menü, fehlende Breadcrumbs, falsche Kategorisierung. So erkennen und beheben Sie jeden einzelnen sauber."
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Die häufigsten Navigationsfehler in einem Shopify-Store"
 parent_title: "Warum Kunden Ihren Store besuchen, aber nicht kaufen — und welche Rolle die Navigation dabei spielt"
 parent_url: "/de/why-shoppers-dont-buy/"
 seo_keywords:

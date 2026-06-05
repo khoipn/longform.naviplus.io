@@ -3,6 +3,8 @@ lang: vi
 ref: navigation-for-new-stores
 title: "Giai đoạn 1 — Store mới, catalog nhỏ (dưới 50 sản phẩm)"
 description: "Navigation store mới với catalog dưới 50 sản phẩm nên đơn giản: header 3-5 mục trên desktop, Tab Bar 4 nút trên mobile. Hướng dẫn và lỗi cần tránh."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Giai đoạn 1 — Store mới, catalog nhỏ (dưới 50 sản phẩm)"
 parent_title: "Navigation theo từng giai đoạn phát triển của store — từ 10 đến 10.000 sản phẩm"
 parent_url: "/vi/navigation-for-every-store-stage/"
 seo_keywords:

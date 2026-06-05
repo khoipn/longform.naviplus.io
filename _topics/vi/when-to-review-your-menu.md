@@ -3,6 +3,8 @@ lang: vi
 ref: when-to-review-your-menu
 title: "Khi nào cần xem lại menu — và vì sao đổi app lúc đã scale lại tốn kém"
 description: "Thời điểm xem lại menu store đúng lúc: thêm danh mục, đổi theme, mùa cao điểm. Và vì sao đổi app điều hướng khi đã scale lại tốn kém hơn bạn nghĩ."
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "Khi nào cần xem lại menu — và vì sao đổi app lúc đã scale lại tốn kém"
 parent_title: "Navigation theo từng giai đoạn phát triển của store — từ 10 đến 10.000 sản phẩm"
 parent_url: "/vi/navigation-for-every-store-stage/"
 seo_keywords:

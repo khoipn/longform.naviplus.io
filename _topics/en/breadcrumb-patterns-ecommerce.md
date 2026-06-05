@@ -3,6 +3,8 @@ lang: en
 ref: breadcrumb-patterns-ecommerce
 title: "Breadcrumb patterns that actually help shoppers navigate"
 description: "Where to place breadcrumbs, how to handle mobile screens, and what Baymard Institute's research says about making them work on product pages."
+image: "/images/shopify-product-page-navigation/product-page-crossroads.webp"
+image_alt: "Breadcrumb patterns that actually help shoppers navigate"
 parent_title: "Product page navigation: how shoppers move between products"
 parent_url: "/shopify-product-page-navigation/"
 seo_keywords:

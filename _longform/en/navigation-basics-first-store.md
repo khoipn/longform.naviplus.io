@@ -47,7 +47,7 @@ date: 2026-06-04
 <p>Think of navigation as your store's directory. A physical retail store wouldn't throw all products in one giant pile—you'd organize by department, create clear signage, and place impulse-buy items near checkout. Your online navigation does the same job, but with one crucial advantage: you can update it instantly based on what's working.</p>
 
 <figure>
-<img src="/images/navigation-basics-first-store/navigation-impact-chart.webp" alt="Chart showing correlation between navigation clarity and conversion rates" title="Impact of navigation quality on store performance">
+<img src="https://cdn.naviplus.app/longform/images/navigation-basics-first-store/navigation-impact-chart.webp" alt="Chart showing correlation between navigation clarity and conversion rates" title="Impact of navigation quality on store performance">
 <figcaption>Stores with well-structured navigation see 20-40% higher conversion rates than those with poor or confusing menus</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ date: 2026-06-04
 </ul>
 
 <figure>
-<img src="/images/navigation-basics-first-store/mega-menu-example.webp" alt="Example of a well-organized mega menu showing categories and subcategories" title="Mega menu displaying product categories with visual thumbnails">
+<img src="https://cdn.naviplus.app/longform/images/navigation-basics-first-store/mega-menu-example.webp" alt="Example of a well-organized mega menu showing categories and subcategories" title="Mega menu displaying product categories with visual thumbnails">
 <figcaption>Mega menus let customers scan multiple subcategories at once, reducing clicks and cognitive load</figcaption>
 </figure>
 
@@ -135,7 +135,7 @@ date: 2026-06-04
 <p>Desktop Chrome's mobile emulator is useful, but it doesn't capture the reality of fat thumbs, glare, or holding a phone in one hand while on the subway. Test your mobile navigation on actual devices—ideally a mix of iPhone and Android phones with different screen sizes.</p>
 
 <figure>
-<img src="/images/navigation-basics-first-store/mobile-navigation-comparison.webp" alt="Side-by-side comparison of mobile navigation patterns" title="Hamburger menu vs tab bar vs slide-out drawer">
+<img src="https://cdn.naviplus.app/longform/images/navigation-basics-first-store/mobile-navigation-comparison.webp" alt="Side-by-side comparison of mobile navigation patterns" title="Hamburger menu vs tab bar vs slide-out drawer">
 <figcaption>Different mobile navigation patterns serve different store types—choose based on your category count and customer behavior</figcaption>
 </figure>
 
@@ -200,7 +200,7 @@ date: 2026-06-04
 <p>Why it works: images communicate faster than words. A customer scanning for "Outdoor Furniture" will spot a photo of a patio set instantly, even if they haven't read the label yet.</p>
 
 <figure>
-<img src="/images/navigation-basics-first-store/icon-examples.webp" alt="Examples of navigation icons and category thumbnails" title="Visual elements in navigation menus">
+<img src="https://cdn.naviplus.app/longform/images/navigation-basics-first-store/icon-examples.webp" alt="Examples of navigation icons and category thumbnails" title="Visual elements in navigation menus">
 <figcaption>Icons and images make menus scannable and help customers orient themselves faster</figcaption>
 </figure>
 
@@ -255,7 +255,7 @@ date: 2026-06-04
 <p>These should live in a secondary navigation area (usually top-right or footer) so they don't clutter your primary menu.</p>
 
 <figure>
-<img src="/images/navigation-basics-first-store/navigation-placement-heatmap.webp" alt="Heatmap showing user attention patterns on navigation menus" title="Where users look first in navigation menus">
+<img src="https://cdn.naviplus.app/longform/images/navigation-basics-first-store/navigation-placement-heatmap.webp" alt="Heatmap showing user attention patterns on navigation menus" title="Where users look first in navigation menus">
 <figcaption>Eye-tracking studies show users scan navigation left-to-right and top-to-bottom—place high-priority items in the hot zones</figcaption>
 </figure>
 

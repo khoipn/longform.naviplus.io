@@ -42,7 +42,7 @@ Think about the heart icon. On Instagram it means "like." On a Shopify store it 
 The star icon has the same problem. Is it favorites? Ratings? Premium features? The answer depends entirely on context, and context is exactly what a standalone icon fails to provide.
 
 <figure>
-  <img src="/images/icon-vs-text-menus/universal-icons-recognition.webp" alt="Chart showing which navigation icons are universally recognized and which are ambiguous" title="Universal icon recognition in ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/icon-vs-text-menus/universal-icons-recognition.webp" alt="Chart showing which navigation icons are universally recognized and which are ambiguous" title="Universal icon recognition in ecommerce navigation">
   <figcaption>Only a few icons are understood without explanation. Most need a label to remove ambiguity.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ This pattern shows up at the platform level too. Both Apple's Human Interface Gu
 The reason is straightforward: text removes doubt. When a shopper sees an icon paired with the word "Collections," they do not have to decode anything. They know what they are tapping before they tap it. That saved half-second of decision-making compounds across thousands of store visits.
 
 <figure>
-  <img src="/images/icon-vs-text-menus/icon-label-ab-test-results.webp" alt="A/B test results comparing icon-only versus icon plus text label navigation on mobile ecommerce" title="A/B test results for icon versus icon with label navigation">
+  <img src="https://cdn.naviplus.app/longform/images/icon-vs-text-menus/icon-label-ab-test-results.webp" alt="A/B test results comparing icon-only versus icon plus text label navigation on mobile ecommerce" title="A/B test results for icon versus icon with label navigation">
   <figcaption>Adding text labels to mobile navigation icons consistently improves conversion rates in ecommerce testing.</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Text-only navigation has its own strengths, and it is underrated in ecommerce. M
 The advantage of text is precision. The disadvantage is that text takes up more space and is slower to recognize at a glance than a familiar icon. In navigation that appears once (like a dropdown), this tradeoff usually favors text. In persistent navigation that stays on screen (like a tab bar), this tradeoff favors adding icons alongside text.
 
 <figure>
-  <img src="/images/icon-vs-text-menus/text-only-mega-menu.webp" alt="Desktop mega menu using text-only navigation with clean column layout" title="Text-only mega menu navigation for ecommerce">
+  <img src="https://cdn.naviplus.app/longform/images/icon-vs-text-menus/text-only-mega-menu.webp" alt="Desktop mega menu using text-only navigation with clean column layout" title="Text-only mega menu navigation for ecommerce">
   <figcaption>Desktop mega menus work best with organized text columns. Icons would add clutter without improving comprehension.</figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ Here is a practical framework for deciding:
 | Footer navigation | Text-only | Secondary links, plenty of space |
 
 <figure>
-  <img src="/images/icon-vs-text-menus/icon-plus-text-tab-bar.webp" alt="Mobile tab bar with icons and text labels showing home, collections, search, cart, and account" title="Mobile tab bar with icons and text labels">
+  <img src="https://cdn.naviplus.app/longform/images/icon-vs-text-menus/icon-plus-text-tab-bar.webp" alt="Mobile tab bar with icons and text labels showing home, collections, search, cart, and account" title="Mobile tab bar with icons and text labels">
   <figcaption>Icons plus text labels on a mobile tab bar: fast to scan, impossible to misunderstand.</figcaption>
 </figure>
 
@@ -155,7 +155,7 @@ Visible text labels solve this problem at the source. When you add a text label 
 If you must use icon-only navigation for a specific element — say, a floating action button or a compact toolbar — make sure every icon has an `aria-label` that describes its action in plain language. "Open search" is better than "search." "View shopping cart, 3 items" is better than "cart."
 
 <figure>
-  <img src="/images/icon-vs-text-menus/accessible-navigation-icons.webp" alt="Comparison of accessible and inaccessible icon navigation showing screen reader behavior" title="Accessible navigation icon design with proper labels">
+  <img src="https://cdn.naviplus.app/longform/images/icon-vs-text-menus/accessible-navigation-icons.webp" alt="Comparison of accessible and inaccessible icon navigation showing screen reader behavior" title="Accessible navigation icon design with proper labels">
   <figcaption>Visible text labels solve usability, accessibility, and recognition problems simultaneously.</figcaption>
 </figure>
 

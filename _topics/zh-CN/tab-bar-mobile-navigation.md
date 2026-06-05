@@ -3,6 +3,8 @@ lang: zh-CN
 ref: tab-bar-mobile-navigation
 title: "Tab Bar——最主要的替代方案"
 description: "移动端 Tab Bar 是一条底部导航栏，让购物更轻松：它位于拇指可触区，无需打开即可一直可见，并且只保留 4-5 个主要去处。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "Tab Bar——最主要的替代方案"
 parent_title: "移动端导航——为什么汉堡菜单正在淡出，以及应该改用什么"
 parent_url: "/zh-CN/mobile-navigation-beyond-hamburger/"
 seo_keywords:

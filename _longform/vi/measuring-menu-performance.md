@@ -64,7 +64,7 @@ CTR còn là cách tốt để thử nghiệm. Đổi tên một mục, đổi t
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-click-through-rate/">Xem bài đầy đủ → Chỉ số 1 — Click-through rate của từng menu item</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Một mẹo thực tế: liệt kê năm trang quan trọng nhất với doanh t
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-depth-metric/">Xem bài đầy đủ → Chỉ số 2 — Navigation depth (độ sâu điều hướng)</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Một lưu ý khi đọc: exit rate cao không phải lúc nào cũng xấu. Có
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/collection-page-exit-rate/">Xem bài đầy đủ → Chỉ số 3 — Exit rate tại trang danh mục</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ Nếu mobile tụt lại rõ rệt, rất có thể nút bấm quá nhỏ, nằm
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/mobile-vs-desktop-navigation-behavior/">Xem bài đầy đủ → Chỉ số 4 — Hành vi điều hướng mobile so với desktop</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ Hãy đọc tìm kiếm nội bộ như lời than phiền lịch sự của kh�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/internal-search-usage-rate/">Xem bài đầy đủ → Chỉ số 5 — Tỷ lệ dùng tìm kiếm nội bộ</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Năm chỉ số nghe có vẻ nhiều, nhưng bạn không cần làm tất cả
 3. Sau hai tuần, ngồi lại nhìn số liệu một lượt, ghi ra hai ba điều bất thường.
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ Một điểm cần nhớ khi chỉnh sửa: mỗi lần đổi menu, đừng l�
 ## Khép lại
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 Số liệu không phải để chấm điểm hay phán xét bạn. Nó chỉ giúp bạn thấy khách đang vướng ở đâu — điều mà mắt thường và cảm giác khó nhận ra. Một menu tốt không cần hoàn hảo ngay từ đầu; nó cần được sửa dần dựa trên những gì khách thật sự làm.

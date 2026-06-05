@@ -3,6 +3,8 @@ lang: zh-CN
 ref: navigation-depth-metric
 title: "指标 2 — 导航深度"
 description: "导航深度衡量的是从首页到达某件商品所需的步数。本文讲解如何在 GA4 中测量它、2-3 步的基准标准，以及如何用 mega menu 和 Tab Bar 缩短通往购买的路径。"
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "指标 2 — 导航深度"
 parent_title: "如何判断你的菜单是否有效 — 需要追踪的 5 个指标"
 parent_url: "/zh-CN/measuring-menu-performance/"
 seo_keywords:

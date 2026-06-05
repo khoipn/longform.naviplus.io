@@ -3,6 +3,8 @@ lang: it
 ref: menu-click-through-rate
 title: "Metrica 1 — Tasso di clic di ogni voce di menu"
 description: "Il CTR delle voci di menu mostra quali voci vengono cliccate e quali ignorate. Come misurarlo con GA4 e Clarity, come leggerlo e come modificare il menu per aumentare i clic."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Metrica 1 — Tasso di clic di ogni voce di menu"
 parent_title: "Come capire se il tuo menu funziona bene — 5 metriche da monitorare"
 parent_url: "/it/measuring-menu-performance/"
 seo_keywords:

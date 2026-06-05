@@ -3,6 +3,8 @@ lang: zh-CN
 ref: menu-click-through-rate
 title: "指标一 —— 每个菜单项的点击率"
 description: "菜单项点击率告诉你哪些菜单项被点击、哪些被忽略。如何用 GA4 和 Clarity 测量它、如何解读，以及如何调整菜单来提升点击率。"
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "指标一 —— 每个菜单项的点击率"
 parent_title: "如何判断你的菜单是否好用 —— 值得追踪的 5 个指标"
 parent_url: "/zh-CN/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: choice-paradox-navigation
 title: "The choice paradox: why more options reduce conversions"
 description: "Research on decision paralysis in ecommerce — how overwhelming navigation and too many menu options lead shoppers to buy less, not more."
+image: "/images/reducing-decision-fatigue/choice-paradox-navigation.webp"
+image_alt: "The choice paradox: why more options reduce conversions"
 parent_title: "Too many choices: how navigation can reduce decision fatigue"
 parent_url: "/reducing-decision-fatigue/"
 seo_keywords:

@@ -54,7 +54,7 @@ Baymard Institute's research on ecommerce product lists found that shoppers need
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/choice-paradox-navigation/">Read the full guide → The choice paradox: why more options reduce conversions</a></p>
 <figure>
-  <img src="/images/reducing-decision-fatigue/choice-paradox-navigation.webp" alt="Two menus side by side showing overwhelming 30 category menu versus focused 8 category curated menu" title="Choice paradox in navigation">
+  <img src="https://cdn.naviplus.app/longform/images/reducing-decision-fatigue/choice-paradox-navigation.webp" alt="Two menus side by side showing overwhelming 30 category menu versus focused 8 category curated menu" title="Choice paradox in navigation">
   <figcaption>A menu with 30 categories forces 30 decisions before the shopper even sees a product — fewer, curated categories reduce that work.</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ The key is curation. A curated category shows a subset of products that fit a sp
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/curated-categories-navigation/">Read the full guide → Curated categories: navigation that guides decisions</a></p>
 <figure>
-  <img src="/images/reducing-decision-fatigue/curated-vs-attribute-categories.webp" alt="Attribute based menu showing shirts pants versus intent based menu showing work casual formal" title="Curated intent-based categories">
+  <img src="https://cdn.naviplus.app/longform/images/reducing-decision-fatigue/curated-vs-attribute-categories.webp" alt="Attribute based menu showing shirts pants versus intent based menu showing work casual formal" title="Curated intent-based categories">
   <figcaption>Intent-based categories (Work, Casual, Formal) reduce decision fatigue by pre-filtering products around how shoppers actually think.</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ Filters on collection pages extend progressive disclosure. The shopper starts wi
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/progressive-disclosure-navigation/">Read the full guide → Progressive disclosure: showing options gradually</a></p>
 <figure>
-  <img src="/images/reducing-decision-fatigue/progressive-disclosure-menu-depth.webp" alt="Three level progressive disclosure menu showing 8 categories then 5 subcategories then products" title="Progressive disclosure menu structure">
+  <img src="https://cdn.naviplus.app/longform/images/reducing-decision-fatigue/progressive-disclosure-menu-depth.webp" alt="Three level progressive disclosure menu showing 8 categories then 5 subcategories then products" title="Progressive disclosure menu structure">
   <figcaption>Progressive disclosure breaks a big decision (200 products) into small ones (8 categories, then 5 subcategories, then products).</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ The principle is always the same: reduce the number of active decisions the shop
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-smart-defaults/">Read the full guide → Smart defaults in navigation and filters</a></p>
 <figure>
-  <img src="/images/reducing-decision-fatigue/smart-defaults-filtering.webp" alt="Filter interface with smart defaults pre-selected based on popular choices and past behavior" title="Smart defaults in navigation">
+  <img src="https://cdn.naviplus.app/longform/images/reducing-decision-fatigue/smart-defaults-filtering.webp" alt="Filter interface with smart defaults pre-selected based on popular choices and past behavior" title="Smart defaults in navigation">
   <figcaption>Smart defaults (best-selling sort, pre-selected size, recommended filters) reduce decisions without removing choice.</figcaption>
 </figure>
 

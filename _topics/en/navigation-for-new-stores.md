@@ -3,6 +3,8 @@ lang: en
 ref: navigation-for-new-stores
 title: "Stage 1 — New store, small catalog (under 50 products)"
 description: "Navigation for a new store with a catalog under 50 products should stay simple: a 3-5 item header on desktop, a 4-button Tab Bar on mobile. A guide and the mistakes to avoid."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Stage 1 — New store, small catalog (under 50 products)"
 parent_title: "Navigation through each stage of a store's growth — from 10 to 10,000 products"
 parent_url: "/navigation-for-every-store-stage/"
 seo_keywords:

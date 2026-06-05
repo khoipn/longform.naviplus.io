@@ -3,6 +3,8 @@ lang: es
 ref: navigation-for-scaled-stores
 title: "Etapa 3 — Una tienda que ya ha escalado (más de 500 productos, más de 15 categorías)"
 description: "Navegación para una tienda escalada con más de 500 productos y más de 15 categorías: mega menús de varias columnas, una Tab Bar móvil, búsqueda, pruebas A/B y cómo configurarlo con sensatez usando Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Etapa 3 — Una tienda que ya ha escalado (más de 500 productos, más de 15 categorías)"
 parent_title: "Navegación para cada etapa del crecimiento de tu tienda — de 10 a 10.000 productos"
 parent_url: "/es/navigation-for-every-store-stage/"
 seo_keywords:

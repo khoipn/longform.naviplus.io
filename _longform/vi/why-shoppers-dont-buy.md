@@ -56,7 +56,7 @@ Khi bạn hiểu khách đi bằng ngón cái, quyết định trong vài giây,
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/how-shoppers-behave-on-ecommerce/">Xem bài đầy đủ → Hành vi thực tế của khách trên một store thương mại điện tử</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ Tin tốt là **tỷ lệ chuyển đổi** ở khâu này thường co giãn m�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/how-navigation-affects-revenue/">Xem bài đầy đủ → Navigation ảnh hưởng tới doanh thu như thế nào</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Phần lớn store Shopify dùng menu mặc định theo theme. Theme lo phần 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/common-shopify-navigation-mistakes/">Xem bài đầy đủ → Những lỗi navigation phổ biến nhất trên Shopify store</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ Tab Bar đáng chú ý riêng với mobile. Nó đặt các lối đi quan trọ
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/menu-types-that-clear-bottlenecks/">Xem bài đầy đủ → Các loại menu giải quyết điểm nghẽn điều hướng ra sao</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ Bạn không cần làm lại toàn bộ store ngay. Vài việc nhỏ đã đ�
 - Chạy store qua công cụ đo Core Web Vitals của Google xem có điểm nào đỏ.
 
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
 <p class="lf-note"><span class="lf-note-title">Kiểm tra nhanh</span>Mở store trên điện thoại, chọn một sản phẩm cụ thể, rồi đếm số lần chạm để tới được sản phẩm đó.</p>

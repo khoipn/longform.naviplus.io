@@ -3,6 +3,8 @@ lang: de
 ref: menu-types-that-clear-bottlenecks
 title: "Wie verschiedene Menü-Typen Navigations-Engpässe lösen"
 description: "Erfahren Sie mehr über die Shopify-Menü-Typen (Mega Menu, Tab Bar, Slide Menu, FAB) und wie jeder davon den passenden Navigations-Engpass behebt, damit Kunden Produkte finden und einfacher kaufen können."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Wie verschiedene Menü-Typen Navigations-Engpässe lösen"
 parent_title: "Warum Kunden Ihren Shop besuchen, aber nicht kaufen — und welche Rolle die Navigation spielt"
 parent_url: "/de/why-shoppers-dont-buy/"
 seo_keywords:

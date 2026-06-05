@@ -47,7 +47,7 @@ Your menu lives at the top of the page. Its code loads early. If that code is lo
 The menu is not the bottleneck your customer sees. It is the bottleneck the browser sees.
 
 <figure>
-  <img src="/images/menu-lcp-optimization/render-blocking-timeline.webp" alt="Browser rendering timeline showing how a synchronous menu script blocks the hero image from painting until the script finishes loading and executing" title="Menu script blocking LCP timeline">
+  <img src="https://cdn.naviplus.app/longform/images/menu-lcp-optimization/render-blocking-timeline.webp" alt="Browser rendering timeline showing how a synchronous menu script blocks the hero image from painting until the script finishes loading and executing" title="Menu script blocking LCP timeline">
   <figcaption>A synchronous menu script forces the browser to finish processing navigation before the hero image --- the actual LCP element --- can render.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ While font files themselves are usually not render-blocking in the traditional s
 On mobile, where network conditions are unpredictable, a single large icon font can add 200 to 500 milliseconds of latency.
 
 <figure>
-  <img src="/images/menu-lcp-optimization/menu-resource-waterfall.webp" alt="Network waterfall chart from Chrome DevTools showing menu JavaScript CSS and font files loading before the hero image can begin rendering" title="Menu resource waterfall in DevTools">
+  <img src="https://cdn.naviplus.app/longform/images/menu-lcp-optimization/menu-resource-waterfall.webp" alt="Network waterfall chart from Chrome DevTools showing menu JavaScript CSS and font files loading before the hero image can begin rendering" title="Menu resource waterfall in DevTools">
   <figcaption>The Network waterfall reveals how menu resources --- scripts, stylesheets, and fonts --- can stack up before the hero image even starts downloading.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ The same menu that costs 75 milliseconds on your laptop can cost 730 millisecond
 Google measures Core Web Vitals at the 75th percentile of real-user visits, and it evaluates mobile and desktop separately. Your mobile LCP score reflects the experience of your actual customers, not your own testing environment.
 
 <figure>
-  <img src="/images/menu-lcp-optimization/mobile-vs-desktop-lcp.webp" alt="Side by side comparison of desktop and mobile LCP scores for the same Shopify store showing mobile LCP is significantly higher due to menu overhead" title="Mobile versus desktop LCP comparison">
+  <img src="https://cdn.naviplus.app/longform/images/menu-lcp-optimization/mobile-vs-desktop-lcp.webp" alt="Side by side comparison of desktop and mobile LCP scores for the same Shopify store showing mobile LCP is significantly higher due to menu overhead" title="Mobile versus desktop LCP comparison">
   <figcaption>The same store, the same menu. Desktop LCP is comfortable at 1.8 seconds while mobile LCP pushes past 3.5 seconds --- most of the gap comes from how mobile devices handle menu resources.</figcaption>
 </figure>
 
@@ -151,7 +151,7 @@ If scripting dominates the early part of the timeline and you can trace it to me
 This is the most conclusive test. Temporarily disable your menu app (most Shopify apps have an enable/disable toggle, or you can disable the app embed in theme settings). Run PageSpeed Insights again on the same pages. If LCP drops significantly, you have your answer.
 
 <figure>
-  <img src="/images/menu-lcp-optimization/pagespeed-before-after.webp" alt="PageSpeed Insights results showing LCP improvement after disabling a heavy menu app with LCP dropping from 3.8 seconds to 2.1 seconds" title="PageSpeed before and after disabling menu app">
+  <img src="https://cdn.naviplus.app/longform/images/menu-lcp-optimization/pagespeed-before-after.webp" alt="PageSpeed Insights results showing LCP improvement after disabling a heavy menu app with LCP dropping from 3.8 seconds to 2.1 seconds" title="PageSpeed before and after disabling menu app">
   <figcaption>Disabling a render-blocking menu app dropped this store's mobile LCP from 3.8 seconds to 2.1 seconds --- a 1.7-second improvement from a single change.</figcaption>
 </figure>
 
@@ -200,7 +200,7 @@ You can audit your menu's LCP impact in under ten minutes. Here is the sequence.
 4. **Decide.** If the difference is under 200 milliseconds, your menu is probably fine. If it is 500 milliseconds or more, it is time to look at alternatives that load asynchronously and stay out of the critical path.
 
 <figure>
-  <img src="/images/menu-lcp-optimization/lcp-audit-checklist.webp" alt="Four step LCP audit checklist for Shopify store owners showing test disable compare and decide workflow" title="LCP audit checklist for your menu">
+  <img src="https://cdn.naviplus.app/longform/images/menu-lcp-optimization/lcp-audit-checklist.webp" alt="Four step LCP audit checklist for Shopify store owners showing test disable compare and decide workflow" title="LCP audit checklist for your menu">
   <figcaption>Four steps, ten minutes, no code. This is enough to know whether your menu is helping or hurting your store's speed.</figcaption>
 </figure>
 

@@ -3,6 +3,8 @@ lang: jp
 ref: menu-types-that-clear-bottlenecks
 title: "メニューの種類ごとにナビゲーションのボトルネックをどう解決するか"
 description: "Shopifyのメニュータイプ（Mega Menu、Tab Bar、Slide Menu、FAB）と、それぞれがどのナビゲーションのボトルネックを解決するのかを学び、お客さまが商品を見つけて買いやすくする方法を解説します。"
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "メニューの種類ごとにナビゲーションのボトルネックをどう解決するか"
 parent_title: "お客さまはストアを訪れても買わない理由 — そしてナビゲーションがどう関わるか"
 parent_url: "/jp/why-shoppers-dont-buy/"
 seo_keywords:

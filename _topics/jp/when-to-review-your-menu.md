@@ -3,6 +3,8 @@ lang: jp
 ref: when-to-review-your-menu
 title: "メニューを見直すべきタイミング — そして規模が大きくなってからアプリを乗り換えると高くつく理由"
 description: "ストアのメニューを見直すべき適切な瞬間：カテゴリーの追加、テーマの変更、繁忙期。そして、規模を拡大した後にナビゲーションアプリを乗り換えると思った以上にコストがかかる理由について。"
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "メニューを見直すべきタイミング — そして規模が大きくなってからアプリを乗り換えると高くつく理由"
 parent_title: "ストアの成長段階ごとのナビゲーション — 商品10点から10,000点まで"
 parent_url: "/jp/navigation-for-every-store-stage/"
 seo_keywords:

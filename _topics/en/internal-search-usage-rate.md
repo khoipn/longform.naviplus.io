@@ -3,6 +3,8 @@ lang: en
 ref: internal-search-usage-rate
 title: "Metric 5 — Internal Search Usage Rate"
 description: "What search usage rate is, how to measure it with GA4, and how to read your top search queries so you can name menu items in your customers' language and cut down on how often they have to search the store themselves."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Metric 5 — Internal Search Usage Rate"
 parent_title: "How to Tell Whether Your Menu Is Working — 5 Metrics to Track"
 parent_url: "/measuring-menu-performance/"
 seo_keywords:

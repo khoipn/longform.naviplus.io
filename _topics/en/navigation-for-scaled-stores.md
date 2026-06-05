@@ -3,6 +3,8 @@ lang: en
 ref: navigation-for-scaled-stores
 title: "Stage 3 — A Store That Has Scaled (500+ Products, 15+ Categories)"
 description: "Navigation for a scaled store with 500+ products and 15+ categories: multi-column mega menus, a mobile Tab Bar, search, A/B testing, and how to set it up sensibly with Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Stage 3 — A Store That Has Scaled (500+ Products, 15+ Categories)"
 parent_title: "Navigation for Every Stage of Your Store's Growth — from 10 to 10,000 Products"
 parent_url: "/navigation-for-every-store-stage/"
 seo_keywords:

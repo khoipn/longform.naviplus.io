@@ -65,7 +65,7 @@ CTR is also a good way to run experiments. Rename an item, change the order, or 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/menu-click-through-rate/">Read the full guide → Metric 1 — Click-through rate of each menu item</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -81,7 +81,7 @@ A practical tip: list the five pages that matter most to revenue, then click you
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-depth-metric/">Read the full guide → Metric 2 — Navigation depth</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -102,7 +102,7 @@ One note when reading this: a high exit rate isn't always bad. Some pages are na
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/collection-page-exit-rate/">Read the full guide → Metric 3 — Exit rate on category pages</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ If mobile clearly lags, it is very likely the buttons are too small, sit outside
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-vs-desktop-navigation-behavior/">Read the full guide → Metric 4 — Mobile vs. desktop navigation behavior</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ Read internal search like a polite complaint from your customers: "I couldn't fi
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/internal-search-usage-rate/">Read the full guide → Metric 5 — Internal search usage rate</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -155,7 +155,7 @@ Five metrics may sound like a lot, but you don't need to do them all at once. If
 3. After two weeks, sit down and review the numbers in one pass, and write down two or three things that look off.
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -168,7 +168,7 @@ One thing to keep in mind while making changes: each time you change the menu, d
 ## Closing thoughts
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 Numbers aren't there to grade or judge you. They simply help you see where customers get stuck — something the naked eye and gut feeling struggle to catch. A good menu doesn't need to be perfect from day one; it needs to be improved gradually based on what customers actually do.

@@ -43,7 +43,7 @@ Conversely, when navigation mirrors brand identity—through color, typography, 
 
 This isn't about decoration. It's about alignment. [Design elements influence conversion rates measurably](https://www.opencart.com/blog/the-power-of-visuals-how-design-elements-influence-conversion-rates), with UX improvements linked to conversion lifts as high as 400%. Navigation that feels native to your brand reduces cognitive load, builds trust faster, and makes the entire shopping experience feel intentional.
 
-<figure><img src="/images/menu-brand-identity/brand-consistency-spectrum.webp" alt="Spectrum showing generic vs brand-aligned navigation examples" title="Brand alignment in navigation design"><figcaption>Generic navigation (left) uses default styling and generic labels. Brand-aligned navigation (right) uses custom colors, typography, and category names that match the store's voice.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/brand-consistency-spectrum.webp" alt="Spectrum showing generic vs brand-aligned navigation examples" title="Brand alignment in navigation design"><figcaption>Generic navigation (left) uses default styling and generic labels. Brand-aligned navigation (right) uses custom colors, typography, and category names that match the store's voice.</figcaption></figure>
 
 ## Five places brand identity shows up in menus
 
@@ -82,7 +82,7 @@ A few tactical questions:
 
 These micro-decisions add up to a voice that either feels like your brand or feels like a template.
 
-<figure><img src="/images/menu-brand-identity/label-tone-examples.webp" alt="Side-by-side comparison of menu label styles" title="Label tone reflecting brand voice"><figcaption>Different label styles for the same category structure. Left: formal and category-driven. Right: conversational and benefit-driven.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/label-tone-examples.webp" alt="Side-by-side comparison of menu label styles" title="Label tone reflecting brand voice"><figcaption>Different label styles for the same category structure. Left: formal and category-driven. Right: conversational and benefit-driven.</figcaption></figure>
 
 ### 3. Structure and hierarchy
 
@@ -106,7 +106,7 @@ A high-energy athletic brand might use bold color shifts and quick animations. A
 
 One caution: interaction style should never sacrifice usability. [Nielsen Norman Group warns that hidden navigation](https://www.nngroup.com/articles/hamburger-menus/), like hamburger menus, can hurt discoverability and engagement metrics. Brand personality should enhance, not obscure, core navigation functionality.
 
-<figure><img src="/images/menu-brand-identity/interaction-style-grid.webp" alt="Grid showing different menu interaction patterns" title="Interaction styles for different brand personalities"><figcaption>Interaction patterns mapped to brand archetypes: bold/fast for energetic brands, soft/slow for premium brands, and utility-first for function-focused brands.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/interaction-style-grid.webp" alt="Grid showing different menu interaction patterns" title="Interaction styles for different brand personalities"><figcaption>Interaction patterns mapped to brand archetypes: bold/fast for energetic brands, soft/slow for premium brands, and utility-first for function-focused brands.</figcaption></figure>
 
 ### 5. Mobile navigation experience
 
@@ -169,7 +169,7 @@ A few examples:
 
 Don't overthink it. The goal is consistency, not cleverness. If your brand is straightforward and functional, straightforward labels are perfect. The key is that they match your voice everywhere else.
 
-<figure><img src="/images/menu-brand-identity/label-rewrite-process.webp" alt="Before and after of menu label rewrites" title="Aligning menu labels with brand voice"><figcaption>A straightforward process: list current labels, evaluate fit with brand voice, rewrite where needed, and validate with a quick user test.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/label-rewrite-process.webp" alt="Before and after of menu label rewrites" title="Aligning menu labels with brand voice"><figcaption>A straightforward process: list current labels, evaluate fit with brand voice, rewrite where needed, and validate with a quick user test.</figcaption></figure>
 
 ### Organize around customer intent
 
@@ -226,7 +226,7 @@ Even well-intentioned efforts to align menu and brand can go wrong. Here are pat
 
 **Copying competitors without adaptation.** You see a competitor's slick mega menu and replicate it. But if their brand is minimal and yours is maximalist, the style won't translate. Learn from competitors, but filter through your own brand lens.
 
-<figure><img src="/images/menu-brand-identity/mistakes-checklist.webp" alt="Visual checklist of common menu design mistakes" title="Avoiding pitfalls in brand-aligned navigation"><figcaption>Five quick checks before launching: usability first, consistent across devices, icon style match, accessibility validated, and adapted not copied.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/mistakes-checklist.webp" alt="Visual checklist of common menu design mistakes" title="Avoiding pitfalls in brand-aligned navigation"><figcaption>Five quick checks before launching: usability first, consistent across devices, icon style match, accessibility validated, and adapted not copied.</figcaption></figure>
 
 ## Real-world examples: what brand-aligned menus look like
 
@@ -254,7 +254,7 @@ And from a cost perspective: aligning your menu with your brand is a one-time de
 
 The ROI is clear—but it requires treating navigation as a brand asset, not a utility.
 
-<figure><img src="/images/menu-brand-identity/business-impact-flowchart.webp" alt="Flowchart showing how brand-aligned navigation impacts business metrics" title="From brand consistency to revenue lift"><figcaption>Brand-aligned navigation → increased trust → lower bounce rate + higher engagement → more conversions → measurable revenue lift.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/menu-brand-identity/business-impact-flowchart.webp" alt="Flowchart showing how brand-aligned navigation impacts business metrics" title="From brand consistency to revenue lift"><figcaption>Brand-aligned navigation → increased trust → lower bounce rate + higher engagement → more conversions → measurable revenue lift.</figcaption></figure>
 
 ## Where to start: a quick navigation brand audit
 

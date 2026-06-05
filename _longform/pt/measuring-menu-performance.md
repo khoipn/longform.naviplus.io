@@ -64,7 +64,7 @@ O CTR também é uma ótima forma de fazer experimentos. Renomeie um item, mude 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/menu-click-through-rate/">Leia o guia completo → Métrica 1 — Taxa de cliques de cada item do menu</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Uma dica prática: liste as cinco páginas mais importantes para o faturamento e
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/navigation-depth-metric/">Leia o guia completo → Métrica 2 — Profundidade de navegação</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Uma observação ao ler esse número: uma taxa de saída alta nem sempre é ruim
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/collection-page-exit-rate/">Leia o guia completo → Métrica 3 — Taxa de saída nas páginas de categoria</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ Se o mobile claramente fica para trás, é bem provável que os botões estejam 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/mobile-vs-desktop-navigation-behavior/">Leia o guia completo → Métrica 4 — Comportamento de navegação no mobile vs. desktop</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ Leia a busca interna como uma reclamação educada dos seus clientes: "Não cons
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Aprofunde-se</span><a href="/pt/topic/internal-search-usage-rate/">Leia o guia completo → Métrica 5 — Taxa de uso da busca interna</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Cinco métricas podem parecer muita coisa, mas você não precisa fazer todas de
 3. Depois de duas semanas, sente-se e revise os números de uma só vez, anotando duas ou três coisas que parecem estranhas.
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ Uma coisa para ter em mente enquanto faz as mudanças: cada vez que você mexer 
 ## Considerações finais
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 Os números não estão aí para te dar nota nem te julgar. Eles só ajudam você a ver onde o cliente trava — algo que o olho nu e a intuição têm dificuldade de captar. Um bom menu não precisa ser perfeito desde o primeiro dia; ele precisa ser melhorado aos poucos, com base no que o cliente realmente faz.

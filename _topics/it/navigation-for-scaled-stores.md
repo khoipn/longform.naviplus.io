@@ -3,6 +3,8 @@ lang: it
 ref: navigation-for-scaled-stores
 title: "Fase 3 — Un negozio che è cresciuto (oltre 500 prodotti, oltre 15 categorie)"
 description: "Navigazione per un negozio in scala con oltre 500 prodotti e oltre 15 categorie: mega menu a più colonne, Tab Bar mobile, ricerca, test A/B e come impostarla in modo sensato con Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Fase 3 — Un negozio che è cresciuto (oltre 500 prodotti, oltre 15 categorie)"
 parent_title: "Navigazione per ogni fase della crescita del tuo negozio — da 10 a 10.000 prodotti"
 parent_url: "/it/navigation-for-every-store-stage/"
 seo_keywords:

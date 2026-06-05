@@ -56,7 +56,7 @@ A simple tabbar on mobile (Home, Shop, Cart) and a clean horizontal menu on desk
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/small-catalog-navigation/">Read the full guide → Small catalog navigation: simplicity as a feature</a></p>
 <figure>
-  <img src="/images/navigation-at-100-vs-1000-products/small-catalog-simple-nav.webp" alt="Small store with 30 products showing clean three-category navigation versus overcomplicated mega menu" title="Small catalog simple navigation">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-at-100-vs-1000-products/small-catalog-simple-nav.webp" alt="Small store with 30 products showing clean three-category navigation versus overcomplicated mega menu" title="Small catalog simple navigation">
   <figcaption>A small catalog needs simple navigation — a mega menu with empty subcategories makes the store feel confusing, not impressive.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ This is also the stage where search starts mattering. At 50 products, shoppers r
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mid-size-category-strategy/">Read the full guide → Mid-size category strategy: organizing 100–500 products</a></p>
 <figure>
-  <img src="/images/navigation-at-100-vs-1000-products/mid-size-category-structure.webp" alt="Mid-size store with 300 products showing two-level category structure with filters on collection page" title="Mid-size catalog category structure">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-at-100-vs-1000-products/mid-size-category-structure.webp" alt="Mid-size store with 300 products showing two-level category structure with filters on collection page" title="Mid-size catalog category structure">
   <figcaption>At 100–500 products, subcategories and filters transform navigation from overwhelming to manageable.</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Search quality matters more too. At 500+ products, the shopper who searches for 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/large-catalog-navigation/">Read the full guide → Large catalog navigation: search, filters, and mega menus</a></p>
 <figure>
-  <img src="/images/navigation-at-100-vs-1000-products/large-catalog-mega-search.webp" alt="Large store with 1000 products showing mega menu search bar with autocomplete and detailed filters" title="Large catalog navigation with search and mega menu">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-at-100-vs-1000-products/large-catalog-mega-search.webp" alt="Large store with 1000 products showing mega menu search bar with autocomplete and detailed filters" title="Large catalog navigation with search and mega menu">
   <figcaption>At 500+ products, the menu becomes a gateway while search and filtering do the real navigation work.</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ Signs that your navigation has outgrown your catalog:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-scaling-patterns/">Read the full guide → Scaling patterns: how navigation evolves with the store</a></p>
 <figure>
-  <img src="/images/navigation-at-100-vs-1000-products/navigation-scaling-timeline.webp" alt="Timeline showing navigation complexity increasing from simple bar to mega menu as catalog grows" title="Navigation scaling timeline">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-at-100-vs-1000-products/navigation-scaling-timeline.webp" alt="Timeline showing navigation complexity increasing from simple bar to mega menu as catalog grows" title="Navigation scaling timeline">
   <figcaption>Navigation should evolve with the catalog — simple at launch, structured at mid-size, search-driven at scale.</figcaption>
 </figure>
 

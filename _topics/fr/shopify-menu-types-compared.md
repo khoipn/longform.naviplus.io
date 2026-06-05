@@ -3,6 +3,8 @@ lang: fr
 ref: shopify-menu-types-compared
 title: "Tour d'horizon de chaque type de menu : quand l'utiliser, quand l'éviter"
 description: "Décryptage des types de menu Shopify : mega menu, slide menu, tab bar et FAB. Quand utiliser chacun, quand l'éviter, les erreurs courantes et des conseils applicables tout de suite."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp"
+image_alt: "Tour d'horizon de chaque type de menu : quand l'utiliser, quand l'éviter"
 parent_title: "Comment choisir le bon type de menu pour votre boutique Shopify"
 parent_url: "/fr/choosing-the-right-shopify-menu/"
 seo_keywords:

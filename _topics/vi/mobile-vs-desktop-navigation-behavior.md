@@ -3,6 +3,8 @@ lang: vi
 ref: mobile-vs-desktop-navigation-behavior
 title: "Chỉ số 4 — Hành vi điều hướng mobile so với desktop"
 description: "So sánh mobile vs desktop navigation: cách đo bằng GA4, dấu hiệu cảnh báo khi mobile thoát cao hơn desktop, và cách tách bố cục Tab Bar cho từng thiết bị."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Chỉ số 4 — Hành vi điều hướng mobile so với desktop"
 parent_title: "Làm sao biết menu của bạn đang hoạt động tốt hay không — 5 chỉ số cần theo dõi"
 parent_url: "/vi/measuring-menu-performance/"
 seo_keywords:

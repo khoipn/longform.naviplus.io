@@ -3,6 +3,8 @@ lang: vi
 ref: collection-page-exit-rate
 title: "Chỉ số 3 — Exit rate tại trang danh mục"
 description: "Exit rate trang danh mục cao thường bắt nguồn từ tên menu không khớp nội dung trang. Cách đo bằng GA4 Explorations và cách rà soát, sửa menu để giữ khách."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Chỉ số 3 — Exit rate tại trang danh mục"
 parent_title: "Làm sao biết menu của bạn đang hoạt động tốt hay không — 5 chỉ số cần theo dõi"
 parent_url: "/vi/measuring-menu-performance/"
 seo_keywords:

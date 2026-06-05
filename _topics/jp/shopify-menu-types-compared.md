@@ -3,6 +3,8 @@ lang: jp
 ref: shopify-menu-types-compared
 title: "メニュータイプ別ガイド：いつ使い、いつ使わないか"
 description: "Shopifyのメニュータイプを徹底解説。メガメニュー、スライドメニュー、タブバー、FAB。それぞれをいつ使い、いつ使わないか、よくある失敗、そしてすぐに実践できるアドバイスをまとめました。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp"
+image_alt: "メニュータイプ別ガイド：いつ使い、いつ使わないか"
 parent_title: "Shopifyストアに合ったメニュータイプの選び方"
 parent_url: "/jp/choosing-the-right-shopify-menu/"
 seo_keywords:

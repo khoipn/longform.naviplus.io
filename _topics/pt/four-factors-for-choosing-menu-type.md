@@ -3,6 +3,8 @@ lang: pt
 ref: four-factors-for-choosing-menu-type
 title: "Quatro fatores que definem qual tipo de menu você precisa"
 description: "Quatro fatores para escolher um menu na sua loja Shopify: o tamanho do catálogo, os dispositivos dos seus clientes, o seu segmento e se o objetivo é navegar ou buscar. Cada fator aponta para um tipo de menu adequado."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "Quatro fatores que definem qual tipo de menu você precisa"
 parent_title: "Como escolher o tipo de menu certo para a sua loja Shopify"
 parent_url: "/pt/choosing-the-right-shopify-menu/"
 seo_keywords:

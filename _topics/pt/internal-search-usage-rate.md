@@ -3,6 +3,8 @@ lang: pt
 ref: internal-search-usage-rate
 title: "Métrica 5 — Taxa de Uso da Busca Interna"
 description: "O que é a taxa de uso da busca, como medi-la com o GA4 e como ler os termos mais buscados para nomear os itens do menu na linguagem dos seus clientes e reduzir a frequência com que eles precisam buscar pela loja por conta própria."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Métrica 5 — Taxa de Uso da Busca Interna"
 parent_title: "Como Saber se o Seu Menu Está Funcionando — 5 Métricas para Acompanhar"
 parent_url: "/pt/measuring-menu-performance/"
 seo_keywords:

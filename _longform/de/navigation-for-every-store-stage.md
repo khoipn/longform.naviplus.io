@@ -53,7 +53,7 @@ Andererseits hat es auch seinen Preis, Navigation zu verstecken. Die Nielsen Nor
 Sobald du das verstanden hast, lässt sich die Aufteilung der Navigation nach Phasen viel leichter vorstellen.
 
 <figure>
-  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
   <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Das Ziel ist, Käufer so schnell wie möglich zu einem Produkt zu führen und de
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-new-stores/">Den ganzen Leitfaden lesen → Phase 1 — Neuer Shop, kleiner Katalog (unter 50 Produkte)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
   <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Phase 2 ist der richtige Zeitpunkt, um in ein ernsthaftes Menü-Tool zu investie
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-growing-stores/">Den ganzen Leitfaden lesen → Phase 2 — Wachsender Shop (50–500 Produkte)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
   <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ Eine Sache, die leicht übersehen wird: In dieser Größenordnung musst du auch 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/navigation-for-scaled-stores/">Den ganzen Leitfaden lesen → Phase 3 — Skalierter Shop (500+ Produkte, 15+ Kategorien)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
   <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
 </figure>
 
@@ -142,14 +142,14 @@ Jede App, die du einem Shop hinzufügst, kann seine Geschwindigkeit beeinflussen
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Vertiefung</span><a href="/de/topic/when-to-review-your-menu/">Den ganzen Leitfaden lesen → Wann du dein Menü überprüfen solltest — und warum ein App-Wechsel nach dem Skalieren teuer ist</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
   <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
 </figure>
 
 ## Wo du anfangen solltest
 
 <figure>
-  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
   <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
 </figure>
 

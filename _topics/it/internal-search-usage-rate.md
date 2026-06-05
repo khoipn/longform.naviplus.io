@@ -3,6 +3,8 @@ lang: it
 ref: internal-search-usage-rate
 title: "Metrica 5 — Tasso di utilizzo della ricerca interna"
 description: "Cos'è il tasso di utilizzo della ricerca, come misurarlo con GA4 e come leggere le query di ricerca più frequenti per dare ai voci del menu il nome che usano i tuoi clienti e ridurre quante volte devono cercare da soli nel negozio."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Metrica 5 — Tasso di utilizzo della ricerca interna"
 parent_title: "Come capire se il tuo menu funziona — 5 metriche da monitorare"
 parent_url: "/it/measuring-menu-performance/"
 seo_keywords:

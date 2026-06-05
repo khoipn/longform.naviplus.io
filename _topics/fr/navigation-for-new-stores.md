@@ -3,6 +3,8 @@ lang: fr
 ref: navigation-for-new-stores
 title: "Étape 1 — Nouvelle boutique, petit catalogue (moins de 50 produits)"
 description: "La navigation d'une nouvelle boutique au catalogue de moins de 50 produits doit rester simple : un en-tête de 3 à 5 éléments sur ordinateur, une Tab Bar à 4 boutons sur mobile. Un guide et les erreurs à éviter."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Étape 1 — Nouvelle boutique, petit catalogue (moins de 50 produits)"
 parent_title: "La navigation à chaque étape de la croissance d'une boutique — de 10 à 10 000 produits"
 parent_url: "/fr/navigation-for-every-store-stage/"
 seo_keywords:

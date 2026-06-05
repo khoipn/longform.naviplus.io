@@ -3,6 +3,8 @@ lang: jp
 ref: four-factors-for-choosing-menu-type
 title: "メニュータイプを決める4つの要素"
 description: "Shopifyストアのメニューを選ぶための4つの要素：カタログの規模、顧客が使うデバイス、業種、そして目的が「回遊」か「検索」か。それぞれの要素が、ふさわしいメニュータイプを指し示してくれます。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "メニュータイプを決める4つの要素"
 parent_title: "Shopifyストアに合ったメニュータイプの選び方"
 parent_url: "/jp/choosing-the-right-shopify-menu/"
 seo_keywords:

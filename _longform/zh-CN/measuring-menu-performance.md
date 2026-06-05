@@ -64,7 +64,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/menu-click-through-rate/">阅读完整指南 → 指标 1——每个菜单项的点击率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/navigation-depth-metric/">阅读完整指南 → 指标 2——导航深度</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/collection-page-exit-rate/">阅读完整指南 → 指标 3——分类页的退出率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/mobile-vs-desktop-navigation-behavior/">阅读完整指南 → 指标 4——移动端与桌面端的导航行为</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/internal-search-usage-rate/">阅读完整指南 → 指标 5——站内搜索使用率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ child_links:
 3. 两周之后，坐下来一口气把数据过一遍，写下两三个看起来不对劲的地方。
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ child_links:
 ## 结语
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 数字不是用来给你打分或评判你的。它们只是帮你看清顾客在哪里卡住了——这是肉眼和直觉很难捕捉到的。一个好菜单不需要从第一天起就完美；它需要根据顾客实际的行为逐步改进。

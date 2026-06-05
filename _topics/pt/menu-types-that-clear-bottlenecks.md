@@ -3,6 +3,8 @@ lang: pt
 ref: menu-types-that-clear-bottlenecks
 title: "Como os Diferentes Tipos de Menu Resolvem Gargalos de Navegação"
 description: "Conheça os tipos de menu do Shopify (Mega Menu, Tab Bar, Slide Menu, FAB) e como cada um corrige o gargalo de navegação certo, para que os clientes encontrem produtos e comprem com mais facilidade."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Como os Diferentes Tipos de Menu Resolvem Gargalos de Navegação"
 parent_title: "Por Que os Clientes Visitam Sua Loja mas Não Compram — e Onde a Navegação Entra Nisso"
 parent_url: "/pt/why-shoppers-dont-buy/"
 seo_keywords:

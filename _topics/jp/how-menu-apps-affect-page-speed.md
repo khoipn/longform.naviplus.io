@@ -3,6 +3,8 @@ lang: jp
 ref: how-menu-apps-affect-page-speed
 title: "メニューアプリがページ表示速度に与える影響と、その警告サイン"
 description: "メニューアプリがページの読み込み速度にどう影響するのか、ナビゲーションアプリがストアを遅くしてしまう理由、そしてPageSpeed InsightsやDevToolsを使って問題を見つける方法を解説します。"
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "メニューアプリがページ表示速度に与える影響と、その警告サイン"
 parent_title: "ナビゲーションとページ表示速度 — Core Web Vitalsを損なわないメニューアプリの選び方"
 parent_url: "/jp/navigation-and-page-speed/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: de
 ref: when-to-review-your-menu
 title: "Wann du dein Menü überprüfen solltest — und warum ein App-Wechsel nach dem Wachstum teuer wird"
 description: "Die richtigen Momente, um das Menü deines Shops zu überprüfen: neue Kategorien, Theme-Wechsel, Hochsaison. Und warum es teurer ist, als du denkst, die Navigations-App zu wechseln, nachdem du gewachsen bist."
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "Wann du dein Menü überprüfen solltest — und warum ein App-Wechsel nach dem Wachstum teuer wird"
 parent_title: "Navigation für jede Wachstumsphase deines Shops — von 10 bis 10.000 Produkten"
 parent_url: "/de/navigation-for-every-store-stage/"
 seo_keywords:

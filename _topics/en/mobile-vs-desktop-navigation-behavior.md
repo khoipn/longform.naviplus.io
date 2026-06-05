@@ -3,6 +3,8 @@ lang: en
 ref: mobile-vs-desktop-navigation-behavior
 title: "Metric 4 — Mobile vs Desktop Navigation Behavior"
 description: "Compare mobile vs desktop navigation: how to measure it in GA4, the warning signs when mobile exits run higher than desktop, and how to split your Tab Bar layout for each device."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Metric 4 — Mobile vs Desktop Navigation Behavior"
 parent_title: "How to Know If Your Menu Is Working — 5 Metrics to Track"
 parent_url: "/measuring-menu-performance/"
 seo_keywords:

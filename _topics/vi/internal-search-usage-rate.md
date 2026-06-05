@@ -3,6 +3,8 @@ lang: vi
 ref: internal-search-usage-rate
 title: "Chỉ số 5 — Tỷ lệ dùng tìm kiếm nội bộ"
 description: "Search usage rate là gì, cách đo bằng GA4 và đọc top search queries để đặt tên menu theo ngôn ngữ khách, giảm số lần khách phải tự tìm trên store."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Chỉ số 5 — Tỷ lệ dùng tìm kiếm nội bộ"
 parent_title: "Làm sao biết menu của bạn đang hoạt động tốt hay không — 5 chỉ số cần theo dõi"
 parent_url: "/vi/measuring-menu-performance/"
 seo_keywords:

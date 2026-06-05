@@ -3,6 +3,8 @@ lang: pt
 ref: collection-page-exit-rate
 title: "Métrica 3 — Taxa de saída na página de coleção"
 description: "Uma taxa de saída alta na página de coleção costuma vir de rótulos de menu que não correspondem ao que a página mostra. Como medir isso com as Explorações do GA4 e como revisar e ajustar seu menu para reter clientes."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Métrica 3 — Taxa de saída na página de coleção"
 parent_title: "Como saber se o seu menu está funcionando — 5 métricas que vale a pena acompanhar"
 parent_url: "/pt/measuring-menu-performance/"
 seo_keywords:

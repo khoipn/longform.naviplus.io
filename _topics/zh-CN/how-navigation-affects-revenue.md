@@ -3,6 +3,8 @@ lang: zh-CN
 ref: how-navigation-affects-revenue
 title: "导航如何影响你的营收"
 description: "导航通过跳出率、每次访问浏览页数、加入购物车和回访率来塑造营收。如何把店铺菜单安排得清晰、快速，从而卖出更多商品。"
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "导航如何影响你的营收"
 parent_title: "为什么访客来到你的店铺却不下单——以及导航在其中扮演的角色"
 parent_url: "/zh-CN/why-shoppers-dont-buy/"
 seo_keywords:

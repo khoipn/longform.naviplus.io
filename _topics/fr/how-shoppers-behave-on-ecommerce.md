@@ -3,6 +3,8 @@ lang: fr
 ref: how-shoppers-behave-on-ecommerce
 title: "Comment les acheteurs se comportent réellement sur une boutique en ligne"
 description: "Le comportement des utilisateurs sur une boutique : les acheteurs balaient au lieu de lire, leur regard suit le schéma en F et le schéma en Z, et le mobile diffère du bureau. Comprenez cela pour organiser correctement la navigation et les menus."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Comment les acheteurs se comportent réellement sur une boutique en ligne"
 parent_title: "Pourquoi les acheteurs visitent votre boutique mais n'achètent pas — et le rôle de la navigation"
 parent_url: "/fr/why-shoppers-dont-buy/"
 seo_keywords:

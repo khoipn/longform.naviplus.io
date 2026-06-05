@@ -3,6 +3,8 @@ lang: it
 ref: collection-page-exit-rate
 title: "Metrica 3 — Tasso di uscita dalla pagina di collezione"
 description: "Un alto tasso di uscita dalla pagina di collezione deriva spesso da etichette del menu che non corrispondono a ciò che la pagina mostra. Come misurarlo con le Esplorazioni di GA4 e come rivedere e correggere il menu per non perdere i clienti."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Metrica 3 — Tasso di uscita dalla pagina di collezione"
 parent_title: "Come capire se il tuo menu funziona — 5 metriche da tenere d'occhio"
 parent_url: "/it/measuring-menu-performance/"
 seo_keywords:

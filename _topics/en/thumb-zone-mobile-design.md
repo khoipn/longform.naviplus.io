@@ -3,6 +3,8 @@ lang: en
 ref: thumb-zone-mobile-design
 title: "The thumb zone — understanding how people hold their phones"
 description: "The thumb zone is the area your thumb can reach when holding a phone one-handed. Understand it to place buy buttons, menus, and your Tab Bar in the right spot, reduce friction, and close more orders."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "The thumb zone — understanding how people hold their phones"
 parent_title: "Mobile navigation — why the hamburger menu is becoming outdated and what to use instead"
 parent_url: "/mobile-navigation-beyond-hamburger/"
 seo_keywords:

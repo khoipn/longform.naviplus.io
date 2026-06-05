@@ -53,7 +53,7 @@ Menu không phải thứ "set một lần là xong". Nó là cái khung dẫn ng
 Hiểu điều này thì việc chia navigation theo giai đoạn trở nên dễ hình dung hơn nhiều.
 
 <figure>
-  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/store-stage-navigation-growth.webp" alt="Navigation by store stage showing menu growth from small catalog to scaled ecommerce store" title="Navigation by store stage growth path">
   <figcaption>Navigation has to grow with the catalog, traffic, and shopper expectations.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Mục tiêu là để người mua chạm vào sản phẩm càng nhanh càng t�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-new-stores/">Xem bài đầy đủ → Giai đoạn 1 — Store mới, catalog nhỏ (dưới 50 sản phẩm)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/new-store-simple-navigation.webp" alt="New Shopify store simple navigation for a small catalog under 50 products" title="Simple navigation for new stores">
   <figcaption>Small catalogs need a lean menu that gets shoppers to products quickly.</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Giai đoạn 2 là lúc đáng đầu tư công cụ làm menu nghiêm túc, vì
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-growing-stores/">Xem bài đầy đủ → Giai đoạn 2 — Store đang tăng trưởng (50–500 sản phẩm)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/growing-store-mega-menu.webp" alt="Growing ecommerce store navigation with grouped categories mega menu and mobile tab bar" title="Growing store menu structure">
   <figcaption>Growing stores need category groups before the menu turns into a long list.</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ Một điểm dễ bị bỏ qua: ở quy mô này, bạn còn phải lo menu kh
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/navigation-for-scaled-stores/">Xem bài đầy đủ → Giai đoạn 3 — Store đã scale (500+ sản phẩm, 15+ danh mục)</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp" alt="Scaled ecommerce store navigation with mega menu mobile tab bar and Core Web Vitals" title="Scaled store navigation structure">
   <figcaption>Scaled stores need organized navigation that stays fast across desktop and mobile.</figcaption>
 </figure>
 
@@ -142,14 +142,14 @@ Mỗi app cài thêm vào store đều có thể ảnh hưởng tốc độ. Vì
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Đọc sâu</span><a href="/vi/topic/when-to-review-your-menu/">Xem bài đầy đủ → Khi nào cần xem lại menu — và vì sao đổi app lúc đã scale lại tốn kém</a></p>
 <figure>
-  <img src="/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp" alt="Menu review triggers for new collections theme switch mobile gap and speed drop" title="When to revisit ecommerce navigation">
   <figcaption>Regular menu reviews prevent small catalog changes from becoming expensive rebuilds.</figcaption>
 </figure>
 
 ## Bắt đầu từ đâu
 
 <figure>
-  <img src="/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-for-every-store-stage/store-stage-navigation-checklist.webp" alt="Store stage navigation checklist with product count category count and mobile product path" title="Store stage navigation checklist">
   <figcaption>Start by identifying the store stage, then test the product path on mobile.</figcaption>
 </figure>
 

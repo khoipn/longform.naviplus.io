@@ -3,6 +3,8 @@ lang: en
 ref: keyboard-navigation-ecommerce
 title: "Keyboard navigation: tab order and focus management"
 description: "Tab order, visible focus indicators, skip links, and escape-key dismissal — making ecommerce navigation fully operable without a mouse."
+image: "/images/accessibility-navigation/keyboard-navigation-focus.webp"
+image_alt: "Keyboard navigation: tab order and focus management"
 parent_title: "Accessible navigation: building for screen readers and keyboard users"
 parent_url: "/accessibility-navigation/"
 seo_keywords:

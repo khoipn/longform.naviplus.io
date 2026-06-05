@@ -52,7 +52,7 @@ Navigation friction adds to this. If the checkout header is cluttered with the f
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-checkout-barriers/">Read the full guide → Mobile checkout barriers: why phone buyers abandon more</a></p>
 <figure>
-  <img src="/images/mobile-checkout-flow/mobile-checkout-barriers.webp" alt="Mobile checkout showing small form fields keyboard covering screen and navigation competing for space" title="Mobile checkout barriers">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-checkout-flow/mobile-checkout-barriers.webp" alt="Mobile checkout showing small form fields keyboard covering screen and navigation competing for space" title="Mobile checkout barriers">
   <figcaption>On a phone, the checkout form competes with the keyboard, the header, and the shopper's thumb for a small amount of screen space.</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ For stores where express checkout isn't available or where the shopper prefers t
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/thumb-friendly-checkout/">Read the full guide → Thumb-friendly checkout: designing for one-hand purchase</a></p>
 <figure>
-  <img src="/images/mobile-checkout-flow/thumb-friendly-checkout.webp" alt="Mobile checkout with large form fields submit button in thumb zone and express pay options" title="Thumb-friendly mobile checkout">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-checkout-flow/thumb-friendly-checkout.webp" alt="Mobile checkout with large form fields submit button in thumb zone and express pay options" title="Thumb-friendly mobile checkout">
   <figcaption>Thumb-friendly checkout puts the submit button where the thumb rests and offers express pay to skip the form entirely.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ The moment of adding to cart is also a navigation moment. After tapping "Add to 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-cart-shortcuts/">Read the full guide → Cart shortcuts on mobile: one-tap access patterns</a></p>
 <figure>
-  <img src="/images/mobile-checkout-flow/persistent-cart-mobile.webp" alt="Mobile screen showing bottom tabbar with cart icon badge and mini cart drawer after adding item" title="Persistent mobile cart access">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-checkout-flow/persistent-cart-mobile.webp" alt="Mobile screen showing bottom tabbar with cart icon badge and mini cart drawer after adding item" title="Persistent mobile cart access">
   <figcaption>A cart button in the bottom tabbar keeps the cart one tap away on every page — with a badge that counts items in real time.</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ The principle is the same as desktop checkout simplification, but the stakes are
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-checkout-nav-visibility/">Read the full guide → Mobile checkout navigation: what to show and what to hide</a></p>
 <figure>
-  <img src="/images/mobile-checkout-flow/checkout-nav-simplified.webp" alt="Mobile checkout with minimal header hidden tabbar inline order summary and clear progress indicator" title="Simplified mobile checkout navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-checkout-flow/checkout-nav-simplified.webp" alt="Mobile checkout with minimal header hidden tabbar inline order summary and clear progress indicator" title="Simplified mobile checkout navigation">
   <figcaption>During checkout, hide what distracts (the menu, the tabbar) and show what helps (progress, order summary, in-page back).</figcaption>
 </figure>
 

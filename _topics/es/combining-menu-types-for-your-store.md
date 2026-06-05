@@ -3,6 +3,8 @@ lang: es
 ref: combining-menu-types-for-your-store
 title: "Cómo combinar tipos de menú para cada clase de tienda"
 description: "Cómo combinar menús de Shopify según el tipo de tienda: moda, electrónica, restauración, belleza, dropshipping. Mega Menu, Tab Bar y Slide Menu para escritorio y móvil."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "Cómo combinar tipos de menú para cada clase de tienda"
 parent_title: "Cómo elegir el tipo de menú adecuado para tu tienda Shopify"
 parent_url: "/es/choosing-the-right-shopify-menu/"
 seo_keywords:

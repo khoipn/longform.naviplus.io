@@ -3,6 +3,8 @@ lang: de
 ref: combining-tab-bar-and-slide-menu
 title: "Tab Bar + Slide Menu kombinieren (und die Rolle des FAB)"
 description: "Wie man auf dem Shopify-Handy eine Tab Bar und ein Slide Menu kombiniert: Die Tab Bar übernimmt die schnellen Wege, das Slide Menu das tiefe Stöbern, der FAB eine einzelne Aktion. Klare Rollen machen es Käufern leicht, sich zurechtzufinden."
+image: "/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp"
+image_alt: "Tab Bar + Slide Menu kombinieren (und die Rolle des FAB)"
 parent_title: "Mobile Navigation — warum das Hamburger-Menü aus der Mode kommt und was man stattdessen verwenden sollte"
 parent_url: "/de/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: zh-CN
 ref: navigation-for-growing-stores
 title: "第二阶段 —— 成长中的店铺（50–500 件商品）"
 description: "成长中店铺（50–500 件商品）的导航之道：何时升级菜单、桌面端如何用 Mega Menu，移动端如何搭配 Tab Bar 和 Slide Menu，以及如何读懂菜单数据来做优化。"
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "第二阶段 —— 成长中的店铺（50–500 件商品）"
 parent_title: "陪伴店铺每个成长阶段的导航之道 —— 从 10 件到 10,000 件商品"
 parent_url: "/zh-CN/navigation-for-every-store-stage/"
 seo_keywords:

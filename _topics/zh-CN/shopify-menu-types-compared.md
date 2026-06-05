@@ -3,6 +3,8 @@ lang: zh-CN
 ref: shopify-menu-types-compared
 title: "逐一解析各类菜单：何时该用，何时不该用"
 description: "拆解 Shopify 的各类菜单：mega menu、slide menu、tab bar 和 FAB。每种适合什么场景、不适合什么场景、常见错误，以及可以立刻上手的建议。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp"
+image_alt: "逐一解析各类菜单：何时该用，何时不该用"
 parent_title: "如何为你的 Shopify 店铺选对菜单类型"
 parent_url: "/zh-CN/choosing-the-right-shopify-menu/"
 seo_keywords:

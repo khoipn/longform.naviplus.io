@@ -3,6 +3,8 @@ lang: en
 ref: mobile-checkout-nav-visibility
 title: "Mobile checkout navigation: what to show and what to hide"
 description: "When to keep the tabbar during checkout, when to hide it, and how to simplify mobile navigation so shoppers focus on completing their purchase."
+image: "/images/mobile-checkout-flow/checkout-nav-simplified.webp"
+image_alt: "Mobile checkout navigation: what to show and what to hide"
 parent_title: "Mobile checkout: why navigation matters more on small screens"
 parent_url: "/mobile-checkout-flow/"
 seo_keywords:

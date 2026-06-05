@@ -3,6 +3,8 @@ lang: jp
 ref: core-web-vitals-explained
 title: "Core Web Vitalsとは何か、なぜ気にすべきなのか"
 description: "Core Web Vitalsとは？ LCP・CLS・INPをわかりやすく解説し、Googleが定める「良好」のしきい値と、この3つの指標がストアのSEOと売上にどう影響するのかを説明します。"
+image: "/images/navigation-and-page-speed/core-web-vitals-menu-app.webp"
+image_alt: "Core Web Vitalsとは何か、なぜ気にすべきなのか"
 parent_title: "ナビゲーションとページ速度 — Core Web Vitalsを損なわないメニューアプリの選び方"
 parent_url: "/jp/navigation-and-page-speed/"
 seo_keywords:

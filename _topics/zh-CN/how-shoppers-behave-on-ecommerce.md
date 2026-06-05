@@ -3,6 +3,8 @@ lang: zh-CN
 ref: how-shoppers-behave-on-ecommerce
 title: "顾客在电商店铺里真实的浏览行为"
 description: "店铺里的用户行为：顾客是扫读而不是细读，他们的视线遵循 F 型和 Z 型路径，而且移动端和桌面端差别很大。理解这些，才能把导航和菜单摆放到正确的位置。"
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "顾客在电商店铺里真实的浏览行为"
 parent_title: "为什么顾客逛了你的店却不下单——以及导航在其中扮演的角色"
 parent_url: "/zh-CN/why-shoppers-dont-buy/"
 seo_keywords:

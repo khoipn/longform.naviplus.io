@@ -3,6 +3,8 @@ lang: en
 ref: aria-labels-ecommerce-navigation
 title: "ARIA labels and landmarks for ecommerce menus"
 description: "Proper ARIA roles, labels, and states for navigation regions — making ecommerce menus understandable to screen readers and assistive technology."
+image: "/images/accessibility-navigation/aria-labels-navigation.webp"
+image_alt: "ARIA labels and landmarks for ecommerce menus"
 parent_title: "Accessible navigation: building for screen readers and keyboard users"
 parent_url: "/accessibility-navigation/"
 seo_keywords:

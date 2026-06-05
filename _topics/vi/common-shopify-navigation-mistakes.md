@@ -3,6 +3,8 @@ lang: vi
 ref: common-shopify-navigation-mistakes
 title: "Những lỗi navigation phổ biến nhất trên Shopify store"
 description: "Năm lỗi navigation Shopify phổ biến khiến khách rời store: menu quá tải, thiếu mega menu, lạm dụng hamburger, không breadcrumb, phân loại sai. Cách nhận biết và sửa gọn."
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Những lỗi navigation phổ biến nhất trên Shopify store"
 parent_title: "Tại sao khách vào store nhưng không mua — và navigation liên quan thế nào"
 parent_url: "/vi/why-shoppers-dont-buy/"
 seo_keywords:

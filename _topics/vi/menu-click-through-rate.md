@@ -3,6 +3,8 @@ lang: vi
 ref: menu-click-through-rate
 title: "Chỉ số 1 — Click-through rate của từng menu item"
 description: "CTR menu item cho biết mục menu nào được bấm nhiều, mục nào bị bỏ qua. Cách đo bằng GA4 và Clarity, cách đọc và chỉnh menu để tăng tỷ lệ click."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Chỉ số 1 — Click-through rate của từng menu item"
 parent_title: "Làm sao biết menu của bạn đang hoạt động tốt hay không — 5 chỉ số cần theo dõi"
 parent_url: "/vi/measuring-menu-performance/"
 seo_keywords:

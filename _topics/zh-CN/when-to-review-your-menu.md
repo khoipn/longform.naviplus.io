@@ -3,6 +3,8 @@ lang: zh-CN
 ref: when-to-review-your-menu
 title: "什么时候该重新检查你的菜单——以及为什么店铺做大后再换导航应用会很贵"
 description: "重新检查店铺菜单的最佳时机：新增分类、更换主题、旺季前夕。以及为什么在店铺已经做大之后才更换导航应用，代价比你想象的要高得多。"
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "什么时候该重新检查你的菜单——以及为什么店铺做大后再换导航应用会很贵"
 parent_title: "为店铺成长的每个阶段配好导航——从 10 个商品到 10,000 个商品"
 parent_url: "/zh-CN/navigation-for-every-store-stage/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: fr
 ref: menu-selection-process
 title: "Une méthode pratique pour choisir le bon menu"
 description: "Une méthode de sélection de menu en 5 étapes pour les boutiques Shopify : de la part du mobile à la profondeur des catégories, jusqu'à la construction d'un prototype Navi+ sur un vrai appareil, pour décider à partir de vos propres données."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "Une méthode pratique pour choisir le bon menu"
 parent_title: "Comment choisir le bon type de menu pour votre boutique Shopify"
 parent_url: "/fr/choosing-the-right-shopify-menu/"
 seo_keywords:

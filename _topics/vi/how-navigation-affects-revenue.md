@@ -3,6 +3,8 @@ lang: vi
 ref: how-navigation-affects-revenue
 title: "Navigation ảnh hưởng tới doanh thu như thế nào"
 description: "Navigation ảnh hưởng doanh thu qua bounce rate, pages per session, add to cart và lượt quay lại. Cách sắp menu store rõ ràng, nhanh để bán nhiều hơn."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Navigation ảnh hưởng tới doanh thu như thế nào"
 parent_title: "Tại sao khách vào store nhưng không mua — và navigation liên quan thế nào"
 parent_url: "/vi/why-shoppers-dont-buy/"
 seo_keywords:

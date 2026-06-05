@@ -3,6 +3,8 @@ lang: en
 ref: when-to-review-your-menu
 title: "When to revisit your menu — and why switching apps after you scale gets expensive"
 description: "The right moments to revisit your store menu: adding categories, changing themes, peak season. And why switching navigation apps after you've scaled costs more than you'd think."
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "When to revisit your menu — and why switching apps after you scale gets expensive"
 parent_title: "Navigation for every stage of your store's growth — from 10 to 10,000 products"
 parent_url: "/navigation-for-every-store-stage/"
 seo_keywords:

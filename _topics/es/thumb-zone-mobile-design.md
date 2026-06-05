@@ -3,6 +3,8 @@ lang: es
 ref: thumb-zone-mobile-design
 title: "La zona del pulgar — entender cómo sostiene la gente su teléfono"
 description: "La zona del pulgar es el área que tu pulgar puede alcanzar al sostener el teléfono con una sola mano. Entenderla te ayuda a colocar los botones de compra, los menús y tu Tab Bar en el lugar correcto, reducir la fricción y cerrar más pedidos."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "La zona del pulgar — entender cómo sostiene la gente su teléfono"
 parent_title: "Navegación móvil — por qué el menú hamburguesa está quedando obsoleto y qué usar en su lugar"
 parent_url: "/es/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: currency-navigation-patterns
 title: "Currency in navigation: showing the right prices"
 description: "Currency switchers, auto-detection, price display patterns, and how to handle multiple currencies in ecommerce navigation without confusing international shoppers."
+image: "/images/international-store-navigation/currency-switcher-patterns.webp"
+image_alt: "Currency in navigation: showing the right prices"
 parent_title: "Navigation for international stores: language, currency, and regional catalogs"
 parent_url: "/international-store-navigation/"
 seo_keywords:

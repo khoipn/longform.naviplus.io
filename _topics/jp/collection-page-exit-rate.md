@@ -3,6 +3,8 @@ lang: jp
 ref: collection-page-exit-rate
 title: "指標その3 — コレクションページの離脱率"
 description: "コレクションページの離脱率が高いのは、メニューのラベルがページの内容と一致していないことが原因であることが多いものです。GA4の探索で測定する方法と、顧客をつなぎ留めるためにメニューを見直し改善する方法を解説します。"
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "指標その3 — コレクションページの離脱率"
 parent_title: "メニューが機能しているかどうかを見極める方法 — 追うべき5つの指標"
 parent_url: "/jp/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: jp
 ref: navigation-for-new-stores
 title: "ステージ1 — 新規ストア、小規模カタログ（商品50点未満）"
 description: "商品50点未満の新規ストアのナビゲーションはシンプルに保つべきです。デスクトップでは3〜5項目のヘッダー、モバイルでは4ボタンのTab Bar。ガイドと避けるべき間違いをまとめました。"
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "ステージ1 — 新規ストア、小規模カタログ（商品50点未満）"
 parent_title: "ストアの成長段階ごとのナビゲーション — 商品10点から10,000点まで"
 parent_url: "/jp/navigation-for-every-store-stage/"
 seo_keywords:

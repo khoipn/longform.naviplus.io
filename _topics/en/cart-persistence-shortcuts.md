@@ -3,6 +3,8 @@ lang: en
 ref: cart-persistence-shortcuts
 title: "Cart persistence and shortcuts: keeping the cart accessible"
 description: "How to keep the cart icon visible throughout the shopping journey — when to show item count, how quick-add works, and balancing cart access with checkout focus."
+image: "/images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp"
+image_alt: "Cart persistence and shortcuts: keeping the cart accessible"
 parent_title: "Why shoppers abandon cart at checkout (and how navigation plays a role)"
 parent_url: "/checkout-navigation-mistakes/"
 seo_keywords:
@@ -14,11 +16,6 @@ date: 2026-04-22
 ---
 
 The cart is the bridge between browsing and buying. If shoppers can't easily find it, they lose track of what they've added. If it's too prominent, it distracts from browsing. The balance is subtle but important — the cart should always be accessible but never in the way.
-
-<figure>
-  <img src="/images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp" alt="Persistent cart icon with item count balanced against the primary checkout call to action" title="Persistent cart access without checkout distraction">
-  <figcaption>A persistent cart shortcut keeps items visible and recoverable, but it should stay secondary to the main checkout action when the shopper is ready to complete the order.</figcaption>
-</figure>
 
 ## The persistent cart icon
 

@@ -3,6 +3,8 @@ lang: it
 ref: fast-menu-app-criteria
 title: "Come capire se un'app di menu è davvero veloce: 5 criteri"
 description: "Cinque criteri per un'app di menu veloce che puoi verificare da solo: lazy loading, JavaScript leggero, nessun blocco del rendering, CDN e il badge Built for Shopify. Misurati rispetto ai Core Web Vitals."
+image: "/images/navigation-and-page-speed/fast-menu-app-criteria.webp"
+image_alt: "Come capire se un'app di menu è davvero veloce: 5 criteri"
 parent_title: "Navigazione e velocità di pagina — scegliere un'app di menu che non danneggi i Core Web Vitals"
 parent_url: "/it/navigation-and-page-speed/"
 seo_keywords:

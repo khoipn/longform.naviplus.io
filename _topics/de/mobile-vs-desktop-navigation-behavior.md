@@ -3,6 +3,8 @@ lang: de
 ref: mobile-vs-desktop-navigation-behavior
 title: "Kennzahl 4 — Navigationsverhalten auf Mobil vs. Desktop"
 description: "Navigation auf Mobil und Desktop im Vergleich: Wie du sie in GA4 misst, woran du erkennst, dass die Absprünge auf dem Smartphone höher liegen als am Desktop, und wie du dein Tab-Bar-Layout für jedes Gerät getrennt aufsetzt."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Kennzahl 4 — Navigationsverhalten auf Mobil vs. Desktop"
 parent_title: "So erkennst du, ob dein Menü funktioniert — 5 Kennzahlen, die du verfolgen solltest"
 parent_url: "/de/measuring-menu-performance/"
 seo_keywords:

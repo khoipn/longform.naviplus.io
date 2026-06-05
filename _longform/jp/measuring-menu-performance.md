@@ -64,7 +64,7 @@ CTRは実験を回すのにも向いています。項目の名前を変える�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/menu-click-through-rate/">詳しいガイドを読む → 指標1 — 各メニュー項目のクリック率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-click-through-rate.webp" alt="Menu click-through rate heatmap showing which ecommerce navigation items shoppers use" title="Menu click-through rate for ecommerce navigation">
   <figcaption>CTR shows which menu items pull attention and which ones quietly get ignored.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/navigation-depth-metric/">詳しいガイドを読む → 指標2 — ナビゲーションの深さ</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/navigation-depth-click-path.webp" alt="Navigation depth click path showing how many steps shoppers need to reach products" title="Navigation depth click path metric">
   <figcaption>Navigation depth reveals how many clicks stand between shoppers and the products they want.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/collection-page-exit-rate/">詳しいガイドを読む → 指標3 — カテゴリーページの離脱率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/category-page-exit-rate.webp" alt="Category page exit rate showing shoppers leaving before viewing ecommerce products" title="Category page exit rate for menu performance">
   <figcaption>High category exits warn that shoppers reached a section but did not continue to products.</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ GA4の経路レポートを見れば、トップページから人々がたど�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/mobile-vs-desktop-navigation-behavior/">詳しいガイドを読む → 指標4 — モバイルとデスクトップでのナビゲーション行動</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp" alt="Mobile and desktop navigation behavior comparison for ecommerce menu performance" title="Mobile versus desktop navigation behavior">
   <figcaption>Mobile and desktop shoppers often need different navigation layouts and separate measurement.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ GA4でサイト内検索のトラッキングを有効にすれば、お客様�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深掘り</span><a href="/jp/topic/internal-search-usage-rate/">詳しいガイドを読む → 指標5 — サイト内検索の利用率</a></p>
 <figure>
-  <img src="/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/internal-search-menu-gaps.webp" alt="Internal search usage rate revealing ecommerce menu gaps and missing categories" title="Internal search usage reveals menu gaps">
   <figcaption>Search terms act like quiet complaints about categories shoppers could not find in the menu.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ GA4でサイト内検索のトラッキングを有効にすれば、お客様�
 3. 2週間後、腰を据えて数字をひと通り見返し、おかしいと感じる点を2つか3つ書き留めます。
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-starting-checklist.webp" alt="Menu performance starting checklist with GA4 heatmaps and two week review" title="Menu performance starting checklist">
   <figcaption>GA4, heatmaps, and a two-week review are enough to start improving menu performance.</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ GA4でサイト内検索のトラッキングを有効にすれば、お客様�
 ## おわりに
 
 <figure>
-  <img src="/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
+  <img src="https://cdn.naviplus.app/longform/images/measuring-menu-performance/menu-performance-quarterly-review.webp" alt="Quarterly ecommerce menu performance review with fresh shopper behavior data" title="Quarterly menu performance review">
   <figcaption>A quarterly review keeps the menu aligned with new categories and real shopper behavior.</figcaption>
 </figure>
 数字は、あなたを採点したり評価したりするためにあるのではありません。お客様がどこでつまずいているのか — 肉眼や勘ではなかなか捉えきれないものを — ただ見えるようにしてくれるだけです。良いメニューは、初日から完璧である必要はありません。お客様が実際にどう動くかをもとに、少しずつ良くしていけばいいのです。

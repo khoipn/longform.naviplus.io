@@ -3,6 +3,8 @@ lang: fr
 ref: combining-menu-types-for-your-store
 title: "Combiner les types de menus selon la nature de votre boutique"
 description: "Comment combiner les menus Shopify selon le type de boutique : mode, électronique, restauration, beauté, dropshipping. Mega Menu, Tab Bar, Slide Menu pour ordinateur et mobile."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "Combiner les types de menus selon la nature de votre boutique"
 parent_title: "Comment choisir le bon type de menu pour votre boutique Shopify"
 parent_url: "/fr/choosing-the-right-shopify-menu/"
 seo_keywords:

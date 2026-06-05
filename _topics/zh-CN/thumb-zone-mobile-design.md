@@ -3,6 +3,8 @@ lang: zh-CN
 ref: thumb-zone-mobile-design
 title: "拇指热区——理解人们握手机的方式"
 description: "拇指热区指的是单手握手机时拇指能够触及的区域。理解它，你就能把购买按钮、菜单和 Tab Bar 放在正确的位置，减少操作阻力，促成更多订单。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "拇指热区——理解人们握手机的方式"
 parent_title: "移动端导航——为什么汉堡菜单正在过时，又该用什么来替代"
 parent_url: "/zh-CN/mobile-navigation-beyond-hamburger/"
 seo_keywords:

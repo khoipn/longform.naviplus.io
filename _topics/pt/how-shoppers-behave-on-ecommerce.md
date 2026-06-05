@@ -3,6 +3,8 @@ lang: pt
 ref: how-shoppers-behave-on-ecommerce
 title: "Como os compradores realmente se comportam em uma loja de ecommerce"
 description: "Comportamento do usuário em uma loja: os compradores varrem em vez de ler, os olhos seguem o padrão F e o padrão Z, e o celular é diferente do desktop. Entenda isso para organizar a navegação e os menus corretamente."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Como os compradores realmente se comportam em uma loja de ecommerce"
 parent_title: "Por que os compradores visitam sua loja mas não compram — e qual o papel da navegação nisso"
 parent_url: "/pt/why-shoppers-dont-buy/"
 seo_keywords:

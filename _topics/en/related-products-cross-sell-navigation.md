@@ -3,6 +3,8 @@ lang: en
 ref: related-products-cross-sell-navigation
 title: "Related products and cross-sell: navigating between products"
 description: "How to place related product suggestions on your Shopify product page so shoppers explore more without feeling pushed — placement, relevance, and when cross-sell hurts."
+image: "/images/shopify-product-page-navigation/related-products-placement.webp"
+image_alt: "Related products and cross-sell: navigating between products"
 parent_title: "Product page navigation: how shoppers move between products"
 parent_url: "/shopify-product-page-navigation/"
 seo_keywords:

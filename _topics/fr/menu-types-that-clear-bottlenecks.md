@@ -3,6 +3,8 @@ lang: fr
 ref: menu-types-that-clear-bottlenecks
 title: "Comment les différents types de menus résolvent les goulots d'étranglement de la navigation"
 description: "Découvrez les types de menus Shopify (Mega Menu, Tab Bar, Slide Menu, FAB) et comment chacun corrige le bon goulot d'étranglement de navigation pour que les clients trouvent vos produits et achètent plus facilement."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Comment les différents types de menus résolvent les goulots d'étranglement de la navigation"
 parent_title: "Pourquoi les clients visitent votre boutique sans acheter — et le rôle de la navigation"
 parent_url: "/fr/why-shoppers-dont-buy/"
 seo_keywords:

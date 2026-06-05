@@ -56,7 +56,7 @@ Una vez que entiendes que los compradores se mueven con el pulgar, deciden en cu
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/how-shoppers-behave-on-ecommerce/">Lee la guía completa → Cómo se comportan de verdad los compradores en una tienda ecommerce</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ La buena noticia es que la **tasa de conversión** en esta etapa suele ser más 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/how-navigation-affects-revenue/">Lee la guía completa → Cómo afecta la navegación a los ingresos</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Lo que estos errores tienen en común: ninguno aparece como un "error". La tiend
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/common-shopify-navigation-mistakes/">Lee la guía completa → Los errores de navegación más comunes en las tiendas Shopify</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ El punto clave no es elegir un tipo, sino que la **navegación de la tienda** en
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/menu-types-that-clear-bottlenecks/">Lee la guía completa → Cómo los tipos de menú resuelven los cuellos de botella de navegación</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ No necesitas reconstruir toda tu tienda de inmediato. Unos pocos pasos pequeños
 - Pasa tu tienda por la herramienta de Core Web Vitals de Google para ver si algo sale en rojo.
 
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
 <p class="lf-note"><span class="lf-note-title">Auditoría simple</span>Abre la tienda en tu teléfono, elige un producto y cuenta cuántos toques hacen falta para llegar a él.</p>

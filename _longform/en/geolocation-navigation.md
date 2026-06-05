@@ -45,7 +45,7 @@ If your UK store sells different products than your US store—because of licens
 
 Shopify's own data from Markets rollout showed that stores with distinct regional catalogs saw 41% higher add-to-cart rates when visitors were automatically directed to their local storefront compared to manually selected switching.
 
-<figure><img src="/images/geolocation-navigation/regional-catalog-redirect.webp" alt="Diagram showing automatic redirect flow for regional catalog store" title="Auto-redirect flow for stores with distinct regional products"><figcaption>For stores with region-specific inventory, auto-redirect reduces friction by eliminating the "can I even buy this?" question</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/geolocation-navigation/regional-catalog-redirect.webp" alt="Diagram showing automatic redirect flow for regional catalog store" title="Auto-redirect flow for stores with distinct regional products"><figcaption>For stores with region-specific inventory, auto-redirect reduces friction by eliminating the "can I even buy this?" question</figcaption></figure>
 
 ### Legal and tax compliance requirements
 
@@ -87,7 +87,7 @@ When Googlebot crawls your site from US IP addresses but you auto-redirect all U
 
 Shopify stores using Shopify Markets with subdirectories or subdomains avoid some of these pitfalls because Shopify handles hreflang automatically—but only if you don't layer custom JavaScript redirects on top that fire before Shopify's system runs.
 
-<figure><img src="/images/geolocation-navigation/seo-redirect-penalty.webp" alt="Chart showing ranking drops after implementing auto-redirects without hreflang" title="SEO impact of poorly implemented geo-redirects"><figcaption>Stores that implemented auto-redirects without proper hreflang tags saw an average 23% drop in organic traffic over 90 days (Source: Ahrefs case study, 2025)</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/geolocation-navigation/seo-redirect-penalty.webp" alt="Chart showing ranking drops after implementing auto-redirects without hreflang" title="SEO impact of poorly implemented geo-redirects"><figcaption>Stores that implemented auto-redirects without proper hreflang tags saw an average 23% drop in organic traffic over 90 days (Source: Ahrefs case study, 2025)</figcaption></figure>
 
 ### Shared links and referral traffic
 
@@ -142,7 +142,7 @@ Key implementation details: the banner should appear only once per session (or u
 
 Stores using this pattern report 23-34% higher international conversion compared to auto-redirect or no detection at all, according to 2025 data from Littledata's Shopify analytics.
 
-<figure><img src="/images/geolocation-navigation/banner-vs-redirect-conversion.webp" alt="Bar chart comparing conversion rates for banner vs auto-redirect approaches" title="Conversion impact: banner vs redirect"><figcaption>Persistent banner with user choice outperforms forced redirects across all store sizes (Littledata, 2025)</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/geolocation-navigation/banner-vs-redirect-conversion.webp" alt="Bar chart comparing conversion rates for banner vs auto-redirect approaches" title="Conversion impact: banner vs redirect"><figcaption>Persistent banner with user choice outperforms forced redirects across all store sizes (Littledata, 2025)</figcaption></figure>
 
 ### Currency and language display in navigation
 
@@ -207,7 +207,7 @@ Store the choice in a persistent cookie or Shopify customer metadata. Honor it a
 - **HTML5 Geolocation API (`navigator.geolocation`):** Requires explicit permission, fails silently, and is blocked by many users. Fine for "find stores near me" features, too heavy for navigation defaults.
 - **Time zone detection:** Inaccurate and easy to spoof. Adds no value over IP-based country detection.
 
-<figure><img src="/images/geolocation-navigation/signal-accuracy-comparison.webp" alt="Table comparing accuracy rates of different geolocation signals" title="Geolocation signal accuracy comparison"><figcaption>Accuracy and reliability of common geolocation signals for Shopify stores</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/geolocation-navigation/signal-accuracy-comparison.webp" alt="Table comparing accuracy rates of different geolocation signals" title="Geolocation signal accuracy comparison"><figcaption>Accuracy and reliability of common geolocation signals for Shopify stores</figcaption></figure>
 
 ## Performance and technical considerations
 
@@ -261,7 +261,7 @@ Here's a practical flowchart to decide your approach:
 **If you answered "No" to all of the above:**
 → Use passive detection: show detected region/currency in navigation, allow easy switching, don't interrupt the user flow.
 
-<figure><img src="/images/geolocation-navigation/decision-tree.webp" alt="Visual decision tree for choosing redirect vs ask strategy" title="Geolocation strategy decision framework"><figcaption>Follow this decision tree to choose the right geolocation approach for your store structure</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/geolocation-navigation/decision-tree.webp" alt="Visual decision tree for choosing redirect vs ask strategy" title="Geolocation strategy decision framework"><figcaption>Follow this decision tree to choose the right geolocation approach for your store structure</figcaption></figure>
 
 ## Real-world examples
 

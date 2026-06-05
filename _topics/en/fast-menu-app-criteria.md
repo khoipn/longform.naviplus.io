@@ -3,6 +3,8 @@ lang: en
 ref: fast-menu-app-criteria
 title: "How to Tell if a Menu App Is Actually Fast: 5 Criteria"
 description: "Five criteria for a fast menu app you can check yourself: lazy loading, lean JavaScript, no render-blocking, CDN, and the Built for Shopify badge. Measured against Core Web Vitals."
+image: "/images/navigation-and-page-speed/fast-menu-app-criteria.webp"
+image_alt: "How to Tell if a Menu App Is Actually Fast: 5 Criteria"
 parent_title: "Navigation and page speed — choosing a menu app that does not hurt Core Web Vitals"
 parent_url: "/navigation-and-page-speed/"
 seo_keywords:

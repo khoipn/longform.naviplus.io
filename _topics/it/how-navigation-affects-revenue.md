@@ -3,6 +3,8 @@ lang: it
 ref: how-navigation-affects-revenue
 title: "Come la Navigazione Influisce sul Tuo Fatturato"
 description: "La navigazione modella il fatturato attraverso frequenza di rimbalzo, pagine per sessione, aggiunte al carrello e visite di ritorno. Come organizzare un menu chiaro e veloce per vendere di più."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Come la Navigazione Influisce sul Tuo Fatturato"
 parent_title: "Perché i Visitatori Arrivano nel Tuo Negozio ma Non Comprano — e Che Ruolo Ha la Navigazione"
 parent_url: "/it/why-shoppers-dont-buy/"
 seo_keywords:

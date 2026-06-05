@@ -3,6 +3,8 @@ lang: en
 ref: returning-user-shortcuts
 title: "Returning user shortcuts: navigation that remembers"
 description: "Recently viewed products, quick reorder, saved wishlists, and navigation that helps returning customers skip straight to what they want without re-browsing."
+image: "/images/first-time-vs-returning-visitors/returning-customer-shortcuts.webp"
+image_alt: "Returning user shortcuts: navigation that remembers"
 parent_title: "Navigation for first-time vs returning visitors: what changes"
 parent_url: "/first-time-vs-returning-visitors/"
 seo_keywords:

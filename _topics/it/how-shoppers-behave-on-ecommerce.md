@@ -3,6 +3,8 @@ lang: it
 ref: how-shoppers-behave-on-ecommerce
 title: "Come si comportano davvero gli acquirenti in uno store ecommerce"
 description: "Il comportamento degli utenti in uno store: gli acquirenti scorrono invece di leggere, i loro occhi seguono lo schema a F e a Z, e il mobile è diverso dal desktop. Capirlo serve a impostare correttamente navigazione e menu."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Come si comportano davvero gli acquirenti in uno store ecommerce"
 parent_title: "Perché gli acquirenti visitano il tuo store ma non comprano — e che ruolo gioca la navigazione"
 parent_url: "/it/why-shoppers-dont-buy/"
 seo_keywords:

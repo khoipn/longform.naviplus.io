@@ -59,7 +59,7 @@ La buena noticia es que no necesitas saber nada de código para leer estas tres 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/core-web-vitals-explained/">Lee la guía completa → Qué son los Core Web Vitals y por qué te importan</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
   <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Ver estas señales no significa que la app de menú sea la única culpable — p
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/how-menu-apps-affect-page-speed/">Lee la guía completa → Cómo afecta una app de menú a la velocidad — y cómo detectarlo</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
   <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Navi+ está construida siguiendo estas líneas: crear menús sin código, config
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/fast-menu-app-criteria/">Lee la guía completa → Qué hace que una app de menú sea buena en velocidad</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
   <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Una nota sobre los hábitos: no instales varias apps de menú a la vez para comp
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">En profundidad</span><a href="/es/topic/menu-app-installation-checklist/">Lee la guía completa → Una lista de comprobación antes de instalar cualquier app de menú</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
   <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
 </figure>
 
@@ -149,13 +149,13 @@ Un estudio de Nielsen Norman Group con 179 usuarios encontró que ocultar la nav
 Por eso, en móvil, una barra de pestañas inferior tiende a funcionar mejor que un simple menú de hamburguesa — los elementos principales están siempre al alcance, sin tener que abrir nada para verlos. La velocidad y una buena navegación van de la mano; elegir una app de menú significa elegir ambas a la vez.
 
 <figure>
-  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
   <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
 </figure>
 ## Por dónde empezar
 
 <figure>
-  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
   <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
 </figure>
 

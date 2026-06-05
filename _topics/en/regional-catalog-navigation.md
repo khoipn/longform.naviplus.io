@@ -3,6 +3,8 @@ lang: en
 ref: regional-catalog-navigation
 title: "Regional catalogs and market-specific navigation"
 description: "When different markets need different menus — regional product availability, market-specific featured collections, and adapting navigation by country."
+image: "/images/international-store-navigation/regional-catalog-navigation.webp"
+image_alt: "Regional catalogs and market-specific navigation"
 parent_title: "Navigation for international stores: language, currency, and regional catalogs"
 parent_url: "/international-store-navigation/"
 seo_keywords:

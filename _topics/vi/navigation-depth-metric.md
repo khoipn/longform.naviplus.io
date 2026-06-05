@@ -3,6 +3,8 @@ lang: vi
 ref: navigation-depth-metric
 title: "Chỉ số 2 — Navigation depth (độ sâu điều hướng)"
 description: "Navigation depth (độ sâu điều hướng) đo số bước từ trang chủ tới sản phẩm. Cách đo bằng GA4, mốc 2-3 bước và cách dùng mega menu, Tab Bar rút ngắn đường mua."
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "Chỉ số 2 — Navigation depth (độ sâu điều hướng)"
 parent_title: "Làm sao biết menu của bạn đang hoạt động tốt hay không — 5 chỉ số cần theo dõi"
 parent_url: "/vi/measuring-menu-performance/"
 seo_keywords:

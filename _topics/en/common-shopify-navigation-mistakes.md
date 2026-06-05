@@ -3,6 +3,8 @@ lang: en
 ref: common-shopify-navigation-mistakes
 title: "The most common navigation mistakes on a Shopify store"
 description: "Five common Shopify navigation mistakes that drive shoppers away: overloaded menus, no mega menu, over-relying on the hamburger, missing breadcrumbs, wrong categorization. How to spot and fix each one cleanly."
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "The most common navigation mistakes on a Shopify store"
 parent_title: "Why shoppers visit your store but don't buy — and how navigation factors in"
 parent_url: "/why-shoppers-dont-buy/"
 seo_keywords:

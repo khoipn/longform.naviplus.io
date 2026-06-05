@@ -3,6 +3,8 @@ lang: pt
 ref: navigation-for-new-stores
 title: "Fase 1 — Loja nova, catálogo pequeno (menos de 50 produtos)"
 description: "A navegação de uma loja nova com catálogo abaixo de 50 produtos deve ser simples: um cabeçalho com 3 a 5 itens no desktop e uma Tab Bar de 4 botões no mobile. Um guia e os erros a evitar."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Fase 1 — Loja nova, catálogo pequeno (menos de 50 produtos)"
 parent_title: "Navegação em cada fase do crescimento de uma loja — de 10 a 10.000 produtos"
 parent_url: "/pt/navigation-for-every-store-stage/"
 seo_keywords:

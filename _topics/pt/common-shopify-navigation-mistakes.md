@@ -3,6 +3,8 @@ lang: pt
 ref: common-shopify-navigation-mistakes
 title: "Os erros de navegação mais comuns em uma loja Shopify"
 description: "Cinco erros comuns de navegação na Shopify que afastam os compradores: menus sobrecarregados, ausência de mega menu, dependência excessiva do hambúrguer, falta de breadcrumbs e categorização errada. Como identificar e corrigir cada um com clareza."
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Os erros de navegação mais comuns em uma loja Shopify"
 parent_title: "Por que os compradores visitam sua loja mas não compram — e qual o papel da navegação nisso"
 parent_url: "/pt/why-shoppers-dont-buy/"
 seo_keywords:

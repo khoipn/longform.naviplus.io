@@ -3,6 +3,8 @@ lang: de
 ref: how-menu-apps-affect-page-speed
 title: "Wie eine Menü-App die Ladegeschwindigkeit beeinflusst — und die Warnzeichen"
 description: "Erfahre, wie eine Menü-App die Ladegeschwindigkeit beeinflusst, warum eine Navigations-App deinen Shop verlangsamen kann und wie du das Problem mit PageSpeed Insights und DevTools aufspürst."
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "Wie eine Menü-App die Ladegeschwindigkeit beeinflusst — und die Warnzeichen"
 parent_title: "Navigation und Ladegeschwindigkeit — eine Menü-App wählen, die deinen Core Web Vitals nicht schadet"
 parent_url: "/de/navigation-and-page-speed/"
 seo_keywords:

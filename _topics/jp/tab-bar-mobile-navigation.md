@@ -3,6 +3,8 @@ lang: jp
 ref: tab-bar-mobile-navigation
 title: "タブバー — 主役となる代替手段"
 description: "モバイルのタブバーは、購入をしやすくする画面下部のナビゲーション帯です。親指が届く範囲にあり、開かなくても常に見えていて、主要な行き先4〜5個に絞られています。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "タブバー — 主役となる代替手段"
 parent_title: "モバイルナビゲーション — なぜハンバーガーメニューは廃れつつあり、代わりに何を使うべきか"
 parent_url: "/jp/mobile-navigation-beyond-hamburger/"
 seo_keywords:

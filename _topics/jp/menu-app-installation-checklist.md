@@ -3,6 +3,8 @@ lang: jp
 ref: menu-app-installation-checklist
 title: "メニューアプリを入れる前に実行したいチェックリスト"
 description: "Shopifyストア向けのメニューアプリ導入チェックリスト。導入前後でPageSpeedとCore Web Vitalsを測定する4つのステップを紹介。モバイルでもデスクトップでもページを遅くしないアプリを選べます。"
+image: "/images/navigation-and-page-speed/menu-app-installation-checklist.webp"
+image_alt: "メニューアプリを入れる前に実行したいチェックリスト"
 parent_title: "ナビゲーションとページ速度 — Core Web Vitalsを損なわないメニューアプリの選び方"
 parent_url: "/jp/navigation-and-page-speed/"
 seo_keywords:

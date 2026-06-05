@@ -3,6 +3,8 @@ lang: vi
 ref: four-factors-for-choosing-menu-type
 title: "Bốn yếu tố quyết định bạn cần loại menu nào"
 description: "Bốn yếu tố chọn menu cho Shopify store: quy mô catalog, thiết bị của khách, ngành hàng và mục tiêu browse hay search. Mỗi yếu tố gợi ý loại menu phù hợp."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "Bốn yếu tố quyết định bạn cần loại menu nào"
 parent_title: "Cách chọn đúng loại menu cho Shopify store của bạn"
 parent_url: "/vi/choosing-the-right-shopify-menu/"
 seo_keywords:

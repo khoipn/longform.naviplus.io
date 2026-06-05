@@ -3,6 +3,8 @@ lang: jp
 ref: problems-with-hamburger-menu
 title: "モバイルECにおけるハンバーガーメニューの本当の問題"
 description: "モバイルECのハンバーガーメニューが抱える問題：隠しすぎる、余計な手間が増える、親指の届かない位置にある、そして目に入らない。データと代替案を交えた分析。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp"
+image_alt: "モバイルECにおけるハンバーガーメニューの本当の問題"
 parent_title: "モバイルナビゲーション — なぜハンバーガーメニューは時代遅れになりつつあるのか、そして代わりに何を使うべきか"
 parent_url: "/jp/mobile-navigation-beyond-hamburger/"
 seo_keywords:

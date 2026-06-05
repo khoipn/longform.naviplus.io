@@ -3,6 +3,8 @@ lang: en
 ref: thumb-friendly-checkout
 title: "Thumb-friendly checkout: designing for one-hand purchase"
 description: "Button placement, form field sizing, and checkout flow layout optimized for thumb reach on mobile — making it possible to buy with one hand."
+image: "/images/mobile-checkout-flow/thumb-friendly-checkout.webp"
+image_alt: "Thumb-friendly checkout: designing for one-hand purchase"
 parent_title: "Mobile checkout: why navigation matters more on small screens"
 parent_url: "/mobile-checkout-flow/"
 seo_keywords:

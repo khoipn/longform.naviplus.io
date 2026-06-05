@@ -3,6 +3,8 @@ lang: en
 ref: mega-menu-images
 title: "Images in mega menus: when they help and when they clutter"
 description: "Category images, featured products, and promotional banners in mega menu dropdowns — when visual content improves navigation and when it creates noise."
+image: "/images/mega-menu-best-practices/mega-menu-images-balance.webp"
+image_alt: "Images in mega menus: when they help and when they clutter"
 parent_title: "Mega menu best practices: layout, images, and how much is too much"
 parent_url: "/mega-menu-best-practices/"
 seo_keywords:

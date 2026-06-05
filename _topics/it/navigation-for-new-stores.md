@@ -3,6 +3,8 @@ lang: it
 ref: navigation-for-new-stores
 title: "Fase 1 — Negozio nuovo, catalogo ridotto (meno di 50 prodotti)"
 description: "La navigazione di un negozio nuovo con un catalogo sotto i 50 prodotti deve restare semplice: un header di 3-5 voci su desktop, una Tab Bar a 4 pulsanti su mobile. Una guida e gli errori da evitare."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Fase 1 — Negozio nuovo, catalogo ridotto (meno di 50 prodotti)"
 parent_title: "La navigazione in ogni fase di crescita di un negozio — da 10 a 10.000 prodotti"
 parent_url: "/it/navigation-for-every-store-stage/"
 seo_keywords:

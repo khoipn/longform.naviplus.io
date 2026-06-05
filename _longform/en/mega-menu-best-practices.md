@@ -58,7 +58,7 @@ On mobile, mega menus don't translate directly — there's no hover and no wide 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mega-menu-layout-patterns/">Read the full guide → Mega menu layout patterns: columns, grids, and tabs</a></p>
 <figure>
-  <img src="/images/mega-menu-best-practices/mega-menu-layout-overview.webp" alt="Mega menu dropdown showing organized columns with subcategories images and featured products" title="Mega menu layout overview">
+  <img src="https://cdn.naviplus.app/longform/images/mega-menu-best-practices/mega-menu-layout-overview.webp" alt="Mega menu dropdown showing organized columns with subcategories images and featured products" title="Mega menu layout overview">
   <figcaption>A well-structured mega menu shows the full category breadth at a glance — organized columns, clear headings, and visual anchors.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ The balance: use images selectively. One or two featured images per mega menu pa
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mega-menu-images/">Read the full guide → Images in mega menus: when they help and when they clutter</a></p>
 <figure>
-  <img src="/images/mega-menu-best-practices/mega-menu-images-balance.webp" alt="Two mega menus comparing one with selective images and one overloaded with images in every cell" title="Mega menu images balance">
+  <img src="https://cdn.naviplus.app/longform/images/mega-menu-best-practices/mega-menu-images-balance.webp" alt="Two mega menus comparing one with selective images and one overloaded with images in every cell" title="Mega menu images balance">
   <figcaption>Selective images add context — images on every subcategory create visual noise that defeats the overview effect.</figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ Each group should have a clear heading and contain 5–8 items maximum. More tha
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mega-menu-category-grouping/">Read the full guide → Category grouping in mega menus: logical structure</a></p>
 <figure>
-  <img src="/images/mega-menu-best-practices/mega-menu-grouping.webp" alt="Mega menu showing logically grouped subcategories with clear headings and 5-7 items per column" title="Mega menu category grouping">
+  <img src="https://cdn.naviplus.app/longform/images/mega-menu-best-practices/mega-menu-grouping.webp" alt="Mega menu showing logically grouped subcategories with clear headings and 5-7 items per column" title="Mega menu category grouping">
   <figcaption>Logical grouping with clear headings lets the shopper jump to the right column without reading every item.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ With Navi+, the desktop mega menu and mobile slide menu can share the same categ
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-mega-menu/">Read the full guide → Mobile mega menu: translating wide dropdowns to small screens</a></p>
 <figure>
-  <img src="/images/mega-menu-best-practices/mega-menu-mobile-translation.webp" alt="Desktop mega menu translating to mobile slide menu with progressive disclosure" title="Mega menu mobile translation">
+  <img src="https://cdn.naviplus.app/longform/images/mega-menu-best-practices/mega-menu-mobile-translation.webp" alt="Desktop mega menu translating to mobile slide menu with progressive disclosure" title="Mega menu mobile translation">
   <figcaption>On mobile, the mega menu becomes a slide menu with progressive disclosure — same categories, different presentation.</figcaption>
 </figure>
 

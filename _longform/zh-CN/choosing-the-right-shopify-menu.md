@@ -51,7 +51,7 @@ child_links:
 还有一点：如今大多数商店流量都来自手机。顾客在小屏幕上使用菜单的方式，与在电脑上截然不同，所以一个在桌面端好用的菜单，在移动端未必同样好用。正因如此，像 Navi+ 这样的工具才允许你分别配置移动端和桌面端的菜单，而不是强行让同一个菜单同时服务两边。
 
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
   <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/four-factors-for-choosing-menu-type/">阅读完整指南 → 决定你需要哪种菜单类型的四个因素</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
   <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/shopify-menu-types-compared/">阅读完整指南 → 逐一剖析各类菜单：何时该用，何时不该用</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
   <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/combining-menu-types-for-your-store/">阅读完整指南 → 针对不同类型商店的菜单组合方式</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
   <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
 </figure>
 
@@ -129,14 +129,14 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/menu-selection-process/">阅读完整指南 → 选对菜单的实用流程</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
   <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
 </figure>
 
 ## 从哪里开始
 
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
   <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
 </figure>
 

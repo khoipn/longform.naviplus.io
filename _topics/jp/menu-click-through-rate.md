@@ -3,6 +3,8 @@ lang: jp
 ref: menu-click-through-rate
 title: "指標その1 — 各メニュー項目のクリック率（CTR）"
 description: "メニュー項目のCTRは、どの項目がクリックされ、どの項目が素通りされているかを示します。GA4とClarityでの測定方法、その読み解き方、そしてクリック率を高めるためのメニューの調整方法を解説します。"
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "指標その1 — 各メニュー項目のクリック率（CTR）"
 parent_title: "メニューがうまく機能しているか見極める方法 — 追うべき5つの指標"
 parent_url: "/jp/measuring-menu-performance/"
 seo_keywords:

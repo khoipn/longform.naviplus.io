@@ -3,6 +3,8 @@ lang: en
 ref: large-catalog-navigation
 title: "Large catalog navigation: search, filters, and mega menus"
 description: "At 500+ products, search and filtering become the primary navigation — how mega menus, advanced search, and deep filtering serve large ecommerce catalogs."
+image: "/images/navigation-at-100-vs-1000-products/large-catalog-mega-search.webp"
+image_alt: "Large catalog navigation: search, filters, and mega menus"
 parent_title: "How navigation needs change as your catalog grows from 100 to 1000+ products"
 parent_url: "/navigation-at-100-vs-1000-products/"
 seo_keywords:

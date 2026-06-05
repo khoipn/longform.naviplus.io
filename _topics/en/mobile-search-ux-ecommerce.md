@@ -3,6 +3,8 @@ lang: en
 ref: mobile-search-ux-ecommerce
 title: "Mobile search UX: designing for thumbs and small screens"
 description: "Full-screen search takeover, recent queries, trending suggestions, and search in the tabbar — mobile search patterns that make product discovery fast on small screens."
+image: "/images/search-vs-navigation/category-browse-progressive-disclosure.webp"
+image_alt: "Mobile search UX: designing for thumbs and small screens"
 parent_title: "When shoppers search vs browse: designing for both behaviors"
 parent_url: "/search-vs-navigation/"
 seo_keywords:

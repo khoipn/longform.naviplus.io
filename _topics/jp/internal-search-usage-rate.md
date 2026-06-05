@@ -3,6 +3,8 @@ lang: jp
 ref: internal-search-usage-rate
 title: "指標その5 — サイト内検索の利用率"
 description: "サイト内検索の利用率とは何か、GA4でどう測るか、そしてよく検索されているキーワードをどう読み解くか。お客様の言葉でメニュー項目に名前を付け、ストア内でわざわざ検索させる回数を減らすための方法を解説します。"
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "指標その5 — サイト内検索の利用率"
 parent_title: "メニューが機能しているか見極める方法 — 追うべき5つの指標"
 parent_url: "/jp/measuring-menu-performance/"
 seo_keywords:

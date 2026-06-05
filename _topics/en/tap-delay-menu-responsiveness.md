@@ -3,6 +3,8 @@ lang: en
 ref: tap-delay-menu-responsiveness
 title: "Tap delay and interaction responsiveness"
 description: "Why menus feel slow to respond on mobile — main thread blocking, CSS animation cost, and techniques to achieve sub-200ms interaction response."
+image: "/images/mobile-menu-performance/tap-delay-responsiveness.webp"
+image_alt: "Tap delay and interaction responsiveness"
 parent_title: "Mobile menu performance: why every millisecond matters"
 parent_url: "/mobile-menu-performance/"
 seo_keywords:

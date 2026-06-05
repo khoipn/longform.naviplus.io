@@ -3,6 +3,8 @@ lang: en
 ref: mobile-mega-menu
 title: "Mobile mega menu: translating wide dropdowns to small screens"
 description: "How mega menus adapt on mobile — slide panels, progressive disclosure, touch patterns, and maintaining the desktop mega menu's structure on phone screens."
+image: "/images/mega-menu-best-practices/mega-menu-mobile-translation.webp"
+image_alt: "Mobile mega menu: translating wide dropdowns to small screens"
 parent_title: "Mega menu best practices: layout, images, and how much is too much"
 parent_url: "/mega-menu-best-practices/"
 seo_keywords:

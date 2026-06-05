@@ -51,7 +51,7 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 もう一つ重要な点があります。今や多くのストアのトラフィックはスマートフォンからのものです。小さな画面でメニューを使うときの顧客のふるまいは、パソコンの場合とはまったく異なります。だからこそ、デスクトップでうまく機能するメニューがモバイルでも同じように機能するとは限りません。Navi+のようなツールがモバイルとデスクトップを別々に設定できるようにしているのは、1つのメニューに両方を兼ねさせるのではなく、このためなのです。
 
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-product-discovery.webp" alt="Shopify menu product discovery path showing how navigation affects sales" title="Shopify menu product discovery and sales path">
   <figcaption>The menu is the first path shoppers use before they ever reach a product.</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/four-factors-for-choosing-menu-type/">完全ガイドを読む → メニュータイプを決める4つの要素</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp" alt="Four Shopify menu decision factors including catalog size mobile share shopping intent and priority action" title="Four factors for choosing a Shopify menu type">
   <figcaption>The right menu starts with catalog size, device mix, shopping intent, and priority action.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/shopify-menu-types-compared/">完全ガイドを読む → 各メニュータイプを徹底解説：いつ使い、いつ使わないか</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp" alt="Shopify menu types compared with mega menu tab bar slide menu and floating action button" title="Shopify menu types compared by use case">
   <figcaption>Each menu type works best when it solves one clear navigation problem.</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/combining-menu-types-for-your-store/">完全ガイドを読む → ストアの種類ごとにメニューを組み合わせる</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp" alt="Shopify menu combinations for fashion small catalog and mid size ecommerce stores" title="Shopify menu combinations by store type">
   <figcaption>Strong menu setups combine desktop and mobile patterns around how each store sells.</figcaption>
 </figure>
 
@@ -129,14 +129,14 @@ Baymard Instituteによれば、eコマースのカート放棄率は平均で�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/menu-selection-process/">完全ガイドを読む → 最適なメニューを決めるための実践プロセス</a></p>
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp" alt="Shopify menu selection process using analytics customer paths priority actions and measurement" title="Shopify menu selection process based on data">
   <figcaption>A practical decision process keeps the menu tied to real shopper behavior.</figcaption>
 </figure>
 
 ## どこから始めるか
 
 <figure>
-  <img src="/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
+  <img src="https://cdn.naviplus.app/longform/images/choosing-the-right-shopify-menu/shopify-menu-starting-checklist.webp" alt="Shopify menu starting checklist for mobile share top customer paths and menu testing" title="Shopify menu starting checklist">
   <figcaption>A small audit of mobile share and top paths is enough to rule out many wrong menu choices.</figcaption>
 </figure>
 

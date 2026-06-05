@@ -3,6 +3,8 @@ lang: en
 ref: navigation-personalization
 title: "Navigation personalization: what works and what doesn't"
 description: "Dynamic menus, personalized categories, and the line between helpful navigation that adapts to each visitor and creepy personalization that feels intrusive."
+image: "/images/first-time-vs-returning-visitors/navigation-personalization-spectrum.webp"
+image_alt: "Navigation personalization: what works and what doesn't"
 parent_title: "Navigation for first-time vs returning visitors: what changes"
 parent_url: "/first-time-vs-returning-visitors/"
 seo_keywords:

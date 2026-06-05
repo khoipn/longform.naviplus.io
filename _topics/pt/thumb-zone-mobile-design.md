@@ -3,6 +3,8 @@ lang: pt
 ref: thumb-zone-mobile-design
 title: "A zona do polegar — entendendo como as pessoas seguram o celular"
 description: "A zona do polegar é a área que o seu polegar alcança ao segurar o celular com uma mão só. Entenda esse conceito para posicionar botões de compra, menus e a sua Tab Bar no lugar certo, reduzir o atrito e fechar mais pedidos."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "A zona do polegar — entendendo como as pessoas seguram o celular"
 parent_title: "Navegação mobile — por que o menu hambúrguer está ficando ultrapassado e o que usar no lugar"
 parent_url: "/pt/mobile-navigation-beyond-hamburger/"
 seo_keywords:

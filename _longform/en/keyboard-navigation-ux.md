@@ -51,7 +51,7 @@ Think about the typical e-commerce conversion funnel. The average global e-comme
 When someone can't navigate your menu, can't tab through your product filters, or loses focus in your checkout form, they bounce. You don't get a second chance.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/conversion-funnel-friction.webp" alt="E-commerce conversion funnel showing drop-off points caused by keyboard navigation failures" title="Each navigation failure creates a conversion leak">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/conversion-funnel-friction.webp" alt="E-commerce conversion funnel showing drop-off points caused by keyboard navigation failures" title="Each navigation failure creates a conversion leak">
 <figcaption>Navigation friction compounds at each stage of the funnel. A user who struggles with your mega menu is unlikely to complete checkout.</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ Keyboard navigation hits INP directly. If your dropdown menus trigger layout shi
 [Only 48% of websites pass all three Core Web Vitals on mobile](https://pagespeedmatters.com/resources/guides/ultimate-google-page-experience-guide), and 94.8% fail basic accessibility standards. That's not a compliance problem. It's a competitive advantage waiting for someone to claim it.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/core-web-vitals-dashboard.webp" alt="Google Search Console Core Web Vitals report showing INP scores affected by keyboard navigation" title="INP measures interaction responsiveness—including keyboard focus">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/core-web-vitals-dashboard.webp" alt="Google Search Console Core Web Vitals report showing INP scores affected by keyboard navigation" title="INP measures interaction responsiveness—including keyboard focus">
 <figcaption>Interaction to Next Paint (INP) captures how quickly your site responds to user input, including keyboard navigation events.</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ Then there are the people who *prefer* keyboard navigation because it's faster. 
 [Active e-commerce users perform an average of 17.3 redundant keystrokes per transaction](https://www.researchgate.net/publication/350600983_On_Latency_of_E-Commerce_Platforms)—mostly retyping identical information like brand names and shipping options. They're looking for sites that reduce friction. When your navigation lets them Tab, arrow, and Enter through their workflow, they notice.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/user-segments-keyboard.webp" alt="Venn diagram showing overlapping user segments who rely on keyboard navigation" title="Keyboard users are more diverse than most store owners realize">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/user-segments-keyboard.webp" alt="Venn diagram showing overlapping user segments who rely on keyboard navigation" title="Keyboard users are more diverse than most store owners realize">
 <figcaption>Keyboard navigation serves a broad range of users, from permanent disability to temporary injury to power-user preference.</figcaption>
 </figure>
 
@@ -146,7 +146,7 @@ For e-commerce navigation, these are the keys that matter most:
 These six patterns cover 95% of e-commerce keyboard navigation. [Nielsen Norman Group's research on keyboard accessibility](http://nngroup.com/videos/no-mouse-keyboard-accessibility/) emphasizes testing with these keys first.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/focus-indicator-comparison.webp" alt="Side-by-side comparison of poor vs. good focus indicators on navigation menus" title="Visible focus is the difference between usable and unusable">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/focus-indicator-comparison.webp" alt="Side-by-side comparison of poor vs. good focus indicators on navigation menus" title="Visible focus is the difference between usable and unusable">
 <figcaption>Left: default browser outline, barely visible. Right: high-contrast custom focus style with background color and border.</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ Total: ~0.5 seconds of navigation overhead. **That's an 11× reduction.**
 Scale that across product filtering, adding to cart, entering shipping information, and applying discount codes. Fast users feel the difference. They reward sites that respect their efficiency with repeat purchases.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/workflow-speed-comparison.webp" alt="Timeline comparison showing mouse vs. keyboard workflow duration for product search" title="Keyboard workflows eliminate hand movement overhead">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/workflow-speed-comparison.webp" alt="Timeline comparison showing mouse vs. keyboard workflow duration for product search" title="Keyboard workflows eliminate hand movement overhead">
 <figcaption>The hidden cost of mouse-dependent navigation is the constant hand-switching. Keyboard-first workflows stay in one place.</figcaption>
 </figure>
 
@@ -254,7 +254,7 @@ Checkbox and radio button filters are naturally keyboard-accessible—Tab moves 
 Dropdown filters (e.g., "Sort by: Price") should open with Enter or Space, navigate with arrow keys, and close with Escape.
 
 <figure>
-<img src="/images/keyboard-navigation-ux/mega-menu-keyboard-flow.webp" alt="Diagram showing keyboard navigation flow through a multi-level mega menu" title="Mega menus need explicit keyboard patterns">
+<img src="https://cdn.naviplus.app/longform/images/keyboard-navigation-ux/mega-menu-keyboard-flow.webp" alt="Diagram showing keyboard navigation flow through a multi-level mega menu" title="Mega menus need explicit keyboard patterns">
 <figcaption>A keyboard-friendly mega menu allows Tab to enter, arrow keys to navigate, and Escape to exit. Hover alone isn't enough.</figcaption>
 </figure>
 

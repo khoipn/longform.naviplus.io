@@ -3,6 +3,8 @@ lang: en
 ref: small-catalog-navigation
 title: "Small catalog navigation: simplicity as a feature"
 description: "Why stores with under 100 products need less menu, not more — simple navigation, clean product pages, and avoiding overcomplicated structure for small catalogs."
+image: "/images/navigation-at-100-vs-1000-products/small-catalog-simple-nav.webp"
+image_alt: "Small catalog navigation: simplicity as a feature"
 parent_title: "How navigation needs change as your catalog grows from 100 to 1000+ products"
 parent_url: "/navigation-at-100-vs-1000-products/"
 seo_keywords:

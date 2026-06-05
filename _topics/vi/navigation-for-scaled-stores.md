@@ -3,6 +3,8 @@ lang: vi
 ref: navigation-for-scaled-stores
 title: "Giai đoạn 3 — Store đã scale (500+ sản phẩm, 15+ danh mục)"
 description: "Navigation store scale cho store 500+ sản phẩm, 15+ danh mục: mega menu nhiều cột, Tab Bar mobile, search, A/B testing và cách cấu hình hợp lý với Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Giai đoạn 3 — Store đã scale (500+ sản phẩm, 15+ danh mục)"
 parent_title: "Navigation theo từng giai đoạn phát triển của store — từ 10 đến 10.000 sản phẩm"
 parent_url: "/vi/navigation-for-every-store-stage/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: it
 ref: tab-bar-mobile-navigation
 title: "La Tab Bar — la principale alternativa"
 description: "Una tab bar mobile è una barra di navigazione in basso che semplifica l'acquisto: sta nella zona del pollice, resta sempre visibile senza doverla aprire ed è limitata a 4-5 destinazioni principali."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "La Tab Bar — la principale alternativa"
 parent_title: "Navigazione mobile — perché il menu hamburger sta tramontando e cosa usare al suo posto"
 parent_url: "/it/mobile-navigation-beyond-hamburger/"
 seo_keywords:

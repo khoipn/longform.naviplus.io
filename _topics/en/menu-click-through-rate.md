@@ -3,6 +3,8 @@ lang: en
 ref: menu-click-through-rate
 title: "Metric 1 — Click-through rate of each menu item"
 description: "Menu item CTR shows which menu items get clicked and which get skipped. How to measure it with GA4 and Clarity, how to read it, and how to adjust your menu to lift click rates."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Metric 1 — Click-through rate of each menu item"
 parent_title: "How to tell whether your menu is working well — 5 metrics to track"
 parent_url: "/measuring-menu-performance/"
 seo_keywords:

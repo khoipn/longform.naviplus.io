@@ -3,6 +3,8 @@ lang: fr
 ref: navigation-depth-metric
 title: "Indicateur 2 — Profondeur de navigation"
 description: "La profondeur de navigation mesure le nombre d'étapes entre la page d'accueil et un produit. Comment la mesurer dans GA4, le repère des 2-3 étapes, et comment utiliser un mega menu et une Tab Bar pour raccourcir le chemin vers l'achat."
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "Indicateur 2 — Profondeur de navigation"
 parent_title: "Comment savoir si votre menu fonctionne — 5 indicateurs à suivre"
 parent_url: "/fr/measuring-menu-performance/"
 seo_keywords:

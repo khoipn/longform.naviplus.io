@@ -3,6 +3,8 @@ lang: en
 ref: four-factors-for-choosing-menu-type
 title: "Four Factors That Decide Which Menu Type You Need"
 description: "Four factors for choosing a menu for your Shopify store: catalog size, your customers' devices, your industry, and whether the goal is browse or search. Each factor points you toward a fitting menu type."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "Four Factors That Decide Which Menu Type You Need"
 parent_title: "How to Choose the Right Menu Type for Your Shopify Store"
 parent_url: "/choosing-the-right-shopify-menu/"
 seo_keywords:

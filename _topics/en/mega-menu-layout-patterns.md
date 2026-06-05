@@ -3,6 +3,8 @@ lang: en
 ref: mega-menu-layout-patterns
 title: "Mega menu layout patterns: columns, grids, and tabs"
 description: "How to arrange subcategories, images, and links in a mega menu dropdown — column layouts, grid layouts, tabbed panels, and choosing the right pattern."
+image: "/images/mega-menu-best-practices/mega-menu-layout-overview.webp"
+image_alt: "Mega menu layout patterns: columns, grids, and tabs"
 parent_title: "Mega menu best practices: layout, images, and how much is too much"
 parent_url: "/mega-menu-best-practices/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: fr
 ref: common-shopify-navigation-mistakes
 title: "Les erreurs de navigation les plus courantes sur une boutique Shopify"
 description: "Cinq erreurs de navigation Shopify courantes qui font fuir les acheteurs : menus surchargés, absence de mega menu, recours excessif au menu hamburger, fil d'Ariane manquant, mauvaise catégorisation. Comment repérer et corriger chacune proprement."
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Les erreurs de navigation les plus courantes sur une boutique Shopify"
 parent_title: "Pourquoi les acheteurs visitent votre boutique sans acheter — et le rôle de la navigation"
 parent_url: "/fr/why-shoppers-dont-buy/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: navigation-smart-defaults
 title: "Smart defaults in navigation and filters"
 description: "Pre-selected filters, recommended sorting, and default category views — how smart defaults reduce decision fatigue by making the first choice for the shopper."
+image: "/images/reducing-decision-fatigue/smart-defaults-filtering.webp"
+image_alt: "Smart defaults in navigation and filters"
 parent_title: "Too many choices: how navigation can reduce decision fatigue"
 parent_url: "/reducing-decision-fatigue/"
 seo_keywords:

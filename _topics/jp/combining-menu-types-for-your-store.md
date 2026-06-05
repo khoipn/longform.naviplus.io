@@ -3,6 +3,8 @@ lang: jp
 ref: combining-menu-types-for-your-store
 title: "店舗タイプ別にメニューを組み合わせる方法"
 description: "店舗タイプ別のShopifyメニューの組み合わせ方：ファッション、家電、F&B、ビューティー、ドロップシッピング。デスクトップとモバイル向けのMega Menu、Tab Bar、Slide Menu。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "店舗タイプ別にメニューを組み合わせる方法"
 parent_title: "Shopifyストアに最適なメニュータイプの選び方"
 parent_url: "/jp/choosing-the-right-shopify-menu/"
 seo_keywords:

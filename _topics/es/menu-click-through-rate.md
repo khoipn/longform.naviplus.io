@@ -3,6 +3,8 @@ lang: es
 ref: menu-click-through-rate
 title: "Métrica 1 — Tasa de clics de cada elemento del menú"
 description: "El CTR de cada elemento del menú muestra qué opciones reciben clics y cuáles se ignoran. Cómo medirlo con GA4 y Clarity, cómo interpretarlo y cómo ajustar tu menú para mejorar la tasa de clics."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Métrica 1 — Tasa de clics de cada elemento del menú"
 parent_title: "Cómo saber si tu menú está funcionando bien — 5 métricas que conviene medir"
 parent_url: "/es/measuring-menu-performance/"
 seo_keywords:

@@ -5,3 +5,6 @@ _site/
 vendor/
 .DS_Store
 *.gem
+
+# Local images — served from cdn.naviplus.app/longform/images/
+images/

@@ -3,6 +3,8 @@ lang: en
 ref: mobile-checkout-navigation
 title: "Mobile checkout navigation: one-thumb checkout flows"
 description: "Thumb zones, persistent cart access, and mobile checkout friction — how to build a checkout flow that works with one hand on a small screen."
+image: "/images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp"
+image_alt: "Mobile checkout navigation: one-thumb checkout flows"
 parent_title: "Why shoppers abandon cart at checkout (and how navigation plays a role)"
 parent_url: "/checkout-navigation-mistakes/"
 seo_keywords:
@@ -16,11 +18,6 @@ date: 2026-04-22
 Mobile accounts for roughly 75% of ecommerce traffic now, but mobile checkout conversion rates remain significantly lower than desktop. According to Baymard Institute, mobile cart abandonment is around 80%, compared to about 66% on desktop. The gap is not because mobile shoppers are less interested in buying — it is because checkout on a phone is harder.
 
 Navigation plays a bigger role in mobile checkout friction than most store owners realize. The header takes up space, the form fields are hard to tap, and the shopper's thumb can barely reach the top of the screen. Getting mobile checkout navigation right means acknowledging these physical constraints and designing around them.
-
-<figure>
-  <img src="/images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp" alt="Mobile checkout screen with primary payment action placed in the thumb-friendly lower screen zone" title="Mobile checkout thumb-zone navigation">
-  <figcaption>Mobile checkout works best when the header is minimal and the important actions stay in the thumb-friendly zone instead of forcing shoppers to stretch to the top of the screen.</figcaption>
-</figure>
 
 ## The thumb zone during checkout
 

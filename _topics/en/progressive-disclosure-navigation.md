@@ -3,6 +3,8 @@ lang: en
 ref: progressive-disclosure-navigation
 title: "Progressive disclosure: showing options gradually"
 description: "How to structure ecommerce menus with progressive disclosure — revealing categories, subcategories, and products one level at a time to reduce decision fatigue."
+image: "/images/reducing-decision-fatigue/progressive-disclosure-menu-depth.webp"
+image_alt: "Progressive disclosure: showing options gradually"
 parent_title: "Too many choices: how navigation can reduce decision fatigue"
 parent_url: "/reducing-decision-fatigue/"
 seo_keywords:

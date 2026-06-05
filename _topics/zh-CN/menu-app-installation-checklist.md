@@ -3,6 +3,8 @@ lang: zh-CN
 ref: menu-app-installation-checklist
 title: "安装任何菜单 App 之前都该跑一遍的检查清单"
 description: "面向 Shopify 商店的菜单 App 安装检查清单：四个步骤，在安装前后分别测量 PageSpeed 与 Core Web Vitals，帮你挑到一个不会拖慢手机或桌面端页面速度的 App。"
+image: "/images/navigation-and-page-speed/menu-app-installation-checklist.webp"
+image_alt: "安装任何菜单 App 之前都该跑一遍的检查清单"
 parent_title: "导航与页面速度——挑一个不会损害 Core Web Vitals 的菜单 App"
 parent_url: "/zh-CN/navigation-and-page-speed/"
 seo_keywords:

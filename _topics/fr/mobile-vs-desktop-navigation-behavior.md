@@ -3,6 +3,8 @@ lang: fr
 ref: mobile-vs-desktop-navigation-behavior
 title: "Métrique 4 — Comportement de navigation mobile vs ordinateur"
 description: "Comparez la navigation mobile et sur ordinateur : comment la mesurer dans GA4, les signaux d'alerte quand les sorties mobiles dépassent celles sur ordinateur, et comment adapter votre Tab Bar à chaque appareil."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Métrique 4 — Comportement de navigation mobile vs ordinateur"
 parent_title: "Comment savoir si votre menu fonctionne — 5 métriques à suivre"
 parent_url: "/fr/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: menu-render-cost
 title: "Menu render cost: JavaScript, CSS, and DOM weight"
 description: "What makes a menu heavy — script size, DOM node count, CSS complexity, layout reflow, and how each contributes to slow performance on mobile devices."
+image: "/images/mobile-menu-performance/menu-render-cost.webp"
+image_alt: "Menu render cost: JavaScript, CSS, and DOM weight"
 parent_title: "Mobile menu performance: why every millisecond matters"
 parent_url: "/mobile-menu-performance/"
 seo_keywords:

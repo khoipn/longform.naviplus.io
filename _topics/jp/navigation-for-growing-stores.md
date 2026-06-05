@@ -3,6 +3,8 @@ lang: jp
 ref: navigation-for-growing-stores
 title: "ステージ2 — 成長期のストア（50〜500商品）"
 description: "成長期のストア（50〜500商品）向けのナビゲーション設計。メニューをいつアップグレードすべきか、デスクトップでのメガメニューの活用、モバイルでのTab BarとSlide Menu、そして最適化のためのメニュー分析の読み方。"
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "ステージ2 — 成長期のストア（50〜500商品）"
 parent_title: "ストアの成長段階ごとのナビゲーション設計 — 10商品から10,000商品まで"
 parent_url: "/jp/navigation-for-every-store-stage/"
 seo_keywords:

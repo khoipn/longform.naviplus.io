@@ -39,7 +39,7 @@ Here's what color does in navigation:
 - **Signals interactivity**: Helps users distinguish links from static text
 - **Reinforces brand identity**: Builds recognition and consistency across touchpoints
 
-<figure><img src="/images/color-psychology-navigation/hierarchy-example.webp" alt="Navigation menu showing visual hierarchy through color contrast" title="Visual hierarchy through color in navigation"><figcaption>Different color treatments create clear hierarchy: primary actions in bold colors, secondary items in muted tones</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/hierarchy-example.webp" alt="Navigation menu showing visual hierarchy through color contrast" title="Visual hierarchy through color in navigation"><figcaption>Different color treatments create clear hierarchy: primary actions in bold colors, secondary items in muted tones</figcaption></figure>
 
 ## The core colors and what they actually do
 
@@ -93,7 +93,7 @@ Green signals "go," health, wealth, and environmental consciousness. It's psycho
 
 **Real example**: Whole Foods uses various shades of green throughout their navigation, reinforcing their natural/organic positioning at every click.
 
-<figure><img src="/images/color-psychology-navigation/color-emotion-chart.webp" alt="Chart showing emotional associations of different navigation colors" title="Color and emotion in navigation design"><figcaption>How different colors influence user emotion and action in navigation contexts</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/color-emotion-chart.webp" alt="Chart showing emotional associations of different navigation colors" title="Color and emotion in navigation design"><figcaption>How different colors influence user emotion and action in navigation contexts</figcaption></figure>
 
 ### Black and white: sophistication and clarity
 
@@ -145,7 +145,7 @@ Navigation color performs differently on mobile vs. desktop, and on different sc
 
 **Dark mode**: If your site offers dark mode, your navigation colors need to work in both contexts. Orange on white might be perfect; orange on black might be unreadable.
 
-<figure><img src="/images/color-psychology-navigation/mobile-vs-desktop-contrast.webp" alt="Same navigation colors displayed on mobile and desktop showing contrast differences" title="Mobile vs desktop color contrast"><figcaption>Navigation colors must maintain contrast across devices and lighting conditions</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/mobile-vs-desktop-contrast.webp" alt="Same navigation colors displayed on mobile and desktop showing contrast differences" title="Mobile vs desktop color contrast"><figcaption>Navigation colors must maintain contrast across devices and lighting conditions</figcaption></figure>
 
 ## The science of contrast: why visibility beats beauty
 
@@ -208,7 +208,7 @@ Your navigation background sets the stage for everything else.
 
 **Branded color backgrounds**: Bold move that reinforces identity on every page. Works if your brand color is distinctive and you can maintain readability. Risk: can overwhelm the page if too saturated.
 
-<figure><img src="/images/color-psychology-navigation/background-color-strategy.webp" alt="Three navigation examples showing light, dark, and branded background treatments" title="Navigation background color strategies"><figcaption>Background color choices create dramatically different first impressions and readability contexts</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/background-color-strategy.webp" alt="Three navigation examples showing light, dark, and branded background treatments" title="Navigation background color strategies"><figcaption>Background color choices create dramatically different first impressions and readability contexts</figcaption></figure>
 
 ### Primary link color strategy
 
@@ -285,7 +285,7 @@ Warm colors (red, orange, yellow) psychologically "advance" toward the viewer an
 
 **Application**: Use warm colors for action-oriented navigation items ("Shop," "Buy," "Join") and cool colors for informational items ("About," "FAQ," "Blog").
 
-<figure><img src="/images/color-psychology-navigation/warm-cool-gradient.webp" alt="Navigation menu showing warm colors for action items and cool colors for informational items" title="Warm vs cool color application in navigation"><figcaption>Strategic use of warm and cool colors guides user attention to action-oriented vs informational menu items</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/warm-cool-gradient.webp" alt="Navigation menu showing warm colors for action items and cool colors for informational items" title="Warm vs cool color application in navigation"><figcaption>Strategic use of warm and cool colors guides user attention to action-oriented vs informational menu items</figcaption></figure>
 
 ## Testing and iteration: finding your winning colors
 
@@ -361,7 +361,7 @@ Colors that work on a 27-inch monitor often fail on a 6-inch phone screen in bri
 
 **Fix**: Test your navigation colors on actual devices in various lighting conditions. Boost contrast for mobile if needed.
 
-<figure><img src="/images/color-psychology-navigation/mobile-sunlight-test.webp" alt="Phone screen showing navigation visibility in direct sunlight" title="Testing navigation color contrast on mobile"><figcaption>Mobile navigation must maintain contrast even in challenging lighting—outdoor testing is essential</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/color-psychology-navigation/mobile-sunlight-test.webp" alt="Phone screen showing navigation visibility in direct sunlight" title="Testing navigation color contrast on mobile"><figcaption>Mobile navigation must maintain contrast even in challenging lighting—outdoor testing is essential</figcaption></figure>
 
 ## Where to start: your navigation color audit
 

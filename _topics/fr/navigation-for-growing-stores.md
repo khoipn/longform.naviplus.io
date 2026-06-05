@@ -3,6 +3,8 @@ lang: fr
 ref: navigation-for-growing-stores
 title: "Étape 2 — Une boutique en croissance (50–500 produits)"
 description: "Navigation pour une boutique en croissance (50–500 produits) : quand faire évoluer votre menu, utiliser un méga menu sur desktop, la Tab Bar et le Slide Menu sur mobile, et lire les statistiques du menu pour l'optimiser."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Étape 2 — Une boutique en croissance (50–500 produits)"
 parent_title: "La navigation à chaque étape de la croissance d'une boutique — de 10 à 10 000 produits"
 parent_url: "/fr/navigation-for-every-store-stage/"
 seo_keywords:

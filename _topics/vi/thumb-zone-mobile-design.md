@@ -3,6 +3,8 @@ lang: vi
 ref: thumb-zone-mobile-design
 title: "Thumb zone — hiểu cách người dùng cầm điện thoại"
 description: "Thumb zone là vùng ngón cái với tới khi cầm điện thoại một tay. Hiểu nó để đặt nút mua, menu và Tab Bar đúng chỗ, giảm ma sát và tăng tỷ lệ chốt đơn."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "Thumb zone — hiểu cách người dùng cầm điện thoại"
 parent_title: "Mobile navigation — vì sao hamburger menu đang lỗi thời và nên dùng gì thay thế"
 parent_url: "/vi/mobile-navigation-beyond-hamburger/"
 seo_keywords:

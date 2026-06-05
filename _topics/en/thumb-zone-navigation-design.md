@@ -3,6 +3,8 @@ lang: en
 ref: thumb-zone-navigation-design
 title: "Thumb zone design: building for one-handed use"
 description: "How people hold their phones, where the thumb comfortably reaches, and how to place navigation elements in the easy zone instead of the stretch zone."
+image: "/images/mobile-first-navigation-strategy/thumb-zone-mobile-navigation.webp"
+image_alt: "Thumb zone design: building for one-handed use"
 parent_title: "Building a mobile-first navigation strategy (not mobile-friendly)"
 parent_url: "/mobile-first-navigation-strategy/"
 seo_keywords:

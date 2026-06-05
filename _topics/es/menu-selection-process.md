@@ -3,6 +3,8 @@ lang: es
 ref: menu-selection-process
 title: "Un proceso práctico para decidir el menú adecuado"
 description: "Un proceso de selección de menú en 5 pasos para tiendas Shopify: desde la proporción de tráfico móvil y la profundidad de categorías hasta construir un prototipo con Navi+ en un dispositivo real, tomando decisiones basadas en tus propios datos."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "Un proceso práctico para decidir el menú adecuado"
 parent_title: "Cómo elegir el tipo de menú adecuado para tu tienda Shopify"
 parent_url: "/es/choosing-the-right-shopify-menu/"
 seo_keywords:

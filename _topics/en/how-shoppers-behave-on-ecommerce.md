@@ -3,6 +3,8 @@ lang: en
 ref: how-shoppers-behave-on-ecommerce
 title: "How shoppers actually behave on an ecommerce store"
 description: "User behavior on a store: shoppers scan instead of read, their eyes follow the F-pattern and Z-pattern, and mobile differs from desktop. Understand this to arrange navigation and menus correctly."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "How shoppers actually behave on an ecommerce store"
 parent_title: "Why shoppers visit your store but don't buy — and how navigation plays a part"
 parent_url: "/why-shoppers-dont-buy/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: vi
 ref: navigation-for-growing-stores
 title: "Giai đoạn 2 — Store đang tăng trưởng (50–500 sản phẩm)"
 description: "Navigation store tăng trưởng (50-500 sản phẩm): khi nào nâng cấp menu, dùng mega menu desktop, Tab Bar và Slide Menu trên mobile, đọc analytics menu để tối ưu."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Giai đoạn 2 — Store đang tăng trưởng (50–500 sản phẩm)"
 parent_title: "Navigation theo từng giai đoạn phát triển của store — từ 10 đến 10.000 sản phẩm"
 parent_url: "/vi/navigation-for-every-store-stage/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: es
 ref: mobile-vs-desktop-navigation-behavior
 title: "Métrica 4 — Comportamiento de navegación: móvil vs. escritorio"
 description: "Compara la navegación en móvil y escritorio: cómo medirla en GA4, las señales de alarma cuando las salidas en móvil superan a las de escritorio y cómo dividir el diseño de tu Tab Bar para cada dispositivo."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Métrica 4 — Comportamiento de navegación: móvil vs. escritorio"
 parent_title: "Cómo saber si tu menú funciona — 5 métricas que debes seguir"
 parent_url: "/es/measuring-menu-performance/"
 seo_keywords:

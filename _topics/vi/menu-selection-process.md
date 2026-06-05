@@ -3,6 +3,8 @@ lang: vi
 ref: menu-selection-process
 title: "Quy trình thực tế để quyết định menu phù hợp"
 description: "Quy trình chọn menu 5 bước cho Shopify store: từ tỷ lệ mobile, độ sâu danh mục đến dựng thử Navi+ trên thiết bị thật, quyết định dựa trên dữ liệu của bạn."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "Quy trình thực tế để quyết định menu phù hợp"
 parent_title: "Cách chọn đúng loại menu cho Shopify store của bạn"
 parent_url: "/vi/choosing-the-right-shopify-menu/"
 seo_keywords:

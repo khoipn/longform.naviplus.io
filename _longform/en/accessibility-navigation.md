@@ -56,7 +56,7 @@ When these basics are missing, the screen reader user hears a jumble of unlabele
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/screen-reader-navigation/">Read the full guide → Screen reader navigation: what assistive technology users hear</a></p>
 <figure>
-  <img src="/images/accessibility-navigation/screen-reader-navigation-flow.webp" alt="Screen reader user navigating menu hearing navigation region list items and link labels announced" title="Screen reader navigation experience">
+  <img src="https://cdn.naviplus.app/longform/images/accessibility-navigation/screen-reader-navigation-flow.webp" alt="Screen reader user navigating menu hearing navigation region list items and link labels announced" title="Screen reader navigation experience">
   <figcaption>A screen reader announces navigation structure, link labels, and states — making the menu navigable without seeing it.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ A mega menu that only opens on hover is unusable for keyboard users. A slide men
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/keyboard-navigation-ecommerce/">Read the full guide → Keyboard navigation: tab order and focus management</a></p>
 <figure>
-  <img src="/images/accessibility-navigation/keyboard-navigation-focus.webp" alt="Keyboard user navigating menu with visible focus indicators on each link showing tab order progression" title="Keyboard navigation with focus indicators">
+  <img src="https://cdn.naviplus.app/longform/images/accessibility-navigation/keyboard-navigation-focus.webp" alt="Keyboard user navigating menu with visible focus indicators on each link showing tab order progression" title="Keyboard navigation with focus indicators">
   <figcaption>Visible focus indicators show keyboard users where they are in the navigation — without them, keyboard navigation is guesswork.</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ ARIA (Accessible Rich Internet Applications) provides attributes that help assis
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/aria-labels-ecommerce-navigation/">Read the full guide → ARIA labels and landmarks for ecommerce menus</a></p>
 <figure>
-  <img src="/images/accessibility-navigation/aria-labels-navigation.webp" alt="Navigation code showing nav landmark aria-label aria-expanded and aria-current attributes" title="ARIA labels for navigation">
+  <img src="https://cdn.naviplus.app/longform/images/accessibility-navigation/aria-labels-navigation.webp" alt="Navigation code showing nav landmark aria-label aria-expanded and aria-current attributes" title="ARIA labels for navigation">
   <figcaption>ARIA attributes tell assistive technology what each navigation element is, what it does, and what state it's in.</figcaption>
 </figure>
 
@@ -116,7 +116,7 @@ A bottom tabbar (via Navi+) is inherently accessible if built correctly: large t
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/accessible-mobile-navigation/">Read the full guide → Accessible mobile navigation: touch, voice, and assistive tech</a></p>
 <figure>
-  <img src="/images/accessibility-navigation/mobile-accessibility-touch-targets.webp" alt="Mobile navigation showing 44 pixel minimum touch targets with adequate spacing between buttons" title="Accessible mobile touch targets">
+  <img src="https://cdn.naviplus.app/longform/images/accessibility-navigation/mobile-accessibility-touch-targets.webp" alt="Mobile navigation showing 44 pixel minimum touch targets with adequate spacing between buttons" title="Accessible mobile touch targets">
   <figcaption>Mobile accessibility requires large touch targets, clear labels, and navigation that works with assistive technology.</figcaption>
 </figure>
 

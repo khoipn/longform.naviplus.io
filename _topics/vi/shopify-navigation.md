@@ -3,6 +3,8 @@ lang: vi
 ref: shopify-navigation
 title: "Thiết lập điều hướng chuyển đổi cao"
 description: "Vì sao điều hướng cửa hàng âm thầm quyết định chuyển đổi — và cách làm đúng trên mobile lẫn desktop."
+image: "/images/sell-online-with-shopify/shopify-navigation-conversion-path.webp"
+image_alt: "Thiết lập điều hướng chuyển đổi cao"
 parent_title: "Làm sao bán hàng online hiệu quả với Shopify"
 parent_url: "/vi/sell-online-with-shopify/"
 seo_keywords:

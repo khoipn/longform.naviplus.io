@@ -3,6 +3,8 @@ lang: zh-CN
 ref: fast-menu-app-criteria
 title: "如何判断一个菜单应用是否真的快：5 条标准"
 description: "五条你可以自己核查的快速菜单应用标准：懒加载、精简的 JavaScript、不阻塞渲染、CDN，以及 Built for Shopify 徽章。以 Core Web Vitals 为衡量基准。"
+image: "/images/navigation-and-page-speed/fast-menu-app-criteria.webp"
+image_alt: "如何判断一个菜单应用是否真的快：5 条标准"
 parent_title: "导航与页面速度——选择一个不拖累 Core Web Vitals 的菜单应用"
 parent_url: "/zh-CN/navigation-and-page-speed/"
 seo_keywords:

@@ -54,7 +54,7 @@ For navigation, the implication is clear: the most important interactive element
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/thumb-zone-navigation-design/">Read the full guide → Thumb zone design: building for one-handed use</a></p>
 <figure>
-  <img src="/images/mobile-first-navigation-strategy/thumb-zone-mobile-navigation.webp" alt="Phone screen showing thumb reach zone with navigation bar at bottom in comfortable reach area" title="Thumb zone mobile navigation placement">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-first-navigation-strategy/thumb-zone-mobile-navigation.webp" alt="Phone screen showing thumb reach zone with navigation bar at bottom in comfortable reach area" title="Thumb zone mobile navigation placement">
   <figcaption>The thumb comfortably reaches the lower half of the screen — that's where mobile navigation belongs.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ Once you accept that navigation belongs at the bottom, the next question is whic
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-navigation-patterns/">Read the full guide → Mobile navigation patterns: tabbar, slide, and bottom sheet</a></p>
 <figure>
-  <img src="/images/mobile-first-navigation-strategy/mobile-navigation-patterns.webp" alt="Four mobile navigation patterns showing tabbar bottom sheet slide menu and full screen overlay" title="Mobile navigation pattern comparison">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-first-navigation-strategy/mobile-navigation-patterns.webp" alt="Four mobile navigation patterns showing tabbar bottom sheet slide menu and full screen overlay" title="Mobile navigation pattern comparison">
   <figcaption>Mobile-first patterns place navigation where the thumb naturally rests — the bottom of the screen.</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ These metrics don't tell you exactly what's wrong, but they tell you where to lo
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-analytics-navigation/">Read the full guide → Mobile analytics: what your data says about phone shoppers</a></p>
 <figure>
-  <img src="/images/mobile-first-navigation-strategy/mobile-analytics-navigation.webp" alt="Analytics dashboard showing mobile vs desktop bounce rate pages per session and conversion rate" title="Mobile analytics for navigation decisions">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-first-navigation-strategy/mobile-analytics-navigation.webp" alt="Analytics dashboard showing mobile vs desktop bounce rate pages per session and conversion rate" title="Mobile analytics for navigation decisions">
   <figcaption>Mobile-specific metrics — bounce rate, pages per session, conversion gap — reveal whether navigation is working on phones.</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ Navi+ lets store owners build mobile-first navigation without rebuilding the the
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-first-vs-responsive/">Read the full guide → Mobile-first vs responsive: when the same menu isn't enough</a></p>
 <figure>
-  <img src="/images/mobile-first-navigation-strategy/mobile-first-vs-responsive.webp" alt="Side by side comparison of responsive design shrinking desktop menu versus mobile-first design with bottom tabbar" title="Mobile-first vs responsive navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-first-navigation-strategy/mobile-first-vs-responsive.webp" alt="Side by side comparison of responsive design shrinking desktop menu versus mobile-first design with bottom tabbar" title="Mobile-first vs responsive navigation">
   <figcaption>Responsive shrinks the desktop menu for mobile. Mobile-first builds the mobile menu first and expands for desktop.</figcaption>
 </figure>
 

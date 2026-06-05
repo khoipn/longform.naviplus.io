@@ -3,6 +3,8 @@ lang: en
 ref: mobile-first-vs-responsive
 title: "Mobile-first vs responsive: when the same menu isn't enough"
 description: "Why responsive design isn't the same as mobile-first — and when shrinking the desktop menu for phones creates problems instead of solving them."
+image: "/images/mobile-first-navigation-strategy/mobile-first-vs-responsive.webp"
+image_alt: "Mobile-first vs responsive: when the same menu isn't enough"
 parent_title: "Building a mobile-first navigation strategy (not mobile-friendly)"
 parent_url: "/mobile-first-navigation-strategy/"
 seo_keywords:

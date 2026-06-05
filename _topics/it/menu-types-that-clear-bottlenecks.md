@@ -3,6 +3,8 @@ lang: it
 ref: menu-types-that-clear-bottlenecks
 title: "Come i diversi tipi di menu risolvono i colli di bottiglia nella navigazione"
 description: "Scopri i tipi di menu per Shopify (Mega Menu, Tab Bar, Slide Menu, FAB) e come ciascuno risolve il giusto collo di bottiglia nella navigazione, perché i clienti trovino i prodotti e comprino più facilmente."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Come i diversi tipi di menu risolvono i colli di bottiglia nella navigazione"
 parent_title: "Perché i clienti visitano il tuo negozio ma non comprano — e quale ruolo ha la navigazione"
 parent_url: "/it/why-shoppers-dont-buy/"
 seo_keywords:

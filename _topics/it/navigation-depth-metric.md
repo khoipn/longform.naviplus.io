@@ -3,6 +3,8 @@ lang: it
 ref: navigation-depth-metric
 title: "Metrica 2 — Profondità di navigazione"
 description: "La profondità di navigazione misura il numero di passaggi dalla homepage a un prodotto. Come misurarla in GA4, il benchmark dei 2-3 passaggi e come usare un mega menu e la Tab Bar per accorciare il percorso d'acquisto."
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "Metrica 2 — Profondità di navigazione"
 parent_title: "Come capire se il tuo menu funziona — 5 metriche da monitorare"
 parent_url: "/it/measuring-menu-performance/"
 seo_keywords:

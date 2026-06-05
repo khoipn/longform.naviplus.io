@@ -3,6 +3,8 @@ lang: it
 ref: when-to-review-your-menu
 title: "Quando rivedere il tuo menu — e perché cambiare app dopo la crescita diventa costoso"
 description: "I momenti giusti per rivedere il menu del tuo store: aggiungere categorie, cambiare tema, alta stagione. E perché cambiare app di navigazione dopo aver scalato costa più di quanto pensi."
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "Quando rivedere il tuo menu — e perché cambiare app dopo la crescita diventa costoso"
 parent_title: "Navigazione per ogni fase di crescita del tuo store — da 10 a 10.000 prodotti"
 parent_url: "/it/navigation-for-every-store-stage/"
 seo_keywords:

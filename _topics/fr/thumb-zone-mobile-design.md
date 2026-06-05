@@ -3,6 +3,8 @@ lang: fr
 ref: thumb-zone-mobile-design
 title: "La zone du pouce — comprendre comment les gens tiennent leur téléphone"
 description: "La zone du pouce est la surface que votre pouce peut atteindre lorsque vous tenez le téléphone d'une seule main. La comprendre vous aide à placer les boutons d'achat, les menus et votre Tab Bar au bon endroit, à réduire les frictions et à conclure plus de commandes."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "La zone du pouce — comprendre comment les gens tiennent leur téléphone"
 parent_title: "Navigation mobile — pourquoi le menu hamburger devient obsolète et par quoi le remplacer"
 parent_url: "/fr/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: pt
 ref: combining-menu-types-for-your-store
 title: "Combinando tipos de menu para cada tipo de loja"
 description: "Como combinar menus do Shopify por tipo de loja: moda, eletrônicos, alimentação, beleza, dropshipping. Mega Menu, Tab Bar e Slide Menu para desktop e mobile."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "Combinando tipos de menu para cada tipo de loja"
 parent_title: "Como escolher o tipo de menu certo para sua loja Shopify"
 parent_url: "/pt/choosing-the-right-shopify-menu/"
 seo_keywords:

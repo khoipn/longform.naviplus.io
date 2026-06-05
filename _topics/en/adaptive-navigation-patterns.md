@@ -3,6 +3,8 @@ lang: en
 ref: adaptive-navigation-patterns
 title: "Adaptive navigation patterns for different visitor stages"
 description: "How the same menu serves browsers, researchers, and ready-to-buy customers — designing navigation that adapts to different stages without becoming complex."
+image: "/images/first-time-vs-returning-visitors/navigation-layers-both-visitors.webp"
+image_alt: "Adaptive navigation patterns for different visitor stages"
 parent_title: "Navigation for first-time vs returning visitors: what changes"
 parent_url: "/first-time-vs-returning-visitors/"
 seo_keywords:

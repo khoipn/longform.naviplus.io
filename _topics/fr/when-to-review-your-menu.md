@@ -3,6 +3,8 @@ lang: fr
 ref: when-to-review-your-menu
 title: "Quand revoir votre menu — et pourquoi changer d'application après votre montée en charge coûte cher"
 description: "Les bons moments pour revoir le menu de votre boutique : ajout de catégories, changement de thème, période de forte affluence. Et pourquoi changer d'application de navigation une fois que vous avez grandi coûte plus cher qu'on ne le croit."
+image: "/images/navigation-for-every-store-stage/menu-review-growth-triggers.webp"
+image_alt: "Quand revoir votre menu — et pourquoi changer d'application après votre montée en charge coûte cher"
 parent_title: "La navigation pour chaque étape de la croissance de votre boutique — de 10 à 10 000 produits"
 parent_url: "/fr/navigation-for-every-store-stage/"
 seo_keywords:

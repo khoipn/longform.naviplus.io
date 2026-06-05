@@ -3,6 +3,8 @@ lang: jp
 ref: navigation-depth-metric
 title: "指標2 — ナビゲーション深度"
 description: "ナビゲーション深度とは、トップページから商品ページまでに必要なステップ数を測る指標です。GA4での計測方法、2〜3ステップというベンチマーク、そしてメガメニューとTab Barで購入までの経路を短くする方法を解説します。"
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "指標2 — ナビゲーション深度"
 parent_title: "メニューが機能しているかを知る方法 — 追うべき5つの指標"
 parent_url: "/jp/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: jp
 ref: fast-menu-app-criteria
 title: "メニューアプリが本当に速いか見分ける方法：5つの基準"
 description: "自分でチェックできる、速いメニューアプリの5つの基準：遅延読み込み、軽量なJavaScript、レンダリングブロックなし、CDN、そしてBuilt for Shopifyバッジ。Core Web Vitalsを物差しに測ります。"
+image: "/images/navigation-and-page-speed/fast-menu-app-criteria.webp"
+image_alt: "メニューアプリが本当に速いか見分ける方法：5つの基準"
 parent_title: "ナビゲーションとページ速度 — Core Web Vitalsを損なわないメニューアプリの選び方"
 parent_url: "/jp/navigation-and-page-speed/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: mobile-checkout-barriers
 title: "Mobile checkout barriers: why phone buyers abandon more"
 description: "The specific friction points that make mobile checkout harder than desktop — small screens, keyboard overlap, slow typing, and navigation that competes for space."
+image: "/images/mobile-checkout-flow/mobile-checkout-barriers.webp"
+image_alt: "Mobile checkout barriers: why phone buyers abandon more"
 parent_title: "Mobile checkout: why navigation matters more on small screens"
 parent_url: "/mobile-checkout-flow/"
 seo_keywords:

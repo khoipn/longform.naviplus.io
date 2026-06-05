@@ -3,6 +3,8 @@ lang: pt
 ref: navigation-for-growing-stores
 title: "Estágio 2 — Uma loja em crescimento (50 a 500 produtos)"
 description: "Navegação para uma loja em crescimento (50 a 500 produtos): quando atualizar o menu, usando um mega menu no desktop, Tab Bar e Slide Menu no celular, e lendo as métricas do menu para otimizar."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Estágio 2 — Uma loja em crescimento (50 a 500 produtos)"
 parent_title: "Navegação para cada estágio do crescimento de uma loja — de 10 a 10.000 produtos"
 parent_url: "/pt/navigation-for-every-store-stage/"
 seo_keywords:

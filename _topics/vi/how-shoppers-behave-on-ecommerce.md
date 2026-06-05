@@ -3,6 +3,8 @@ lang: vi
 ref: how-shoppers-behave-on-ecommerce
 title: "Hành vi thực tế của khách trên một store thương mại điện tử"
 description: "Hành vi người dùng store: khách quét chứ không đọc, mắt đi theo F-pattern và Z-pattern, dùng mobile khác desktop. Hiểu để sắp xếp điều hướng và menu cho đúng."
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "Hành vi thực tế của khách trên một store thương mại điện tử"
 parent_title: "Tại sao khách vào store nhưng không mua — và navigation liên quan thế nào"
 parent_url: "/vi/why-shoppers-dont-buy/"
 seo_keywords:

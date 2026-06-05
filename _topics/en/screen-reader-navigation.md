@@ -3,6 +3,8 @@ lang: en
 ref: screen-reader-navigation
 title: "Screen reader navigation: what assistive technology users hear"
 description: "How screen readers announce menus, landmarks, and navigation links — and how to structure ecommerce navigation so it makes sense when read aloud."
+image: "/images/accessibility-navigation/screen-reader-navigation-flow.webp"
+image_alt: "Screen reader navigation: what assistive technology users hear"
 parent_title: "Accessible navigation: building for screen readers and keyboard users"
 parent_url: "/accessibility-navigation/"
 seo_keywords:

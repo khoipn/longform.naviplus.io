@@ -3,6 +3,8 @@ lang: zh-CN
 ref: mobile-vs-desktop-navigation-behavior
 title: "指标四 —— 移动端与桌面端的导航行为对比"
 description: "对比移动端与桌面端导航：如何在 GA4 中测量它、当移动端退出率明显高于桌面端时的警示信号，以及如何为每种设备拆分你的 Tab Bar 布局。"
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "指标四 —— 移动端与桌面端的导航行为对比"
 parent_title: "如何判断你的菜单是否有效 —— 需要追踪的 5 个指标"
 parent_url: "/zh-CN/measuring-menu-performance/"
 seo_keywords:

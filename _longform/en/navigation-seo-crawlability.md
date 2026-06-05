@@ -60,7 +60,7 @@ Every internal link passes a small amount of authority (often called "link juice
 When navigation is broken or invisible to Google, that link equity doesn't flow. Category pages lose ranking power. The effect compounds over time — as the category pages lose authority, the product pages linked from those categories also suffer.
 
 <figure>
-  <img src="/images/navigation-seo-crawlability/navigation-link-equity-flow.webp" alt="Diagram showing link equity flowing from homepage through navigation to category pages and products" title="Navigation link equity flow">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-seo-crawlability/navigation-link-equity-flow.webp" alt="Diagram showing link equity flowing from homepage through navigation to category pages and products" title="Navigation link equity flow">
   <figcaption>Link equity flows from the homepage through navigation links to categories and products — broken navigation breaks this flow.</figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ Google will see the link but won't follow it during the initial crawl, and it wo
 This is an easy mistake to make when building custom navigation or using a third-party menu app that adds `rel="nofollow"` by default as a misguided attempt to "control crawling."
 
 <figure>
-  <img src="/images/navigation-seo-crawlability/crawlable-navigation-code.webp" alt="Code comparison showing crawlable HTML anchor tags versus non-crawlable JavaScript div elements" title="Crawlable navigation code">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-seo-crawlability/crawlable-navigation-code.webp" alt="Code comparison showing crawlable HTML anchor tags versus non-crawlable JavaScript div elements" title="Crawlable navigation code">
   <figcaption>Crawlable navigation uses real anchor tags with real URLs in the HTML source.</figcaption>
 </figure>
 
@@ -190,7 +190,7 @@ If the next page of products is only accessible through that JavaScript scroll t
 The fix: provide pagination links with real URLs (`?page=2`, `?page=3`) in addition to the infinite scroll JavaScript. Users get the seamless infinite scroll experience; Google gets crawlable links to every page.
 
 <figure>
-  <img src="/images/navigation-seo-crawlability/javascript-menu-problem.webp" alt="Browser developer tools showing menu links missing from HTML source but present after JavaScript runs" title="JavaScript menu problem">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-seo-crawlability/javascript-menu-problem.webp" alt="Browser developer tools showing menu links missing from HTML source but present after JavaScript runs" title="JavaScript menu problem">
   <figcaption>JavaScript-only menus show links to users but hide them from crawlers — check View Source to see what Google sees.</figcaption>
 </figure>
 
@@ -233,7 +233,7 @@ To check: use Google's Mobile-Friendly Test tool (search for "Google Mobile-Frie
 If the mobile navigation is missing links that appear on desktop, Google might not crawl those pages at all — or might consider them less important.
 
 <figure>
-  <img src="/images/navigation-seo-crawlability/view-source-audit.webp" alt="Browser view source showing navigation links present in raw HTML before JavaScript runs" title="View source audit">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-seo-crawlability/view-source-audit.webp" alt="Browser view source showing navigation links present in raw HTML before JavaScript runs" title="View source audit">
   <figcaption>View Source shows the raw HTML Google sees — navigation links should appear here, not only after JavaScript runs.</figcaption>
 </figure>
 
@@ -282,7 +282,7 @@ Navigation menus aren't the only way to link to category and product pages. Othe
 All of these patterns should use real `<a href="...">` tags, not JavaScript navigation.
 
 <figure>
-  <img src="/images/navigation-seo-crawlability/internal-linking-patterns.webp" alt="Diagram showing multiple internal linking patterns: main navigation breadcrumbs related products and footer links" title="Internal linking patterns">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-seo-crawlability/internal-linking-patterns.webp" alt="Diagram showing multiple internal linking patterns: main navigation breadcrumbs related products and footer links" title="Internal linking patterns">
   <figcaption>Internal linking beyond navigation: breadcrumbs, related products, and footer links all help Google discover and understand your site structure.</figcaption>
 </figure>
 

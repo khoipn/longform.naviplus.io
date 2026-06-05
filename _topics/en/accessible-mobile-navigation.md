@@ -3,6 +3,8 @@ lang: en
 ref: accessible-mobile-navigation
 title: "Accessible mobile navigation: touch, voice, and assistive tech"
 description: "Mobile-specific accessibility for tabbars, drawers, and touch menus — touch targets, VoiceOver gestures, and making mobile navigation work with assistive technology."
+image: "/images/accessibility-navigation/mobile-accessibility-touch-targets.webp"
+image_alt: "Accessible mobile navigation: touch, voice, and assistive tech"
 parent_title: "Accessible navigation: building for screen readers and keyboard users"
 parent_url: "/accessibility-navigation/"
 seo_keywords:

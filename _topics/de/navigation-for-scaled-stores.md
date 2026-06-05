@@ -3,6 +3,8 @@ lang: de
 ref: navigation-for-scaled-stores
 title: "Phase 3 — Ein Shop, der skaliert hat (500+ Produkte, 15+ Kategorien)"
 description: "Navigation für einen skalierten Shop mit 500+ Produkten und 15+ Kategorien: mehrspaltige Mega-Menüs, eine mobile Tab Bar, Suche, A/B-Tests und wie man das mit Navi+ sinnvoll einrichtet."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Phase 3 — Ein Shop, der skaliert hat (500+ Produkte, 15+ Kategorien)"
 parent_title: "Navigation für jede Wachstumsphase deines Shops — von 10 bis 10.000 Produkten"
 parent_url: "/de/navigation-for-every-store-stage/"
 seo_keywords:

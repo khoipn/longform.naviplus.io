@@ -3,6 +3,8 @@ lang: de
 ref: internal-search-usage-rate
 title: "Kennzahl 5 — Nutzungsrate der internen Suche"
 description: "Was die Suchnutzungsrate ist, wie du sie mit GA4 misst und wie du deine häufigsten Suchanfragen liest, damit du Menüpunkte in der Sprache deiner Kundschaft benennen und seltener machen kannst, dass sie den Shop selbst durchsuchen müssen."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Kennzahl 5 — Nutzungsrate der internen Suche"
 parent_title: "So erkennst du, ob dein Menü funktioniert — 5 Kennzahlen, die du verfolgen solltest"
 parent_url: "/de/measuring-menu-performance/"
 seo_keywords:

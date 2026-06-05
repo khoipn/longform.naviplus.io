@@ -3,6 +3,8 @@ lang: jp
 ref: menu-selection-process
 title: "適切なメニューを選ぶための実践的なプロセス"
 description: "Shopifyストアのための5ステップのメニュー選定プロセス。モバイル比率やカテゴリーの階層から、実機でのNavi+プロトタイプ作成まで、自社のデータに基づいて判断します。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "適切なメニューを選ぶための実践的なプロセス"
 parent_title: "Shopifyストアに適したメニュータイプの選び方"
 parent_url: "/jp/choosing-the-right-shopify-menu/"
 seo_keywords:

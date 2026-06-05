@@ -3,6 +3,8 @@ lang: de
 ref: collection-page-exit-rate
 title: "Kennzahl 3 — Ausstiegsrate auf der Kategorieseite"
 description: "Eine hohe Ausstiegsrate auf der Kategorieseite hat oft ihren Ursprung in Menübezeichnungen, die nicht zu dem passen, was die Seite zeigt. So messen Sie sie mit GA4-Explorationen und so prüfen und korrigieren Sie Ihr Menü, um Kunden zu halten."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Kennzahl 3 — Ausstiegsrate auf der Kategorieseite"
 parent_title: "So erkennen Sie, ob Ihr Menü funktioniert — 5 Kennzahlen, die sich lohnen"
 parent_url: "/de/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: de
 ref: navigation-for-new-stores
 title: "Phase 1 — Neuer Shop, kleines Sortiment (unter 50 Produkten)"
 description: "Die Navigation für einen neuen Shop mit weniger als 50 Produkten sollte schlicht bleiben: ein Header mit 3-5 Punkten am Desktop, eine Tab Bar mit 4 Buttons am Handy. Eine Anleitung und die Fehler, die man vermeiden sollte."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Phase 1 — Neuer Shop, kleines Sortiment (unter 50 Produkten)"
 parent_title: "Navigation durch jede Wachstumsphase eines Shops — von 10 bis 10.000 Produkten"
 parent_url: "/de/navigation-for-every-store-stage/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: de
 ref: menu-click-through-rate
 title: "Kennzahl 1 — Klickrate jedes Menüpunkts"
 description: "Die CTR pro Menüpunkt zeigt, welche Menüpunkte geklickt und welche übersprungen werden. Wie man sie mit GA4 und Clarity misst, wie man sie liest und wie man das Menü anpasst, um die Klickraten zu steigern."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Kennzahl 1 — Klickrate jedes Menüpunkts"
 parent_title: "Wie Sie erkennen, ob Ihr Menü gut funktioniert — 5 Kennzahlen, die Sie im Blick behalten sollten"
 parent_url: "/de/measuring-menu-performance/"
 seo_keywords:

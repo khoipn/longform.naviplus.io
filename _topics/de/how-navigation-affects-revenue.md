@@ -3,6 +3,8 @@ lang: de
 ref: how-navigation-affects-revenue
 title: "Wie die Navigation Ihren Umsatz beeinflusst"
 description: "Die Navigation prägt den Umsatz über Absprungrate, Seiten pro Sitzung, Warenkorblegungen und Wiederbesuche. So gestalten Sie ein klares, schnelles Shop-Menü, damit Sie mehr verkaufen."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Wie die Navigation Ihren Umsatz beeinflusst"
 parent_title: "Warum Besucher in Ihren Shop kommen, aber nicht kaufen — und welche Rolle die Navigation dabei spielt"
 parent_url: "/de/why-shoppers-dont-buy/"
 seo_keywords:

@@ -55,7 +55,7 @@ Nielsen Norman Group 测量过这件事。在一项覆盖六个网站、179 名�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/problems-with-hamburger-menu/">阅读完整指南 → 汉堡菜单在电商移动端真正的问题</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp" alt="Mobile hamburger menu hiding ecommerce navigation and reducing product discovery" title="Mobile hamburger menu problem for ecommerce navigation">
   <figcaption>A hidden hamburger menu adds friction before shoppers even see the store categories.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Nielsen Norman Group 测量过这件事。在一项覆盖六个网站、179 名�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/thumb-zone-mobile-design/">阅读完整指南 → 拇指可达区——理解人们是怎么握手机的</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp" alt="Mobile thumb zone showing easy and hard to reach ecommerce navigation areas" title="Mobile thumb zone for ecommerce navigation">
   <figcaption>The thumb zone explains why bottom navigation is easier to use than top-corner menus.</figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/tab-bar-mobile-navigation/">阅读完整指南 → Tab Bar——最主要的替代方案</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp" alt="Mobile tab bar navigation keeping ecommerce categories search cart and account within reach" title="Mobile tab bar navigation for ecommerce stores">
   <figcaption>A Tab Bar keeps the main paths visible and within easy thumb reach.</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">深入了解</span><a href="/zh-CN/topic/combining-tab-bar-and-slide-menu/">阅读完整指南 → 组合使用 Tab Bar + Slide Menu（以及 FAB 的角色）</a></p>
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp" alt="Tab Bar Slide Menu and FAB combination for mobile ecommerce navigation" title="Combining Tab Bar Slide Menu and FAB on mobile">
   <figcaption>Tab Bar, Slide Menu, and FAB work best when each has a clear role.</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ Tab Bar 的优势归结为两点：它本来就可见，而且伸手就能够到
 - 菜单加载时会不会拖慢页面或者让布局发生位移？
 
 <figure>
-  <img src="/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
+  <img src="https://cdn.naviplus.app/longform/images/mobile-navigation-beyond-hamburger/mobile-navigation-one-handed-audit.webp" alt="One handed mobile navigation audit for ecommerce tab bar and hamburger menu placement" title="One handed mobile navigation audit">
   <figcaption>A one-handed walkthrough quickly shows whether key paths are visible and reachable.</figcaption>
 </figure>
 

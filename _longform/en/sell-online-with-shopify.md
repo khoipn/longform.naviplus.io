@@ -39,7 +39,7 @@ Your theme sets the ceiling for speed, trust, and conversion. The trap most new 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/choose-shopify-theme/">Read the full guide → Choosing the right Shopify theme</a></p>
 <figure>
-  <img src="/images/sell-online-with-shopify/shopify-theme-conversion-foundation.webp" alt="Shopify theme conversion foundation showing speed trust layout and navigation space" title="Shopify theme conversion foundation">
+  <img src="https://cdn.naviplus.app/longform/images/sell-online-with-shopify/shopify-theme-conversion-foundation.webp" alt="Shopify theme conversion foundation showing speed trust layout and navigation space" title="Shopify theme conversion foundation">
   <figcaption>A strong Shopify store starts with a theme that supports speed, trust, and future navigation.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Most stores lose buyers because they can't find what they want. A strong navigat
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/shopify-navigation/">Read the full guide → Set up a high-converting navigation</a></p>
 <figure>
-  <img src="/images/sell-online-with-shopify/shopify-navigation-conversion-path.webp" alt="Shopify navigation conversion path with tab bar mega menu product page and checkout" title="Shopify navigation conversion path">
+  <img src="https://cdn.naviplus.app/longform/images/sell-online-with-shopify/shopify-navigation-conversion-path.webp" alt="Shopify navigation conversion path with tab bar mega menu product page and checkout" title="Shopify navigation conversion path">
   <figcaption>Better navigation shortens the path from browsing to checkout without raising ad spend.</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ Not all traffic is equal — focus on intent-rich channels first, then scale wha
 > The fastest way to grow is rarely more traffic — it's removing the friction between a visitor and the buy button.
 
 <figure>
-  <img src="/images/sell-online-with-shopify/shopify-traffic-conversion-funnel.webp" alt="Shopify traffic conversion funnel showing intent traffic trust speed and checkout" title="Shopify traffic and conversion funnel">
+  <img src="https://cdn.naviplus.app/longform/images/sell-online-with-shopify/shopify-traffic-conversion-funnel.webp" alt="Shopify traffic conversion funnel showing intent traffic trust speed and checkout" title="Shopify traffic and conversion funnel">
   <figcaption>Traffic only pays off when the store removes friction between visitor and checkout.</figcaption>
 </figure>
 

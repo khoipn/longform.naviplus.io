@@ -3,6 +3,8 @@ lang: en
 ref: mobile-analytics-navigation
 title: "Mobile analytics: what your data says about phone shoppers"
 description: "How to read mobile-specific analytics to understand navigation problems — bounce rate, pages per session, conversion gap, and mobile-vs-desktop behavior patterns."
+image: "/images/mobile-first-navigation-strategy/mobile-analytics-navigation.webp"
+image_alt: "Mobile analytics: what your data says about phone shoppers"
 parent_title: "Building a mobile-first navigation strategy (not mobile-friendly)"
 parent_url: "/mobile-first-navigation-strategy/"
 seo_keywords:

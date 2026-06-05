@@ -3,6 +3,8 @@ lang: es
 ref: navigation-for-new-stores
 title: "Etapa 1 — Tienda nueva, catálogo pequeño (menos de 50 productos)"
 description: "La navegación de una tienda nueva con un catálogo de menos de 50 productos debe mantenerse simple: un encabezado de 3 a 5 elementos en escritorio y una Tab Bar de 4 botones en móvil. Una guía y los errores que conviene evitar."
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "Etapa 1 — Tienda nueva, catálogo pequeño (menos de 50 productos)"
 parent_title: "La navegación a lo largo de cada etapa del crecimiento de una tienda — de 10 a 10.000 productos"
 parent_url: "/es/navigation-for-every-store-stage/"
 seo_keywords:

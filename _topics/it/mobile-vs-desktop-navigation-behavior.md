@@ -3,6 +3,8 @@ lang: it
 ref: mobile-vs-desktop-navigation-behavior
 title: "Metrica 4 — Comportamento di navigazione su mobile rispetto a desktop"
 description: "Confronta la navigazione su mobile e su desktop: come misurarla in GA4, i segnali d'allarme quando le uscite da mobile sono più alte di quelle da desktop, e come differenziare il layout della Tab Bar per ciascun dispositivo."
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "Metrica 4 — Comportamento di navigazione su mobile rispetto a desktop"
 parent_title: "Come capire se il tuo menu funziona — 5 metriche da monitorare"
 parent_url: "/it/measuring-menu-performance/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: navigation-depth-metric
 title: "Metric 2 — Navigation Depth"
 description: "Navigation depth measures the number of steps from the homepage to a product. How to measure it in GA4, the 2-3 step benchmark, and how to use a mega menu and Tab Bar to shorten the path to purchase."
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "Metric 2 — Navigation Depth"
 parent_title: "How to Know Whether Your Menu Is Working — 5 Metrics to Track"
 parent_url: "/measuring-menu-performance/"
 seo_keywords:

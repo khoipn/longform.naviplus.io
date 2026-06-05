@@ -3,6 +3,8 @@ lang: vi
 ref: shopify-menu-types-compared
 title: "Phân tích từng loại menu: khi nào nên dùng, khi nào không"
 description: "Phân tích các loại menu Shopify: mega menu, slide menu, tab bar và FAB. Khi nào nên dùng, khi nào không, kèm lỗi thường gặp và lời khuyên làm được ngay."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp"
+image_alt: "Phân tích từng loại menu: khi nào nên dùng, khi nào không"
 parent_title: "Cách chọn đúng loại menu cho Shopify store của bạn"
 parent_url: "/vi/choosing-the-right-shopify-menu/"
 seo_keywords:

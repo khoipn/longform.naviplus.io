@@ -3,6 +3,8 @@ lang: zh-CN
 ref: problems-with-hamburger-menu
 title: "移动端电商汉堡菜单的真正问题"
 description: "移动端电商汉堡菜单的问题：它隐藏了太多内容、增加了多余步骤、位置超出拇指可触及范围，而且总是看不见。结合数据与替代方案的分析。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp"
+image_alt: "移动端电商汉堡菜单的真正问题"
 parent_title: "移动端导航——为什么汉堡菜单正在过时，以及该用什么来替代"
 parent_url: "/zh-CN/mobile-navigation-beyond-hamburger/"
 seo_keywords:

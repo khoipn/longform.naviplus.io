@@ -3,6 +3,8 @@ lang: fr
 ref: menu-click-through-rate
 title: "Indicateur 1 — Taux de clic de chaque élément de menu"
 description: "Le taux de clic d'un élément de menu révèle ceux qui sont cliqués et ceux qui sont ignorés. Comment le mesurer avec GA4 et Clarity, comment le lire et comment ajuster votre menu pour augmenter les clics."
+image: "/images/measuring-menu-performance/menu-click-through-rate.webp"
+image_alt: "Indicateur 1 — Taux de clic de chaque élément de menu"
 parent_title: "Comment savoir si votre menu fonctionne bien — 5 indicateurs à suivre"
 parent_url: "/fr/measuring-menu-performance/"
 seo_keywords:

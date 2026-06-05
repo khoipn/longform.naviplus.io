@@ -3,6 +3,8 @@ lang: en
 ref: menu-selection-process
 title: "A Practical Process for Deciding on the Right Menu"
 description: "A 5-step menu selection process for Shopify stores: from mobile share and category depth to building a Navi+ prototype on a real device, making decisions based on your own data."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "A Practical Process for Deciding on the Right Menu"
 parent_title: "How to Choose the Right Menu Type for Your Shopify Store"
 parent_url: "/choosing-the-right-shopify-menu/"
 seo_keywords:

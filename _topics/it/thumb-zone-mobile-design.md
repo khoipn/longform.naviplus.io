@@ -3,6 +3,8 @@ lang: it
 ref: thumb-zone-mobile-design
 title: "La thumb zone — capire come le persone tengono in mano lo smartphone"
 description: "La thumb zone è l'area che il pollice riesce a raggiungere quando si tiene il telefono con una sola mano. Capirla ti aiuta a posizionare bene i pulsanti d'acquisto, i menu e la Tab Bar, a ridurre gli attriti e a chiudere più ordini."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "La thumb zone — capire come le persone tengono in mano lo smartphone"
 parent_title: "Navigazione mobile — perché il menu hamburger sta diventando obsoleto e cosa usare al suo posto"
 parent_url: "/it/mobile-navigation-beyond-hamburger/"
 seo_keywords:

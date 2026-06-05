@@ -3,6 +3,8 @@ lang: es
 ref: how-menu-apps-affect-page-speed
 title: "Cómo una app de menú afecta la velocidad de la página — y las señales de alerta"
 description: "Descubre cómo una app de menú afecta la velocidad de carga de la página, por qué una app de navegación puede ralentizar tu tienda y cómo usar PageSpeed Insights y DevTools para detectar el problema."
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "Cómo una app de menú afecta la velocidad de la página — y las señales de alerta"
 parent_title: "Navegación y velocidad de carga — Elegir una app de menú que no perjudique los Core Web Vitals"
 parent_url: "/es/navigation-and-page-speed/"
 seo_keywords:

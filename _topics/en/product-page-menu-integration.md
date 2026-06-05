@@ -3,6 +3,8 @@ lang: en
 ref: product-page-menu-integration
 title: "Connecting product pages to your menu structure"
 description: "How tabbar, mega menu, and quick-view tie into the product page — making your Shopify store's navigation feel connected instead of fragmented."
+image: "/images/shopify-product-page-navigation/product-page-menu-integration.webp"
+image_alt: "Connecting product pages to your menu structure"
 parent_title: "Product page navigation: how shoppers move between products"
 parent_url: "/shopify-product-page-navigation/"
 seo_keywords:

@@ -55,7 +55,7 @@ The challenge is that on a Shopify store, a product page can be reached from man
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/breadcrumb-patterns-ecommerce/">Read the full guide → Breadcrumb patterns that actually help shoppers navigate</a></p>
 <figure>
-  <img src="/images/shopify-product-page-navigation/product-page-crossroads.webp" alt="Product page as a crossroads with paths to collection breadcrumbs related products and menu" title="Product page navigation crossroads">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-product-page-navigation/product-page-crossroads.webp" alt="Product page as a crossroads with paths to collection breadcrumbs related products and menu" title="Product page navigation crossroads">
   <figcaption>The product page sits at a crossroads — shoppers need clear paths forward, backward, and sideways.</figcaption>
 </figure>
 
@@ -83,7 +83,7 @@ There's a balance to strike. Baymard's checkout flow research notes that aggress
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/related-products-cross-sell-navigation/">Read the full guide → Related products and cross-sell: navigating between products</a></p>
 <figure>
-  <img src="/images/shopify-product-page-navigation/related-products-placement.webp" alt="Related products section placement on ecommerce product page showing price and variant info" title="Related products cross-sell placement">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-product-page-navigation/related-products-placement.webp" alt="Related products section placement on ecommerce product page showing price and variant info" title="Related products cross-sell placement">
   <figcaption>Related product suggestions work when shoppers can compare without clicking into each one.</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ There's another mobile consideration: scroll position. When a shopper taps the b
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-product-page-navigation/">Read the full guide → Mobile product page navigation: back buttons, swipe, and sticky bars</a></p>
 <figure>
-  <img src="/images/shopify-product-page-navigation/mobile-product-nav-thumb-zone.webp" alt="Mobile product page with thumb zone showing bottom navigation bar versus top breadcrumbs" title="Mobile product page thumb zone navigation">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-product-page-navigation/mobile-product-nav-thumb-zone.webp" alt="Mobile product page with thumb zone showing bottom navigation bar versus top breadcrumbs" title="Mobile product page thumb zone navigation">
   <figcaption>On mobile, the most-used navigation elements should sit where the thumb naturally reaches — the bottom of the screen.</figcaption>
 </figure>
 
@@ -115,14 +115,14 @@ Quick-view is another integration point. Instead of navigating away from the cur
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/product-page-menu-integration/">Read the full guide → Connecting product pages to your menu structure</a></p>
 <figure>
-  <img src="/images/shopify-product-page-navigation/product-page-menu-integration.webp" alt="Product page connected to mega menu tabbar and quick view overlay showing navigation flow" title="Product page and menu structure integration">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-product-page-navigation/product-page-menu-integration.webp" alt="Product page connected to mega menu tabbar and quick view overlay showing navigation flow" title="Product page and menu structure integration">
   <figcaption>When the menu and the product page share the same navigation logic, shoppers move fluidly between browsing and evaluating.</figcaption>
 </figure>
 
 ## Where to start
 
 <figure>
-  <img src="/images/shopify-product-page-navigation/product-page-navigation-audit.webp" alt="Product page navigation audit checklist showing breadcrumbs related products mobile bar and menu connection" title="Product page navigation audit checklist">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-product-page-navigation/product-page-navigation-audit.webp" alt="Product page navigation audit checklist showing breadcrumbs related products mobile bar and menu connection" title="Product page navigation audit checklist">
   <figcaption>A quick audit of your product page navigation reveals the gaps shoppers feel but don't report.</figcaption>
 </figure>
 

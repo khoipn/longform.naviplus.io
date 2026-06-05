@@ -59,7 +59,7 @@ Core Web Vitals は、ページ読み込みの実際の体験を測るために 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/core-web-vitals-explained/">完全ガイドを読む → Core Web Vitals とは何か、そしてなぜあなたに関係するのか</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/core-web-vitals-menu-app.webp" alt="Core Web Vitals for a Shopify menu app showing LCP INP and CLS speed metrics" title="Core Web Vitals for menu app speed">
   <figcaption>Core Web Vitals turn loading speed into three numbers merchants can measure.</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Shopify の多くのアプリは、ストアフロントに JavaScript を差し
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/how-menu-apps-affect-page-speed/">完全ガイドを読む → メニューアプリは速度にどう影響するか — そして見抜き方</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/menu-app-speed-impact.webp" alt="Menu app speed impact showing delayed navigation tap lag and layout shift" title="How menu apps affect page speed">
   <figcaption>A menu app can hurt speed when scripts delay the menu, lag taps, or shift layout.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Navi+ はこうした方針に沿って作られています。コードなし�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/fast-menu-app-criteria/">完全ガイドを読む → 速度の面で良いメニューアプリの条件</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/fast-menu-app-criteria.webp" alt="Fast Shopify menu app criteria including defer code stable layout and Built for Shopify badge" title="Fast menu app criteria for Shopify">
   <figcaption>A speed-friendly menu app loads light, reserves stable space, and supports each device separately.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Navi+ はこうした方針に沿って作られています。コードなし�
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく見る</span><a href="/jp/topic/menu-app-installation-checklist/">完全ガイドを読む → メニューアプリをインストールする前のチェックリスト</a></p>
 <figure>
-  <img src="/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/menu-app-installation-checklist.webp" alt="Menu app installation checklist for measuring PageSpeed before and after install" title="Menu app installation speed checklist">
   <figcaption>Measure before and after installation so a menu app cannot hide its speed cost.</figcaption>
 </figure>
 
@@ -149,13 +149,13 @@ Nielsen Norman Group が179人のユーザーを対象に行った調査では�
 だからこそ、モバイルでは、ただのハンバーガーメニューよりも下部のタブバーのほうがうまく機能する傾向があります — 主要な項目が常に手の届くところにあり、見るために何かを開く必要がないからです。速度と良いナビゲーションは両立します。メニューアプリを選ぶことは、その両方を同時に選ぶことなのです。
 
 <figure>
-  <img src="/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/fast-findable-navigation.webp" alt="Fast and findable mobile navigation comparing hidden hamburger menu with visible tab bar" title="Fast navigation also needs discoverability">
   <figcaption>A fast menu still has to keep important paths visible and easy to reach.</figcaption>
 </figure>
 ## どこから始めるか
 
 <figure>
-  <img src="/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
+  <img src="https://cdn.naviplus.app/longform/images/navigation-and-page-speed/pagespeed-baseline-menu-app.webp" alt="PageSpeed baseline comparison before and after installing a Shopify menu app" title="PageSpeed baseline before menu app install">
   <figcaption>A baseline makes it clear whether a new menu app improved or hurt the experience.</figcaption>
 </figure>
 

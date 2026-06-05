@@ -3,6 +3,8 @@ lang: pt
 ref: core-web-vitals-explained
 title: "O que são Core Web Vitals e por que você deveria se importar"
 description: "O que são Core Web Vitals? Uma explicação em linguagem simples de LCP, CLS e INP, com os limites considerados bons pelo Google e o motivo de essas três métricas afetarem o SEO e o faturamento da sua loja."
+image: "/images/navigation-and-page-speed/core-web-vitals-menu-app.webp"
+image_alt: "O que são Core Web Vitals e por que você deveria se importar"
 parent_title: "Navegação e velocidade de carregamento — escolhendo um app de menu que não prejudique os Core Web Vitals"
 parent_url: "/pt/navigation-and-page-speed/"
 seo_keywords:

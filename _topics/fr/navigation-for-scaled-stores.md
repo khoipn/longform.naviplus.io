@@ -3,6 +3,8 @@ lang: fr
 ref: navigation-for-scaled-stores
 title: "Étape 3 — Une boutique qui a passé à l'échelle (plus de 500 produits, plus de 15 catégories)"
 description: "La navigation d'une boutique à grande échelle avec plus de 500 produits et plus de 15 catégories : méga menus multicolonnes, Tab Bar mobile, recherche, tests A/B, et comment tout configurer intelligemment avec Navi+."
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "Étape 3 — Une boutique qui a passé à l'échelle (plus de 500 produits, plus de 15 catégories)"
 parent_title: "La navigation à chaque étape de la croissance de votre boutique — de 10 à 10 000 produits"
 parent_url: "/fr/navigation-for-every-store-stage/"
 seo_keywords:

@@ -56,7 +56,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/how-shoppers-behave-on-ecommerce/">完全ガイドを読む → ECストアで訪問者が実際にとる行動</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp" alt="Mobile ecommerce navigation thumb zone showing why shoppers leave before buying" title="Mobile ecommerce navigation thumb zone and shopper friction">
   <figcaption>Mobile shoppers leave faster when key navigation sits outside easy thumb reach.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/how-navigation-affects-revenue/">完全ガイドを読む → ナビゲーションが売上に与える影響</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/navigation-revenue-leak.webp" alt="Ecommerce navigation revenue leak showing extra taps before product discovery and cart" title="Navigation revenue leak before shoppers reach the cart">
   <figcaption>Navigation leaks revenue early when shoppers need too many taps to find products.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/common-shopify-navigation-mistakes/">完全ガイドを読む → Shopifyストアでよくあるナビゲーションの失敗</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp" alt="Common Shopify navigation mistakes hiding menus and slowing product discovery" title="Common Shopify navigation mistakes that block product discovery">
   <figcaption>Hidden menus, deep category trees, and slow apps make products harder to discover.</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ child_links:
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">詳しく読む</span><a href="/jp/topic/menu-types-that-clear-bottlenecks/">完全ガイドを読む → メニュータイプはナビゲーションのボトルネックをどう解消するか</a></p>
 <figure>
-  <img src="/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp" alt="Ecommerce menu types clearing navigation bottlenecks with tab bar mega menu and slide menu" title="Ecommerce menu types that clear navigation bottlenecks">
   <figcaption>Different menu types clear different bottlenecks across mobile and desktop shopping paths.</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ child_links:
 - Google の Core Web Vitals ツールにストアをかけ、赤が出るものがないか見てみる。
 
 <figure>
-  <img src="/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
+  <img src="https://cdn.naviplus.app/longform/images/why-shoppers-dont-buy/mobile-navigation-audit-checklist.webp" alt="Mobile ecommerce navigation audit checklist for testing product discovery paths" title="Mobile navigation audit checklist for ecommerce stores">
   <figcaption>A quick mobile audit shows how many taps shoppers need before reaching a product.</figcaption>
 </figure>
 <p class="lf-note"><span class="lf-note-title">簡単な確認</span>スマートフォンでストアを開き、1つの商品を選び、そこに到達するまでのタップ数を数えます。</p>

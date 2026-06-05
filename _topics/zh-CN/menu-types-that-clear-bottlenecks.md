@@ -3,6 +3,8 @@ lang: zh-CN
 ref: menu-types-that-clear-bottlenecks
 title: "不同菜单类型如何解决导航瓶颈"
 description: "了解 Shopify 的菜单类型（Mega Menu、Tab Bar、Slide Menu、FAB），以及每一种如何解决相应的导航瓶颈，让顾客更容易找到商品、更顺畅地下单。"
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "不同菜单类型如何解决导航瓶颈"
 parent_title: "顾客来了店里却不下单——以及导航在其中的作用"
 parent_url: "/zh-CN/why-shoppers-dont-buy/"
 seo_keywords:

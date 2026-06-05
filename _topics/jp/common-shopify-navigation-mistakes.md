@@ -3,6 +3,8 @@ lang: jp
 ref: common-shopify-navigation-mistakes
 title: "Shopifyストアでよくあるナビゲーションの間違い"
 description: "買い物客を遠ざけてしまう、Shopifyでよくある5つのナビゲーションの間違い。詰め込みすぎのメニュー、メガメニューの不在、ハンバーガーメニューへの依存、パンくずリストの欠落、誤ったカテゴリ分け。それぞれを見つけてきれいに直す方法を解説します。"
+image: "/images/why-shoppers-dont-buy/shopify-navigation-mistakes.webp"
+image_alt: "Shopifyストアでよくあるナビゲーションの間違い"
 parent_title: "なぜ買い物客はストアを訪れても買わないのか — ナビゲーションが果たす役割"
 parent_url: "/jp/why-shoppers-dont-buy/"
 seo_keywords:

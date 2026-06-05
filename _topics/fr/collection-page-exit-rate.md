@@ -3,6 +3,8 @@ lang: fr
 ref: collection-page-exit-rate
 title: "Métrique 3 — Le taux de sortie sur la page de collection"
 description: "Un taux de sortie élevé sur la page de collection vient souvent de libellés de menu qui ne correspondent pas à ce que montre la page. Comment le mesurer avec les Explorations GA4, et comment revoir et corriger votre menu pour garder vos clients."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Métrique 3 — Le taux de sortie sur la page de collection"
 parent_title: "Comment savoir si votre menu fonctionne — 5 métriques à suivre"
 parent_url: "/fr/measuring-menu-performance/"
 seo_keywords:

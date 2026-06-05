@@ -3,6 +3,8 @@ lang: vi
 ref: choose-shopify-theme
 title: "Chọn theme Shopify phù hợp"
 description: "Cách chọn theme Shopify nhanh, linh hoạt, dễ chuyển đổi — và thứ nên bỏ qua."
+image: "/images/sell-online-with-shopify/shopify-theme-conversion-foundation.webp"
+image_alt: "Chọn theme Shopify phù hợp"
 parent_title: "Làm sao bán hàng online hiệu quả với Shopify"
 parent_url: "/vi/sell-online-with-shopify/"
 seo_keywords:

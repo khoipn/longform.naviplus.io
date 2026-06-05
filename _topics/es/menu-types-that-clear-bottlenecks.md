@@ -3,6 +3,8 @@ lang: es
 ref: menu-types-that-clear-bottlenecks
 title: "Cómo los distintos tipos de menú resuelven los cuellos de botella de navegación"
 description: "Conoce los tipos de menú de Shopify (Mega Menu, Tab Bar, Slide Menu, FAB) y cómo cada uno resuelve el cuello de botella de navegación adecuado para que los clientes encuentren productos y compren con más facilidad."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "Cómo los distintos tipos de menú resuelven los cuellos de botella de navegación"
 parent_title: "Por qué los clientes visitan tu tienda pero no compran — y dónde encaja la navegación"
 parent_url: "/es/why-shoppers-dont-buy/"
 seo_keywords:

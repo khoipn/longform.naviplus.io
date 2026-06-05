@@ -3,6 +3,8 @@ lang: es
 ref: how-navigation-affects-revenue
 title: "Cómo la navegación afecta tus ingresos"
 description: "La navegación moldea los ingresos a través de la tasa de rebote, las páginas por sesión, el añadir al carrito y las visitas recurrentes. Cómo organizar un menú de tienda claro y rápido para vender más."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Cómo la navegación afecta tus ingresos"
 parent_title: "Por qué los visitantes llegan a tu tienda pero no compran — y qué papel juega la navegación"
 parent_url: "/es/why-shoppers-dont-buy/"
 seo_keywords:

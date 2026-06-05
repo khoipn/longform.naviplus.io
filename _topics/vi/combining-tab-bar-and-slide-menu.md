@@ -3,6 +3,8 @@ lang: vi
 ref: combining-tab-bar-and-slide-menu
 title: "Kết hợp Tab Bar + Slide Menu (và vai trò của FAB)"
 description: "Cách kết hợp tab bar slide menu trên Shopify mobile: Tab Bar lo đi nhanh, Slide Menu lo duyệt sâu, FAB lo một hành động. Phân vai rõ để khách tìm đường dễ."
+image: "/images/mobile-navigation-beyond-hamburger/tab-bar-slide-menu-fab-combination.webp"
+image_alt: "Kết hợp Tab Bar + Slide Menu (và vai trò của FAB)"
 parent_title: "Mobile navigation — vì sao hamburger menu đang lỗi thời và nên dùng gì thay thế"
 parent_url: "/vi/mobile-navigation-beyond-hamburger/"
 seo_keywords:

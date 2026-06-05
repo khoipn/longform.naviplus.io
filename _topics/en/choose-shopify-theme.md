@@ -3,6 +3,8 @@ lang: en
 ref: choose-shopify-theme
 title: "Choosing the right Shopify theme"
 description: "How to pick a fast, flexible Shopify theme that converts — and what to ignore."
+image: "/images/sell-online-with-shopify/shopify-theme-conversion-foundation.webp"
+image_alt: "Choosing the right Shopify theme"
 parent_title: "How to sell online effectively with Shopify"
 parent_url: "/sell-online-with-shopify/"
 seo_keywords:

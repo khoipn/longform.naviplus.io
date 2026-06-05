@@ -3,6 +3,8 @@ lang: es
 ref: tab-bar-mobile-navigation
 title: "La barra de pestañas — la principal alternativa"
 description: "Una barra de pestañas móvil es una franja de navegación inferior que facilita la compra: se ubica en la zona del pulgar, permanece visible sin necesidad de abrirla y se limita a 4 o 5 destinos principales."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "La barra de pestañas — la principal alternativa"
 parent_title: "Navegación móvil — por qué el menú hamburguesa está perdiendo terreno y qué usar en su lugar"
 parent_url: "/es/mobile-navigation-beyond-hamburger/"
 seo_keywords:

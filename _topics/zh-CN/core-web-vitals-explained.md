@@ -3,6 +3,8 @@ lang: zh-CN
 ref: core-web-vitals-explained
 title: "什么是 Core Web Vitals，为什么你应该关心它"
 description: "什么是 Core Web Vitals？用通俗的语言讲清楚 LCP、CLS 和 INP，附上 Google 公布的「良好」阈值，以及这三项指标为什么会影响你店铺的 SEO 和营收。"
+image: "/images/navigation-and-page-speed/core-web-vitals-menu-app.webp"
+image_alt: "什么是 Core Web Vitals，为什么你应该关心它"
 parent_title: "导航与页面速度——挑选一款不拖累 Core Web Vitals 的菜单应用"
 parent_url: "/zh-CN/navigation-and-page-speed/"
 seo_keywords:

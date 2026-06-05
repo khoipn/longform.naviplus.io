@@ -37,7 +37,7 @@ Most Shopify store owners treat currency switching as a technical checkbox: inst
 
 The data backs this up. A 2024 Baymard Institute study of 1,847 ecommerce sites found that 42% of international shoppers abandon sites within 8 seconds if they can't determine the currency. That's faster than most analytics tools can even track the visit. Your traffic reports show a bounce, but the real reason is buried in micro-frustrations: confusion, calculation effort, and a vague sense that "this store isn't for me."
 
-<figure><img src="/images/multi-currency-menu-ux/currency-cognitive-load.webp" alt="Heatmap showing user eye tracking pausing at unclear currency symbols" title="Eye tracking study: shoppers fixate 2.3x longer on ambiguous currency displays"><figcaption>Tobii eye-tracking research shows shoppers pause significantly longer when currency context is missing, disrupting the natural browse flow.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/multi-currency-menu-ux/currency-cognitive-load.webp" alt="Heatmap showing user eye tracking pausing at unclear currency symbols" title="Eye tracking study: shoppers fixate 2.3x longer on ambiguous currency displays"><figcaption>Tobii eye-tracking research shows shoppers pause significantly longer when currency context is missing, disrupting the natural browse flow.</figcaption></figure>
 
 Currency confusion creates cognitive load—the mental effort required to process information. Every time a shopper sees "$149" without context, their brain has to work:
 
@@ -64,7 +64,7 @@ Bad placements:
 
 When Shopify store "Peak Supply" moved their currency switcher from the footer to the header, their international conversion rate increased 14% within two weeks. The product didn't change. The prices didn't change. Shoppers just stopped doing math.
 
-<figure><img src="/images/multi-currency-menu-ux/currency-switcher-placement.webp" alt="Side-by-side comparison of currency switcher locations in navigation" title="Header vs footer currency placement: A/B test results"><figcaption>Header placement (left) outperforms footer placement (right) by 3.2x in click-through rates, according to 2025 Optimizely benchmarks.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/multi-currency-menu-ux/currency-switcher-placement.webp" alt="Side-by-side comparison of currency switcher locations in navigation" title="Header vs footer currency placement: A/B test results"><figcaption>Header placement (left) outperforms footer placement (right) by 3.2x in click-through rates, according to 2025 Optimizely benchmarks.</figcaption></figure>
 
 ### Clarity: show the currency, not just the symbol
 
@@ -96,7 +96,7 @@ On mobile, your currency switcher needs to be accessible in one tap from any pag
 
 The best mobile pattern is a sticky currency icon in the top navigation bar. Tap it, a dropdown appears, select your currency, done. No page reload, no losing your place, no back-button anxiety.
 
-<figure><img src="/images/multi-currency-menu-ux/mobile-currency-tap.webp" alt="Mobile screenshot showing currency dropdown activated from sticky header" title="Mobile currency UX: One tap to dropdown, instant update"><figcaption>Mobile-first currency design: sticky header icon, inline dropdown, no page reload. Used by 78% of top-performing international Shopify stores.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/multi-currency-menu-ux/mobile-currency-tap.webp" alt="Mobile screenshot showing currency dropdown activated from sticky header" title="Mobile currency UX: One tap to dropdown, instant update"><figcaption>Mobile-first currency design: sticky header icon, inline dropdown, no page reload. Used by 78% of top-performing international Shopify stores.</figcaption></figure>
 
 Avoid these mobile anti-patterns:
 - Currency switcher only in the footer (mobile users rarely scroll to footer)
@@ -142,7 +142,7 @@ Always test your full funnel:
 
 If they don't match, you have a configuration problem. Fix it before launching multi-currency—currency surprises at checkout have a 68% cart abandonment rate (Baymard).
 
-<figure><img src="/images/multi-currency-menu-ux/currency-checkout-consistency.webp" alt="Flowchart showing currency selection persisting from menu through checkout" title="Currency consistency: selection → cart → checkout must match"><figcaption>Currency must remain consistent across the entire journey. A mismatch at checkout destroys trust built during browsing.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/multi-currency-menu-ux/currency-checkout-consistency.webp" alt="Flowchart showing currency selection persisting from menu through checkout" title="Currency consistency: selection → cart → checkout must match"><figcaption>Currency must remain consistent across the entire journey. A mismatch at checkout destroys trust built during browsing.</figcaption></figure>
 
 ## Advanced patterns: when basic currency switching isn't enough
 
@@ -198,7 +198,7 @@ If you're running Google Shopping or Meta ads to international markets, your pro
 
 Showing prices in EUR doesn't help if you don't ship to Europe. Always pair currency options with clear shipping policy. Add a note like "We ship to 40+ countries. Delivery to [detected country] typically takes 5-7 days."
 
-<figure><img src="/images/multi-currency-menu-ux/currency-shipping-context.webp" alt="Navigation menu showing currency selector with shipping policy tooltip" title="Currency + shipping context reduces uncertainty"><figcaption>Effective currency UX provides immediate context about shipping availability, eliminating the "do they even ship here?" question.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/multi-currency-menu-ux/currency-shipping-context.webp" alt="Navigation menu showing currency selector with shipping policy tooltip" title="Currency + shipping context reduces uncertainty"><figcaption>Effective currency UX provides immediate context about shipping availability, eliminating the "do they even ship here?" question.</figcaption></figure>
 
 ## Testing and optimization: measure what matters
 

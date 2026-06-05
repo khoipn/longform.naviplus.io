@@ -3,6 +3,8 @@ lang: vi
 ref: combining-menu-types-for-your-store
 title: "Kết hợp các loại menu cho từng loại store"
 description: "Hướng dẫn kết hợp menu Shopify theo từng loại store: fashion, electronics, F&B, beauty, dropshipping. Mega Menu, Tab Bar, Slide Menu cho desktop và mobile."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "Kết hợp các loại menu cho từng loại store"
 parent_title: "Cách chọn đúng loại menu cho Shopify store của bạn"
 parent_url: "/vi/choosing-the-right-shopify-menu/"
 seo_keywords:

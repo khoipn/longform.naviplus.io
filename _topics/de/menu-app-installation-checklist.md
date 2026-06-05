@@ -3,6 +3,8 @@ lang: de
 ref: menu-app-installation-checklist
 title: "Eine Checkliste, die du vor der Installation jeder Menü-App durchgehen solltest"
 description: "Eine Checkliste für die Installation von Menü-Apps in Shopify-Shops: vier Schritte, um PageSpeed und Core Web Vitals vor und nach der Installation zu messen — damit du eine App wählst, die deine Seiten weder auf dem Handy noch auf dem Desktop verlangsamt."
+image: "/images/navigation-and-page-speed/menu-app-installation-checklist.webp"
+image_alt: "Eine Checkliste, die du vor der Installation jeder Menü-App durchgehen solltest"
 parent_title: "Navigation und Seitengeschwindigkeit — eine Menü-App wählen, die deinen Core Web Vitals nicht schadet"
 parent_url: "/de/navigation-and-page-speed/"
 seo_keywords:

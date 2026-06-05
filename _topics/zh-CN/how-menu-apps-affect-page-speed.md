@@ -3,6 +3,8 @@ lang: zh-CN
 ref: how-menu-apps-affect-page-speed
 title: "菜单应用如何影响页面速度——以及需要警惕的信号"
 description: "了解菜单应用如何影响页面加载速度，导航应用为何会拖慢你的店铺，以及如何用 PageSpeed Insights 和 DevTools 发现问题。"
+image: "/images/navigation-and-page-speed/menu-app-speed-impact.webp"
+image_alt: "菜单应用如何影响页面速度——以及需要警惕的信号"
 parent_title: "导航与页面加载速度——选择一款不损害 Core Web Vitals 的菜单应用"
 parent_url: "/zh-CN/navigation-and-page-speed/"
 seo_keywords:

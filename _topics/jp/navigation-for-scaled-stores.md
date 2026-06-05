@@ -3,6 +3,8 @@ lang: jp
 ref: navigation-for-scaled-stores
 title: "ステージ3 — スケールしたストア（商品500点以上、カテゴリ15以上）"
 description: "商品500点以上、カテゴリ15以上のスケールしたストアのナビゲーション。マルチカラムのメガメニュー、モバイルのTab Bar、検索、A/Bテスト、そしてNavi+で無理なく構築する方法を解説します。"
+image: "/images/navigation-for-every-store-stage/scaled-store-navigation-structure.webp"
+image_alt: "ステージ3 — スケールしたストア（商品500点以上、カテゴリ15以上）"
 parent_title: "ストア成長のすべてのステージに対応するナビゲーション — 商品10点から10,000点まで"
 parent_url: "/jp/navigation-for-every-store-stage/"
 seo_keywords:

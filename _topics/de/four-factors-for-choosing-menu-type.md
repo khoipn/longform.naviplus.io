@@ -3,6 +3,8 @@ lang: de
 ref: four-factors-for-choosing-menu-type
 title: "Vier Faktoren, die entscheiden, welchen Menütyp du brauchst"
 description: "Vier Faktoren für die Wahl eines Menüs für deinen Shopify-Shop: Katalogumfang, die Geräte deiner Kunden, deine Branche und ob das Ziel Stöbern oder Suchen ist. Jeder Faktor weist dir den Weg zu einem passenden Menütyp."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-decision-factors.webp"
+image_alt: "Vier Faktoren, die entscheiden, welchen Menütyp du brauchst"
 parent_title: "So wählst du den richtigen Menütyp für deinen Shopify-Shop"
 parent_url: "/de/choosing-the-right-shopify-menu/"
 seo_keywords:

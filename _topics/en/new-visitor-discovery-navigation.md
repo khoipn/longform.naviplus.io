@@ -3,6 +3,8 @@ lang: en
 ref: new-visitor-discovery-navigation
 title: "New visitor discovery: navigation that teaches your store"
 description: "How first-time visitors learn a store's structure through the menu — clear category labels, logical hierarchy, and navigation that makes the catalog obvious."
+image: "/images/first-time-vs-returning-visitors/new-visitor-discovery.webp"
+image_alt: "New visitor discovery: navigation that teaches your store"
 parent_title: "Navigation for first-time vs returning visitors: what changes"
 parent_url: "/first-time-vs-returning-visitors/"
 seo_keywords:

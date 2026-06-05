@@ -56,7 +56,7 @@ Most stores have both types of visitors, often in the same session. A shopper mi
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/category-browse-flow/">Read the full guide → Category browse flow: how shoppers navigate without searching</a></p>
 <figure>
-  <img src="/images/search-vs-navigation/search-vs-browse-intent.webp" alt="Two shoppers on the same store one using search bar one browsing categories showing different intents" title="Search intent vs browse intent in ecommerce">
+  <img src="https://cdn.naviplus.app/longform/images/search-vs-navigation/search-vs-browse-intent.webp" alt="Two shoppers on the same store one using search bar one browsing categories showing different intents" title="Search intent vs browse intent in ecommerce">
   <figcaption>The same store serves two different shopping intents — the search bar catches one, the menu catches the other.</figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ For a Shopify store, the built-in search has improved but still struggles with r
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/search-bar-patterns-ecommerce/">Read the full guide → Search bar patterns: placement, full-screen mobile, and instant results</a></p>
 <figure>
-  <img src="/images/search-vs-navigation/search-bar-placement-patterns.webp" alt="Ecommerce search bar placement patterns showing prominent header position with autocomplete results" title="Search bar placement best practices">
+  <img src="https://cdn.naviplus.app/longform/images/search-vs-navigation/search-bar-placement-patterns.webp" alt="Ecommerce search bar placement patterns showing prominent header position with autocomplete results" title="Search bar placement best practices">
   <figcaption>A prominent search bar with fast autocomplete serves the high-intent shopper who knows exactly what they want.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ On mobile, browsing navigation has an extra constraint: the thumb zone. A tabbar
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-search-ux-ecommerce/">Read the full guide → Mobile search UX: designing for thumbs and small screens</a></p>
 <figure>
-  <img src="/images/search-vs-navigation/category-browse-progressive-disclosure.webp" alt="Category navigation with progressive disclosure showing three levels of menu depth" title="Category browse progressive disclosure">
+  <img src="https://cdn.naviplus.app/longform/images/search-vs-navigation/category-browse-progressive-disclosure.webp" alt="Category navigation with progressive disclosure showing three levels of menu depth" title="Category browse progressive disclosure">
   <figcaption>Progressive disclosure lets the browser narrow their options one level at a time without feeling overwhelmed.</figcaption>
 </figure>
 
@@ -112,14 +112,14 @@ On mobile, a tabbar can include both a Categories button and a Search button, gi
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/search-navigation-integration/">Read the full guide → Search and navigation together: integrated discovery patterns</a></p>
 <figure>
-  <img src="/images/search-vs-navigation/search-navigation-integration.webp" alt="Integrated search and navigation showing category scoped search with filter sidebar" title="Search and navigation integration patterns">
+  <img src="https://cdn.naviplus.app/longform/images/search-vs-navigation/search-navigation-integration.webp" alt="Integrated search and navigation showing category scoped search with filter sidebar" title="Search and navigation integration patterns">
   <figcaption>When search and browse work together — scoped search, category suggestions, and filters — shoppers move fluidly between both styles.</figcaption>
 </figure>
 
 ## Where to start
 
 <figure>
-  <img src="/images/search-vs-navigation/search-vs-browse-audit.webp" alt="Store audit showing search bar visibility menu depth and mobile accessibility of both navigation styles" title="Search vs browse navigation audit">
+  <img src="https://cdn.naviplus.app/longform/images/search-vs-navigation/search-vs-browse-audit.webp" alt="Store audit showing search bar visibility menu depth and mobile accessibility of both navigation styles" title="Search vs browse navigation audit">
   <figcaption>A quick comparison of your search bar and your menu reveals which shopper type your store currently favors.</figcaption>
 </figure>
 

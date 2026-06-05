@@ -56,7 +56,7 @@ The logic is straightforward: if the shopper is in the checkout flow, the store'
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/checkout-header-patterns/">Read the full guide → Checkout header patterns: when to hide the menu</a></p>
 <figure>
-  <img src="/images/checkout-navigation-mistakes/minimal-checkout-header.webp" alt="Comparison of full navigation header versus minimal checkout header showing reduced distractions" title="Minimal checkout header reduces exits">
+  <img src="https://cdn.naviplus.app/longform/images/checkout-navigation-mistakes/minimal-checkout-header.webp" alt="Comparison of full navigation header versus minimal checkout header showing reduced distractions" title="Minimal checkout header reduces exits">
   <figcaption>A minimal checkout header removes distractions — the shopper's only clear path is forward to completing the order.</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ One pattern that helps: collapsing the header entirely on mobile checkout, or re
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/mobile-checkout-navigation/">Read the full guide → Mobile checkout navigation: one-thumb checkout flows</a></p>
 <figure>
-  <img src="/images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp" alt="Mobile checkout screen showing thumb zone reach and minimal navigation reducing friction" title="Mobile checkout thumb-friendly navigation">
+  <img src="https://cdn.naviplus.app/longform/images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp" alt="Mobile checkout screen showing thumb zone reach and minimal navigation reducing friction" title="Mobile checkout thumb-friendly navigation">
   <figcaption>On mobile, the checkout form competes with the navigation for screen space — less navigation means more room for the purchase flow.</figcaption>
 </figure>
 
@@ -88,7 +88,7 @@ There's no single right answer, but the principle holds: make it easy for the sh
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/cart-persistence-shortcuts/">Read the full guide → Cart persistence and shortcuts: keeping the cart accessible</a></p>
 <figure>
-  <img src="/images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp" alt="Cart icon visibility during checkout showing balance between access and distraction" title="Cart icon checkout visibility balance">
+  <img src="https://cdn.naviplus.app/longform/images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp" alt="Cart icon visibility during checkout showing balance between access and distraction" title="Cart icon checkout visibility balance">
   <figcaption>The cart icon should remain accessible during checkout, but not so prominent that it distracts from completing the order.</figcaption>
 </figure>
 
@@ -102,14 +102,14 @@ Exit-intent is more effective on desktop than mobile (cursor tracking is more re
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/exit-intent-checkout-recovery/">Read the full guide → Exit-intent and navigation-based recovery</a></p>
 <figure>
-  <img src="/images/checkout-navigation-mistakes/exit-intent-recovery.webp" alt="Exit intent popup catching shopper who clicks away from checkout showing last chance offer" title="Exit intent checkout recovery">
+  <img src="https://cdn.naviplus.app/longform/images/checkout-navigation-mistakes/exit-intent-recovery.webp" alt="Exit intent popup catching shopper who clicks away from checkout showing last chance offer" title="Exit intent checkout recovery">
   <figcaption>Exit-intent catches the shopper at the moment they navigate away — a last-chance prompt without blocking their choice.</figcaption>
 </figure>
 
 ## Where to start
 
 <figure>
-  <img src="/images/checkout-navigation-mistakes/checkout-navigation-audit.webp" alt="Checkout navigation audit checklist showing header menu cart icon and mobile flow review" title="Checkout navigation audit checklist">
+  <img src="https://cdn.naviplus.app/longform/images/checkout-navigation-mistakes/checkout-navigation-audit.webp" alt="Checkout navigation audit checklist showing header menu cart icon and mobile flow review" title="Checkout navigation audit checklist">
   <figcaption>Audit your checkout navigation by following your own purchase flow and counting every link that could take you away.</figcaption>
 </figure>
 

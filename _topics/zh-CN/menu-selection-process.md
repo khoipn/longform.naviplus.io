@@ -3,6 +3,8 @@ lang: zh-CN
 ref: menu-selection-process
 title: "决定合适菜单的实用流程"
 description: "面向 Shopify 商店的 5 步菜单选型流程：从移动端占比、分类层级深度，到在真实设备上用 Navi+ 搭建原型，依据你自己的数据来做决策。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-selection-process.webp"
+image_alt: "决定合适菜单的实用流程"
 parent_title: "如何为你的 Shopify 商店选择合适的菜单类型"
 parent_url: "/zh-CN/choosing-the-right-shopify-menu/"
 seo_keywords:

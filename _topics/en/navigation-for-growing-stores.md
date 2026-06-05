@@ -3,6 +3,8 @@ lang: en
 ref: navigation-for-growing-stores
 title: "Stage 2 — A Growing Store (50–500 products)"
 description: "Navigation for a growing store (50–500 products): when to upgrade your menu, using a desktop mega menu, Tab Bar and Slide Menu on mobile, and reading menu analytics to optimize."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Stage 2 — A Growing Store (50–500 products)"
 parent_title: "Navigation for every stage of a store's growth — from 10 to 10,000 products"
 parent_url: "/navigation-for-every-store-stage/"
 seo_keywords:

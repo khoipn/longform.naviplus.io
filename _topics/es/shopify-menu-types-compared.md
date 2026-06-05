@@ -3,6 +3,8 @@ lang: es
 ref: shopify-menu-types-compared
 title: "Un vistazo a cada tipo de menú: cuándo usarlo y cuándo no"
 description: "Un análisis de los tipos de menú de Shopify: mega menú, menú deslizante, barra de pestañas y FAB. Cuándo usar cada uno, cuándo no, errores comunes y consejos que puedes aplicar de inmediato."
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-types-compared.webp"
+image_alt: "Un vistazo a cada tipo de menú: cuándo usarlo y cuándo no"
 parent_title: "Cómo elegir el tipo de menú adecuado para tu tienda Shopify"
 parent_url: "/es/choosing-the-right-shopify-menu/"
 seo_keywords:

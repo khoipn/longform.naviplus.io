@@ -3,6 +3,8 @@ lang: zh-CN
 ref: navigation-for-new-stores
 title: "第一阶段——新店、小目录（不足 50 件商品）"
 description: "目录不足 50 件商品的新店，导航应当保持简单：桌面端顶部 3-5 个项目，移动端 4 个按钮的 Tab Bar。一份指南，以及需要避开的误区。"
+image: "/images/navigation-for-every-store-stage/new-store-simple-navigation.webp"
+image_alt: "第一阶段——新店、小目录（不足 50 件商品）"
 parent_title: "随门店成长的每个阶段配置导航——从 10 件到 10,000 件商品"
 parent_url: "/zh-CN/navigation-for-every-store-stage/"
 seo_keywords:

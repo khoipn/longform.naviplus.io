@@ -3,6 +3,8 @@ lang: vi
 ref: problems-with-hamburger-menu
 title: "Vấn đề thực sự của hamburger menu trên ecommerce mobile"
 description: "Vấn đề hamburger menu trên ecommerce mobile: ẩn quá nhiều, thêm bước thừa, khó với ngón cái và khuất tầm nhìn. Phân tích kèm số liệu và cách thay thế."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp"
+image_alt: "Vấn đề thực sự của hamburger menu trên ecommerce mobile"
 parent_title: "Mobile navigation — vì sao hamburger menu đang lỗi thời và nên dùng gì thay thế"
 parent_url: "/vi/mobile-navigation-beyond-hamburger/"
 seo_keywords:

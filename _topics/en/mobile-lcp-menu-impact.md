@@ -3,6 +3,8 @@ lang: en
 ref: mobile-lcp-menu-impact
 title: "Mobile LCP and menus: how navigation affects loading speed"
 description: "How menu scripts and styles contribute to Largest Contentful Paint on mobile — render-blocking resources, async loading, and keeping menus out of the critical path."
+image: "/images/mobile-menu-performance/menu-lcp-impact.webp"
+image_alt: "Mobile LCP and menus: how navigation affects loading speed"
 parent_title: "Mobile menu performance: why every millisecond matters"
 parent_url: "/mobile-menu-performance/"
 seo_keywords:

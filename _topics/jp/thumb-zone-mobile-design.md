@@ -3,6 +3,8 @@ lang: jp
 ref: thumb-zone-mobile-design
 title: "サムゾーン ― 人がスマホをどう持つかを理解する"
 description: "サムゾーンとは、スマホを片手で持ったときに親指が届く範囲のこと。これを理解すれば、購入ボタン、メニュー、Tab Barを適切な位置に配置でき、操作のストレスを減らし、注文の取りこぼしを防げます。"
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "サムゾーン ― 人がスマホをどう持つかを理解する"
 parent_title: "モバイルナビゲーション ― なぜハンバーガーメニューは時代遅れになりつつあるのか、代わりに何を使うべきか"
 parent_url: "/jp/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -52,7 +52,7 @@ But Shopify's menu system has architectural limits that aren't obvious until you
 These aren't bugs — they're design decisions. Shopify themes are built to serve a wide range of stores, from a 10-product jewelry shop to a 10,000-SKU outdoor retailer. The menu system is designed for the common case, not the complex one.
 
 <figure>
-  <img src="/images/shopify-theme-menu-limits/theme-menu-block-limit.webp" alt="Shopify theme editor showing 16 block limit error when adding menu items" title="Shopify theme block limit preventing additional menu items">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-theme-menu-limits/theme-menu-block-limit.webp" alt="Shopify theme editor showing 16 block limit error when adding menu items" title="Shopify theme block limit preventing additional menu items">
   <figcaption>Hitting the block limit in a Shopify theme — you can't add more items, even when your catalog demands it.</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ The point where a theme menu becomes a conversion obstacle varies by store, but 
 The cumulative effect is measurable. According to [Forrester Research](https://flxpoint.com/blog/how-user-interface-impacts-conversion-rates-in-ecommerce), a well-designed user interface can increase conversion rates by up to 200%, with thoughtful UX design yielding rates up to 400% higher. Navigation is one of the highest-leverage parts of that interface — roughly [69% of users rely on navigation or search](https://www.huptechweb.com/blogs/website-navigation-and-conversions) as their primary method to find products.
 
 <figure>
-  <img src="/images/shopify-theme-menu-limits/mobile-hamburger-conversion-gap.webp" alt="Mobile hamburger menu hiding categories and reducing product discovery on small screens" title="Hamburger menu conversion impact on mobile ecommerce">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-theme-menu-limits/mobile-hamburger-conversion-gap.webp" alt="Mobile hamburger menu hiding categories and reducing product discovery on small screens" title="Hamburger menu conversion impact on mobile ecommerce">
   <figcaption>A hamburger menu in the top corner hides your navigation in the hardest-to-reach spot on mobile — the thumb zone research shows the top corners require grip changes.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ Menu apps aren't just theme menus with more features — they're built on a fund
 The tradeoff is complexity. A theme menu is managed entirely through Shopify's admin and theme editor — no separate interface, no extra configuration. A menu app adds another dashboard, another set of settings, and (in some cases) another monthly cost.
 
 <figure>
-  <img src="/images/shopify-theme-menu-limits/app-vs-theme-menu-features.webp" alt="Comparison table showing menu app features versus theme menu limitations" title="Menu app capabilities compared to theme built-in navigation">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-theme-menu-limits/app-vs-theme-menu-features.webp" alt="Comparison table showing menu app features versus theme menu limitations" title="Menu app capabilities compared to theme built-in navigation">
   <figcaption>Menu apps remove the architectural constraints of theme menus — depth limits, block limits, and mobile pattern restrictions disappear.</figcaption>
 </figure>
 
@@ -122,7 +122,7 @@ The practical test: measure your Largest Contentful Paint (LCP) and Time to Inte
 For context, [ShopThemeFinder's 2026 mega menu guide](https://shopthemefinder.com/blogs/shopify/definitive-guide-to-shopify-mega-menus) notes that built-in theme mega menus are typically the fastest option, but they sacrifice flexibility. Apps are a reasonable tradeoff when the navigation improvement drives enough additional conversions to outweigh the performance cost — and for most stores with complex catalogs, that math works out.
 
 <figure>
-  <img src="/images/shopify-theme-menu-limits/menu-app-performance-metrics.webp" alt="Before and after performance metrics showing LCP and TTI impact of menu app installation" title="Menu app performance impact measurement">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-theme-menu-limits/menu-app-performance-metrics.webp" alt="Before and after performance metrics showing LCP and TTI impact of menu app installation" title="Menu app performance impact measurement">
   <figcaption>Measure LCP and TTI before and after installing a menu app — a well-built app adds less than 300ms to load time.</figcaption>
 </figure>
 
@@ -177,7 +177,7 @@ Example: A store doing $50,000/month with 50% mobile traffic and a 2% mobile con
 Apps with visual editors reduce the skill level required to make menu changes. If your theme menu requires editing Liquid code for anything beyond basic link changes, an app's interface may pay for itself in reduced maintenance time.
 
 <figure>
-  <img src="/images/shopify-theme-menu-limits/decision-flowchart.webp" alt="Decision flowchart showing when to use theme menu versus menu app based on catalog size and mobile metrics" title="Shopify menu decision framework">
+  <img src="https://cdn.naviplus.app/longform/images/shopify-theme-menu-limits/decision-flowchart.webp" alt="Decision flowchart showing when to use theme menu versus menu app based on catalog size and mobile metrics" title="Shopify menu decision framework">
   <figcaption>A simple decision tree: catalog size, mobile performance, and maintenance frequency determine whether a menu app is worth it.</figcaption>
 </figure>
 

@@ -3,6 +3,8 @@ lang: en
 ref: mobile-navigation-patterns
 title: "Mobile navigation patterns: tabbar, slide, and bottom sheet"
 description: "The navigation patterns that work on phones — bottom tabbars, slide-up menus, full-screen overlays — and the desktop patterns that don't translate to mobile."
+image: "/images/mobile-first-navigation-strategy/mobile-navigation-patterns.webp"
+image_alt: "Mobile navigation patterns: tabbar, slide, and bottom sheet"
 parent_title: "Building a mobile-first navigation strategy (not mobile-friendly)"
 parent_url: "/mobile-first-navigation-strategy/"
 seo_keywords:

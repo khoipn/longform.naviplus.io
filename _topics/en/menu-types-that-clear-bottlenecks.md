@@ -3,6 +3,8 @@ lang: en
 ref: menu-types-that-clear-bottlenecks
 title: "How Different Menu Types Solve Navigation Bottlenecks"
 description: "Learn about Shopify menu types (Mega Menu, Tab Bar, Slide Menu, FAB) and how each one fixes the right navigation bottleneck so customers can find products and buy more easily."
+image: "/images/why-shoppers-dont-buy/ecommerce-menu-types-bottlenecks.webp"
+image_alt: "How Different Menu Types Solve Navigation Bottlenecks"
 parent_title: "Why Customers Visit Your Store but Don't Buy — and How Navigation Fits In"
 parent_url: "/why-shoppers-dont-buy/"
 seo_keywords:

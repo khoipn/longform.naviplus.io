@@ -3,6 +3,8 @@ lang: de
 ref: problems-with-hamburger-menu
 title: "Das eigentliche Problem mit dem Hamburger-Menü im mobilen E-Commerce"
 description: "Das Problem mit dem Hamburger-Menü im mobilen E-Commerce: Es versteckt zu viel, erzwingt zusätzliche Schritte, liegt außerhalb der Daumenreichweite und bleibt unsichtbar. Eine Analyse mit Daten und Alternativen."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-hamburger-menu-problem.webp"
+image_alt: "Das eigentliche Problem mit dem Hamburger-Menü im mobilen E-Commerce"
 parent_title: "Mobile Navigation — warum das Hamburger-Menü veraltet und was du stattdessen verwenden solltest"
 parent_url: "/de/mobile-navigation-beyond-hamburger/"
 seo_keywords:

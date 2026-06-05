@@ -3,6 +3,8 @@ lang: en
 ref: curated-categories-navigation
 title: "Curated categories: navigation that guides decisions"
 description: "How to organize ecommerce menus around buyer intent instead of product attributes — curated collections, occasion-based navigation, and reducing choice through structure."
+image: "/images/reducing-decision-fatigue/curated-vs-attribute-categories.webp"
+image_alt: "Curated categories: navigation that guides decisions"
 parent_title: "Too many choices: how navigation can reduce decision fatigue"
 parent_url: "/reducing-decision-fatigue/"
 seo_keywords:

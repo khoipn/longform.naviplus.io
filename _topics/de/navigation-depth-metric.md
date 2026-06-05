@@ -3,6 +3,8 @@ lang: de
 ref: navigation-depth-metric
 title: "Kennzahl 2 — Navigationstiefe"
 description: "Die Navigationstiefe misst die Anzahl der Schritte von der Startseite bis zu einem Produkt. So messen Sie sie in GA4, der 2-3-Schritte-Richtwert und wie Sie mit einem Mega Menu und einer Tab Bar den Weg bis zum Kauf verkürzen."
+image: "/images/measuring-menu-performance/navigation-depth-click-path.webp"
+image_alt: "Kennzahl 2 — Navigationstiefe"
 parent_title: "So erkennen Sie, ob Ihr Menü funktioniert — 5 Kennzahlen, die Sie verfolgen sollten"
 parent_url: "/de/measuring-menu-performance/"
 seo_keywords:

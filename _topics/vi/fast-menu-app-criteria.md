@@ -3,6 +3,8 @@ lang: vi
 ref: fast-menu-app-criteria
 title: "Tiêu chí đánh giá một app menu tốt về tốc độ"
 description: "Năm tiêu chí app menu nhanh bạn tự kiểm được: lazy loading, JavaScript gọn, không chặn render, CDN và badge Built for Shopify. Soi theo Core Web Vitals."
+image: "/images/navigation-and-page-speed/fast-menu-app-criteria.webp"
+image_alt: "Tiêu chí đánh giá một app menu tốt về tốc độ"
 parent_title: "Navigation và tốc độ tải trang — chọn app menu không ảnh hưởng Core Web Vitals"
 parent_url: "/vi/navigation-and-page-speed/"
 seo_keywords:

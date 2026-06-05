@@ -3,6 +3,8 @@ lang: en
 ref: search-navigation-integration
 title: "Search and navigation together: integrated discovery patterns"
 description: "How to combine search and category navigation — scoped search within categories, mega menu search combos, filters as navigation, and creating a unified discovery experience."
+image: "/images/search-vs-navigation/search-navigation-integration.webp"
+image_alt: "Search and navigation together: integrated discovery patterns"
 parent_title: "When shoppers search vs browse: designing for both behaviors"
 parent_url: "/search-vs-navigation/"
 seo_keywords:

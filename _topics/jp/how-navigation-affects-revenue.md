@@ -3,6 +3,8 @@ lang: jp
 ref: how-navigation-affects-revenue
 title: "ナビゲーションが売上にどう影響するか"
 description: "ナビゲーションは直帰率、セッションあたりのページ数、カート追加、再訪を通じて売上を左右します。より多く売るために、わかりやすく速いストアメニューをどう設計するか。"
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "ナビゲーションが売上にどう影響するか"
 parent_title: "なぜ訪問者はストアに来ても買わないのか — そしてナビゲーションが果たす役割"
 parent_url: "/jp/why-shoppers-dont-buy/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: en
 ref: navigation-scaling-patterns
 title: "Scaling patterns: how navigation evolves with the store"
 description: "Common stages of navigation growth — from launch to scale — and the signals that tell you it's time to restructure the menu before it breaks."
+image: "/images/navigation-at-100-vs-1000-products/navigation-scaling-timeline.webp"
+image_alt: "Scaling patterns: how navigation evolves with the store"
 parent_title: "How navigation needs change as your catalog grows from 100 to 1000+ products"
 parent_url: "/navigation-at-100-vs-1000-products/"
 seo_keywords:

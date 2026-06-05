@@ -3,6 +3,8 @@ lang: it
 ref: navigation-for-growing-stores
 title: "Fase 2 — Un negozio in crescita (50–500 prodotti)"
 description: "La navigazione per un negozio in crescita (50–500 prodotti): quando aggiornare il menu, usare un mega menu su desktop, Tab Bar e Slide Menu su mobile, e leggere le analisi del menu per ottimizzare."
+image: "/images/navigation-for-every-store-stage/growing-store-mega-menu.webp"
+image_alt: "Fase 2 — Un negozio in crescita (50–500 prodotti)"
 parent_title: "La navigazione per ogni fase di crescita di un negozio — da 10 a 10.000 prodotti"
 parent_url: "/it/navigation-for-every-store-stage/"
 seo_keywords:

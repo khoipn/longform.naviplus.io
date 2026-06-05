@@ -35,7 +35,7 @@ date: 2026-06-04
 
 <p>When a shopper says "I wanted to compare prices" or "I wasn't sure about the return policy," they're describing navigation failures. They needed information but couldn't find it easily. When someone says "I got distracted," it often means they clicked away and couldn't find their way back to the cart.</p>
 
-<figure><img src="/images/cart-recovery-navigation/abandonment-funnel.webp" alt="Cart abandonment funnel showing drop-off points" title="Where shoppers abandon: the hidden navigation moments"><figcaption>Cart abandonment happens at predictable moments—each one influenced by navigation design</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/cart-recovery-navigation/abandonment-funnel.webp" alt="Cart abandonment funnel showing drop-off points" title="Where shoppers abandon: the hidden navigation moments"><figcaption>Cart abandonment happens at predictable moments—each one influenced by navigation design</figcaption></figure>
 
 <p>Consider the typical journey: A shopper adds a product to their cart. Good start. But before checking out, they want to verify the return policy. If your navigation doesn't make this information accessible, they have three options: hunt for it (friction), leave to Google it (risk of distraction), or proceed without confidence (setup for post-purchase regret).</p>
 
@@ -63,7 +63,7 @@ date: 2026-06-04
 
 <p>Your navigation here serves a different purpose than on product pages. It's not about exploration—it's about reassurance and elimination of doubt.</p>
 
-<figure><img src="/images/cart-recovery-navigation/cart-page-navigation.webp" alt="Strategic navigation elements on cart page" title="Navigation on the cart page: reassurance over exploration"><figcaption>Cart page navigation should reduce friction, not create new exit paths</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/cart-recovery-navigation/cart-page-navigation.webp" alt="Strategic navigation elements on cart page" title="Navigation on the cart page: reassurance over exploration"><figcaption>Cart page navigation should reduce friction, not create new exit paths</figcaption></figure>
 
 <p>Effective cart-phase navigation includes:</p>
 
@@ -91,7 +91,7 @@ date: 2026-06-04
 <li><strong>Progress indicator:</strong> Technically navigation—it shows where they are in the process and reduces the "how long will this take?" anxiety that triggers abandonment</li>
 </ul>
 
-<figure><img src="/images/cart-recovery-navigation/checkout-minimal-nav.webp" alt="Minimalist checkout navigation maintaining trust signals" title="Checkout navigation: stripped down but not stripped away"><figcaption>Checkout navigation balances focus with access to reassurance</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/cart-recovery-navigation/checkout-minimal-nav.webp" alt="Minimalist checkout navigation maintaining trust signals" title="Checkout navigation: stripped down but not stripped away"><figcaption>Checkout navigation balances focus with access to reassurance</figcaption></figure>
 
 <h2>Mobile cart recovery: navigation gets critical</h2>
 
@@ -111,7 +111,7 @@ date: 2026-06-04
 
 <p><strong>One-tap return to shopping:</strong> After adding to cart, mobile shoppers often want to continue browsing. A clear "Continue Shopping" link that returns them to the exact category or collection they were viewing maintains the shopping momentum.</p>
 
-<figure><img src="/images/cart-recovery-navigation/mobile-cart-fab.webp" alt="Floating cart button on mobile interface" title="Mobile FAB: persistent cart access without screen real estate sacrifice"><figcaption>Floating cart buttons give mobile shoppers constant access without cluttering the interface</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/cart-recovery-navigation/mobile-cart-fab.webp" alt="Floating cart button on mobile interface" title="Mobile FAB: persistent cart access without screen real estate sacrifice"><figcaption>Floating cart buttons give mobile shoppers constant access without cluttering the interface</figcaption></figure>
 
 <h2>Recovery navigation in action: specific implementations</h2>
 
@@ -148,7 +148,7 @@ date: 2026-06-04
 
 <p>On cart and checkout pages, this bar can become more specific: "Questions? Click here to chat" or "Your cart is automatically saved."</p>
 
-<figure><img src="/images/cart-recovery-navigation/trust-signal-bar.webp" alt="Persistent trust signal bar above main navigation" title="Trust signals: always visible, never intrusive"><figcaption>A sticky trust bar provides reassurance at every scroll depth</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/cart-recovery-navigation/trust-signal-bar.webp" alt="Persistent trust signal bar above main navigation" title="Trust signals: always visible, never intrusive"><figcaption>A sticky trust bar provides reassurance at every scroll depth</figcaption></figure>
 
 <h2>What not to do: navigation patterns that increase abandonment</h2>
 

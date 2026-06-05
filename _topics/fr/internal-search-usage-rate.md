@@ -3,6 +3,8 @@ lang: fr
 ref: internal-search-usage-rate
 title: "Indicateur 5 — Taux d'utilisation de la recherche interne"
 description: "Ce qu'est le taux d'utilisation de la recherche, comment le mesurer avec GA4, et comment lire vos requêtes de recherche les plus fréquentes pour nommer vos rubriques de menu dans la langue de vos clients et réduire le nombre de fois où ils doivent chercher eux-mêmes dans la boutique."
+image: "/images/measuring-menu-performance/internal-search-menu-gaps.webp"
+image_alt: "Indicateur 5 — Taux d'utilisation de la recherche interne"
 parent_title: "Comment savoir si votre menu fonctionne — 5 indicateurs à suivre"
 parent_url: "/fr/measuring-menu-performance/"
 seo_keywords:

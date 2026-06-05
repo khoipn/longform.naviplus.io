@@ -33,7 +33,7 @@ When someone lands on your homepage, navigation is essential. They need to explo
 
 Every element on your checkout page either moves them toward completing the purchase or gives them a reason to hesitate. And here's the uncomfortable truth: [70.19% of shoppers abandon their carts before completing checkout](https://baymard.com/lists/cart-abandonment-rate). While unexpected costs and complicated forms are the primary culprits (39% and 18% respectively), visual distractions and competing navigation play a measurable role.
 
-<figure><img src="/images/checkout-header-navigation/checkout-abandonment-funnel.webp" alt="Checkout abandonment funnel showing drop-off rates at each stage" title="The checkout funnel: every step is an opportunity to lose a customer"><figcaption>According to Baymard Institute, the average cart abandonment rate is 70.19%, with mobile checkout converting 30-50% lower than desktop. Better checkout design can recover up to 35% of those lost sales.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/checkout-header-navigation/checkout-abandonment-funnel.webp" alt="Checkout abandonment funnel showing drop-off rates at each stage" title="The checkout funnel: every step is an opportunity to lose a customer"><figcaption>According to Baymard Institute, the average cart abandonment rate is 70.19%, with mobile checkout converting 30-50% lower than desktop. Better checkout design can recover up to 35% of those lost sales.</figcaption></figure>
 
 Think about it from the shopper's perspective. They're entering credit card information—a moment of heightened anxiety and focus. Then they glance up and see links to "New Arrivals," "Sale," "About Us," and "Blog." Each link is a cognitive interruption. Each one whispers: *Maybe I should keep looking. Maybe there's a better deal. Maybe I don't need this right now.*
 
@@ -56,7 +56,7 @@ That 5.5% RPV lift is particularly significant because it's compounding—better
 
 The math is straightforward. [Large ecommerce businesses can improve conversion by as much as 35.26% through better checkout design alone](https://www.digitalapplied.com/blog/ecommerce-checkout-optimization-2026-ux-guide), according to Baymard Institute data. And header simplification is one of the lowest-effort, highest-return changes you can make.
 
-<figure><img src="/images/checkout-header-navigation/header-comparison.webp" alt="Side-by-side comparison of full navigation header vs simplified checkout header" title="Full navigation vs simplified checkout header"><figcaption>Left: standard navigation with 8+ links competing for attention. Right: simplified checkout header with logo and support link only. The simpler design removes exit points and keeps focus on completing the purchase.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/checkout-header-navigation/header-comparison.webp" alt="Side-by-side comparison of full navigation header vs simplified checkout header" title="Full navigation vs simplified checkout header"><figcaption>Left: standard navigation with 8+ links competing for attention. Right: simplified checkout header with logo and support link only. The simpler design removes exit points and keeps focus on completing the purchase.</figcaption></figure>
 
 But here's where it gets nuanced. "Simplified" doesn't automatically mean "removed entirely." The best approach depends on your store, your customers, and your checkout flow.
 
@@ -97,7 +97,7 @@ This adds a subtle breadcrumb trail: Home > Cart > Checkout. It gives shoppers a
 
 The breadcrumb serves a psychological purpose more than a navigational one. [Research on checkout UX](https://www.shopify.com/enterprise/blog/checkout-page-design) shows that shoppers need to know where they are in the process. A breadcrumb provides that without the cognitive load of a full navigation menu.
 
-<figure><img src="/images/checkout-header-navigation/breadcrumb-example.webp" alt="Checkout page with breadcrumb navigation showing Cart > Information > Shipping > Payment steps" title="Breadcrumb navigation provides context without distraction"><figcaption>Breadcrumbs give shoppers a sense of progress and location without offering multiple exit points. They answer "where am I?" without encouraging "maybe I should go back."</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/checkout-header-navigation/breadcrumb-example.webp" alt="Checkout page with breadcrumb navigation showing Cart > Information > Shipping > Payment steps" title="Breadcrumb navigation provides context without distraction"><figcaption>Breadcrumbs give shoppers a sense of progress and location without offering multiple exit points. They answer "where am I?" without encouraging "maybe I should go back."</figcaption></figure>
 
 One important note: make sure your breadcrumb links are one-way only. Clicking "Cart" should take them backward in the checkout flow, not to your main shopping cart page with all its distractions. You're creating a controlled environment, not an escape hatch.
 
@@ -128,7 +128,7 @@ Here's where things get interesting. Trust signals—security badges, payment lo
 
 The lesson: trust signals work, but they belong near the point of friction (entering payment info, clicking "Purchase"), not in the header competing for attention.
 
-<figure><img src="/images/checkout-header-navigation/trust-signals-placement.webp" alt="Heatmap showing trust signal effectiveness by placement: footer vs near CTA vs header" title="Trust signal placement dramatically affects conversion"><figcaption>Trust signals near the point of action (payment form, CTA button) outperform header placement by 15-19%. Place security badges, payment logos, and guarantees where anxiety is highest—not where they're easiest to design.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/checkout-header-navigation/trust-signals-placement.webp" alt="Heatmap showing trust signal effectiveness by placement: footer vs near CTA vs header" title="Trust signal placement dramatically affects conversion"><figcaption>Trust signals near the point of action (payment form, CTA button) outperform header placement by 15-19%. Place security badges, payment logos, and guarantees where anxiety is highest—not where they're easiest to design.</figcaption></figure>
 
 **Where to put trust signals instead of the header:**
 
@@ -163,7 +163,7 @@ Let's look at how some of the biggest ecommerce players handle checkout headers:
 
 The pattern is clear: major brands treat checkout as a distinct experience, not just another page on the site.
 
-<figure><img src="/images/checkout-header-navigation/brand-examples.webp" alt="Generic examples of major ecommerce checkout headers showing minimal navigation patterns" title="How major brands simplify checkout headers"><figcaption>High-converting ecommerce checkout patterns use distinct headers that remove standard navigation. They keep identity, progress indicators, and support access—but eliminate every link that isn't directly related to completing the purchase.</figcaption></figure>
+<figure><img src="https://cdn.naviplus.app/longform/images/checkout-header-navigation/brand-examples.webp" alt="Generic examples of major ecommerce checkout headers showing minimal navigation patterns" title="How major brands simplify checkout headers"><figcaption>High-converting ecommerce checkout patterns use distinct headers that remove standard navigation. They keep identity, progress indicators, and support access—but eliminate every link that isn't directly related to completing the purchase.</figcaption></figure>
 
 ## Common objections (and why they're wrong)
 

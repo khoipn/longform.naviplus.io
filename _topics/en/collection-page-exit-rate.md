@@ -3,6 +3,8 @@ lang: en
 ref: collection-page-exit-rate
 title: "Metric 3 — Exit rate on the collection page"
 description: "A high collection page exit rate often comes from menu labels that don't match what the page shows. How to measure it with GA4 Explorations, and how to review and fix your menu to keep customers."
+image: "/images/measuring-menu-performance/category-page-exit-rate.webp"
+image_alt: "Metric 3 — Exit rate on the collection page"
 parent_title: "How to tell whether your menu is working — 5 metrics worth tracking"
 parent_url: "/measuring-menu-performance/"
 seo_keywords:

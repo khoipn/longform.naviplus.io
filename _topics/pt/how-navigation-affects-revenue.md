@@ -3,6 +3,8 @@ lang: pt
 ref: how-navigation-affects-revenue
 title: "Como a Navegação Afeta a Sua Receita"
 description: "A navegação molda a receita por meio da taxa de rejeição, das páginas por sessão, do adicionar ao carrinho e das visitas recorrentes. Como organizar um menu de loja claro e rápido para vender mais."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Como a Navegação Afeta a Sua Receita"
 parent_title: "Por que os Visitantes Chegam à Sua Loja mas Não Compram — e Onde a Navegação Entra Nisso"
 parent_url: "/pt/why-shoppers-dont-buy/"
 seo_keywords:

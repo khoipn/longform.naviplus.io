@@ -3,6 +3,8 @@ lang: en
 ref: language-switcher-navigation
 title: "Language switcher patterns in navigation"
 description: "Where to place the language picker, flag icons versus text labels, auto-detection pitfalls, and designing language switching that doesn't confuse international shoppers."
+image: "/images/international-store-navigation/language-switcher-placement.webp"
+image_alt: "Language switcher patterns in navigation"
 parent_title: "Navigation for international stores: language, currency, and regional catalogs"
 parent_url: "/international-store-navigation/"
 seo_keywords:

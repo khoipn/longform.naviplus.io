@@ -3,6 +3,8 @@ lang: jp
 ref: mobile-vs-desktop-navigation-behavior
 title: "指標その4 — モバイルとデスクトップのナビゲーション行動"
 description: "モバイルとデスクトップのナビゲーションを比較する方法。GA4での測定、モバイルの離脱がデスクトップより高くなったときの危険信号、そしてデバイスごとにTab Barのレイアウトを分ける方法を解説します。"
+image: "/images/measuring-menu-performance/mobile-desktop-navigation-behavior.webp"
+image_alt: "指標その4 — モバイルとデスクトップのナビゲーション行動"
 parent_title: "メニューが機能しているかを知る方法 — 追うべき5つの指標"
 parent_url: "/jp/measuring-menu-performance/"
 seo_keywords:

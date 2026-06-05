@@ -3,6 +3,8 @@ lang: en
 ref: mobile-performance-budget-navigation
 title: "Mobile performance budget for navigation"
 description: "Setting a performance budget for menu scripts — JavaScript weight, CSS size, DOM nodes, and render time thresholds that keep navigation fast on real phones."
+image: "/images/mobile-menu-performance/performance-budget-navigation.webp"
+image_alt: "Mobile performance budget for navigation"
 parent_title: "Mobile menu performance: why every millisecond matters"
 parent_url: "/mobile-menu-performance/"
 seo_keywords:

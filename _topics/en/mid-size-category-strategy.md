@@ -3,6 +3,8 @@ lang: en
 ref: mid-size-category-strategy
 title: "Mid-size category strategy: organizing 100–500 products"
 description: "When to add subcategories, how to group products logically, and structuring navigation for mid-size Shopify stores without premature complexity."
+image: "/images/navigation-at-100-vs-1000-products/mid-size-category-structure.webp"
+image_alt: "Mid-size category strategy: organizing 100–500 products"
 parent_title: "How navigation needs change as your catalog grows from 100 to 1000+ products"
 parent_url: "/navigation-at-100-vs-1000-products/"
 seo_keywords:

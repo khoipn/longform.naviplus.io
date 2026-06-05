@@ -3,6 +3,8 @@ lang: en
 ref: tab-bar-mobile-navigation
 title: "Tab Bar — the main alternative"
 description: "A mobile tab bar is a bottom navigation strip that makes buying easier: it sits in the thumb zone, stays visible without opening, and is limited to 4-5 main destinations."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "Tab Bar — the main alternative"
 parent_title: "Mobile navigation — why the hamburger menu is fading and what to use instead"
 parent_url: "/mobile-navigation-beyond-hamburger/"
 seo_keywords:

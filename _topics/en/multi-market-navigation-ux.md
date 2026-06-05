@@ -3,6 +3,8 @@ lang: en
 ref: multi-market-navigation-ux
 title: "Multi-market UX: one store serving many countries"
 description: "Designing navigation that adapts to the visitor's market without confusion — auto-detection, confirmation prompts, and maintaining consistency across markets."
+image: "/images/international-store-navigation/multi-market-ux.webp"
+image_alt: "Multi-market UX: one store serving many countries"
 parent_title: "Navigation for international stores: language, currency, and regional catalogs"
 parent_url: "/international-store-navigation/"
 seo_keywords:

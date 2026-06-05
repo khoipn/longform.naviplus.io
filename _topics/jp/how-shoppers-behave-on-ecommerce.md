@@ -3,6 +3,8 @@ lang: jp
 ref: how-shoppers-behave-on-ecommerce
 title: "ECストアでお客様が実際にとる行動"
 description: "ストアでのユーザー行動：お客様は読まずに見渡し、その視線はFパターンやZパターンをたどり、モバイルとデスクトップでは挙動が異なる。これを理解すれば、ナビゲーションとメニューを正しく配置できる。"
+image: "/images/why-shoppers-dont-buy/mobile-navigation-thumb-zone.webp"
+image_alt: "ECストアでお客様が実際にとる行動"
 parent_title: "お客様はストアに来るのに買わない理由 — そしてナビゲーションが果たす役割"
 parent_url: "/jp/why-shoppers-dont-buy/"
 seo_keywords:

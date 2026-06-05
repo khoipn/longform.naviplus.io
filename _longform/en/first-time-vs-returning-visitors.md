@@ -60,7 +60,7 @@ On mobile, a tabbar with a Categories button gives first-time visitors a clear e
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/new-visitor-discovery-navigation/">Read the full guide → New visitor discovery: navigation that teaches your store</a></p>
 <figure>
-  <img src="/images/first-time-vs-returning-visitors/new-visitor-discovery.webp" alt="First-time visitor seeing store menu with clear category labels learning the store structure" title="New visitor navigation discovery">
+  <img src="https://cdn.naviplus.app/longform/images/first-time-vs-returning-visitors/new-visitor-discovery.webp" alt="First-time visitor seeing store menu with clear category labels learning the store structure" title="New visitor navigation discovery">
   <figcaption>A first-time visitor uses the menu to learn what the store sells — clear labels and logical hierarchy do the teaching.</figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ On mobile, a persistent tabbar serves returning customers through the Cart butto
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/returning-user-shortcuts/">Read the full guide → Returning user shortcuts: navigation that remembers</a></p>
 <figure>
-  <img src="/images/first-time-vs-returning-visitors/returning-customer-shortcuts.webp" alt="Returning customer seeing recently viewed products and quick reorder shortcuts in navigation" title="Returning customer navigation shortcuts">
+  <img src="https://cdn.naviplus.app/longform/images/first-time-vs-returning-visitors/returning-customer-shortcuts.webp" alt="Returning customer seeing recently viewed products and quick reorder shortcuts in navigation" title="Returning customer navigation shortcuts">
   <figcaption>Returning customers don't need to be taught the store — they need shortcuts to where they already know they want to go.</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ For most Shopify stores, the most effective personalization is subtle: recently 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/navigation-personalization/">Read the full guide → Navigation personalization: what works and what doesn't</a></p>
 <figure>
-  <img src="/images/first-time-vs-returning-visitors/navigation-personalization-spectrum.webp" alt="Spectrum of navigation personalization from helpful recently viewed to intrusive dynamic menu changes" title="Navigation personalization spectrum">
+  <img src="https://cdn.naviplus.app/longform/images/first-time-vs-returning-visitors/navigation-personalization-spectrum.webp" alt="Spectrum of navigation personalization from helpful recently viewed to intrusive dynamic menu changes" title="Navigation personalization spectrum">
   <figcaption>Personalization works when the customer understands why — recently viewed is helpful, silently rearranged menus feel intrusive.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ A tabbar ties both layers together. Categories for discovery, Cart for purchase 
 
 <p class="lf-readmore"><span class="lf-readmore-kicker">Deep-dive</span><a href="/topic/adaptive-navigation-patterns/">Read the full guide → Adaptive navigation patterns for different visitor stages</a></p>
 <figure>
-  <img src="/images/first-time-vs-returning-visitors/navigation-layers-both-visitors.webp" alt="Navigation layers showing base category menu for new visitors and shortcut layer for returning customers" title="Navigation layers for both visitor types">
+  <img src="https://cdn.naviplus.app/longform/images/first-time-vs-returning-visitors/navigation-layers-both-visitors.webp" alt="Navigation layers showing base category menu for new visitors and shortcut layer for returning customers" title="Navigation layers for both visitor types">
   <figcaption>One navigation system with two layers — categories for discovery, shortcuts for efficiency — serves both visitor types without compromise.</figcaption>
 </figure>
 

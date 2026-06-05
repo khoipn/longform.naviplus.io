@@ -3,6 +3,8 @@ lang: en
 ref: shopify-navigation
 title: "Set up a high-converting navigation"
 description: "Why store navigation quietly decides conversion — and how to get it right on mobile and desktop."
+image: "/images/sell-online-with-shopify/shopify-navigation-conversion-path.webp"
+image_alt: "Set up a high-converting navigation"
 parent_title: "How to sell online effectively with Shopify"
 parent_url: "/sell-online-with-shopify/"
 seo_keywords:

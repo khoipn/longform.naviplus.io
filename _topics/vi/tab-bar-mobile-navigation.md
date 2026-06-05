@@ -3,6 +3,8 @@ lang: vi
 ref: tab-bar-mobile-navigation
 title: "Tab Bar — giải pháp thay thế chính"
 description: "Tab bar mobile là thanh điều hướng dưới đáy giúp khách dễ mua hàng hơn: đúng vùng ngón cái, hiện sẵn không cần mở, giới hạn 4-5 điểm đến chính."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "Tab Bar — giải pháp thay thế chính"
 parent_title: "Mobile navigation — vì sao hamburger menu đang lỗi thời và nên dùng gì thay thế"
 parent_url: "/vi/mobile-navigation-beyond-hamburger/"
 seo_keywords:

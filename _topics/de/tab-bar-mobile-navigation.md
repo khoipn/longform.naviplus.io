@@ -3,6 +3,8 @@ lang: de
 ref: tab-bar-mobile-navigation
 title: "Tab Bar — die wichtigste Alternative"
 description: "Eine mobile Tab Bar ist eine Navigationsleiste am unteren Rand, die das Einkaufen erleichtert: Sie liegt in der Daumenzone, ist ohne Öffnen sichtbar und beschränkt sich auf 4-5 Hauptziele."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-tab-bar-navigation.webp"
+image_alt: "Tab Bar — die wichtigste Alternative"
 parent_title: "Mobile Navigation — warum das Hamburger-Menü verschwindet und was stattdessen funktioniert"
 parent_url: "/de/mobile-navigation-beyond-hamburger/"
 seo_keywords:

@@ -3,6 +3,8 @@ lang: fr
 ref: how-navigation-affects-revenue
 title: "Comment la navigation influence votre chiffre d'affaires"
 description: "La navigation façonne le chiffre d'affaires à travers le taux de rebond, les pages par session, l'ajout au panier et les visites de retour. Comment organiser un menu de boutique clair et rapide pour vendre davantage."
+image: "/images/why-shoppers-dont-buy/navigation-revenue-leak.webp"
+image_alt: "Comment la navigation influence votre chiffre d'affaires"
 parent_title: "Pourquoi les visiteurs viennent dans votre boutique sans acheter — et le rôle de la navigation"
 parent_url: "/fr/why-shoppers-dont-buy/"
 seo_keywords:

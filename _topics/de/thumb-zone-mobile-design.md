@@ -3,6 +3,8 @@ lang: de
 ref: thumb-zone-mobile-design
 title: "Die Daumenzone — verstehen, wie Menschen ihr Smartphone halten"
 description: "Die Daumenzone ist der Bereich, den der Daumen erreicht, wenn man das Smartphone einhändig hält. Wer sie versteht, platziert Kaufbuttons, Menüs und die Tab Bar an der richtigen Stelle, reduziert Reibung und schließt mehr Bestellungen ab."
+image: "/images/mobile-navigation-beyond-hamburger/mobile-thumb-zone-navigation.webp"
+image_alt: "Die Daumenzone — verstehen, wie Menschen ihr Smartphone halten"
 parent_title: "Mobile Navigation — warum das Hamburger-Menü veraltet und was du stattdessen verwenden solltest"
 parent_url: "/de/mobile-navigation-beyond-hamburger/"
 seo_keywords:

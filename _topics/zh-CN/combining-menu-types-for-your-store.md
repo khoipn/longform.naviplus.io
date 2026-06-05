@@ -3,6 +3,8 @@ lang: zh-CN
 ref: combining-menu-types-for-your-store
 title: "为不同类型的店铺组合菜单类型"
 description: "如何按店铺类型组合 Shopify 菜单：时尚、电子产品、餐饮、美妆、一件代发。桌面端与移动端的 Mega Menu、Tab Bar、Slide Menu 搭配方案。"
+image: "/images/choosing-the-right-shopify-menu/shopify-menu-combinations-by-store.webp"
+image_alt: "为不同类型的店铺组合菜单类型"
 parent_title: "如何为你的 Shopify 店铺选择合适的菜单类型"
 parent_url: "/zh-CN/choosing-the-right-shopify-menu/"
 seo_keywords:
