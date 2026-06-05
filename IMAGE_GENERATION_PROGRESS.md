@@ -1,6 +1,6 @@
 # Image Generation Progress
 
-Last updated: 2026-06-04 17:44:34 +07
+Last updated: 2026-06-04 23:46:05 +07
 
 This file exists so a later Codex/Claude/ChatGPT session can resume article image work without re-reading the whole chat history.
 
@@ -61,6 +61,241 @@ One older placeholder still remains in `checkout-header-navigation`:
 
 ## Completed Replacements
 
+### 2026-06-04 23:46 +07 - `mobile-checkout-flow`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/mobile-checkout-flow/mobile-checkout-barriers.webp` - 1280x720, 69572B
+  - Concept: phone checkout friction from keyboard covering fields, crowded header, cramped inputs, and unreachable controls.
+- `images/mobile-checkout-flow/thumb-friendly-checkout.webp` - 1280x720, 53338B
+  - Concept: one-thumb checkout with large fields, express pay, lower Pay Now CTA, and abstract thumb-zone arc.
+- `images/mobile-checkout-flow/persistent-cart-mobile.webp` - 1280x720, 55666B
+  - Concept: bottom tabbar cart badge and mini cart drawer after add-to-cart, preserving a clear path to checkout.
+- `images/mobile-checkout-flow/checkout-nav-simplified.webp` - 1280x720, 55744B
+  - Concept: checkout hides distracting menu/tabbar and keeps progress, order summary, in-page back, and payment CTA visible.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 23:32 +07 - `menu-lcp-optimization`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/menu-lcp-optimization/render-blocking-timeline.webp` - 1280x720, 55418B
+  - Concept: synchronous `menu.js` block delaying hero image paint versus deferred menu path that lets the LCP element paint first.
+- `images/menu-lcp-optimization/menu-resource-waterfall.webp` - 1280x720, 58942B
+  - Concept: simplified DevTools waterfall showing menu CSS, JS, and icon fonts stacking before the hero image, plus optimized deferred/SVG path.
+- `images/menu-lcp-optimization/mobile-vs-desktop-lcp.webp` - 1280x720, 63144B
+  - Concept: same menu overhead costing more on mobile due to slower CPU, 4G delay, and higher LCP.
+- `images/menu-lcp-optimization/pagespeed-before-after.webp` - 1280x720, 60436B
+  - Concept: disable-and-retest workflow showing LCP dropping from a slow baseline to a faster result and exposing menu cost.
+- `images/menu-lcp-optimization/lcp-audit-checklist.webp` - 1280x720, 63890B
+  - Concept: four-step no-code menu LCP audit checklist: test mobile, check diagnostics, disable menu app, compare LCP.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 23:18 +07 - `menu-brand-identity`
+
+Replaced all 6 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/menu-brand-identity/brand-consistency-spectrum.webp` - 1280x720, 69662B
+  - Concept: generic Shopify-like menu ghost replaced by brand-aligned navigation with custom color, typography, voice, and trust path.
+- `images/menu-brand-identity/label-tone-examples.webp` - 1280x720, 57338B
+  - Concept: menu label editor rewriting generic labels into brand-voice labels such as Just Dropped, Archive Sale, and We’re Here.
+- `images/menu-brand-identity/interaction-style-grid.webp` - 1280x720, 55490B
+  - Concept: interaction style controls for bold/fast, soft/slow, and utility-first hover behavior on one menu preview.
+- `images/menu-brand-identity/label-rewrite-process.webp` - 1280x720, 58136B
+  - Concept: four-step label rewrite process from current labels to voice check, rewrite, and quick user test.
+- `images/menu-brand-identity/mistakes-checklist.webp` - 1280x720, 62838B
+  - Concept: launch checklist for usability first, mobile consistency, icon style match, contrast, and adapted-not-copied design.
+- `images/menu-brand-identity/business-impact-flowchart.webp` - 1280x720, 63708B
+  - Concept: brand-aligned menu leading to trust, more browsing, more conversions, and a revenue lift arrow.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 22:59 +07 - `mega-menu-best-practices`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/mega-menu-best-practices/mega-menu-layout-overview.webp` - 1280x720, 58162B
+  - Concept: structured desktop mega menu with four clear columns, one visual anchor, and scan paths for fast overview.
+- `images/mega-menu-best-practices/mega-menu-images-balance.webp` - 1280x720, 55644B
+  - Concept: selective featured image anchor contrasted against a crossed-out cluttered image-grid ghost; first generated variant had random logo text and was intentionally not used.
+- `images/mega-menu-best-practices/mega-menu-grouping.webp` - 1280x720, 62712B
+  - Concept: grouped mega menu columns with clear headings, 5-item count badges, and random ordering crossed out.
+- `images/mega-menu-best-practices/mega-menu-mobile-translation.webp` - 1280x720, 65242B
+  - Concept: desktop mega menu hierarchy translated into a phone slide menu with progressive disclosure and thumb-friendly panels.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 22:44 +07 - `keyboard-navigation-ux`
+
+Replaced all 6 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/keyboard-navigation-ux/conversion-funnel-friction.webp` - 1280x720, 74488B
+  - Concept: ecommerce funnel where broken Tab/focus paths create revenue leaks at menu, filter, and checkout stages.
+- `images/keyboard-navigation-ux/core-web-vitals-dashboard.webp` - 1280x720, 61192B
+  - Concept: keyboard input pulse affecting INP, with fast focus/menu response contrasted against delayed dropdown/layout shift.
+- `images/keyboard-navigation-ux/user-segments-keyboard.webp` - 1280x720, 75658B
+  - Concept: screen reader user, temporary injury shopper, power buyer, and checkout shopper all using the same keyboard path.
+- `images/keyboard-navigation-ux/focus-indicator-comparison.webp` - 1280x720, 58842B
+  - Concept: invisible/lost focus crossed out versus high-contrast focus ring on the Collections menu item.
+- `images/keyboard-navigation-ux/workflow-speed-comparison.webp` - 1280x720, 61010B
+  - Concept: long mouse detour versus short keyboard path using Tab, typing, arrow, and Enter.
+- `images/keyboard-navigation-ux/mega-menu-keyboard-flow.webp` - 1280x720, 54060B
+  - Concept: keyboard-friendly mega menu showing Tab entry, arrow-key submenu movement, Enter activation, and Escape return.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 22:29 +07 - `international-store-navigation`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/international-store-navigation/language-switcher-placement.webp` - 1280x720, 65758B
+  - Concept: language switcher findable in desktop header and mobile slide menu/tabbar without crowding the header.
+- `images/international-store-navigation/currency-switcher-patterns.webp` - 1280x720, 60340B
+  - Concept: auto-detected EUR currency chip, visible price display, and manual currency dropdown override.
+- `images/international-store-navigation/regional-catalog-navigation.webp` - 1280x720, 68866B
+  - Concept: market-aware menu builder where US and UK keep the core menu but show market-specific promos, availability, and shipping thresholds.
+- `images/international-store-navigation/multi-market-ux.webp` - 1280x720, 75298B
+  - Concept: localized French/EUR storefront with confirmation banner and manual fallback for VPN/travel/wrong detection cases.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 22:18 +07 - `icon-vs-text-menus`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/icon-vs-text-menus/universal-icons-recognition.webp` - 1280x720, 65020B
+  - Concept: familiar icons with teal checks versus ambiguous icons with question marks and labels that remove doubt.
+- `images/icon-vs-text-menus/icon-label-ab-test-results.webp` - 1280x720, 47052B
+  - Concept: icon-only bottom nav compared against labeled bottom nav, with a conversion lift badge and confident tap path.
+- `images/icon-vs-text-menus/text-only-mega-menu.webp` - 1280x720, 66388B
+  - Concept: desktop mega menu using clean text-only columns for specific category labels, with mismatched icon clutter crossed out.
+- `images/icon-vs-text-menus/icon-plus-text-tab-bar.webp` - 1280x720, 59446B
+  - Concept: mobile tabbar with icons plus short labels, 44px touch target outlines, active state, and usability checks.
+- `images/icon-vs-text-menus/accessible-navigation-icons.webp` - 1280x720, 65698B
+  - Concept: visible labels supporting screen reader announcements, cognitive clarity, and low-vision/tap-target usability.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 22:06 +07 - `geolocation-navigation`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/geolocation-navigation/regional-catalog-redirect.webp` - 1280x720, 55802B
+  - Concept: Berlin visitor routed from global storefront to German catalog with EUR pricing, local shipping, and a persistent override link.
+- `images/geolocation-navigation/seo-redirect-penalty.webp` - 1280x720, 64214B
+  - Concept: crawler trapped by a bad geo redirect loop versus corrected hreflang paths to US, EU, and JP regional pages.
+- `images/geolocation-navigation/banner-vs-redirect-conversion.webp` - 1280x720, 59322B
+  - Concept: persistent Canada/CAD banner with Switch/Stay choice outperforming a forced redirect ghost path.
+- `images/geolocation-navigation/signal-accuracy-comparison.webp` - 1280x720, 58386B
+  - Concept: signal priority stack where previous user choice beats browser language and IP country, while city guessing is crossed out.
+- `images/geolocation-navigation/decision-tree.webp` - 1280x720, 64472B
+  - Concept: simplified redirect-or-ask decision board with outcomes for auto-redirect plus override, banner with choice, and passive selector.
+
+Operational note: during this batch, `scripts/save_latest_generated_image.py` failed once because `/private/tmp` was out of space. Cleared old PNG intermediates in `/private/tmp`, verified free space, regenerated the affected regional redirect image, and saved successfully.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 21:04 +07 - `first-time-vs-returning-visitors`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/first-time-vs-returning-visitors/new-visitor-discovery.webp` - 1280x720, 65802B
+  - Concept: clear category labels, breadcrumbs, and mobile Categories tabbar teaching the store structure to first-time visitors.
+- `images/first-time-vs-returning-visitors/returning-customer-shortcuts.webp` - 1280x720, 62352B
+  - Concept: returning customer dashboard with recently viewed items, Buy Again, saved items, and persistent cart/account shortcuts.
+- `images/first-time-vs-returning-visitors/navigation-personalization-spectrum.webp` - 1280x720, 63400B
+  - Concept: helpful vs too-much personalization dial, contrasting transparent recently viewed recommendations with silently rearranged menus.
+- `images/first-time-vs-returning-visitors/navigation-layers-both-visitors.webp` - 1280x720, 53294B
+  - Concept: one navigation system with base category layer for new visitors and shortcut layer for returning customers, tied together by a shared mobile tabbar.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 20:52 +07 - `color-psychology-navigation`
+
+Replaced all 6 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/color-psychology-navigation/hierarchy-example.webp` - 1280x720, 62258B
+  - Concept: navigation color hierarchy with one coral CTA, secondary muted links, eye-path cues, and a click lift card.
+- `images/color-psychology-navigation/color-emotion-chart.webp` - 1280x720, 59174B
+  - Concept: ecommerce navigation color chips that signal urgency, friendly action, trust, and affirmation without becoming a dense chart.
+- `images/color-psychology-navigation/mobile-vs-desktop-contrast.webp` - 1280x720, 61722B
+  - Concept: same navigation on desktop and phone, showing pale links failing in mobile glare and corrected high-contrast mobile nav.
+- `images/color-psychology-navigation/background-color-strategy.webp` - 1280x720, 50888B
+  - Concept: one unified menu builder scene for light, dark, and branded nav background choices, avoiding a split-panel comparison.
+- `images/color-psychology-navigation/warm-cool-gradient.webp` - 1280x720, 47032B
+  - Concept: warm action links advance toward shopping/checkout, while cool information links support lower-intent navigation.
+- `images/color-psychology-navigation/mobile-sunlight-test.webp` - 1280x720, 40024B
+  - Concept: abstract sunlight test on mobile showing pastel nav fading and corrected 7:1 contrast target.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 20:39 +07 - `accessibility-navigation`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/accessibility-navigation/screen-reader-navigation-flow.webp` - 1280x720, 75868B
+  - Concept: ecommerce navigation structure translated into screen reader announcements such as navigation region, list items, labels, and expanded state.
+- `images/accessibility-navigation/keyboard-navigation-focus.webp` - 1280x720, 72346B
+  - Concept: visible focus indicators, tab order progression, and keyboard keys for Tab, Enter, and Escape.
+- `images/accessibility-navigation/aria-labels-navigation.webp` - 1280x720, 60508B
+  - Concept: ARIA attributes connected to the exact navigation UI elements they describe, including `aria-label`, `aria-expanded`, and `aria-current`.
+- `images/accessibility-navigation/mobile-accessibility-touch-targets.webp` - 1280x720, 62910B
+  - Concept: mobile bottom navigation and slide menu with 44px touch target guides, clear labels, and focus return after closing.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 20:39 +07 - `checkout-navigation-mistakes`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/checkout-navigation-mistakes/minimal-checkout-header.webp` - 1280x720, 53026B
+  - Concept: simplified checkout header removes category/search distractions and points shoppers toward the next checkout step.
+- `images/checkout-navigation-mistakes/mobile-checkout-thumb-zone.webp` - 1280x720, 58672B
+  - Concept: mobile checkout with minimal top bar, visible form fields, and lower thumb-zone payment action; first generated variant had a photoreal hand and was intentionally not used.
+- `images/checkout-navigation-mistakes/cart-icon-checkout-balance.webp` - 1280x720, 65618B
+  - Concept: passive cart icon with item count balanced against the primary complete-order CTA.
+- `images/checkout-navigation-mistakes/exit-intent-recovery.webp` - 1280x720, 51214B
+  - Concept: checkout exit path caught by a soft recovery overlay reminding the shopper about items still in cart.
+- `images/checkout-navigation-mistakes/checkout-navigation-audit.webp` - 1280x720, 63936B
+  - Concept: checkout navigation audit showing risky exit links, simplified header, mobile space, and passive cart access.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 19:53 +07 - `shopify-product-page-navigation`
+
+Completed the last remaining placeholder-looking image in this article:
+
+- `images/shopify-product-page-navigation/product-page-navigation-audit.webp` - 1280x720, 68526B
+  - Concept: product page audit checklist showing breadcrumb/back path, related products, and mobile bottom navigation as clear shopper exits.
+
+The other four images in this article had already been replaced earlier in the same generated-image style:
+
+- `images/shopify-product-page-navigation/product-page-crossroads.webp`
+- `images/shopify-product-page-navigation/related-products-placement.webp`
+- `images/shopify-product-page-navigation/mobile-product-nav-thumb-zone.webp`
+- `images/shopify-product-page-navigation/product-page-menu-integration.webp`
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-04 19:53 +07 - `search-vs-navigation`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/search-vs-navigation/search-vs-browse-intent.webp` - 1280x720, 67474B
+  - Concept: one store splits into two shopper paths, search for high-intent visitors and category browsing for explorers.
+- `images/search-vs-navigation/search-bar-placement-patterns.webp` - 1280x720, 61766B
+  - Concept: prominent desktop search and full-screen mobile search with autocomplete and instant result cards.
+- `images/search-vs-navigation/category-browse-progressive-disclosure.webp` - 1280x720, 66636B
+  - Concept: category browsing as progressive disclosure, moving from top category to subcategory to product grid.
+- `images/search-vs-navigation/search-navigation-integration.webp` - 1280x720, 68768B
+  - Concept: scoped category search, category suggestions, filters, and menu structure working together.
+- `images/search-vs-navigation/search-vs-browse-audit.webp` - 1280x720, 70770B
+  - Concept: mobile-first audit showing visible search, one-tap categories, thumb reach, and balanced search/browse journeys.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
 ### 2026-06-04 17:55 +07 - `shopify-theme-menu-limits`
 
 Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
@@ -78,24 +313,137 @@ Replaced all 5 placeholder-looking images with AI-generated editorial vector ill
 
 Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
 
+### 2026-06-04 23:56 +07 - `mobile-first-navigation-strategy`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/mobile-first-navigation-strategy/thumb-zone-mobile-navigation.webp` - 1280x720, 47668B
+  - Concept: mobile navigation placed inside a teal thumb-reach zone with unreachable top controls marked as friction.
+- `images/mobile-first-navigation-strategy/mobile-navigation-patterns.webp` - 1280x720, 45802B
+  - Concept: bottom tabs, bottom sheet, and full search patterns feed into one thumb-friendly mobile menu preview.
+- `images/mobile-first-navigation-strategy/mobile-analytics-navigation.webp` - 1280x720, 45342B
+  - Concept: mobile analytics board highlights bounce/search friction and points toward a simplified bottom navigation fix.
+- `images/mobile-first-navigation-strategy/mobile-first-vs-responsive.webp` - 1280x720, 59268B
+  - Concept: a cramped desktop menu ghost transitions into a purpose-built mobile-first phone navigation experience.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:04 +07 - `mobile-menu-performance`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/mobile-menu-performance/menu-lcp-impact.webp` - 1280x720, 51212B
+  - Concept: synchronous menu script blocks LCP while an async menu lets the product page render first.
+- `images/mobile-menu-performance/menu-render-cost.webp` - 1280x720, 50272B
+  - Concept: heavy JavaScript and DOM blocks are simplified into a lightweight mobile menu with a faster render path.
+- `images/mobile-menu-performance/tap-delay-responsiveness.webp` - 1280x720, 48326B
+  - Concept: tap-to-visible INP timeline contrasts good sub-200ms response with poor 500ms-plus delay and second-tap confusion.
+- `images/mobile-menu-performance/performance-budget-navigation.webp` - 1280x720, 59670B
+  - Concept: mobile navigation performance budget checklist keeps JS, CSS, DOM nodes, render time, and INP inside fast limits.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:11 +07 - `multi-currency-menu-ux`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/multi-currency-menu-ux/currency-cognitive-load.webp` - 1280x720, 61730B
+  - Concept: ambiguous price symbols create shopper hesitation, then ISO-coded local currency resolves the trust gap.
+- `images/multi-currency-menu-ux/currency-switcher-placement.webp` - 1280x720, 55682B
+  - Concept: header currency placement receives shopper attention while a footer-only selector is missed.
+- `images/multi-currency-menu-ux/mobile-currency-tap.webp` - 1280x720, 60328B
+  - Concept: sticky mobile header currency selector opens in one tap and updates prices without page reload.
+- `images/multi-currency-menu-ux/currency-checkout-consistency.webp` - 1280x720, 53806B
+  - Concept: selected EUR currency persists through menu, product, cart, and checkout, with mismatched checkout currency crossed out.
+- `images/multi-currency-menu-ux/currency-shipping-context.webp` - 1280x720, 53578B
+  - Concept: currency popover includes shipping destination and delivery timing so international shoppers know the store ships to them.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:18 +07 - `navigation-at-100-vs-1000-products`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/navigation-at-100-vs-1000-products/small-catalog-simple-nav.webp` - 1280x720, 53680B
+  - Concept: under-100-product catalog succeeds with a simple Home-Shop-Cart path while an empty overbuilt mega menu is crossed out.
+- `images/navigation-at-100-vs-1000-products/mid-size-category-structure.webp` - 1280x720, 53900B
+  - Concept: 100-500 product catalog uses subcategories and filters to replace an overwhelming flat product list.
+- `images/navigation-at-100-vs-1000-products/large-catalog-mega-search.webp` - 1280x720, 61950B
+  - Concept: 500+ product catalog uses mega menu as a gateway while search autocomplete and deep filters do the heavy navigation work.
+- `images/navigation-at-100-vs-1000-products/navigation-scaling-timeline.webp` - 1280x720, 57362B
+  - Concept: navigation evolves across simple, structured, and search-led stages as product count grows.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:27 +07 - `navigation-basics-first-store`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/navigation-basics-first-store/navigation-impact-chart.webp` - 1280x720, 60378B
+  - Concept: clear navigation guides a first-store shopper from homepage to category, product, and cart while confusing menus lose the sale.
+- `images/navigation-basics-first-store/mega-menu-example.webp` - 1280x720, 59044B
+  - Concept: beginner-friendly mega menu organizes 5-9 top categories and shallow subcategories, replacing a messy "Everything" category.
+- `images/navigation-basics-first-store/mobile-navigation-comparison.webp` - 1280x720, 64364B
+  - Concept: mobile-first navigation pattern selector highlights bottom tabbar, labeled hamburger, slide drawer, and thumb-zone reach.
+- `images/navigation-basics-first-store/icon-examples.webp` - 1280x720, 51842B
+  - Concept: icons and category thumbnails make a menu faster to scan than a text-only list.
+- `images/navigation-basics-first-store/navigation-placement-heatmap.webp` - 1280x720, 59774B
+  - Concept: attention hot zones prioritize high-value categories first and action-oriented links last while utility nav stays separate.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:34 +07 - `navigation-seo-crawlability`
+
+Replaced all 5 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/navigation-seo-crawlability/navigation-link-equity-flow.webp` - 1280x720, 68282B
+  - Concept: homepage authority flows through crawlable navigation links to category and product pages while orphaned branches lose signal.
+- `images/navigation-seo-crawlability/crawlable-navigation-code.webp` - 1280x720, 60172B
+  - Concept: real `<a href>` anchor links are crawlable while `onclick`, `javascript:void(0)`, and div-only menu items are not.
+- `images/navigation-seo-crawlability/javascript-menu-problem.webp` - 1280x720, 74074B
+  - Concept: shoppers see JavaScript-injected mega menu links, but raw HTML exposes only a trigger button unless an HTML fallback exists.
+- `images/navigation-seo-crawlability/view-source-audit.webp` - 1280x720, 64522B
+  - Concept: View Source audit finds category URLs inside raw HTML anchor tags across homepage, product page, and mobile version.
+- `images/navigation-seo-crawlability/internal-linking-patterns.webp` - 1280x720, 67440B
+  - Concept: breadcrumbs, related products, footer links, and main navigation create multiple crawl paths while orphaned products are crossed out.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:41 +07 - `reducing-decision-fatigue`
+
+Replaced all 4 placeholder-looking images with AI-generated editorial vector illustrations:
+
+- `images/reducing-decision-fatigue/choice-paradox-navigation.webp` - 1280x720, 64634B
+  - Concept: crowded 30-option navigation causes shopper hesitation while an 8-path curated menu gets the shopper moving toward cart.
+- `images/reducing-decision-fatigue/curated-vs-attribute-categories.webp` - 1280x720, 62294B
+  - Concept: intent-based categories like Work, Casual, and Wedding Guest pre-filter products better than fragmented attribute-only browsing.
+- `images/reducing-decision-fatigue/progressive-disclosure-menu-depth.webp` - 1280x720, 66202B
+  - Concept: progressive disclosure breaks a 200-product decision into category, subcategory, and focused product steps.
+- `images/reducing-decision-fatigue/smart-defaults-filtering.webp` - 1280x720, 59898B
+  - Concept: best-selling sort, suggested size, and recommended filters reduce active decisions while keeping alternatives available.
+
+Article markup did not need changes because the existing `<figure>` entries already pointed to these filenames with usable SEO `alt`, `title`, and captions.
+
+### 2026-06-05 00:44 +07 - `checkout-header-navigation`
+
+Replaced the last placeholder-looking image in this article:
+
+- `images/checkout-header-navigation/brand-examples.webp` - 1280x720, 44942B
+  - Concept: generic major ecommerce checkout header patterns remove browsing navigation while preserving identity, progress, cart/bag, and support access.
+
+Updated the figure `alt` and caption to describe generic checkout header patterns instead of implying the image contains real Amazon, Apple, and Nike screenshots or logos.
+
 ## Replacement Priority
 
 Replace placeholder-looking images article by article. Start from the most recently added/newer articles and keep each article coherent before moving on.
 
 Recommended next articles:
 
-1. `shopify-product-page-navigation`
-   - `product-page-crossroads.webp`
-   - `related-products-placement.webp`
-   - `mobile-product-nav-thumb-zone.webp`
-   - `product-page-menu-integration.webp`
-   - `product-page-navigation-audit.webp`
-2. `search-vs-navigation`
-   - `search-vs-browse-intent.webp`
-   - `search-bar-placement-patterns.webp`
-   - `category-browse-progressive-disclosure.webp`
-   - `search-navigation-integration.webp`
-   - `search-vs-browse-audit.webp`
+1. Continue scanning for placeholder-looking images created at about `2026-06-04 17:04`, especially article folders where most files are only about `16-26 KB`.
+2. Likely next candidates by folder size pattern:
+   - `mobile-first-navigation-strategy`
+   - `mobile-menu-performance`
+   - `multi-currency-menu-ux`
 
 After each article, update this file with:
 

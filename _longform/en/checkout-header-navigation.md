@@ -163,7 +163,7 @@ Let's look at how some of the biggest ecommerce players handle checkout headers:
 
 The pattern is clear: major brands treat checkout as a distinct experience, not just another page on the site.
 
-<figure><img src="/images/checkout-header-navigation/brand-examples.webp" alt="Screenshots of Amazon, Apple, and Nike checkout headers showing minimal navigation" title="How major brands simplify checkout headers"><figcaption>Amazon, Apple, and Nike all use distinct checkout headers that remove standard navigation. They keep logo, progress indicators, and support access—but eliminate every link that isn't directly related to completing the purchase.</figcaption></figure>
+<figure><img src="/images/checkout-header-navigation/brand-examples.webp" alt="Generic examples of major ecommerce checkout headers showing minimal navigation patterns" title="How major brands simplify checkout headers"><figcaption>High-converting ecommerce checkout patterns use distinct headers that remove standard navigation. They keep identity, progress indicators, and support access—but eliminate every link that isn't directly related to completing the purchase.</figcaption></figure>
 
 ## Common objections (and why they're wrong)
 
